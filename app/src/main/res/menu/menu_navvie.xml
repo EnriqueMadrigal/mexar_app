@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/menu_inicio_empty"
+            android:title=""/>
+
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/icon_home_off"
+            android:title="Home"/>
+        <item
+            android:id="@+id/menu_lookbook"
+            android:icon="@drawable/icon_lookbook_off"
+            android:title="Look Book"/>
+        <item
+            android:id="@+id/menu_tips"
+            android:icon="@drawable/icon_tip_off"
+            android:title="Tips de venta"/>
+
+        <item
+            android:id="@+id/menu_perfil"
+            android:icon="@drawable/icon_perfil_off"
+            android:title="Perfil"/>
+
+        <item
+            android:id="@+id/menu_actualizar"
+            android:icon="@drawable/icon_refresh_off"
+            android:title="Actualizar productos"/>
+
+
+
+        <item
+            android:id="@+id/menu_cerrrar"
+            android:icon="@drawable/icon_exit_off"
+            android:title="Cerrar Sesión"/>
+
+
+
+
+    </group>
+
+
+
+
+</menu>
