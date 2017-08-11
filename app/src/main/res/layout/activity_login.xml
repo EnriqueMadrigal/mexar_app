@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_login"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.datalabor.soporte.mexar.activity.login"
+android:background="@color/mexar_blue2"
+android:orientation="vertical"
+android:paddingBottom="0dp"
+android:paddingLeft="0dp"
+android:paddingRight="0dp"
+android:paddingTop="0dp">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mexar_blue2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/banner_mexar2"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="Inicia sesión:"
+            android:textSize="26dp"
+            android:textColor="@color/mexar_blue"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/iniciosession"
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="260dp"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="usuario"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/label_usuario"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="@android:color/white"
+                android:id="@+id/usuario"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:hint="Usuario.."
+                android:textColorHint="@color/text_gris"
+                android:inputType="text"
+                android:maxLines="1"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/transparent"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="contraseña"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/label_contraseña"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="@android:color/white"
+                android:id="@+id/contraseña"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:hint="Contraseña.."
+                android:textColorHint="@color/text_gris"
+                android:inputType="textPassword"
+                android:maxLines="1"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@color/transparent"
+                    />
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mexar_blue3"
+                android:text="ENTRAR"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:minHeight="30dip"
+                android:minWidth="50dip"
+                android:onClick="sig_in"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/transparent"
+                />
+
+
+
+
+            <ImageButton
+                android:id="@+id/sign_in_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:src="@drawable/login_facebook"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/transparent"
+                />
+
+
+
+
+            <ImageButton
+                android:id="@+id/sign_in_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:src="@drawable/login_google"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+ </RelativeLayout>

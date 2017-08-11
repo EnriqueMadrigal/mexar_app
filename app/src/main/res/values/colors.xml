@@ -8,6 +8,15 @@
     <color name="white">#ffffff</color>
     <color name="transparent">#00ffffff</color>
     <color name="mexar_blue">#00AEEF</color>
+    <color name="mexar_blue2">#19365E</color>
+    <color name="mexar_blue3">#1DC0F6</color>
+
+
+    <color name="text_gris">#999999</color>
+    <color name="text_gris1">#D1D1D1</color>
+    <color name="text_gris2">#EBEAE8</color>
+    <color name="text_gris3">#595554</color>
+    <color name="text_gris4">#F1F1F2</color>
 
 
 </resources>
