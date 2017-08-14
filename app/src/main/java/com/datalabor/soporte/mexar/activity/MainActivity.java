@@ -21,6 +21,8 @@ import com.datalabor.soporte.mexar.R;
 
 import java.io.File;
 
+import layout.mainf;
+
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
@@ -28,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     private boolean _isSearchVisible = false;
     Context context;
+
+    mainf MainFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,6 +106,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         /////Nav Object
+
+/// cargar el Main fragment
+
+        MainFragment = new mainf();
+
+        getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
+
 
 
     }
