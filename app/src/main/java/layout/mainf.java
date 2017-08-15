@@ -130,32 +130,38 @@ public class mainf extends Fragment {
                     Log.d("mainf", String.valueOf(_categories.get(position).getId()));
                     long curiId =  _categories.get(position).getId();
 
-                    if (curiId == 0) {
+                    if (curiId == 1) {
                         ArrayList<SubCategory> categories = new ArrayList<>();
 
                         SubCategory sub1 = new SubCategory();
                         sub1.setName("CEMENTO PARA PVC Y CPVC");
                         sub1.setResId(R.drawable.cementoypvc);
+                        sub1.setId(1);
 
                         SubCategory sub2 = new SubCategory();
                         sub2.setName("Pasta para Soldar");
                         sub2.setResId(R.drawable.pastasoldar);
+                        sub2.setId(2);
 
                         SubCategory sub3 = new SubCategory();
                         sub3.setName("KITS");
                         sub3.setResId(R.drawable.kits);
+                        sub3.setId(3);
 
                         SubCategory sub4 = new SubCategory();
                         sub4.setName("SOLDADURA");
                         sub4.setResId(R.drawable.soldadura);
+                        sub4.setId(4);
 
                         SubCategory sub5 = new SubCategory();
                         sub5.setName("HERRAMIENTAS");
                         sub5.setResId(R.drawable.herramientas);
+                        sub5.setId(5);
 
                         SubCategory sub6 = new SubCategory();
                         sub6.setName("SILICÓN, SELLADOR Y PINTURA");
                         sub6.setResId(R.drawable.silicon);
+                        sub6.setId(6);
 
                         categories.add(sub1);
                         categories.add(sub2);
@@ -163,9 +169,11 @@ public class mainf extends Fragment {
                         categories.add(sub4);
                         categories.add(sub5);
                         categories.add(sub6);
-                        categories.add(sub6);
 
-                        subCategory _subCategory = new subCategory();
+                        subCategory _subCategory = subCategory.newInstance(categories);
+                        myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_subCategory, "Sub Categoria" ).commit();
+
+
 
 
                     }
