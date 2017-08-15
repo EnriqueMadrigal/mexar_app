@@ -16,10 +16,11 @@ import android.view.ViewGroup;
 import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.MyPageAdapter;
-import com.datalabor.soporte.mexar.adapter.ProductsAdapter;
+import com.datalabor.soporte.mexar.adapter.CategoryAdapter;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
 import com.datalabor.soporte.mexar.custom.banner_image_class;
-import com.datalabor.soporte.mexar.models.Product;
+import com.datalabor.soporte.mexar.models.Category;
+import com.datalabor.soporte.mexar.models.SubCategory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,8 +51,11 @@ public class mainf extends Fragment {
 
     private FragmentActivity myContext;
     private RecyclerView _recyclerview;
-    private ProductsAdapter _adapter;
+    private CategoryAdapter _adapter;
     private LinearLayoutManager _linearLayoutManager;
+
+    ArrayList<Category> _categories;
+    List<Fragment> fList;
 
     public mainf() {
         // Required empty public constructor
@@ -91,39 +95,87 @@ public class mainf extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         _view = inflater.inflate( R.layout.fragment_mainf, container, false );
         mPager = (ViewPager) _view.findViewById(R.id.ViewPager);
         _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler1);
 
-             ArrayList<Product> _products = new ArrayList<>();
-            Product product1 = new Product();
-            product1.setBrand("Pipes");
-            product1.setName("Pipes");
-            product1.setPrice(1000.00);
-            product1.setFamily("familia");
-
-        Product product2 = new Product();
-        product2.setBrand("Pipes");
-        product2.setName("Pipes");
-        product2.setPrice(1000.00);
-        product2.setFamily("familia");
+             //final ArrayList<Category> _categories = new ArrayList<>();
+         _categories = new ArrayList<>();
+            Category category1 = new Category();
+            category1.setName("Tuberias");
+            category1.setId(1);
+            category1.setResId(R.drawable.pipes);
 
 
-        Product product3 = new Product();
-        product3.setBrand("Pipes");
-        product3.setName("Pipes");
-        product3.setPrice(1000.00);
-        product3.setFamily("familia");
+        Category category2 = new Category();
+        category2.setName("Industrial");
+        category2.setId(2);
+        category2.setResId(R.drawable.industrial);
 
 
-            _products.add(product1);
-        _products.add(product2);
-        _products.add(product3);
+        Category category3 = new Category();
+        category3.setName("Centrifugado");
+        category3.setId(3);
+        category3.setResId(R.drawable.centrifugado);
 
-            _adapter = new ProductsAdapter(getActivity(), _products, new IViewHolderClick() {
+
+        _categories.add(category1);
+        _categories.add(category2);
+        _categories.add(category3);
+
+            _adapter = new CategoryAdapter(getActivity(), _categories, new IViewHolderClick() {
                 @Override
                 public void onClick(int position) {
-                    Log.d("mainf", "clicked");
+                    Log.d("mainf", String.valueOf(_categories.get(position).getId()));
+                    long curiId =  _categories.get(position).getId();
+
+                    if (curiId == 0) {
+                        ArrayList<SubCategory> categories = new ArrayList<>();
+
+                        SubCategory sub1 = new SubCategory();
+                        sub1.setName("CEMENTO PARA PVC Y CPVC");
+                        sub1.setResId(R.drawable.cementoypvc);
+
+                        SubCategory sub2 = new SubCategory();
+                        sub2.setName("Pasta para Soldar");
+                        sub2.setResId(R.drawable.pastasoldar);
+
+                        SubCategory sub3 = new SubCategory();
+                        sub3.setName("KITS");
+                        sub3.setResId(R.drawable.kits);
+
+                        SubCategory sub4 = new SubCategory();
+                        sub4.setName("SOLDADURA");
+                        sub4.setResId(R.drawable.soldadura);
+
+                        SubCategory sub5 = new SubCategory();
+                        sub5.setName("HERRAMIENTAS");
+                        sub5.setResId(R.drawable.herramientas);
+
+                        SubCategory sub6 = new SubCategory();
+                        sub6.setName("SILICÓN, SELLADOR Y PINTURA");
+                        sub6.setResId(R.drawable.silicon);
+
+                        categories.add(sub1);
+                        categories.add(sub2);
+                        categories.add(sub3);
+                        categories.add(sub4);
+                        categories.add(sub5);
+                        categories.add(sub6);
+                        categories.add(sub6);
+
+                        subCategory _subCategory = new subCategory();
+
+
+                    }
+
+
+                   //productDetail _productDetail = new productDetail();
+
+                    //myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_productDetail, "ProductDetail" ).commit();
+
+
                 }
             });
 
@@ -139,7 +191,7 @@ public class mainf extends Fragment {
 
         ////////// Banners
 
-            List<Fragment> fList = new ArrayList<Fragment>();
+            fList = new ArrayList<Fragment>();
             fList.add(banner_image_class.newInstance(R.drawable.banner1));
             fList.add(banner_image_class.newInstance(R.drawable.banner2));
             fList.add(banner_image_class.newInstance(R.drawable.banner3));
@@ -148,7 +200,8 @@ public class mainf extends Fragment {
 
 
         mPager.setAdapter(myPageAdapter);
-
+        mPager.setCurrentItem(0);
+        myPageAdapter.notifyDataSetChanged();
 
 
 

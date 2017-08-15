@@ -10,6 +10,11 @@
     <color name="mexar_blue">#00AEEF</color>
     <color name="mexar_blue2">#19365E</color>
     <color name="mexar_blue3">#1DC0F6</color>
+    <color name="mexar_blue4">#BEDFEA</color>
+
+    <color name="mexar_gris1">#EBEBEB</color>
+    <color name="mexar_gris2">#929292</color>
+    <color name="mexar_gris3">#5D5D5D</color>
 
 
     <color name="text_gris">#999999</color>

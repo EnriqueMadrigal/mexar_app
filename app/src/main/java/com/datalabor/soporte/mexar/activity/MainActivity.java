@@ -4,11 +4,13 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,6 +19,7 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 
 import java.io.File;
@@ -109,8 +112,8 @@ public class MainActivity extends AppCompatActivity {
 
 /// cargar el Main fragment
 
-        MainFragment = new mainf();
-
+       MainFragment = new mainf();
+        Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
 
 
@@ -118,7 +121,39 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     @Override
+    public void onBackPressed() {
+
+        Log.e("Main", "BackPressed");
+        clearBackStack();
+        //MainFragment = new mainf();
+        //getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
+
+        ////////////////------------
+
+        if( getSupportFragmentManager().getBackStackEntryCount() == 0 )
+        {
+            Common.SetPage(0);
+            clearBackStack();
+
+            getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();
+
+        }
+        else
+        {
+
+        }
+
+
+        ///////////////--------------
+
+
+
+    }
+
+
+        @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -234,7 +269,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    private void clearBackStack()
+    {
+        FragmentManager manager = getSupportFragmentManager();
+        if( manager.getBackStackEntryCount() > 0 )
+        {
+            FragmentManager.BackStackEntry first = manager.getBackStackEntryAt( 0 );
+            manager.popBackStack( first.getId(), FragmentManager.POP_BACK_STACK_INCLUSIVE );
+        }
+    }
 
 
 }

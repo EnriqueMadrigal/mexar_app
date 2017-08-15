@@ -15,7 +15,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@dimen/toolbar_height"
         app:titleTextColor="@android:color/white"
-        android:background="@color/mexar_blue"
+        android:background="@color/mexar_blue2"
         android:theme="@style/Theme.FixedSize">
 
         <RelativeLayout
@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="@dimen/toolbar_image_height"
             android:layout_gravity="center"
-            android:src = "@drawable/banner_mexar"/>
+            android:src = "@drawable/banner_mexar2"/>
 
 
     </android.support.v7.widget.Toolbar>

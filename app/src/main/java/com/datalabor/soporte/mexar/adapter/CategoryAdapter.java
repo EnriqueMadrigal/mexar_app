@@ -3,7 +3,6 @@ package com.datalabor.soporte.mexar.adapter;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,25 +11,22 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.datalabor.soporte.mexar.R;
-import com.datalabor.soporte.mexar.models.Product;
+import com.datalabor.soporte.mexar.models.Category;
 
-import java.io.File;
 import java.util.ArrayList;
-
-import static android.R.attr.format;
 
 /**
  * Created by Enrique on 14/08/2017.
  */
 
-public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHolder>
+public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder>
 {
     private Context _context;
-    private ArrayList<Product> _items;
+    private ArrayList<Category> _items;
     private IViewHolderClick _listener;
     private Bitmap _placeHolder;
 
-    public ProductsAdapter( Context context, ArrayList<Product> items, IViewHolderClick listener )
+    public CategoryAdapter(Context context, ArrayList<Category> items, IViewHolderClick listener )
     {
         _context = context;
         _items = items;
@@ -66,25 +62,21 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
     @Override
     public void onBindViewHolder( ViewHolder holder, int position )
     {
-
-        holder.getLabelModel().setText( "0" );
-        holder.getLabelPrice().setText( "0" );
+        Category curCategory = _items.get(position);
+        holder.get_labelProduct().setText(curCategory.getName());
         holder.setIndex( position );
 
-        boolean foundCampaign = false;
-        String image = "";
 
-            holder.getIconView().setImageBitmap( _placeHolder );
+            //holder.getIconView().setImageBitmap( _placeHolder );
+        holder.getIconView().setImageResource(curCategory.getResId());
 
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
     {
         private ImageView _iconView;
-        private ImageView _iconBrand;
-        private TextView _labelModel;
-        private TextView _labelPrice;
-        private TextView _labelCampaign;
+
+        private TextView _labelProduct;
         private int _index;
         private IViewHolderClick _listener;
 
@@ -94,10 +86,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
 
             view.setOnClickListener( this );
             _iconView = (ImageView) view.findViewById( R.id.imgIcon );
-            _iconBrand = (ImageView) view.findViewById( R.id.imgBrand );
-            _labelModel = (TextView) view.findViewById( R.id.lblModel );
-            _labelPrice = (TextView) view.findViewById( R.id.lblPrice );
-            _labelCampaign = (TextView) view.findViewById( R.id.lblCampaign );
+            _labelProduct = (TextView) view.findViewById( R.id.lblProductTitle );
             _listener = listener;
         }
 
@@ -106,25 +95,14 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
             return _iconView;
         }
 
-        public ImageView getIconBrand()
+
+
+        public TextView get_labelProduct()
         {
-            return _iconBrand;
+            return _labelProduct;
         }
 
-        public TextView getLabelModel()
-        {
-            return _labelModel;
-        }
 
-        public TextView getLabelPrice()
-        {
-            return _labelPrice;
-        }
-
-        public TextView getLabelCampaign()
-        {
-            return _labelCampaign;
-        }
 
         public int getIndex()
         {

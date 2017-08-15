@@ -3,21 +3,21 @@ package com.datalabor.soporte.mexar.models;
 import java.io.Serializable;
 
 /**
- * Created by soporte on 15/08/2017.
+ * Created by Enrique on 14/08/2017.
  */
 
-public class Product implements Serializable
+public class Category implements Serializable
 {
     private long _id;
     private String _name;
     private int _resId;
-    private String _description;
 
 
-    public Product()
+    public Category()
     {
 
     }
+
 
     public long getId()
     {
@@ -39,10 +39,7 @@ public class Product implements Serializable
         _name = name;
     }
 
-    public void setResId(int resId){_resId = resId;}
+   public void setResId(int resId){_resId = resId;}
     public int getResId() {return _resId;}
-
-    public void setDescription(String desc) {_description = desc;}
-    public String getDescription() {return _description;}
 
 }

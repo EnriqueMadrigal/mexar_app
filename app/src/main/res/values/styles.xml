@@ -18,14 +18,14 @@
 
 
     <style name="RemarkField">
-        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textColor">@color/mexar_gris2</item>
         <item name="android:textSize">17sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="NormalField">
         <item name="android:textSize">17sp</item>
-        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textColor">@color/mexar_blue</item>
     </style>
 
     <style name="Remark">
@@ -45,7 +45,7 @@
 
     <style name="NormalSmallField">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textColor">@color/mexar_gris3</item>
     </style>
 
     <style name="RemarkSmall">
