@@ -16,4 +16,63 @@
         <item name="android:actionBarSize">32dp</item>
     </style>
 
+
+    <style name="RemarkField">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NormalField">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="Remark">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Normal">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="RemarkSmallField">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NormalSmallField">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="RemarkSmall">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="NormalSmall">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DrawerItem">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="LabelCampaign">
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@drawable/rounded_label</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+
+
+
 </resources>

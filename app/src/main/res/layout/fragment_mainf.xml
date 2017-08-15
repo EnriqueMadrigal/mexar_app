@@ -5,9 +5,15 @@
     tools:context="layout.mainf">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
         android:id="@+id/pnlSlider"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
+        android:layout_height="240dp"
         android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
@@ -17,5 +23,22 @@
         android:layout_height="240dp"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/recycler1"
+            />
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
 
 </FrameLayout>

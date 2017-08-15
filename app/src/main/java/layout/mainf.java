@@ -6,13 +6,20 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.MyPageAdapter;
+import com.datalabor.soporte.mexar.adapter.ProductsAdapter;
+import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
 import com.datalabor.soporte.mexar.custom.banner_image_class;
+import com.datalabor.soporte.mexar.models.Product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +49,9 @@ public class mainf extends Fragment {
     private MyPageAdapter myPageAdapter;
 
     private FragmentActivity myContext;
-
+    private RecyclerView _recyclerview;
+    private ProductsAdapter _adapter;
+    private LinearLayoutManager _linearLayoutManager;
 
     public mainf() {
         // Required empty public constructor
@@ -84,7 +93,51 @@ public class mainf extends Fragment {
                              Bundle savedInstanceState) {
         _view = inflater.inflate( R.layout.fragment_mainf, container, false );
         mPager = (ViewPager) _view.findViewById(R.id.ViewPager);
+        _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler1);
 
+             ArrayList<Product> _products = new ArrayList<>();
+            Product product1 = new Product();
+            product1.setBrand("Pipes");
+            product1.setName("Pipes");
+            product1.setPrice(1000.00);
+            product1.setFamily("familia");
+
+        Product product2 = new Product();
+        product2.setBrand("Pipes");
+        product2.setName("Pipes");
+        product2.setPrice(1000.00);
+        product2.setFamily("familia");
+
+
+        Product product3 = new Product();
+        product3.setBrand("Pipes");
+        product3.setName("Pipes");
+        product3.setPrice(1000.00);
+        product3.setFamily("familia");
+
+
+            _products.add(product1);
+        _products.add(product2);
+        _products.add(product3);
+
+            _adapter = new ProductsAdapter(getActivity(), _products, new IViewHolderClick() {
+                @Override
+                public void onClick(int position) {
+                    Log.d("mainf", "clicked");
+                }
+            });
+
+
+
+        _linearLayoutManager = new LinearLayoutManager( getActivity() );
+
+        _recyclerview.setHasFixedSize( true );
+        _recyclerview.setAdapter( _adapter );
+        _recyclerview.setLayoutManager( _linearLayoutManager );
+        _recyclerview.addItemDecoration( new SimpleDividerItemDecoration( getActivity() ) );
+
+
+        ////////// Banners
 
             List<Fragment> fList = new ArrayList<Fragment>();
             fList.add(banner_image_class.newInstance(R.drawable.banner1));
