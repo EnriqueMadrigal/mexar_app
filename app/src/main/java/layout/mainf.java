@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.MyPageAdapter;
@@ -171,6 +172,7 @@ public class mainf extends Fragment {
                         categories.add(sub6);
 
                         subCategory _subCategory = subCategory.newInstance(categories);
+                        Common.SetPage(1);
                         myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_subCategory, "Sub Categoria" ).commit();
 
 

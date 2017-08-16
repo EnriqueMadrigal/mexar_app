@@ -28,6 +28,7 @@ import java.io.File;
 
 import layout.distribuidores;
 import layout.mainf;
+import layout.promociones;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     mainf MainFragment;
     distribuidores _distribuidores;
+    promociones _promociones;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,14 +69,20 @@ public class MainActivity extends AppCompatActivity {
                         switch (menuItem.getItemId()) {
 
                             case R.id.menu_home:
-                                Common.SetPage(0);
-                                //clearBackStack();
-                                MainFragment = new mainf();
 
-                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();
 
+                                if (Common.GetPage()==0) break;
+
+                                else {
+                                    Common.SetPage(0);
+                                    //clearBackStack();
+                                    MainFragment = new mainf();
+
+                                    getSupportFragmentManager().beginTransaction().setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right).replace(R.id.fragment_container, MainFragment, "HOME").commit();
+
+
+                                }
                                 break;
-
 
                             case R.id.menu_tutoriales:
 
@@ -97,6 +105,11 @@ public class MainActivity extends AppCompatActivity {
 
 
                             case R.id.menu_promociones:
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _promociones, "Promociones" ).commit();
+
                                 break;
 
                             case R.id.menu_codigo:
@@ -129,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
 
        MainFragment = new mainf();
         _distribuidores = new distribuidores();
+        _promociones = new promociones();
         Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
 
@@ -151,11 +165,7 @@ public class MainActivity extends AppCompatActivity {
         if( getSupportFragmentManager().getBackStackEntryCount() == 0 )
         {
 
-
-
-
-
-            //clearBackStack();
+         //clearBackStack();
             Common.SetPage(0);
             MainFragment = new mainf();
             getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();

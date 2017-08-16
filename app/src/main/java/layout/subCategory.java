@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.SubCategoryAdapter;
@@ -191,7 +192,7 @@ public class subCategory extends Fragment {
 
 
                     //////// Productos
-
+                    Common.SetPage(2);
                     productDetail _productDetail = productDetail.newInstance(products);
                     myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _productDetail, "Sub Categoria" ).commit();
 
