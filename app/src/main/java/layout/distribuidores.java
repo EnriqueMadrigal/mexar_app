@@ -100,6 +100,29 @@ public class distribuidores extends Fragment {
         dist1.set_telefono1("Tel: (0133) 3656 3637");
         _distribuidores.add(dist1);
 
+        Distribuidor dist2 = new Distribuidor();
+        dist2.set_name("Sucursal DF.");
+        dist2.set_ciudad("Mexico D.F");
+        dist2.set_estado("Distrito Federal");
+        dist2.set_colonia("Col. Leyes de Reforma 3era Sección, Del. Iztapalapa");
+        dist2.set_direccion("Once de Enero de 1861 #2129");
+        dist2.set_telefono1("Tel: (0155) 5701 4300");
+        _distribuidores.add(dist2);
+
+
+        Distribuidor dist3 = new Distribuidor();
+        dist3.set_name("Sucursal Monterrey.");
+        dist3.set_ciudad("Monterrey");
+        dist3.set_estado("Nuevo León");
+        dist3.set_colonia("Col. Niño Artillero");
+        dist3.set_direccion("Sebastián Lerdo de Tejada #1222");
+        dist3.set_telefono1("Tel: (0181) 8331 2478");
+        _distribuidores.add(dist3);
+
+
+
+
+
         _adapter = new DistribuidoresAdapter(getActivity(), _distribuidores, new IViewHolderClick() {
             @Override
             public void onClick(int position) {

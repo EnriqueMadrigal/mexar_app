@@ -32,6 +32,10 @@
                 android:text="Selecciona un producto"
                 android:paddingLeft="16dp"/>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                />
 
 
         </LinearLayout>

@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +26,7 @@ import com.datalabor.soporte.mexar.R;
 
 import java.io.File;
 
+import layout.distribuidores;
 import layout.mainf;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     Context context;
 
     mainf MainFragment;
+    distribuidores _distribuidores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,35 +67,46 @@ public class MainActivity extends AppCompatActivity {
                         switch (menuItem.getItemId()) {
 
                             case R.id.menu_home:
-                               break;
+                                Common.SetPage(0);
+                                //clearBackStack();
+                                MainFragment = new mainf();
 
-
-                            case R.id.menu_lookbook:
-
-                                break;
-
-                            case R.id.menu_tips:
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();
 
                                 break;
 
 
-                            case R.id.menu_perfil:
+                            case R.id.menu_tutoriales:
+
+                                break;
+
+                            case R.id.menu_calcualdora:
+
                                 break;
 
 
-                            case R.id.menu_actualizar:
+                            case R.id.menu_distribuidores:
+
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _distribuidores, "Distribuidores" ).commit();
+
+
                                 break;
 
-                                                    /*
-                            case R.id.menu_preferencias:
-                                _currentPage = 4;
-                                //_navigationDrawerAdapter.setSelected( 3 );
-                                SettingsFragment fragment4 = new SettingsFragment();
-                                navigate( fragment4, "SETTINGS" );
+
+                            case R.id.menu_promociones:
                                 break;
-                            */
+
+                            case R.id.menu_codigo:
+                                break;
 
                             case R.id.menu_cerrrar:
+                                break;
+
+
+                            case R.id.menu_contacto:
                                 break;
 
 
@@ -113,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
 /// cargar el Main fragment
 
        MainFragment = new mainf();
+        _distribuidores = new distribuidores();
         Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
 
@@ -134,15 +150,22 @@ public class MainActivity extends AppCompatActivity {
 
         if( getSupportFragmentManager().getBackStackEntryCount() == 0 )
         {
-            Common.SetPage(0);
-            clearBackStack();
 
+
+
+
+
+            //clearBackStack();
+            Common.SetPage(0);
+            MainFragment = new mainf();
             getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();
+
+
 
         }
         else
         {
-
+            //super.onBackPressed();
         }
 
 

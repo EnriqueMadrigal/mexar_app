@@ -1,42 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id = "@+id/menu_inicio_empty"
-            android:title=""/>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+
 
 
         <item
             android:id="@+id/menu_home"
-            android:icon="@drawable/icon_home_off"
-            android:title="Home"/>
-        <item
-            android:id="@+id/menu_lookbook"
-            android:icon="@drawable/icon_lookbook_off"
-            android:title="Look Book"/>
-        <item
-            android:id="@+id/menu_tips"
-            android:icon="@drawable/icon_tip_off"
-            android:title="Tips de venta"/>
+            android:icon="@drawable/icon_catalogo"
+            android:title="Catálogo"/>
 
-        <item
-            android:id="@+id/menu_perfil"
-            android:icon="@drawable/icon_perfil_off"
-            android:title="Perfil"/>
+    </group>
 
-        <item
-            android:id="@+id/menu_actualizar"
-            android:icon="@drawable/icon_refresh_off"
-            android:title="Actualizar productos"/>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+    <item
+            android:id="@+id/menu_tutoriales"
+            android:icon="@drawable/icon_tutoriales"
+            android:title="Tutoriales"/>
+     </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+
+    <item
+            android:id="@+id/menu_calcualdora"
+            android:icon="@drawable/icon_calculadora"
+            android:title="Calculadora"/>
+
+        </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4">
+
+    <item
+            android:id="@+id/menu_distribuidores"
+            android:icon="@drawable/icon_distribuidores"
+            android:title="Distribuidores"/>
+</group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group5">
+
+    <item
+            android:id="@+id/menu_promociones"
+            android:icon="@drawable/icon_promciones"
+            android:title="Promociones"/>
+        </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group6">
+    <item
+            android:id="@+id/menu_codigo"
+            android:icon="@drawable/icon_qr"
+            android:title="Código QR"/>
+</group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group7">
 
 
-
-        <item
+    <item
             android:id="@+id/menu_cerrrar"
             android:icon="@drawable/icon_exit_off"
             android:title="Cerrar Sesión"/>
+</group>
 
+    <group android:checkableBehavior="single"
+        android:id="@+id/group8">
+
+    <item
+            android:id="@+id/menu_contacto"
+            android:icon="@drawable/icon_mail"
+            android:title="Contacto"/>
 
 
 

@@ -54,8 +54,8 @@ public class mainf extends Fragment {
     private CategoryAdapter _adapter;
     private LinearLayoutManager _linearLayoutManager;
 
-    ArrayList<Category> _categories;
-    List<Fragment> fList;
+    private ArrayList<Category> _categories;
+    private List<Fragment> fList;
 
     public mainf() {
         // Required empty public constructor
@@ -259,4 +259,7 @@ public class mainf extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
+
 }
