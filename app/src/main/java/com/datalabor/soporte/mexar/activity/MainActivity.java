@@ -29,6 +29,7 @@ import java.io.File;
 import layout.distribuidores;
 import layout.mainf;
 import layout.promociones;
+import layout.youtube;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     mainf MainFragment;
     distribuidores _distribuidores;
     promociones _promociones;
+    youtube _youtube;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
                                 break;
 
                             case R.id.menu_tutoriales:
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _youtube, "Tutoriales" ).commit();
+
 
                                 break;
 
@@ -143,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
        MainFragment = new mainf();
         _distribuidores = new distribuidores();
         _promociones = new promociones();
+        _youtube = new youtube();
         Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
 
