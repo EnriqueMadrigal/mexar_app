@@ -77,7 +77,7 @@ public class youtube extends Fragment {
 
         webview.getSettings().setJavaScriptEnabled(true);
 
-        webview.loadUrl("https://www.youtube.com/watch?v=68AqHwgk2s8");
+        webview.loadUrl("https://www.youtube.com/channel/UClb61WrMZ9xT5mMne_-9pMw");
 
 
         return _view;
