@@ -1,0 +1,32 @@
+{
+  "categorias": [
+    {
+      "categoria": {
+        "name": "Plomería",
+        "id": 1,
+		"resname":"pipes"
+      }
+    },
+    {
+      "categoria": {
+        "name": "Industrial",
+        "id": 2,
+		"resname":"industrial"
+      }
+    },
+    {
+      "categoria": {
+        "name": "Centrifugado",
+        "id": 3,
+		"resname":"centrifugado"
+      }
+    },
+	{
+      "categoria": {
+        "name": "Reciclaje",
+        "id": 4,
+		"resname":"recycle"
+      }
+	}
+  ]
+}

@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 public class Category implements Serializable
 {
-    private long _id;
+    private int _id;
     private String _name;
     private int _resId;
 
@@ -19,12 +19,12 @@ public class Category implements Serializable
     }
 
 
-    public long getId()
+    public int getId()
     {
         return _id;
     }
 
-    public void setId( long id )
+    public void setId( int id )
     {
         _id = id;
     }

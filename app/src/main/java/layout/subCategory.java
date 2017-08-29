@@ -17,8 +17,12 @@ import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.SubCategoryAdapter;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
+import com.datalabor.soporte.mexar.models.Category;
 import com.datalabor.soporte.mexar.models.Product;
 import com.datalabor.soporte.mexar.models.SubCategory;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -36,12 +40,16 @@ public class subCategory extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
+    public static final String TAG = "subCategory";
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
     private ArrayList<SubCategory> _subcategories;
     private SubCategoryAdapter _adapter;
+
+    private int curCategory = 0;
 
     private OnFragmentInteractionListener mListener;
 
@@ -67,10 +75,12 @@ public class subCategory extends Fragment {
      * @return A new instance of fragment subCategory.
      */
     // TODO: Rename and change types and number of parameters
-    public static subCategory newInstance(ArrayList<SubCategory> categories) {
+    public static subCategory newInstance(int curCategory) {
+       // public static subCategory newInstance(ArrayList<SubCategory> categories) {
         subCategory fragment = new subCategory();
         Bundle args = new Bundle();
-        args.putSerializable("SubCategorias", categories);
+        args.putInt("Category",curCategory);
+        //args.putSerializable("SubCategorias", categories);
 
         fragment.setArguments(args);
         return fragment;
@@ -79,13 +89,57 @@ public class subCategory extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        _subcategories = (ArrayList<SubCategory>) getArguments().getSerializable( "SubCategorias" );
+         curCategory = (int) getArguments().getInt("Category");
+        _subcategories = new ArrayList<SubCategory>();
 
 
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+       // _subcategories = (ArrayList<SubCategory>) getArguments().getSerializable( "SubCategorias" );
+
+        String jsonCategories = Common.loadJSONFromAsset(myContext,"subcategorias.json");
+        JSONObject obj_subcategories;
+        JSONObject subcategoria;
+
+        ///////////////
+        try {
+
+            obj_subcategories = new JSONObject(jsonCategories);
+            JSONArray res = obj_subcategories.getJSONArray("subcategorias");
+
+            for (int i = 0; i < res.length(); i++) {
+                subcategoria = res.getJSONObject(i).getJSONObject("subcategoria");
+                String name = subcategoria.getString("name");
+                String resname = subcategoria.getString("resname");
+                String desc = subcategoria.getString("desc");
+                int id = subcategoria.getInt("id");
+                int categoryid = subcategoria.getInt("idcategoria");
+
+                SubCategory newcategory = new SubCategory();
+                newcategory.setName(name);
+                newcategory.setId(id);
+                newcategory.set_desc(desc);
+                int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
+
+                newcategory.setResId(resid);
+                if (categoryid == curCategory) {  // Solo Añadir las categorias seleccionadas
+                    _subcategories.add(newcategory);
+                }
+            }
+
+
+
         }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+
+        ////////////
+
+
     }
 
     @Override

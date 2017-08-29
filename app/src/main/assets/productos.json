@@ -1,0 +1,17 @@
+{
+  "productos": [
+    {
+      "producto": {
+        "name": "Contact 202",
+        "id": 1,
+		"idsubcategoria":1,
+		"desc":"Cemento transparente consistencia regular para uso en tubos y conexiones de PVC hasta 4\" para tubería, drenaje y ventilación C-40 y hasta 2\" para C-80. ",
+		"images":
+		{
+			"image":"contact202"
+		}
+      }
+    },
+	 
+  ]
+}
