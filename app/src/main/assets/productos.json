@@ -6,12 +6,25 @@
         "id": 1,
 		"idsubcategoria":1,
 		"desc":"Cemento transparente consistencia regular para uso en tubos y conexiones de PVC hasta 4\" para tubería, drenaje y ventilación C-40 y hasta 2\" para C-80. ",
-		"images":
-		{
-			"image":"contact202"
+		"desc_completa":"Cemento transparente consistencia regular para uso en tubos y conexiones de PVC hasta 4\" para tubería, drenaje y ventilación C-40 y hasta 2\" para C-80. Se recomienda para tuberías de agua potable, conduit, cañería, drenaje y ventilación. Con fraguado lento 15 minutos aproximadamente. Se puede aplicar a temperatura de 4.5° C a 38°C .",
+		"presentaciones":["Tubo 60 ml. con caja. Código Z-20208","Lata con aplicador 120 ml. / 4 oz. Código Z-20201","Lata con aplicador 240 ml. / 8 oz. Código Z-20202","Lata con aplicador 475 ml. / 16 oz. Código Z-20203","Lata con aplicador 947 ml. / 32 oz. Código Z-20204"],
+		"images": ["contact202", "contact202-1"],
+		"ficha_tecnica":"8cf4c4310_archivo_producto"
 		}
-      }
-    },
+	},
+	{
+	  "producto": {
+        "name": "Contact 222",
+        "id": 2,
+		"idsubcategoria":1,
+		"desc":"Cemento de color azul de mediana densidad para tubos y conexiones de PVC hasta 6\" de diámetro.",
+		"desc_completa":"De fraguado muy rápido con fórmula para condiciones de humedad y/o presurización inmediata. Se instala rápidamente y se recomienda utilizar \"Primer\" para un mejor cementado,  se utiliza en drenaje, jacuzzi, ventilación, agua potable, sistemas de riego, conduit, ABS, tubería categoría cedula 40 y 80. Se puede aplicar a temperaturas de 4.5 °C A 38 °C.",
+		"presentaciones":["Tubo 60 ml. con caja. Código Z-22208","Bote con aplicador 120 ml. / 4 oz. Código Z-22201","Bote con aplicador 240 ml. / 8 oz. Código Z-22202","Bote con aplicador 475 ml. / 16 oz. Código Z-22203","Bote con aplicador 947 ml. / 32 oz. Código Z-22204"],
+		"images": ["contact222", "contact222-1"],
+		"ficha_tecnica":"7a7b84f72_archivo_producto"
+		}
+	},
+	
 	 
   ]
 }
