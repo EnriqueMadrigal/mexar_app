@@ -1,0 +1,58 @@
+{
+  "subcategorias": [
+    {
+      "subcategoria": {
+        "name": "CEMENTO PARA PVC Y CPVC",
+        "id": 1,
+		"idcategoria":1,
+		"resname":"cementoypvc",
+		"desc":"Repuesto de borla para PVC por separado."
+      }
+    },
+	 {
+      "subcategoria": {
+        "name": "PASTA PARA SOLDAR",
+        "id": 2,
+		"idcategoria":1,
+		"resname":"pastasoldar",
+		"desc":"Generación 2000 que garantiza una soldadura perfecta economizando su consumo, es ideal para eliminar oxido y otras impurezas."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "KITS",
+        "id": 3,
+		"idcategoria":1,
+		"resname":"kits",
+		"desc":"Útil para trabajos sencillos que no requieren mucho producto, pasta de 60gr con 100 gr. De Soldadura Monarca."
+      }
+    },
+    {
+      "subcategoria": {
+        "name": "SOLDADURA",
+        "id": 4,
+		"idcategoria":1,
+		"resname":"soldadura",
+		"desc":"Soldadura Monarca, especial para tubo y conexión de cobre de alta presión, para aplicar en la unión de la tubería doméstica para agua y gas, en instalaciones comerciales, residenciales e industriales."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "HERRAMIENTAS",
+        "id": 5,
+		"idcategoria":1,
+		"resname":"herramientas",
+		"desc":"Herramientas de corte de tubería para facilitar el trabajo del plomero, con diseño funcional, ergonómico e innovador."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "SILICÓN, SELLADOR Y PINTURA",
+        "id": 6,
+		"idcategoria":1,
+		"resname":"silicon",
+		"desc":"Dap ofrece una gran diversidad de selladores especialidades, silicones, pintura en aerosol, adhesivos de contacto y usos generales, todas las soluciones para sus proyectos."
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,6 +24,9 @@ import com.datalabor.soporte.mexar.custom.banner_image_class;
 import com.datalabor.soporte.mexar.models.Category;
 import com.datalabor.soporte.mexar.models.SubCategory;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,6 +43,8 @@ public class mainf extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    public static final String TAG = "mainf";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -103,6 +109,46 @@ public class mainf extends Fragment {
 
              //final ArrayList<Category> _categories = new ArrayList<>();
          _categories = new ArrayList<>();
+
+        String jsonCategories = Common.loadJSONFromAsset(myContext,"categorias.json");
+        JSONObject obj_categories;
+        JSONObject categoria;
+
+        try {
+
+            obj_categories = new JSONObject(jsonCategories);
+            JSONArray res = obj_categories.getJSONArray("categorias");
+
+            for (int i = 0; i < res.length(); i++) {
+                categoria = res.getJSONObject(i).getJSONObject("categoria");
+                String name = categoria.getString("name");
+                String resname = categoria.getString("resname");
+                int id = categoria.getInt("id");
+
+                Category newcategory = new Category();
+                newcategory.setName(name);
+                newcategory.setId(id);
+                int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
+
+                newcategory.setResId(resid);
+                _categories.add(newcategory);
+
+            }
+
+
+
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+
+
+/*
             Category category1 = new Category();
             category1.setName("Tuberias");
             category1.setId(1);
@@ -124,12 +170,18 @@ public class mainf extends Fragment {
         _categories.add(category1);
         _categories.add(category2);
         _categories.add(category3);
-
+*/
             _adapter = new CategoryAdapter(getActivity(), _categories, new IViewHolderClick() {
                 @Override
                 public void onClick(int position) {
                     Log.d("mainf", String.valueOf(_categories.get(position).getId()));
-                    long curiId =  _categories.get(position).getId();
+                    int curiId =  _categories.get(position).getId();
+
+                    subCategory _subCategory = subCategory.newInstance(curiId);
+                    Common.SetPage(1);
+                    myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_subCategory, "Sub Categoria" ).commit();
+
+                    /*
 
                     if (curiId == 1) {
                         ArrayList<SubCategory> categories = new ArrayList<>();
@@ -179,7 +231,7 @@ public class mainf extends Fragment {
 
 
                     }
-
+                    */
 
                    //productDetail _productDetail = new productDetail();
 
