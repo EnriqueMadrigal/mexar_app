@@ -53,6 +53,97 @@
 		"resname":"silicon",
 		"desc":"Dap ofrece una gran diversidad de selladores especialidades, silicones, pintura en aerosol, adhesivos de contacto y usos generales, todas las soluciones para sus proyectos."
       }
+    },
+	{
+      "subcategoria": {
+        "name": "SELLADORES E IMPERMEABILIZANTES SIKA",
+        "id": 7,
+		"idcategoria":1,
+		"resname":"selladores",
+		"desc":"Muros y Paredes con acabados sanos y durables."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "EMPAQUE",
+        "id": 8,
+		"idcategoria":2,
+		"resname":"empaque",
+		"desc":"Estamos conscientes de que el Empaque es una parte fundamental del producto, porque contiene, protege y/o preserva el producto permitiendo que este llegue en óptimas condiciones al consumidor final, por eso Industrias Mexar ha desarrollado una línea innovadora de productos destinados a este proceso."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "SOLDADURA INDUSTRIAL",
+        "id": 9,
+		"idcategoria":2,
+		"resname":"soldadura_industrial",
+		"desc":"En esta división fabricamos y distribuimos soldaduras en todas las aleaciones en Estaño-Plomo y Lead Free y las tenemos en todas las presentaciones así como una amplia línea de fluxes."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "MÁQUINAS ZUNCHADORAS",
+        "id": 10,
+		"idcategoria":2,
+		"resname":"zunchadoras",
+		"desc":"Nuestra gama suministra una herramienta para cada tipo de usuario: desde uso industrial ligero con volúmenes bajos hasta industria pesada con alta producción."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "HERRAMINETAS MANUALES PARA FLEJE",
+        "id": 11,
+		"idcategoria":2,
+		"resname":"herramientas_fleje",
+		"desc":"Industrias Mexar ofrece una línea completa de Herramientas manuales, neumáticas y a batería para fleje de acero y plástico. Nuestra gama completa suministra una herramienta para cada tipo de usuario: desde uso industrial ligero con volúmenes bajos hasta industria pesada con alta producción."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "MAQUINAS PARA PELICULA ESTIRABLE",
+        "id": 12,
+		"idcategoria":2,
+		"resname":"estirable",
+		"desc":"Soluciones Avanzadas de Envolver para todas las industrias El Grupo de Sistemas de Embalaje de Mexar, maneja una línea completa de equipo de envolvedoras con película estirable con plataformas semi-automáticas y totalmente automáticas así como equipos orbitales y suspendidos."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "MAQUINARIA",
+        "id": 13,
+		"idcategoria":3,
+		"resname":"maquinaria",
+		"desc":"Industrias Mexar le ofrece la maquinaria Conquest de Centrifugado que porta la calidad en la marca."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "METALES",
+        "id": 14,
+		"idcategoria":3,
+		"resname":"metales",
+		"desc":"Desde 10 libras hasta 10,000 en el mismo lugar de fabricación, nosotros embarcamos el metal que necesitas diariamente."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "SILICON",
+        "id": 15,
+		"idcategoria":3,
+		"resname":"silicones",
+		"desc":"Materiales para moldes en silicon y hule organico."
+      }
+    },
+	{
+      "subcategoria": {
+        "name": "ACCESORIOS",
+        "id": 16,
+		"idcategoria":3,
+		"resname":"accesorios",
+		"desc":"Accesorios e implementos para centrifugado."
+      }
     }
+	
   ]
 }

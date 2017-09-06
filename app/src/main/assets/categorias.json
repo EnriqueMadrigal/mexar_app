@@ -20,13 +20,6 @@
         "id": 3,
 		"resname":"centrifugado"
       }
-    },
-	{
-      "categoria": {
-        "name": "Reciclaje",
-        "id": 4,
-		"resname":"recycle"
-      }
-	}
+    }
   ]
 }

@@ -154,8 +154,8 @@ public class subCategory extends Fragment {
             public void onClick(int position) {
 
                 Log.d("mainf", String.valueOf(_subcategories.get(position).getId()));
-                long curiId =  _subcategories.get(position).getId();
-
+                int curId =  _subcategories.get(position).getId();
+/*
                 if (curiId == 1) {
 
                     ArrayList<Product> products = new ArrayList<>();
@@ -254,6 +254,10 @@ public class subCategory extends Fragment {
 
 
                 }
+                    */
+                productos _productos = productos.newInstance(curId);
+                Common.SetPage(2);
+                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_productos, "Productos" ).commit();
 
 
             }
