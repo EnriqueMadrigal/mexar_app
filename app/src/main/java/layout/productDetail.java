@@ -51,7 +51,8 @@ public class productDetail extends Fragment {
     private ProductAdapter _adapter;
     private LinearLayoutManager _linearLayoutManager;
 
-    ArrayList<Product> _products;
+    Product curProduct;
+    int _curProdcutId=0;
 
 
     public productDetail() {
@@ -67,10 +68,12 @@ public class productDetail extends Fragment {
      * @return A new instance of fragment productDetail.
      */
     // TODO: Rename and change types and number of parameters
-    public static productDetail newInstance(ArrayList<Product> products) {
+    public static productDetail newInstance(int curProductId) {
         productDetail fragment = new productDetail();
         Bundle args = new Bundle();
-       args.putSerializable("Productos", products);
+
+        args.putInt("curProductID", curProductId);
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -79,7 +82,10 @@ public class productDetail extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        _products = (ArrayList<Product>) getArguments().getSerializable( "Productos" );
+        _curProdcutId = (int) getArguments().getInt("curProductID");
+
+        //Obtener el productoID
+
 
     }
 

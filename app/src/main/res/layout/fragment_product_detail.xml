@@ -25,12 +25,7 @@
                 android:text="Catálogo de productos"
                 android:paddingLeft="16dp"/>
 
-            <TextView
-                style="@style/NormalSmallField"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Selecciona un producto"
-                android:paddingLeft="16dp"/>
+
 
             <View
                 android:layout_width="match_parent"
@@ -40,21 +35,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/pnlSlider"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <!-- TODO: Update blank fragment layout -->
-
-            <android.support.v7.widget.RecyclerView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="8dp"
-                android:id = "@+id/recycler2"
-                />
-        </LinearLayout>
 
 
 
