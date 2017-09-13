@@ -38,7 +38,7 @@
     </style>
 
     <style name="RemarkSmallField">
-        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textColor">@color/mexar_gris2</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
     </style>

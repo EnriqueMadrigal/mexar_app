@@ -113,6 +113,8 @@ public class productos extends Fragment {
                 newProduct.setName(name);
                 newProduct.setId(id);
                 newProduct.setDescription(desc);
+                newProduct.set_desc_complete(desc_completa);
+
                 int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
                 newProduct.setResId(resid);
@@ -147,7 +149,17 @@ public class productos extends Fragment {
         _adapter = new ProductAdapter(getActivity(), _products, new IViewHolderClick() {
             @Override
             public void onClick(int position) {
-                Log.d(TAG, String.valueOf(_products.get(position).getId()));
+
+                Product curProduct = _products.get(position);
+
+                Log.d(TAG, String.valueOf(curProduct.getId()));
+
+                productDetail productdetail = productDetail.newInstance(curProduct.getId());
+
+                Common.SetPage(3);
+                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, productdetail, "Product Detail" ).commit();
+
+
             }
         });
 

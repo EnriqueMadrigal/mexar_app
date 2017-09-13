@@ -1,6 +1,7 @@
 package com.datalabor.soporte.mexar.models;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 /**
  * Created by soporte on 15/08/2017.
@@ -8,10 +9,40 @@ import java.io.Serializable;
 
 public class Product implements Serializable
 {
-    private long _id;
+    private int _id;
     private String _name;
     private int _resId;
     private String _description;
+    private String _desc_complete;
+
+    private ArrayList<Presentation> _presentations;
+    private ArrayList<Product_Image> product_images;
+
+    public ArrayList<Product_Image> getProduct_images() {
+        return product_images;
+    }
+
+    public void setProduct_images(ArrayList<Product_Image> product_images) {
+        this.product_images = product_images;
+    }
+
+    public ArrayList<Presentation> get_presentations() {
+        return _presentations;
+    }
+
+    public void set_presentations(ArrayList<Presentation> _presentations) {
+        this._presentations = _presentations;
+    }
+
+    public String get_desc_complete() {
+        return _desc_complete;
+    }
+
+    public void set_desc_complete(String _desc_complete) {
+        this._desc_complete = _desc_complete;
+    }
+
+
 
 
     public Product()
@@ -19,12 +50,12 @@ public class Product implements Serializable
 
     }
 
-    public long getId()
+    public int getId()
     {
         return _id;
     }
 
-    public void setId( long id )
+    public void setId( int id )
     {
         _id = id;
     }

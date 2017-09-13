@@ -12,12 +12,20 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
+import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.ProductAdapter;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
+import com.datalabor.soporte.mexar.models.Presentation;
 import com.datalabor.soporte.mexar.models.Product;
+import com.datalabor.soporte.mexar.models.Product_Image;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -47,13 +55,19 @@ public class productDetail extends Fragment {
     private View _view;
 
     private FragmentActivity myContext;
-    private RecyclerView _recyclerview;
-    private ProductAdapter _adapter;
+   // private RecyclerView _recyclerview;
+   // private ProductAdapter _adapter;
     private LinearLayoutManager _linearLayoutManager;
+
+    private TextView title;
+    private TextView desc;
+    private TextView presentations;
+    private Button ficha;
 
     Product curProduct;
     int _curProdcutId=0;
 
+    public static final String TAG = "productDetail";
 
     public productDetail() {
         // Required empty public constructor
@@ -68,11 +82,11 @@ public class productDetail extends Fragment {
      * @return A new instance of fragment productDetail.
      */
     // TODO: Rename and change types and number of parameters
-    public static productDetail newInstance(int curProductId) {
+    public static productDetail newInstance(int productId) {
         productDetail fragment = new productDetail();
         Bundle args = new Bundle();
-
-        args.putInt("curProductID", curProductId);
+        args.putInt("curProductID", productId);
+        //args.putSerializable("curProduct", curProduct);
 
         fragment.setArguments(args);
         return fragment;
@@ -82,9 +96,99 @@ public class productDetail extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //curProduct = (Product) getArguments().getSerializable("curProduct");
         _curProdcutId = (int) getArguments().getInt("curProductID");
 
         //Obtener el productoID
+
+////// Obtener los datos del producto
+
+
+        String jsonProducts = Common.loadJSONFromAsset(myContext,"productos.json");
+        JSONObject obj_products;
+        JSONObject producto;
+        JSONArray presentaciones;
+        JSONArray images;
+
+
+
+        ///////////////
+        try {
+
+            obj_products = new JSONObject(jsonProducts);
+            JSONArray res = obj_products.getJSONArray("productos");
+
+            for (int i = 0; i < res.length(); i++) {
+                producto = res.getJSONObject(i).getJSONObject("producto");
+                String name = producto.getString("name");
+                String resname = producto.getString("resname");
+                String desc = producto.getString("desc");
+                String desc_completa = producto.getString("desc_completa");
+
+                int id = producto.getInt("id");
+
+                if (id == _curProdcutId) {
+                    //int subcategoryid = producto.getInt("idsubcategoria");
+
+                    Product newProduct = new Product();
+                    newProduct.setName(name);
+                    newProduct.setId(id);
+                    newProduct.setDescription(desc);
+                    newProduct.set_desc_complete(desc_completa);
+
+                    int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
+
+                    newProduct.setResId(resid);
+                   // Solo Añadir las categorias seleccionadas
+
+                    presentaciones = producto.getJSONArray("presentaciones");
+                    images = producto.getJSONArray("images");
+
+                    ArrayList<Presentation> presentations = new ArrayList<>();
+                    ArrayList<Product_Image> product_images = new ArrayList<>();
+
+
+                    for (int j = 0; j < presentaciones.length(); j++)
+                    {
+                    String presentacion = presentaciones.getString(j);
+                        Presentation curPresentation = new Presentation();
+                        curPresentation.setPresentation(presentacion.toString());
+                        presentations.add(curPresentation);
+
+                    }
+
+                    for (int j=0 ; j < images.length(); j++)
+                    {
+                        String curImage = images.getString(j);
+                        Product_Image curProduct_Image = new Product_Image();
+                        curProduct_Image.set_image(curImage);
+                        product_images.add(curProduct_Image);
+
+                    }
+
+
+
+                    newProduct.set_presentations(presentations);
+                    newProduct.setProduct_images(product_images);
+                    curProduct = newProduct;
+
+                }
+            }
+
+
+
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+
+
+        ////////////
 
 
     }
@@ -93,23 +197,40 @@ public class productDetail extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        _view = inflater.inflate( R.layout.fragment_product_detail, container, false );
-        _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler2);
+        _view = inflater.inflate( R.layout.product_detail_layout, container, false );
+       // _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler2);
+        title = (TextView) _view.findViewById(R.id.ProductDetailTitle);
+        desc = (TextView) _view.findViewById(R.id.ProductDetailDescription);
+        presentations = (TextView) _view.findViewById(R.id.ProductDetailPresentations);
+        ficha = (Button) _view.findViewById(R.id.ProductDetailFicha);
+
+        if (this.curProduct == null) return null;
+
+        title.setText(this.curProduct.getName());
+        desc.setText(this.curProduct.get_desc_complete());
 
 
-        _adapter = new ProductAdapter(getActivity(), _products, new IViewHolderClick() {
+        StringBuilder presentaciones= new StringBuilder();
+
+        for(Presentation presentation: curProduct.get_presentations())
+        {
+            presentaciones.append(presentation.getPresentation());
+            presentaciones.append(System.getProperty("line.separator"));
+
+        }
+
+        presentations.setText(presentaciones.toString());
+
+        ficha.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(int position) {
-                Log.d("mainf", String.valueOf(_products.get(position).getId()));
+            public void onClick(View v) {
+
+                Log.d(TAG,"clicked");
             }
         });
 
         _linearLayoutManager = new LinearLayoutManager( getActivity() );
 
-        _recyclerview.setHasFixedSize( true );
-        _recyclerview.setAdapter( _adapter );
-        _recyclerview.setLayoutManager( _linearLayoutManager );
-        _recyclerview.addItemDecoration( new SimpleDividerItemDecoration( getActivity() ) );
 
 
 
@@ -126,6 +247,7 @@ public class productDetail extends Fragment {
 
     @Override
     public void onAttach(Context context) {
+        myContext=(FragmentActivity) context;
         super.onAttach(context);
         /*
         if (context instanceof OnFragmentInteractionListener) {
