@@ -18,8 +18,11 @@ import android.widget.TextView;
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
+import com.datalabor.soporte.mexar.adapter.MyPageAdapter;
 import com.datalabor.soporte.mexar.adapter.ProductAdapter;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
+import com.datalabor.soporte.mexar.custom.banner_image_class;
+import com.datalabor.soporte.mexar.custom.product_image_class;
 import com.datalabor.soporte.mexar.models.Presentation;
 import com.datalabor.soporte.mexar.models.Product;
 import com.datalabor.soporte.mexar.models.Product_Image;
@@ -28,6 +31,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -62,7 +66,11 @@ public class productDetail extends Fragment {
     private TextView title;
     private TextView desc;
     private TextView presentations;
+    private MyPageAdapter myPageAdapter;
+    private ViewPager mPager;
     private Button ficha;
+
+    private List<Fragment> fList;
 
     Product curProduct;
     int _curProdcutId=0;
@@ -203,6 +211,7 @@ public class productDetail extends Fragment {
         desc = (TextView) _view.findViewById(R.id.ProductDetailDescription);
         presentations = (TextView) _view.findViewById(R.id.ProductDetailPresentations);
         ficha = (Button) _view.findViewById(R.id.ProductDetailFicha);
+        mPager = (ViewPager) _view.findViewById(R.id.productDetailViewPager);
 
         if (this.curProduct == null) return null;
 
@@ -231,6 +240,31 @@ public class productDetail extends Fragment {
 
         _linearLayoutManager = new LinearLayoutManager( getActivity() );
 
+        //Images
+
+        ////////// Banners
+
+        fList = new ArrayList<Fragment>();
+
+        for (Product_Image curImage: curProduct.getProduct_images())
+        {
+
+            int resid = myContext.getResources().getIdentifier(curImage.get_image(), "drawable", myContext.getPackageName());
+            fList.add(product_image_class.newInstance(resid));
+
+
+        }
+
+        //fList.add(banner_image_class.newInstance(R.drawable.banner1));
+        //fList.add(banner_image_class.newInstance(R.drawable.banner2));
+        //fList.add(banner_image_class.newInstance(R.drawable.banner3));
+
+        myPageAdapter = new MyPageAdapter(myContext.getSupportFragmentManager(), fList);
+
+
+        mPager.setAdapter(myPageAdapter);
+        mPager.setCurrentItem(0);
+        myPageAdapter.notifyDataSetChanged();
 
 
 
