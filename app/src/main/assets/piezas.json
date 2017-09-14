@@ -1,0 +1,17 @@
+{
+  "piezas": [
+    {
+      "pieza": {
+        "name": "Union de 13mm / 1/2 pulgadas.",
+        "id": 1
+	}
+    },
+	 {
+      "pieza": {
+        "name": "Union de 16mm / 1/3 pulgadas.",
+        "id": 2
+	}
+    }
+		
+  ]
+}

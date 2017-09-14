@@ -49,13 +49,7 @@
             android:title="Promociones"/>
         </group>
 
-    <group android:checkableBehavior="single"
-        android:id="@+id/group6">
-    <item
-            android:id="@+id/menu_codigo"
-            android:icon="@drawable/icon_qr"
-            android:title="Código QR"/>
-</group>
+
 
     <group android:checkableBehavior="single"
         android:id="@+id/group7">

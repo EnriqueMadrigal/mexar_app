@@ -1,0 +1,35 @@
+{
+  "presentaciones": [
+    {
+      "presentacion": {
+        "name": "Tubo 60 ml. con caja.",
+        "id": 1
+	}
+    },
+	 {
+      "presentacion": {
+        "name": "Lata con aplicador 120 ml. / 4 oz.",
+        "id": 2
+	}
+    },
+	{
+      "presentacion": {
+        "name": "Lata con aplicador 240 ml. / 8 oz.",
+        "id": 3
+	}
+    },
+	{
+      "presentacion": {
+        "name": "Lata con aplicador 475 ml. / 16 oz.",
+        "id": 3
+	}
+    },
+	{
+      "presentacion": {
+        "name": "Lata con aplicador 947 ml. / 32 oz.",
+        "id": 4
+	}
+    }
+		
+  ]
+}

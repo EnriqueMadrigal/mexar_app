@@ -1,0 +1,231 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.contacto">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/mexar_gris1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_gris1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/NormalField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculadora:"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_gris1"
+            android:orientation="vertical">
+
+
+        <TextView
+                style="@style/RemarkField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Seleccione una presentación." />
+
+    </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="left"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="32dp"
+                android:background="@color/text_gris1">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/text_gris1"
+                    android:layout_marginLeft="0dp"
+                    android:id="@+id/calculadora_Presentacion">
+
+                </Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.10"
+                android:layout_height="match_parent"
+                >
+
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/spinner_dropdown"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_gris1"
+            android:orientation="vertical">
+
+
+
+        <TextView
+                style="@style/RemarkField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Seleccione la pieza que usuaria." />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="left"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="32dp"
+                android:background="@color/text_gris1">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/text_gris1"
+                    android:layout_marginLeft="0dp"
+                    android:id="@+id/calculadora_Pieza">
+
+                </Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.10"
+                android:layout_height="match_parent"
+                >
+
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/spinner_dropdown"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+
+            android:gravity="center">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <ImageButton
+                android:id="@+id/Contacto_sendMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_email"
+                android:src="@drawable/btn_calcular"
+                android:text="Enviar mensaje"
+                android:textColor="@color/white"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mexar_gris1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/RemarkField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="El cemento Contact 202 en presentación de 120 ml/ 4oz. \n Rinde 20 uniones de 13 mm( 1/2 pulgada)" />
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

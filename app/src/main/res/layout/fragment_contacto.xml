@@ -1,0 +1,153 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.contacto">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/mexar_gris1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_gris1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/NormalField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contactános:"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="En Mexar, nos interesa tu opinión." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Te invitamos a comunicarte con alguno de nuestros ejecutivos según la división de tu interés." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                style="@style/RemarkField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Matriz Guadalajara" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Bosques de San Isidro #2300" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Col. Bosques de San Isidro" />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Zapopan, Jal." />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Tel: (0133) 3656 3637 " />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <Button
+                android:id="@+id/Contacto_sendMessage"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_email"
+                android:paddingLeft="40dp"
+                android:text="Enviar mensaje"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <Button
+                android:id="@+id/Contacto_Llamar"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_call"
+                android:paddingLeft="40dp"
+                android:text="Llamanos"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -26,6 +26,8 @@ import com.datalabor.soporte.mexar.R;
 
 import java.io.File;
 
+import layout.calculadora;
+import layout.contacto;
 import layout.distribuidores;
 import layout.mainf;
 import layout.promociones;
@@ -43,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
     distribuidores _distribuidores;
     promociones _promociones;
     youtube _youtube;
+    contacto _contacto;
+    calculadora _calculadora;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,6 +101,11 @@ public class MainActivity extends AppCompatActivity {
                                 break;
 
                             case R.id.menu_calcualdora:
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _calculadora, "Calculadora" ).commit();
+
 
                                 break;
 
@@ -119,14 +129,17 @@ public class MainActivity extends AppCompatActivity {
 
                                 break;
 
-                            case R.id.menu_codigo:
-                                break;
 
                             case R.id.menu_cerrrar:
                                 break;
 
 
                             case R.id.menu_contacto:
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _contacto, "Contacto" ).commit();
+
                                 break;
 
 
@@ -151,6 +164,8 @@ public class MainActivity extends AppCompatActivity {
         _distribuidores = new distribuidores();
         _promociones = new promociones();
         _youtube = new youtube();
+        _contacto = new contacto();
+        _calculadora = new calculadora();
         Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
 
