@@ -10,8 +10,13 @@
 		"presentaciones":["Tubo 60 ml. con caja. Código Z-20208","Lata con aplicador 120 ml. / 4 oz. Código Z-20201","Lata con aplicador 240 ml. / 8 oz. Código Z-20202","Lata con aplicador 475 ml. / 16 oz. Código Z-20203","Lata con aplicador 947 ml. / 32 oz. Código Z-20204"],
 		"images": ["contact202", "contact202_1"],
 		"resname": "contact202",
-		"ficha_tecnica":"8cf4c4310_archivo_producto"
-		}
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/8cf4c4310_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+	}
 	},
 	{
 	  "producto": {
@@ -23,10 +28,431 @@
 		"presentaciones":["Tubo 60 ml. con caja. Código Z-22208","Bote con aplicador 120 ml. / 4 oz. Código Z-22201","Bote con aplicador 240 ml. / 8 oz. Código Z-22202","Bote con aplicador 475 ml. / 16 oz. Código Z-22203","Bote con aplicador 947 ml. / 32 oz. Código Z-22204"],
 		"images": ["contact222", "contact222_1"],
 		"resname": "contact222",
-		"ficha_tecnica":"7a7b84f72_archivo_producto"
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/7a7b84f72_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Contact 227",
+        "id": 3,
+		"idsubcategoria":1,
+		"desc":"Cemento amarillo de alta viscosidad para uso en tubos y conexiones de CPVC de hasta 4\" de diámetro. Para C.T.S.",
+		"desc_completa":"Cemento amarillo de alta viscosidad para uso en tubos y conexiones de CPVC de hasta 4” de diámetro. Para  C.T.S. (del tamaño de un tubo de cobre) y C-80, tubería de agua potable. Contact 227 para CPVC es un cemento de fraguado medio con fórmula para funcionar en condiciones secas o húmedas,  tiempo de secado 15 minutos. Se puede aplicar a temperatura de 4.5°C a 38°C.",
+		"presentaciones":["Tubo 60 ml. con caja. Código Z-22708","Bote con aplicador 120 ml. / 4 oz. Código Z-22701","Bote con aplicador 240 ml. / 8 oz. Código Z-22702","Bote con aplicador 475 ml. / 16 oz. Código Z-22703"],
+		"images": ["contact227", "contact227_1"],
+		"resname": "contact227",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/48e271a67_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Contact 212 Primer",
+        "id": 4,
+		"idsubcategoria":1,
+		"desc":"En una mezcla de solventes orgánicos capaces de disolver hasta el 10 % de resina de PVC y CPVC",
+		"desc_completa":"El primer limpia y ablanda las tuberías y accesorios de PVC y CPVC para obtener una mejor penetración de los cementos disolventes ocasionando la aceleración del cementado. \n Realiza una cuidadosa preparación de la superficie antes y durante la aplicación de los cementos disolventes, necesariamente permitirá obtener una mejor cementación de las uniones (tubería-accesorios) que al final se traducirá en conexiones fuertes y seguras, obteniendo como resultado una reducción de costos de mantenimiento y re trabajos.",
+		"presentaciones":[],
+		"images": ["contact212"],
+		"resname": "contact212",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/d21a92eec_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "CONTACT 204",
+        "id": 5,
+		"idsubcategoria":1,
+		"desc":"Transparente etiqueta azul claro, extra reforzado para PVC hidráulico, diámetros especiales",
+		"desc_completa":"Cemento transparente de mediana viscosidad, para tubos y conexiones de PVC hasta 8” de diámetro. Recomendado para todas las cedulas y tipos de tubería, Conexiones de PVC , agua potable, presión, cañerías, tubería de drenaje y ventilación. Contact 204 es un cemento de fraguado rápido con fórmula para ser utilizado en condiciones de humedad y/o presurización inmediatas, se instala rápidamente",
+		"presentaciones":["Bote con aplicador 240 ml. / 8 oz. Código Z-20402","Bote con aplicador 475 ml. / 16 oz. Código Z-20403","Bote con aplicador 947 ml. / 32 oz. Código Z-20404","Bote galón sin aplicador 3.8 L / Código 20405"],
+		"images": ["contact204"],
+		"resname": "contact204",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/201a79159_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	 {
+	  "producto": {
+        "name": "CONTACT 244",
+        "id": 6,
+		"idsubcategoria":1,
+		"desc":"Transparente etiqueta gris para PVC hidráulico diámetros grandes",
+		"desc_completa":"Cemento de alta densidad secado lento con formula para fraguar en condiciones normales, para tubos y conexiones de PVC hasta 12\" de diámetro C-40 y C-80. Recomendado para TODAS las cédulas y tipos de conexiones de PVC, agua potable, tubería de presión, gas, sistemas de riego, albercas, jacuzzi, conductos y tubería de drenaje y ventilación. Ayuda a tapar los espacios en tubos de gran diámetro y en juntas de conexiones flojas. Se puede aplicar a temperaturas de 4.5°C a 38°C.",
+		"presentaciones":["Bote con aplicador 240 ml. / 8 oz. Código Z-24402","Bote con aplicador 475 ml. / 16 oz. Código Z-24403","Bote con aplicador 947 ml. / 32 oz. Código Z-24404","Bote galón  sin aplicador 3.8 L"],
+		"images": ["contact244"],
+		"resname": "contact244",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/a61d25483_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Contact 205 Limpiador",
+        "id": 7,
+		"idsubcategoria":1,
+		"desc":"Una mezcla de solventes orgánicos especialmente formulados para limpiar cualquier clase de suciedad depositada en la superficie de las tuberías y accesorios de PVC y CPVC.",
+		"desc_completa":"Es un Disolvente recomendado  para limpiar, suavizar o disolver las superficies a unir, preparándolas para un mejor cementado y mejorando la penetración de los cementos. \n Es un limpiador para tubos y conexiones de PVC  o CPVC de todos los diámetros, limpia todo tipo de suciedad encontrada en los tubos, mugre, grasas y recubrimientos de resina, etc.",
+		"presentaciones":["Bote con aplicador 240 ml. Código Z-20502","Bote con aplicador 475 ml. Código Z-20503","Bote galón sin aplicador 3.8 L"],
+		"images": ["contact205"],
+		"resname": "contact205",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/1340332f9_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "CONTACT 206 REFORZADO",
+        "id": 8,
+		"idsubcategoria":1,
+		"desc":"Solución de resina de PVC con disolventes apropiados que, al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Formulado para unir una sola pieza, conexiones de PVC , cemento de alta resistencia viscosidad y secado medio. Consistencia media alta ayuda a rellenar espacios entre tubería y conexiones, Sin sacrificar su rendimiento. Utilizado en sanitario Norma, alcantarillado, hidráulico, tubería y conexiones de hasta 8\" de diámetro con presión y en sistemas sin presión D.W.V. hasta 10”, adecuado para Cedulas 40 y 80, de acuerdo con las especificaciones ASTM D2564.",
+		"presentaciones":["Bote con aplicador 240 ml/8 oz caja con 24 pz","Bote con aplicador 475 ml/16 oz caja con 12 pz","Bote con aplicador 947 ml/32 oz caja con 12 pz","Bote sin aplicador 3.8 L (un Galón) caja con 2 p"],
+		"images": ["contact206"],
+		"resname": "contact206",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/d1c95401f_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "CONTACT 216 EXTRA REFORZADO",
+        "id": 9,
+		"idsubcategoria":1,
+		"desc":"Cemento Contact Extra-reforzado Gris de viscosidad Gruesa, Clasificación ASTM D2564 para tubos y accesorios de todas clases de PVC, para utilizar en tubería cédula 40 hasta 12\" de diámetro y cédula 80 hasta 6\" de diámetro para sistemas con presión de agua fría y en sistemas sin presión D.W.V. hasta 18\" de diámetro",
+		"desc_completa":"Contact 216 es un cemento de alta resistencia, formulado para unir formando una sola pieza, su alta viscosidad ayuda a rellenar espacios entre tubería y conexiones, tiempo de secado lento. En tuberías y conexiones Cedula 40 de hasta 12\" de diámetro y en sistemas sin presión D.W.V. hasta 18\" de diámetro.",
+		"presentaciones":["Bote con aplicador 240 ml/8 oz caja con 24 pz","Bote con aplicador 475 ml/16 oz caja con 12 pz","Bote con aplicador 947 ml/32 oz caja con 12 pz","Bote sin aplicador 3.8 L (un Galón) caja con 2 pz"],
+		"images": ["contact216"],
+		"resname": "contact216",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/a65c1d21b_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "BORLA PARA PVC",
+        "id": 10,
+		"idsubcategoria":1,
+		"desc":"Repuesto practico.",
+		"desc_completa":" De fácil manejo.\n Repuesto practico.\n Evita el desperdicio.\n Facilita la aplicación.",
+		"presentaciones":[""],
+		"images": ["borlapvc"],
+		"resname": "borlapvc",
+		"ficha_tecnica":"",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Generación 2000 Biodegradable",
+        "id": 11,
+		"idsubcategoria":2,
+		"desc":"Elimina la película de óxido y cobre. Al aplicarse al cobre empieza su función de limpieza. Evita la oxidación de la soldadura. Promueve la penetración uniforme de la soldadura.",
+		"desc_completa":"",
+		"presentaciones":["BOTE 60 grs, 100 grs. , 250 grs. Y 500 grs."],
+		"images": ["generacion2000"],
+		"resname": "generacion2000",
+		"ficha_tecnica":"",
+		"aplicaciones":[""],
+		"especificaciones":["Único fundente que ahorra tiempo al evitar el uso de la lija.","Economiza el consumo de soldadura.","No humea y no chispea.","No irrita los ojos.","Prepara la superficie metálica al instante.","Elaborado con químicos orgánicos por lo que la hace no tóxica.","De apariencia cremosa y color blanco nacarado.","Soluble al agua 100%","Excelente capacidad para eliminar óxidos y otras impurezas.","Caducidad de 1 año."],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Kits",
+        "id": 12,
+		"idsubcategoria":3,
+		"desc":"Ofrecemos kits armados para facilitar trabajos, con un soldado óptimo y garantizado.",
+		"desc_completa":"Ofrecemos kits armados para trabajos sencillos que no requieran de mucho producto, el Kit  cuenta con 60 grs de la mejor pasta para soldar que es la Generación 2000 con 100 grs de soldadura Monarca, disponible en sólida 50, media media y 95/5. La mejor combinación de producto para garantizar un buen trabajo y soldado óptimo.",
+		"presentaciones":[""],
+		"images": ["kits_detail"],
+		"resname": "kits_detail",
+		"ficha_tecnica":"",
+		"aplicaciones":[""],
+		"especificaciones":[""],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Monarca Sólida 50 Amarilla",
+        "id": 13,
+		"idsubcategoria":4,
+		"desc":"Especial para tubo y conexión de cobre tipo L (Alta presión).",
+		"desc_completa":"",
+		"presentaciones":["Carrete 1 lb, ½ lb, 1 mt, 11 lb , vitrolero y kit pasta."],
+		"images": ["monarca","monarca_1"],
+		"resname": "monarca",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/6d2b8cff5_archivo_producto.pdf",
+		"aplicaciones":["Agua fría.","Tubería Domestica en general.","Instalación de casas de interés social y residencias.","Inodoros"],
+		"especificaciones":["Especial para tubo y conexión de cobre tipo L (Alta Presión)","Alambre de 3 mm de diámetro.","Punto de fusión 183ºC - 215 ºC.","Facilita la penetración."],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Monarca Media media verde",
+        "id": 14,
+		"idsubcategoria":4,
+		"desc":"Especial para tubo y conexión de cobre tipo M.",
+		"desc_completa":"",
+		"presentaciones":["Carrete 1 libra, ½ Lb, 11 Lb., Blíster de 1 mt , Kit pasta , Vitrolero de 25 pzas. de soldadura de 30 cm mas 20 grs de pasta."],
+		"images": ["monarcaverde","monarcaverde_1"],
+		"resname": "monarcaverde",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/9a9064e21_archivo_producto.pdf",
+		"aplicaciones":["Agua Fría.","Tubería domestica en general.","Instalación de casas de interés social y residencias","Inodoros"],
+		"especificaciones":["Penetra al instante","Calidad Garantizada (25 años nos avalan)","Más económica","Alambre 3 mm de diámetro.","Punto de fusión 183ºC - 250 ºC.","Especial para tubo y conexión de cobre tipo M."],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Monarca 95/5 Roja libre de plomo",
+        "id": 15,
+		"idsubcategoria":4,
+		"desc":"Especial para tubo y conexión de cobre tipo L (Alta presión). Libre de Plomo.",
+		"desc_completa":"",
+		"presentaciones":["Carrete 1 Lb. ( 454 Grs.), ½ Lb., Blíster de 1 mt y Kit con pasta."],
+		"images": ["monarca95","monarca95_1"],
+		"resname": "monarca95",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/6977cf029_archivo_producto.pdf",
+		"aplicaciones":[""],
+		"especificaciones":["No contiene Plomo","Facilita la penetración.","Calidad Garantizada.","95% Estaño y 5% Antimonio.","Alambre de 3mm de diámetro.","Punto de fusión 232ºC - 240 ºC.","Especial para tubo y conexión de cobre tipo L (Alta presión)."],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Monarca Electrónica",
+        "id": 16,
+		"idsubcategoria":4,
+		"desc":"Especial para evitar la corrosión de componentes electrónicos.",
+		"desc_completa":"",
+		"presentaciones":["Carretes de 1 Lb., ½  Lb. y ¼ de Lb"],
+		"images": ["monarcaelec","monarcaelec_1"],
+		"resname": "monarcaelec",
+		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/cc39812a8_archivo_producto.pdf",
+		"aplicaciones":["Para uso electrónico","Reparación en General.","Uso industrial y escolar."],
+		"especificaciones":["Compuesta de 60% Estaño 40% Plomo.","Fabricada con metales de alta pureza.","Sirve para evitar la corrosión de componentes electrónicos.","Punto de Fusión 183ºC - 190 ºC."],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Monarca Centro ácido",
+        "id": 17,
+		"idsubcategoria":4,
+		"desc":"Soldadura universal para todo tipo de trabajo automotriz e industrial.",
+		"desc_completa":"",
+		"presentaciones":["Carrete de 1 Lb."],
+		"images": ["monarcaacido"],
+		"resname": "monarcaacido",
+		"ficha_tecnica":"",
+		"aplicaciones":["Tubería de cobre","Uso industrial y automotriz,  para uniones que contengan un alto grado de oxidación."],
+		"especificaciones":["Esta soldadura es altamente recomendable para uniones que presentan alto grado de oxidación o suciedad.","Punto de fusión 183ºC - 215 ºC.","Por tener su centro ácido no necesita pasta."],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "KWIKCUT",
+        "id": 18,
+		"idsubcategoria":5,
+		"desc":"Cortador para tubería plástica",
+		"desc_completa":"Especial para cortar: Tubo de PVC,  tubo de CPVC, Cuerda, Manguera para radiador, Tubo Conduit, tubo de Poliuretano y ramas.\n Corta manguera de 1/8\", a 1 ½\" (13mm-42mm)\n Corta tubería hasta de 1 ¼\" \n Repuesto de navaja por separado",
+		"presentaciones":[""],
+		"images": ["kwikcut"],
+		"resname": "kwikcut",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "Sierra manual para cortar tubería plástica",
+        "id": 19,
+		"idsubcategoria":5,
+		"desc":"Sierra para corte.",
+		"desc_completa":"Diseño ergonómico\n Uso Funcional\n Filosa segueta, manténgase fuera del alcance de los niños.\n Utilice protección en los ojos para evitar entrada de rebabas generadas en el corte.\n Al instalar la segueta asegúrese que este fijo el arco",
+		"presentaciones":[""],
+		"images": ["sierra"],
+		"resname": "sierra",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
 		}
 	},
 	
-	 
+	{
+	  "producto": {
+        "name": "CORTADOR DE TUBO –CUERDA SIERRA",
+        "id": 20,
+		"idsubcategoria":5,
+		"desc":"Cuerda sierra manual para cortar tubería plástica, madera, caucho y más.",
+		"desc_completa":"Corta en lugares donde no se tiene acceso con una sierra y corta en cualquier dirección.\n Cómoda empuñadura que le permite usar sus manos en lugar de solo sus dedos.\n Guárdelo en su caja de herramientas por cualquier situación.",
+		"presentaciones":[""],
+		"images": ["cuerdasierra"],
+		"resname": "cuerdasierra",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "LLAVE UNIVERSAL",
+        "id": 21,
+		"idsubcategoria":5,
+		"desc":"Práctica llave con alta adherencia que permite la extracción segura y rápida.",
+		"desc_completa":"Fácil de usar y resistente.\n 1. Deslice la correa por el orificio de la llave, enganche alrededor y hacia atrás por el orificio.\n 2. Cuando coloque alrededor del tubo que va a aflojar o apretar, solamente la correa debe estar en contacto con el mismo.\n 3. Cuando la coloque alrededor del tubo y coloque el extremo libre a lo largo del cuerpo de la llave debajo de su mano. \n 4. Levante la llave para que el extremo curvo presione contra la correa y la fije en su lugar permitiendo que gire la pieza.\n 5. Siempre utilice la llave de manera que el lado curvo vaya en dirección al giro.",
+		"presentaciones":[""],
+		"images": ["llaveuniversal"],
+		"resname": "llaveuniversal",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "ENCENDEDOR DE PIEDRA",
+        "id": 22,
+		"idsubcategoria":5,
+		"desc":"Crea una chispa para encender.",
+		"desc_completa":"Encendedor de chispa alimentado con gas, en su mayoría  propano y propileno.\n De uso fácil  y rápido:\n 1. Apriete la manija del encendedor hacia adentro \n 2. Repita la acción para crear la chispa",
+		"presentaciones":[""],
+		"images": ["encendedorpiedra"],
+		"resname": "encendedorpiedra",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "REPUESTO NAVAJA",
+        "id": 23,
+		"idsubcategoria":5,
+		"desc":"Retire el perno metálico de la tijera y los dos pernos plásticos que sujetan la navaja, retire con cuidado y coloque el repuesto.",
+		"desc_completa":"Retire el perno metálico de la tijera y los dos pernos Plásticos que sujetan la navaja, retire con cuidado y coloque el repuesto.\n\n Precaución:\n La navaja es muy filosa, mantenga fuera del alcance de los niños.",
+		"presentaciones":[""],
+		"images": ["repuestonavaja"],
+		"resname": "repuestonavaja",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[]
+		}
+	},
+	{
+	  "producto": {
+        "name": "ALEX",
+        "id": 24,
+		"idsubcategoria":6,
+		"desc":"Sellador de látex acrílico multiuso para uniones y grietas con movimiento mínimo. Se aplica suave y fácilmente.",
+		"desc_completa":"Sellador de látex acrílico multiusos para juntas y grietas con movimiento mínimo. Se aplica suave y fácilmente. Puede pintarse con pinturas base agua o esmalte. Resistente a las grietas y a la pulverización de la pintura.",
+		"presentaciones":[""],
+		"images": ["alex"],
+		"resname": "alex",
+		"ficha_tecnica":"",
+		"aplicaciones":["Emboquillado","Marcos de puertas y ventanas","Zoclos","Molduras","Pequeñas gritas","Uniones de esquina"],
+		"especificaciones":["Cumple con la especificación ASTM C 834","Rango de temperatura para la aplicación: 4ªC a 38ªC","Tiempo de secado al tacto: 30 minutos","Durabilidad de 25 años"],
+		"caracteristicas":["Para uso interiores y exteriores","Flexible","Pintable","Se limpia fácilmente con agua antes de secarse"],
+		"colors":[],
+		"adhieres":["Madera","Ladrillo","Concreto","Metal","Tablaroca/tablayeso","Superficies pintadas."]
+		}
+	},
+	
+	{
+	  "producto": {
+        "name": "ALEX PLUS",
+        "id": 25,
+		"idsubcategoria":6,
+		"desc":"Sellador de látex acrílico siliconizado multiuso para uniones y grietas con movimiento moderado.",
+		"desc_completa":"Sellador de látex acrílico siliconizado multiuso para uniones y grietas con movimiento moderado. Los aditivos de silicón brindan mejor adhesión y flexibilidad proporcionando un sello duradero. Tiene una gran capacidad de soportar tanto pintura látex como de aceite. Evita la filtración del aire y la humedad a través de las grietas y uniones. Se aplica suave y fácilmente.",
+		"presentaciones":[""],
+		"images": ["alexplus"],
+		"resname": "alexplus",
+		"ficha_tecnica":"",
+		"aplicaciones":["Marcos de puertas y ventanas","Zoclos","Molduras","Uniones de esquina","Paneles de revestimiento lateral","Tubos","Respiraderos"],
+		"especificaciones":["Excede la especificación ASTM C 834","Rango de temperatura para la aplicación: 4°C a 38 °C","Tiempo de secado al tacto: 30 minutos","Durabilidad de 35 años"],
+		"caracteristicas":["Para uso en interiores o exteriores","Resistente al moho y los hongos","Sello impermeable","Flexibilidad excelente","Pintable","Se limpia fácilmente con agua antes de secarse","Se adhiere a la mayoría de las superficies porosas y lisa"],
+		"colors":["Blanco","Gris","Almendra","Negro","Cedro","Café"],
+		"adhieres":["Madera","Ladrillo","Concreto","Metal","Tablaroca/panel de yeso","Superficies pintadas","Yeso"]
+		}
+	},
+	
+	
   ]
 }

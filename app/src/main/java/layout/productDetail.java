@@ -1,6 +1,7 @@
 package layout;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -25,6 +26,11 @@ import com.datalabor.soporte.mexar.custom.banner_image_class;
 import com.datalabor.soporte.mexar.custom.product_image_class;
 import com.datalabor.soporte.mexar.models.Presentation;
 import com.datalabor.soporte.mexar.models.Product;
+import com.datalabor.soporte.mexar.models.Product_Adhiere;
+import com.datalabor.soporte.mexar.models.Product_Aplication;
+import com.datalabor.soporte.mexar.models.Product_Characteristic;
+import com.datalabor.soporte.mexar.models.Product_Color;
+import com.datalabor.soporte.mexar.models.Product_Especification;
 import com.datalabor.soporte.mexar.models.Product_Image;
 
 import org.json.JSONArray;
@@ -66,6 +72,19 @@ public class productDetail extends Fragment {
     private TextView title;
     private TextView desc;
     private TextView presentations;
+    private TextView presentation;
+    private TextView aplication;
+    private TextView aplications;
+    private TextView especification;
+    private TextView especifications;
+    private TextView caracteristica;
+    private TextView caracteristicas;
+    private TextView adhiere;
+    private TextView adhieres;
+    private TextView color;
+    private TextView colors;
+
+
     private MyPageAdapter myPageAdapter;
     private ViewPager mPager;
     private Button ficha;
@@ -117,7 +136,11 @@ public class productDetail extends Fragment {
         JSONObject producto;
         JSONArray presentaciones;
         JSONArray images;
-
+        JSONArray aplicaciones;
+        JSONArray especificaciones;
+        JSONArray caracteristicas;
+        JSONArray adhieres;
+        JSONArray colors;
 
 
         ///////////////
@@ -132,6 +155,7 @@ public class productDetail extends Fragment {
                 String resname = producto.getString("resname");
                 String desc = producto.getString("desc");
                 String desc_completa = producto.getString("desc_completa");
+                String ficha_tecnica = producto.getString("ficha_tecnica");
 
                 int id = producto.getInt("id");
 
@@ -143,6 +167,7 @@ public class productDetail extends Fragment {
                     newProduct.setId(id);
                     newProduct.setDescription(desc);
                     newProduct.set_desc_complete(desc_completa);
+                    newProduct.set_ficha_tecnica(ficha_tecnica);
 
                     int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
@@ -151,16 +176,53 @@ public class productDetail extends Fragment {
 
                     presentaciones = producto.getJSONArray("presentaciones");
                     images = producto.getJSONArray("images");
+                    aplicaciones = producto.getJSONArray("aplicaciones");
+                    especificaciones = producto.getJSONArray("especificaciones");
+                    caracteristicas = producto.getJSONArray("caracteristicas");
+                    adhieres = producto.getJSONArray("adhieres");
+                    colors = producto.getJSONArray("colors");
+
 
                     ArrayList<Presentation> presentations = new ArrayList<>();
                     ArrayList<Product_Image> product_images = new ArrayList<>();
+                    ArrayList<Product_Aplication> product_aplications = new ArrayList<>();
+                    ArrayList<Product_Especification> product_especifications = new ArrayList<>();
+                    ArrayList<Product_Characteristic> product_characteristics = new ArrayList<>();
+                    ArrayList<Product_Adhiere> product_adhieres = new ArrayList<>();
+                    ArrayList<Product_Color> product_colors = new ArrayList<>();
+
+                    for (int j = 0; j < colors.length(); j++)
+                    {
+                        String dato = colors.getString(j);
+                        Product_Color newChar = new Product_Color();
+                        newChar.set_color(dato);
+                        product_colors.add(newChar);
+                    }
+
+
+                    for (int j = 0; j < adhieres.length(); j++)
+                    {
+                        String dato = adhieres.getString(j);
+                        Product_Adhiere newChar = new Product_Adhiere();
+                        newChar.set_adhiere(dato);
+                        product_adhieres.add(newChar);
+                    }
+
+                    for (int j = 0; j < caracteristicas.length(); j++)
+                    {
+                        String dato = caracteristicas.getString(j);
+                        Product_Characteristic newChar = new Product_Characteristic();
+                        newChar.set_characteristic(dato);
+                        product_characteristics.add(newChar);
+
+                    }
 
 
                     for (int j = 0; j < presentaciones.length(); j++)
                     {
                     String presentacion = presentaciones.getString(j);
                         Presentation curPresentation = new Presentation();
-                        curPresentation.setPresentation(presentacion.toString());
+                        curPresentation.setPresentation(presentacion);
                         presentations.add(curPresentation);
 
                     }
@@ -174,10 +236,31 @@ public class productDetail extends Fragment {
 
                     }
 
+                    for (int j=0 ; j < aplicaciones.length(); j++)
+                    {
+                        String curAplication = aplicaciones.getString(j);
+                        Product_Aplication product_aplication = new Product_Aplication();
+                        product_aplication.set_aplication(curAplication);
+                        product_aplications.add(product_aplication);
+                    }
+
+                    for (int j=0 ; j < especificaciones.length(); j++)
+                    {
+                        String curEspecificacion = especificaciones.getString(j);
+                        Product_Especification product_especification = new Product_Especification();
+                        product_especification.set_especification(curEspecificacion);
+                        product_especifications.add(product_especification);
+                    }
 
 
                     newProduct.set_presentations(presentations);
                     newProduct.setProduct_images(product_images);
+                    newProduct.setProduct_aplications(product_aplications);
+                    newProduct.setProduct_especifications(product_especifications);
+                    newProduct.setProduct_characteristics(product_characteristics);
+                    newProduct.setProduct_adhieres(product_adhieres);
+                    newProduct.setProduct_colors(product_colors);
+
                     curProduct = newProduct;
 
                 }
@@ -209,15 +292,35 @@ public class productDetail extends Fragment {
        // _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler2);
         title = (TextView) _view.findViewById(R.id.ProductDetailTitle);
         desc = (TextView) _view.findViewById(R.id.ProductDetailDescription);
+
         presentations = (TextView) _view.findViewById(R.id.ProductDetailPresentations);
+        presentation = (TextView) _view.findViewById(R.id.ProductDetailPresentation);
+
+        aplications = (TextView) _view.findViewById(R.id.ProductDetailAplications);
+        aplication = (TextView) _view.findViewById(R.id.ProductDetailAplication);
+
+        especifications = (TextView) _view.findViewById(R.id.ProductDetailEspecifications);
+        especification = (TextView) _view.findViewById(R.id.ProductDetailEspecification);
+
+        adhieres = (TextView) _view.findViewById(R.id.ProductDetailAdhieres);
+        adhiere = (TextView) _view.findViewById(R.id.ProductDetailAdhiere);
+
+        caracteristicas = (TextView) _view.findViewById(R.id.ProductDetailCarecteristicas);
+        caracteristica = (TextView) _view.findViewById(R.id.ProductDetailCarecteristica);
+
+        colors = (TextView) _view.findViewById(R.id.ProductDetailColors);
+        color = (TextView) _view.findViewById(R.id.ProductDetailColor);
+
         ficha = (Button) _view.findViewById(R.id.ProductDetailFicha);
         mPager = (ViewPager) _view.findViewById(R.id.productDetailViewPager);
 
         if (this.curProduct == null) return null;
 
         title.setText(this.curProduct.getName());
-        desc.setText(this.curProduct.get_desc_complete());
-
+        if (this.curProduct.get_desc_complete().length()>1) {
+            desc.setText(this.curProduct.get_desc_complete());
+        }
+            // Presentaciones
 
         StringBuilder presentaciones= new StringBuilder();
 
@@ -230,13 +333,127 @@ public class productDetail extends Fragment {
 
         presentations.setText(presentaciones.toString());
 
+        int numPresentations = presentaciones.toString().length();
+        if (numPresentations <= 1)
+        {
+            presentation.setVisibility(View.GONE);
+            presentations.setVisibility(View.GONE);
+        }
+
+
+        // Aplicaciones
+
+        StringBuilder aplicaciones = new StringBuilder();
+
+        for (Product_Aplication curAplication: curProduct.getProduct_aplications())
+        {
+            aplicaciones.append(curAplication.get_aplication());
+            aplicaciones.append(System.getProperty("line.separator"));
+        }
+
+        aplications.setText(aplicaciones.toString());
+
+        int numAplications = aplicaciones.toString().length();
+        if (numAplications <=1 )
+        {
+            aplication.setVisibility(View.GONE);
+            aplications.setVisibility(View.GONE);
+        }
+
+        // Especificaciones
+
+        StringBuilder especificaciones = new StringBuilder();
+
+        for (Product_Especification curEspecification: curProduct.getProduct_especifications())
+        {
+            especificaciones.append(curEspecification.get_especification());
+            especificaciones.append(System.getProperty("line.separator"));
+        }
+
+        especifications.setText(especificaciones.toString());
+
+        int numEspecifications = especificaciones.toString().length();
+        if (numEspecifications <=1 )
+        {
+            especification.setVisibility(View.GONE);
+            especifications.setVisibility(View.GONE);
+        }
+
+        // Caracteristicas y beneficios
+
+        StringBuilder beneficios = new StringBuilder();
+
+        for (Product_Characteristic curEspecification: curProduct.getProduct_characteristics())
+        {
+            beneficios.append(curEspecification.get_characteristic());
+            beneficios.append(System.getProperty("line.separator"));
+        }
+
+        caracteristicas.setText(beneficios.toString());
+
+        int numCaracteristicas = beneficios.toString().length();
+        if (numCaracteristicas <=1 )
+        {
+            caracteristica.setVisibility(View.GONE);
+            caracteristicas.setVisibility(View.GONE);
+        }
+
+        // Adhieres a
+
+
+        StringBuilder adhiers = new StringBuilder();
+
+        for (Product_Adhiere curEspecification: curProduct.getProduct_adhieres())
+        {
+            adhiers.append(curEspecification.get_adhiere());
+            adhiers.append(System.getProperty("line.separator"));
+        }
+
+        adhieres.setText(adhiers.toString());
+
+        int numAdhieres = adhiers.toString().length();
+        if (numAdhieres <1 )
+        {
+            adhiere.setVisibility(View.GONE);
+            adhieres.setVisibility(View.GONE);
+        }
+
+        /// Colores
+
+        StringBuilder colores = new StringBuilder();
+
+        for (Product_Color curColor: curProduct.getProduct_colors())
+        {
+            colores.append(curColor.get_color());
+            colores.append(System.getProperty("line.separator"));
+        }
+
+        colors.setText(colores.toString());
+
+        int numColors = colores.toString().length();
+        if (numColors <1 )
+        {
+            colors.setVisibility(View.GONE);
+            color.setVisibility(View.GONE);
+        }
+
+
+
         ficha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Log.d(TAG,"clicked");
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(curProduct.get_ficha_tecnica()));
+                startActivity(browserIntent);
+
             }
         });
+
+        if (curProduct.get_ficha_tecnica().length() == 0)
+        {
+            ficha.setVisibility(View.GONE);
+        }
 
         _linearLayoutManager = new LinearLayoutManager( getActivity() );
 
