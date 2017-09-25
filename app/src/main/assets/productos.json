@@ -433,7 +433,6 @@
 		"adhieres":["Madera","Ladrillo","Concreto","Metal","Tablaroca/tablayeso","Superficies pintadas."]
 		}
 	},
-	
 	{
 	  "producto": {
         "name": "ALEX PLUS",
@@ -450,6 +449,98 @@
 		"caracteristicas":["Para uso en interiores o exteriores","Resistente al moho y los hongos","Sello impermeable","Flexibilidad excelente","Pintable","Se limpia fácilmente con agua antes de secarse","Se adhiere a la mayoría de las superficies porosas y lisa"],
 		"colors":["Blanco","Gris","Almendra","Negro","Cedro","Café"],
 		"adhieres":["Madera","Ladrillo","Concreto","Metal","Tablaroca/panel de yeso","Superficies pintadas","Yeso"]
+		}
+	},
+	{
+	  "producto": {
+        "name": "SILICON MULTIUSOS",
+        "id": 26,
+		"idsubcategoria":6,
+		"desc":"Brinda un sello duradero e impermeable en una amplia variedad de aplicaciones de interior y exterior.",
+		"desc_completa":"Brinda un sello duradero e impermeable en una amplia variedad de aplicaciones de interiores y exteriores. Evita la filtración del aire y la humedad a través de las gritas y uniones.",
+		"presentaciones":[""],
+		"images": ["silicon_multiusos"],
+		"resname": "silicon_multiusos",
+		"ficha_tecnica":"",
+		"aplicaciones":["Marcos de puertas y ventanas","Paneles de revestimiento lateral","Tubos","Conductos","Canaletas","Respiraderos"],
+		"especificaciones":["Rango de temperatura para la aplicación: 37°C a 60°C","Tiempo de secado al tacto: 20 minutos","Cumple con la especificación ASTM C90 C719"],
+		"caracteristicas":["Para uso de interiores o exteriores","Sello impermeable","Flexibilidad permanente","Buena adhesión a las superficies lisas con lisas","Resistente al moho y los hongos"],
+		"colors":["presentación de 290 ml : transparente, blanco y negro.","presentación de 82.8 ml: blanco y transparente"],
+		"adhieres":["Vidrio","Cerámica","Porcelana","Fibra de vidrio","Maderas no aceitosas","La mayoría de los metales","La mayoría de los plásticos"]
+		}
+	},
+	{
+	  "producto": {
+        "name": "KWIK SEAL",
+        "id": 27,
+		"idsubcategoria":6,
+		"desc":"Sellador adhesivo de látex fácil de utilizar especialmente formulado para proporcionar un sello duradero y hermético para aplicaciones en cocinas y baños.",
+		"desc_completa":"Sellador adhesivo  de látex fácil de utilizar especialmente formulado para proporcionar un sello duradero y hermético para aplicaciones en cocinas y baños. Une como pegamento y sella de manera excelente. Contiene fungicida. El sellador es resistente al moho y los hongos. Se aplica fácilmente. Tiene excelente adhesión a una gran variedad de sustratos.",
+		"presentaciones":[""],
+		"images": ["kwik_seal"],
+		"resname": "kwik_seal",
+		"ficha_tecnica":"",
+		"aplicaciones":["Bañeras","Duchas","Lavamanos/Fregaderos","Cubiertas prefabricadas","Protectores contra salpicaduras","Instalaciones fijas","Inodoros","Pegado de azulejos sueltos"],
+		"especificaciones":["Rango de temperatura para la aplicación: 4°C a 38°C","Tiempo de secado al tacto: 15 minutos"],
+		"caracteristicas":["Resistente al moho y los hongos","Sello impermeable","Pintable","Se limpia fácilmente con agua antes de secarse","Poco olor"],
+		"colors":["Blanco y transparente, presentación de 162 ml."],
+		"adhieres":["Cerámica","Vidrio","Porcelana","Fibra de vidrio","Madera","Metal","Tablaroca/panel de yeso"]
+		}
+	},
+	{
+	  "producto": {
+        "name": "KWIK FOAM",
+        "id": 28,
+		"idsubcategoria":6,
+		"desc":"Espuma aislante de poliuretano de un solo componente que cura la humedad y se expande para rellenar, sellar y aislar económicamente huecos y grietas grandes.",
+		"desc_completa":"Espuma aislante de poliuretano de un solo componente que cura con la humedad del medio ambiente y se expande para rellenar, sellar y aislar huecos y grietas grandes. Detiene el aire y la penetración de las plagas. No se degrada ni se encoge. Contiene retardante de flama. Impermeable. Una vez seca, se puede cortar, lijar y pintar.",
+		"presentaciones":[""],
+		"images": ["kwik_foam","kwik_foam1"],
+		"resname": "kwik_foam",
+		"ficha_tecnica":"",
+		"aplicaciones":["Para rellenar separaciones grandes y grietas alrededor de:","Tubos","Conductos","Respiraderas","Tomacorrientes","Cimientos","Pareces","Espacios debajo del piso","Marcos de puertas y ventanas"],
+		"especificaciones":["Rango de temperatura para la aplicación (óptimo): 18°C a 27°C","Tiempo de secado al tacto: 5 minutos"],
+		"caracteristicas":["Para rellenar, sellar y aislar","Sella contra la entrada de aire, humedad, ruidos, roedores e insectos","Evita la pérdida de energía","Impermeable Pintable"],
+		"colors":[],
+		"adhieres":["Madera","Concreto","Ladrillo","Acero","Aluminio","Vinilica","Y otros materiales de construcción"]
+		}
+	},
+	{
+	  "producto": {
+        "name": "BEATS THE NAIL",
+        "id": 29,
+		"idsubcategoria":6,
+		"desc":"Adhesivo multiuso para construcción",
+		"desc_completa":"Para construcción en general, remodelaciones, mantenimiento y reparaciones. Brinda una unión permanente y resistente en una gran variedad de materiales de construcción. Se aplica fácilmente. Se requieren menos clavos o sujetadores.",
+		"presentaciones":["305 ml color Gris","103.5 ml color Transparente"],
+		"images": ["beats_the_nail","beats_the_nail_1"],
+		"resname": "beats_the_nail",
+		"ficha_tecnica":"",
+		"aplicaciones":["Ensanbles de madera a madera","Juntas de metal a madera","Madera y madera tratada","Páneles preacabados","Instalaciones de baños"],
+		"especificaciones":["Cumple con la especificación ASTM C 557","Rango de temperatura para la aplicación: 4°C a 49°C","Tiempo de secado: 10 minutos"],
+		"caracteristicas":["Para uso en interiores o exteriores","Alta resistencia, unión permanente","Resistente al calor y al agua","Fórmula de agarre rápido","Adecuada para la mayoria de las aplicaciones incluso no porosas a no porosas"],
+		"colors":[],
+		"adhieres":["Metal","Ladrillo","Yeso","Mampostería","Concreto","Tablaroca/panel de yeso","Cerámica","Madera contrachapada","Tableros de pastilla","Páneles de aglomerado","Tableros de fibra","Tableros de corcho","Piedra","Marmol","Azulejos"]
+		}
+	},
+	{
+	  "producto": {
+        "name": "STRONG STIK",
+        "id": 30,
+		"idsubcategoria":6,
+		"desc":"Adhesivo de montaje de agarre instantáneo",
+		"desc_completa":"Adhesivo resistente a base de látex que sostiene los materiales de inmediato en su lugar y es reposicionable hasta por 10 minutos. Proporciona una unión fuerte y permanente que es ideal para unir una gran variedad de materiales de construcción. Forma una unión que es resistente al calor y al agua. Poco olor.",
+		"presentaciones":["305 ml color Gris","103.5 ml color Transparente"],
+		"images": ["strong_kit"],
+		"resname": "strong_kit",
+		"ficha_tecnica":"",
+		"aplicaciones":["Ensambles de madera a madera","Juntas de metal a madera","Madera y madera tratada","Umbrales","Paneles previamente acabados","Instalaciones de baños"],
+		"especificaciones":["Cumple con la especificación ASTM C557","Rango de temperatura para la aplicación: 10°C a 38°C","Tiempo para reubicar: 10 minutos"],
+		"caracteristicas":["Para uso en interiores o exteriores","El fuerte agarre inicial sostiene los materiales en su lugar de inmediato","Unión permanente","resistente al calor y al agua","Poco olor","Se limpia fácilmente con agua antes de secarse"],
+		"colors":[],
+		"adhieres":["Ladrillo","Concreto","Mampostería","Madera","Yeso","Cerámica","Vidrio","Metal","Aluminio","Moldura poliestireno"],
+		"Nota":"no une espejos; una superficie deberá ser porosa."
+		
 		}
 	},
 	
