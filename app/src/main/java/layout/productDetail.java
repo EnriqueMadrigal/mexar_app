@@ -35,6 +35,7 @@ import com.datalabor.soporte.mexar.models.Product_Image;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -83,6 +84,7 @@ public class productDetail extends Fragment {
     private TextView adhieres;
     private TextView color;
     private TextView colors;
+    private TextView nota;
 
 
     private MyPageAdapter myPageAdapter;
@@ -156,6 +158,7 @@ public class productDetail extends Fragment {
                 String desc = producto.getString("desc");
                 String desc_completa = producto.getString("desc_completa");
                 String ficha_tecnica = producto.getString("ficha_tecnica");
+                String nota = producto.getString("nota");
 
                 int id = producto.getInt("id");
 
@@ -168,6 +171,7 @@ public class productDetail extends Fragment {
                     newProduct.setDescription(desc);
                     newProduct.set_desc_complete(desc_completa);
                     newProduct.set_ficha_tecnica(ficha_tecnica);
+                    newProduct.set_nota(nota);
 
                     int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
@@ -272,7 +276,7 @@ public class productDetail extends Fragment {
 
         catch (Exception e)
         {
-            Log.d(TAG,"Can not read json file categories");
+            Log.d(TAG,"Can not read json file products");
             //return null;
 
         }
@@ -314,13 +318,29 @@ public class productDetail extends Fragment {
         ficha = (Button) _view.findViewById(R.id.ProductDetailFicha);
         mPager = (ViewPager) _view.findViewById(R.id.productDetailViewPager);
 
+        nota = (TextView) _view.findViewById(R.id.ProductDetailnota);
+
         if (this.curProduct == null) return null;
 
         title.setText(this.curProduct.getName());
         if (this.curProduct.get_desc_complete().length()>1) {
             desc.setText(this.curProduct.get_desc_complete());
         }
-            // Presentaciones
+
+        // Nota
+        String curNote = this.curProduct.get_nota();
+
+        if (curNote.length()>1)
+        {
+            nota.setText("Nota: " + curNote);
+
+        }
+
+        else {
+            nota.setVisibility(View.GONE);
+        }
+
+        // Presentaciones
 
         StringBuilder presentaciones= new StringBuilder();
 

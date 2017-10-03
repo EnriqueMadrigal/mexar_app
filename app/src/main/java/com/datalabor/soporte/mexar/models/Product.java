@@ -15,6 +15,7 @@ public class Product implements Serializable
     private String _description;
     private String _desc_complete;
     private String _ficha_tecnica;
+    private String _nota;
 
     private ArrayList<Presentation> _presentations;
     private ArrayList<Product_Image> product_images;
@@ -130,4 +131,11 @@ public class Product implements Serializable
     public void setDescription(String desc) {_description = desc;}
     public String getDescription() {return _description;}
 
+    public String get_nota() {
+        return _nota;
+    }
+
+    public void set_nota(String _nota) {
+        this._nota = _nota;
+    }
 }

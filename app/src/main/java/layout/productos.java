@@ -116,7 +116,7 @@ public class productos extends Fragment {
                 newProduct.set_desc_complete(desc_completa);
 
                 int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
-
+                Log.d(TAG,newProduct.getName());
                 newProduct.setResId(resid);
                 if (subcategoryid == curSubCategory) {  // Solo Añadir las categorias seleccionadas
                     _products.add(newProduct);
