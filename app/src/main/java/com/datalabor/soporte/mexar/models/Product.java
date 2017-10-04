@@ -24,6 +24,9 @@ public class Product implements Serializable
     private ArrayList<Product_Characteristic> product_characteristics;
     private ArrayList<Product_Adhiere> product_adhieres;
     private ArrayList<Product_Color> product_colors;
+    private ArrayList<String> product_usages;
+    private ArrayList<String> product_advantages;
+
 
     public ArrayList<Product_Color> getProduct_colors() {
         return product_colors;
@@ -97,8 +100,21 @@ public class Product implements Serializable
         this._desc_complete = _desc_complete;
     }
 
+    public ArrayList<String> getProduct_usages() {
+        return product_usages;
+    }
 
+    public void setProduct_usages(ArrayList<String> product_usages) {
+        this.product_usages = product_usages;
+    }
 
+    public ArrayList<String> getProduct_advantages() {
+        return product_advantages;
+    }
+
+    public void setProduct_advantages(ArrayList<String> product_advantages) {
+        this.product_advantages = product_advantages;
+    }
 
     public Product()
     {

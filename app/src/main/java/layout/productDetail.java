@@ -85,6 +85,10 @@ public class productDetail extends Fragment {
     private TextView color;
     private TextView colors;
     private TextView nota;
+    private TextView uso;
+    private TextView ventaja;
+    private TextView usos;
+    private TextView ventajas;
 
 
     private MyPageAdapter myPageAdapter;
@@ -143,6 +147,8 @@ public class productDetail extends Fragment {
         JSONArray caracteristicas;
         JSONArray adhieres;
         JSONArray colors;
+        JSONArray uses;
+        JSONArray advantanges;
 
 
         ///////////////
@@ -185,6 +191,9 @@ public class productDetail extends Fragment {
                     caracteristicas = producto.getJSONArray("caracteristicas");
                     adhieres = producto.getJSONArray("adhieres");
                     colors = producto.getJSONArray("colors");
+                    uses = producto.getJSONArray("usos");
+                    advantanges = producto.getJSONArray("ventajas");
+
 
 
                     ArrayList<Presentation> presentations = new ArrayList<>();
@@ -194,6 +203,9 @@ public class productDetail extends Fragment {
                     ArrayList<Product_Characteristic> product_characteristics = new ArrayList<>();
                     ArrayList<Product_Adhiere> product_adhieres = new ArrayList<>();
                     ArrayList<Product_Color> product_colors = new ArrayList<>();
+                    ArrayList<String> product_advantages = new ArrayList<>();
+                    ArrayList<String> product_uses = new ArrayList<>();
+
 
                     for (int j = 0; j < colors.length(); j++)
                     {
@@ -256,6 +268,19 @@ public class productDetail extends Fragment {
                         product_especifications.add(product_especification);
                     }
 
+                    for (int j=0 ; j < uses.length(); j++)
+                    {
+                        String curUse = uses.getString(j);
+                        product_advantages.add(curUse);
+                    }
+
+
+                    for (int j=0 ; j < advantanges.length(); j++)
+                    {
+                        String curAdvantage = advantanges.getString(j);
+                        product_advantages.add(curAdvantage);
+                    }
+
 
                     newProduct.set_presentations(presentations);
                     newProduct.setProduct_images(product_images);
@@ -264,6 +289,8 @@ public class productDetail extends Fragment {
                     newProduct.setProduct_characteristics(product_characteristics);
                     newProduct.setProduct_adhieres(product_adhieres);
                     newProduct.setProduct_colors(product_colors);
+                    newProduct.setProduct_advantages(product_advantages);
+                    newProduct.setProduct_usages(product_uses);
 
                     curProduct = newProduct;
 
@@ -314,6 +341,12 @@ public class productDetail extends Fragment {
 
         colors = (TextView) _view.findViewById(R.id.ProductDetailColors);
         color = (TextView) _view.findViewById(R.id.ProductDetailColor);
+
+        uso = (TextView) _view.findViewById(R.id.ProductDetailUsage);
+        usos = (TextView) _view.findViewById(R.id.ProductDetailUsages);
+
+        ventaja = (TextView) _view.findViewById(R.id.ProductDetailAdvantage);
+        ventajas = (TextView) _view.findViewById(R.id.ProductDetailAdvantages);
 
         ficha = (Button) _view.findViewById(R.id.ProductDetailFicha);
         mPager = (ViewPager) _view.findViewById(R.id.productDetailViewPager);
@@ -457,6 +490,43 @@ public class productDetail extends Fragment {
             color.setVisibility(View.GONE);
         }
 
+   //////  Usos
+
+        StringBuilder p_usos = new StringBuilder();
+
+        for (String curUsage: curProduct.getProduct_usages())
+        {
+            p_usos.append(curUsage);
+            p_usos.append(System.getProperty("line.separator"));
+        }
+
+        usos.setText(p_usos.toString());
+
+        int numUsages = p_usos.toString().length();
+        if (numUsages <1 )
+        {
+            uso.setVisibility(View.GONE);
+            usos.setVisibility(View.GONE);
+        }
+
+        //////  Ventajas
+
+        StringBuilder p_ventajas = new StringBuilder();
+
+        for (String curUsage: curProduct.getProduct_usages())
+        {
+            p_ventajas.append(curUsage);
+            p_ventajas.append(System.getProperty("line.separator"));
+        }
+
+        ventajas.setText(p_ventajas.toString());
+
+        int numVentajas = p_ventajas.toString().length();
+        if (numVentajas <1 )
+        {
+            ventaja.setVisibility(View.GONE);
+            ventajas.setVisibility(View.GONE);
+        }
 
 
         ficha.setOnClickListener(new View.OnClickListener() {
