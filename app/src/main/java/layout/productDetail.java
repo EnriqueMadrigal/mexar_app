@@ -513,7 +513,7 @@ public class productDetail extends Fragment {
 
         StringBuilder p_ventajas = new StringBuilder();
 
-        for (String curUsage: curProduct.getProduct_usages())
+        for (String curUsage: curProduct.getProduct_advantages())
         {
             p_ventajas.append(curUsage);
             p_ventajas.append(System.getProperty("line.separator"));

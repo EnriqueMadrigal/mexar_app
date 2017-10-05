@@ -1197,12 +1197,430 @@
 		"usos":[],
 		"nota":""
 		}
+	},
+	{
+	  "producto": {
+        "name": "P715",
+        "id": 58,
+		"idsubcategoria":10,
+		"desc":"El P715 combina un diseño de servicio pesado marco con las velocidades de operación de alta precisión y la colocación de la correa de muchas de las máquinas más nuevas. Cuenta con varios diseños probados que hacen que sea la máquina más fácil de operar en su clase.",
+		"desc_completa":"El panel de control del operador se encuentra en la superficie de la mesa de la máquina para facilitar el acceso. Un display de diagnóstico supervisa el sistema de accionamiento eléctrico para las soluciones inmediatas que surja un problema.\n \nEl tres sello del motor de diseño del motor proporciona un alto nivel de rendimiento mientras que reduce considerablemente el número de partes móviles en comparación con otras máquinas. El diseño probado asegura precisas colocaciones correa paralelas a alta velocidad.\n\nEl P715 dispone de un dispensador de montaje exterior para una carga rápida correa de auto. El dispensador se puede ajustar para trabajar con bobinas de 8x8 o bobinas 9x8. La máquina se puede configurar para operar con 5 mm, 6 mm (1/4 \"), 3/8\" ó ½ \"de polipropileno de grado flejadora.",
+		"presentaciones":[],
+		"images": ["p715"],
+		"resname": "p715",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+	{
+	  "producto": {
+        "name": "Maquina Zunchadora sin Marco P100",
+        "id": 59,
+		"idsubcategoria":10,
+		"desc":"La máquina zunchadora sin marco P100 es la máquina zunchadora más versátil y económica de Mexar.",
+		"desc_completa":"Completamente portátil y muy compacta, esta máquina de estilo sobre mesa requiere sólo de seis pies de espacio de piso, sin embargo puede zunchar virtualmente cualquier forma o tamaño de paquete o bulto que pueda ponerse sobre la máquina. La P100 está hecha para manejar una amplia variedad de aplicaciones de embalaje incluyendo cartones corrugados, madera, tubos de metal y plástico, papel así como paquetes de materiales suaves o frágiles. Es especialmente productiva para aplicaciones de poco volumen sin sacrificar eficiencia y confiabilidad. La P100 aplicara tensión, sellara a calor, cortará el fleje y pre alimentará fleje para el siguiente ciclo en forma automática. La P100, Máquina Zunchadora sin marco, Versátil y Económica!\n\nLa P100 es una máquina sin marco de alimentación automática, completamente portátil que está hecha para aplicaciones de bajo volumen. El operador ubica el paquete sobre la máquina usando las guías simples pero precisamente ajustables. La alimentación del fleje puede ser ajustada para que en forma consistente pre alimente la longitud deseada de fleje. Un jalón simple del extremo del fleje soltará fleje adicional para el caso de un paquete más grande. El fleje se coloca alrededor del paquete y es insertado dentro de la cabeza sunchadora. La P100 hace el resto.\n\nLa tensión del fleje en la P100 es ajustable en forma sencilla hasta 150 libras (667N). La operación de zunchado permite la aplicación de hasta 16 flejes de polipropileno por minuto. En adición, cambio rápido de un tamaño de fleje (1/4\" (6mm).",
+		"presentaciones":[],
+		"images": ["p100"],
+		"resname": "p100",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+	{
+	  "producto": {
+        "name": "A335 Máquina flejadora de acero",
+        "id": 60,
+		"idsubcategoria":11,
+		"desc":"Ultraflex Fleje de alta resistencia máx.",
+		"desc_completa":"",
+		"presentaciones":[],
+		"images": ["a335"],
+		"resname": "a335",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":["Máquina flejadora combinada de funcionamiento manual ligera, para el flejado de paquetes planos ( p.e. palets, balas, cajas, otros paquetes)","Permite un manejo muy fácil y eficiente y supera a otras máquinas flejadoras por su robustez y su gran fiabilidad","La unión por entalladura reduce los costes del flejado en aprox. un 10 % debido a la eliminación de los enlazadores","gracias a su peso de tan solo 3.9 Kgs, es muy recomendable para aplicaciones horizontales. La consistencia de la unión por entalladura es muy alta y por norma general es superior que la unión conseguida mediante el uso del enlazador","Medidas del fleje: Anchos 12.7 - 19.0 mm.","Espesores 0.50 - 0.58 mm.","Pesos 3.9 Kgs versión normal 4.3 Kgs. versión TW","Resistencia media de la entalladura aprox. 80 %","Versión TW sistema de tensión con llave dinamométrica","Suspensión (Opcional) El Perno y la bola de agarre para aplicaciones horizontales se deben pedir por separado","El gancho de suspensión para aplicaciones verticales se debe pedir por separado Máquina"],
+		"usos":[],
+		"nota":""
+		}
+	},
+	{
+	  "producto": {
+        "name": "P403 404 Herramientas Manuales para fleje Plástico",
+        "id": 61,
+		"idsubcategoria":11,
+		"desc":"La herramienta manual modelo P403 robusta y versátil para fleje plástico está diseñada para un eficiente sunchado de cajas, paletas pacas y cajones con fleje de poliéster o polipropileno. Esta herramienta ligera usa un sello metálico para proveer una alta eficiencia en la unión en sunchado de alta tensión para máxima seguridad.",
+		"desc_completa":"",
+		"presentaciones":[],
+		"images": ["p403"],
+		"resname": "p403",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":["Usa cualquiera de los flejes de polipropileno o poliéster.","Construcción y diseño para tarea pesada","Alto rendimiento y confiabilidad","Económica.","Bajo Mantenimiento"],
+		"usos":[],
+		"nota":""
+		}
+	},
+	{
+	  "producto": {
+        "name": "P355 Herramienta Neumática para Plástico",
+        "id": 62,
+		"idsubcategoria":11,
+		"desc":"La modelo P355 es una herramienta neumática para plástico que permite el sunchado eficiente de varios tipos de paquetes con fleje de poliéster de alta resistencia. Esta herramienta versátil y confiable puede ser usada en cualquier industria donde le fleje de poliéster es aplicado en una estación fija.",
+		"desc_completa":"",
+		"presentaciones":[],
+		"images": ["p355"],
+		"resname": "p355",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":["Ensarte fácil del fleje. Los dos flejes son insertados juntos en la herramienta.","El tiempo de sellado, tensión del fleje, así como el espesor del fleje son ajustables, lo que garantiza una alta eficiencia de la unión.","Operación muy silenciosa. Sólo aproximadamente 75 db."],
+		"usos":[],
+		"nota":""
+		}
+	},
+	{
+	  "producto": {
+        "name": "A383 Herramienta Pneumatica Combinada",
+        "id": 63,
+		"idsubcategoria":11,
+		"desc":"La A383 es una herramienta robusta para trabajo pesado idealmente adecuada para sunchar paquetes planos bajo alta tensión. Esta herramienta ha sido especialmente diseñada para uso en aplicaciones exigentes en ambientes rudos. La unión sin sello entrega una alta eficiencia en la junta que usualmente excede juntas usando un sello separado.",
+		"desc_completa":"",
+		"presentaciones":[],
+		"images": ["a383"],
+		"resname": "a383",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":["Herramienta sunchadora diseñada en forma robusta de alto rendimiento cumpliendo con los requerimientos de aplicaciones de gran demanda.","Alta confiabilidad reduce el tiempo muerto.","Fácil de mantener.","Carga simultánea fácil de ambos flejes y operación neumática aumenta considerablemente la productividad.","Tensionado neumático garantiza tensión uniforme en todos los flejes alrededor del paquete.","La unión sin sello reduce los costos promedio de sunchado en aproximadamente 10% mediante la eliminación de los sellos."],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Defender HP",
+        "id": 64,
+		"idsubcategoria":12,
+		"desc":"Esta máquina robusta de alto perfil es la más vendida para operaciones medianas de envolver donde un embalaje confiable a un precio adecuado son esenciales al resultado final. El Defender HP ofrece nuestro carro EZ de carga fácil de la película con pre-estirado que puede bajar su consumo de película hasta en un 65%.",
+		"desc_completa":"La operación semi-automática permite al operador iniciar el ciclo de envoltura y luego dejar la máquina para hacer otras tareas. Ideal para Montacargas, esta máquina puede simplificar sus operaciones de embalaje envolviendo 30 – 40 cargas por hora.",
+		"presentaciones":[],
+		"images": ["defender_hp"],
+		"resname": "defender_hp",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Carro EZ de carga fácil","Carro de Pre-Estiramiento","Altura de envolvimiento 90\"","Aumento de Productividad","Ahora 65% en costo de película","Reduce daños al producto en tránsito","Trasladable con Montacargas desde el frente y atrás","Partes No Propietarias","Garantía de por vida en los rodillos de pre-estirado"],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Empacadora de lámina de brazo giratorio Defender RTA",
+        "id": 65,
+		"idsubcategoria":12,
+		"desc":"La máquina empacadora de lámina de brazo giratorio automático Defender RTA está diseñada para entregar los beneficios de la tecnología de brazo giratorio automatizado a un costo menor al visto hasta ahora.",
+		"desc_completa":"La tecnología de brazo giratorio permite al usuario sellar con lámina y de modo confiable aquellas cargas que son inestables, sucias o extremadamente pesadas, sin tener que girarlas. El brazo giratorio mueve la lámina de sellado alrededor del producto, empacándolo en forma segura en una carga unitaria. La Defender RTA requiere menos espacio en la planta que las máquinas de brazo giratorio estilo caballete tradicionales y, si se usa con el sistema de correas transportadoras opcional, las tasas de producción pueden alcanzar las 40 cargas por hora.",
+		"presentaciones":[],
+		"images": ["defender_rta"],
+		"resname": "defender_rta",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Preestirado de hasta un 300%","Envoltura totalmente automática","Controles de pantalla táctil","Empaque sin salir del montacargas","Sensores fotoeléctricos de seguridad para proteger al operario","Ajuste de sobrecarga de sellado (0\" a 15\")","Controles de velocidad ajustables","Carro de carga E Z","Tensión de lámina controlada por celda de carga","Disponible en versión con correa transportadora"],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Centrifuga Manual",
+        "id": 66,
+		"idsubcategoria":13,
+		"desc":"Con cientos de instalaciones alrededor del mundo, INDUSTRIAS MEXAR le ofrece la máquina CONQUEST de centrifugado que porta la calidad en la marca.",
+		"desc_completa":"Nuestra máquina centrífuga de 9\"/12\" y 15\"/18\" ha sido desarrollada para darle versatilidad en los diferentes tamaños de molde.\nSatisfacen un gran rango de aplicaciones.\nComo en todos nuestros modelos sobresalen las aleaciones de zinc y metales blancos para producir cualquier cosa que su imaginación pueda crear. ",
+		"presentaciones":[],
+		"images": ["centrifuga_manual"],
+		"resname": "centrifuga_manual",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Tambor grande.","Cilindro de aire de doble acción.","Cuerpo totalmente cerrado, con guarda para salpicaduras.","Sistema de balanceo para moldes desiguales.","SCR control de velocidad.","Freno dinámico (libre de mantenimiento).","Lubricador central.","Control giratorio.","Medidor de presión fácil de leer.","Timer con reset, luces de indicación y circuito de freno.","Refacciones disponibles para todas las partes de la máquina."],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":"Contamos con la versión Mini"
+		}
+	},
+		{
+	  "producto": {
+        "name": "Centrifuga de Carga Frontal",
+        "id": 67,
+		"idsubcategoria":13,
+		"desc":"La nueva centrifuga de carga frontal es, en su construcción, más rígida con la precisión de un reloj.",
+		"desc_completa":"Manufacturada con atención especial en los detalles y la precisión que brindan la enseñanza de años, para ofrecer una producción libre de problemas. \nAdemás de la simplicidad tiene un máximo de eficiencia en la producción.",
+		"presentaciones":[],
+		"images": ["centrifuga_frontal"],
+		"resname": "centrifuga_frontal",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":["Presión de trabajo 90-100 psi.","110v 60hz monofásica motor de 3/4hp. 1750 rpm.","Ciclos automáticos controlados por PLC.","Capacidad de moldes de hasta 4” de espesor.","Espacio reducido en piso. 68 cm x 92 cm.","Peso de 360 kg."],
+		"caracteristicas":["Diseño ergonómico.","Ninguna bisagra para doblar la puerta en su apertura o cierre.","Operación del ciclo mediante una PLC automático.","Resultados de producción consistentes.","El ciclo de giro comienza en cuanto se realiza el vaciado de metal.","Incrementa la producción reduciendo la fatiga."],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":["Fabricación de joyería fina de fantasía","Metal estaño","No sirve para zamak"],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Centrifuga Automática UNAX",
+        "id": 68,
+		"idsubcategoria":13,
+		"desc":"Tomada de una gran idea y hecha aún mejor. Esta nueva UNAX, la única de su clase, fue creada por centrifugadores para centrifugadores.",
+		"desc_completa":"Como característica especial, cuenta con una interfase amigable con el operador donde se pueden programar las estaciones y cuando su confiabilidad es probada, la hace una verdadera prueba de su avanzada tecnología.",
+		"presentaciones":[],
+		"images": ["centrifuga_automatica"],
+		"resname": "centrifuga_automatica",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Fácil desmontaje del horno.","Capacidad de moldes de hasta 4\" de ancho.","Capacidad de 240 moldes por hora.","Uso amigable de controles computarizados con opción manual.","Calidad en sus partes y disponibilidad de todas ellas.","Cuatro estaciones individualmente programadas para producción separada de moldes.","Escáner de código de barras opcional para una programación aún más rápida.","220 volts monofásica, peso de 700 Kg.","Un año de garantía."],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":["Reducción de la oxidación de metal.","Reducción en el uso de metal.","Reducción en los ciclos de tiempo alargando así la vida del","molde.","Ahorros críticos de energía que provienen de un control eficiente de tiempo en el horno.","Los moldes pueden ser codificados con un código de barras que al ser escaneado ajusta rápidamente los parámetros de trabajo en este molde para un producto especifico."],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Vulcanizadoras",
+        "id": 69,
+		"idsubcategoria":13,
+		"desc":"Manuales y fáciles de operar: libre de problemas hidráulicos. Robusta, construida en su totalidad con acero de alta resistencia.",
+		"desc_completa":"Sistema hidráulico construido en una sola pieza, soldado con soldadura autógena, sellado y equipado con válvula de Bypass para seguridad.\n\nVulcanizadora de 12\"\nDimensiones: 60.95 cm X 50.8 cm X 1.15 m.\nPeso: 212.4 kilos\nVulcanizadora manual de 18\"\nDimensiones 71.11 cm X 81.28 X 1.14 m.\nPeso de 452.7 kilos",
+		"presentaciones":[],
+		"images": ["vulcanizadoras"],
+		"resname": "vulcanizadoras",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Área de trabajo perfectamente plana y resistente a la deformación, permite asegurar una superficie plana para los moldes.","Requiere un espacio pequeño de trabajo. Autónoma y lista para su operación.","Controladores de temperatura separados e independientes.","Construida con tres columnas ajustables para una alineación paralela y precisa.","Timers de encendido y apagado automático en rangos desde 1 seg. hasta 99 horas.","Voltajes disponibles para las vulcanizadoras manuales en 110 y 220 volts.","Unidad hidráulica totalmente automática contiene:","Plato de calentamiento para la estructura del molde.","Sistema de apertura de porta-moldes para después de vulcanizado.","Mantiene la presión seleccionada durante el vulcanizado, no necesita purgar.","Refacciones disponibles de todas las partes."],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Vibradoras",
+        "id": 70,
+		"idsubcategoria":13,
+		"desc":"Máquinas de 3 y 6.5 pies cúbicos de capacidad, vibradoras para quitar rebabas y dar acabado.",
+		"desc_completa":"Entre sus características principales se encuentran: un año de garantía y son fabricadas para un trabajo fuerte y constante con unas dimensiones compactas, alta calidad en sus acabados y manufacturada con acero soldado con autógena.\n\nTambién cuentan con un sistema incluido de enjuague de alta resistencia.",
+		"presentaciones":[],
+		"images": ["vibradoras"],
+		"resname": "vibradoras",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Recubrimiento interior de poliuretano curado.","Reducción de ruido en la cubierta y los pernos de anclaje.","Puerta redonda de 5” para su descarga.","Construcción de acero de alto calibre recubierto con pintura anti-corrosiva.","Sistema completo de circulación de fluidos que incluye bomba, contenedor de líquidos, mangueras y tuberías."],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Crisoles",
+        "id": 71,
+		"idsubcategoria":13,
+		"desc":"Contenedor para la fundición de metal.",
+		"desc_completa":"",
+		"presentaciones":[],
+		"images": ["crisol"],
+		"resname": "crisol",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":["Control automático de temperatura. (control digital y timer en los modelos de gas y propano).","Logra rápidamente alta intensidad de calor debido a su quemador especial.","Funde: zinc, estaño, pewter, plomo y otras aleaciones por debajo de 1000º F.","Modelos disponibles: eléctricos, gas natural o propano.","Capacidades disponibles en 160 lb, 250 lb, 500 lb y 1000 lb.","Hecho en U.S.A y con disponibilidad de refacciones.","Se adapta a todas las instalaciones electrónicas a 110v."],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Aleaciones para centrifugado",
+        "id": 72,
+		"idsubcategoria":14,
+		"desc":"Combinación de propiedades metálicas para crear la aleación de acuerdo a sus necesidades.",
+		"desc_completa":"Busca el metal que neceistas, simplemente sigue esta guia para encontrar tu aplicación especifica y por favor no dudes en llamarnos para mas información y asistencia.\n\nDesde 10 libras hasta 10,000 en el mismo lugar de fabricación, nosotros embarcamos el metal que necesitas diariamente.",
+		"presentaciones":[],
+		"images": ["aleaciones1","aleaciones2"],
+		"resname": "aleaciones1",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Aleaciones con especificaciones especiales (base estaño - plomo)",
+        "id": 73,
+		"idsubcategoria":14,
+		"desc":"Podemos fabricar con sus especificaciones.",
+		"desc_completa":"Aquaclean: 97% Estaño, 0.15 plata, 0.15 cobre, 2.90 Bismuto, Aleación Patentada Para Artesania en Estaño sin Plomo y Antimonio. ",
+		"presentaciones":[],
+		"images": ["aleaciones_especiales"],
+		"resname": "aleaciones_especiales",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Hule organico",
+        "id": 74,
+		"idsubcategoria":15,
+		"desc":"Disponible en juegos de 9\" y 12\" de diámetro.",
+		"desc_completa":"Disponible en juegos de 9\" y 12\" de diámetro",
+		"presentaciones":[],
+		"images": ["hule_organico"],
+		"resname": "hule_organico",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":["Procesos de fundición de plomo, estaño y antimonio.","Americano","En capas"],
+		"nota":"Cada juego es de 2 piezas de ½\" de espesor. Se pueden fabricar bajo requerimientos del cliente."
+		}
+	},
+		{
+	  "producto": {
+        "name": "JUEGOS DE SILICONA",
+        "id": 75,
+		"idsubcategoria":15,
+		"desc":"Disponible en discos con diámetros de 9\", 12\", 15\" y 18\" ",
+		"desc_completa":"Disponible en discos con diámetros de 9\", 12\", 15\" y 18\"\nSe fabrican según las necesidades del cliente",
+		"presentaciones":[],
+		"images": ["juegos_silicona"],
+		"resname": "juegos_silicona",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Insumos",
+        "id": 76,
+		"idsubcategoria":16,
+		"desc":"Herramientas para facilitar la elaboración de un molde y material para el cuidado del operador y la aleación de metal.",
+		"desc_completa":"Guias\nNavajas\nGurbias para corte\nCentradores\nTeflones\nRuedas de pulido\nTalco\nFundente\nCucharones de acero\nGuantes para vaciado\nPintura para crisol",
+		"presentaciones":[],
+		"images": ["insumos"],
+		"resname": "insumos",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
+	},
+		{
+	  "producto": {
+        "name": "Refacciones",
+        "id": 77,
+		"idsubcategoria":16,
+		"desc":"Contamos con refacciones para todos nuestros equipos.",
+		"desc_completa":"Porta moldes\nPlatos\nEmbudos\nCabezales\nEntre otros...",
+		"presentaciones":[],
+		"images": ["refacciones"],
+		"resname": "refacciones",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
 	}
 	
 	
 	
-	
-	
-				
+			
   ]
 }
