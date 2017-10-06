@@ -1,6 +1,7 @@
 package layout;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 
 import com.datalabor.soporte.mexar.Common;
@@ -45,13 +47,13 @@ public class calculadora extends Fragment {
     private FragmentActivity myContext;
 
     private Spinner Spinner_presentacion;
-    private Spinner Spinnner_pieza;
+    private Spinner Spinner_pieza;
 
     private ArrayList<String> presentaciones;
     private ArrayList<String> piezas;
 
     private OnFragmentInteractionListener mListener;
-
+    private ImageButton calcular;
     public calculadora() {
         // Required empty public constructor
     }
@@ -91,10 +93,26 @@ public class calculadora extends Fragment {
         _view = inflater.inflate( R.layout.fragment_calculadora, container, false );
 
         Spinner_presentacion = (Spinner) _view.findViewById(R.id.calculadora_Presentacion);
-        Spinnner_pieza = (Spinner) _view.findViewById(R.id.calculadora_Pieza);
+        Spinner_pieza = (Spinner) _view.findViewById(R.id.calculadora_Pieza);
+        calcular = (ImageButton) _view.findViewById(R.id.calculadora_calcular);
 
         presentaciones = new ArrayList<>();
         piezas = new ArrayList<>();
+
+        calcular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Log.d(TAG,"clicked");
+
+               String curText = Spinner_presentacion.getSelectedItem().toString();
+                String curText2 = Spinner_pieza.getSelectedItem().toString();
+
+                Log.d(TAG,curText);
+            }
+        });
+
+
 
         // Cargar presentaciones
 
@@ -157,7 +175,7 @@ public class calculadora extends Fragment {
 
             ArrayAdapter<String> dataAdapter2 = new ArrayAdapter(myContext, R.layout.spinner_item,piezas);
             dataAdapter2.setDropDownViewResource(R.layout.spinner_item);
-            Spinnner_pieza.setAdapter(dataAdapter2);
+            Spinner_pieza.setAdapter(dataAdapter2);
         }
 
         catch (Exception e)

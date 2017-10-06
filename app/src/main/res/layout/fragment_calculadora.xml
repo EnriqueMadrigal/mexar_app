@@ -190,7 +190,7 @@
             <!-- TODO: Update blank fragment layout -->
 
             <ImageButton
-                android:id="@+id/Contacto_sendMessage"
+                android:id="@+id/calculadora_calcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/icon_email"

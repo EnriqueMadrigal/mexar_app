@@ -2,20 +2,14 @@
   "presentaciones": [
     {
       "presentacion": {
-        "name": "Tubo 60 ml. con caja.",
-        "id": 1
-	}
-    },
-	 {
-      "presentacion": {
         "name": "Lata con aplicador 120 ml. / 4 oz.",
-        "id": 2
+        "id": 1
 	}
     },
 	{
       "presentacion": {
         "name": "Lata con aplicador 240 ml. / 8 oz.",
-        "id": 3
+        "id": 2
 	}
     },
 	{
