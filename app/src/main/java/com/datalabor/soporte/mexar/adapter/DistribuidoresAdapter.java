@@ -63,11 +63,12 @@ public class DistribuidoresAdapter extends RecyclerView.Adapter<DistribuidoresAd
     public void onBindViewHolder( ViewHolder holder, int position )
     {
         Distribuidor curDist = _items.get(position);
-        holder.get_labelNombre().setText(curDist.get_name());
+        holder.get_labelNombre().setText(curDist.get_comercial_name());
         holder.get_labelEstado().setText(curDist.get_estado());
         holder.get_labelCiudad().setText(curDist.get_ciudad());
         holder.get_labelDireccion().setText(curDist.get_direccion());
         holder.get_labelTelefono().setText(curDist.get_telefono1());
+        holder.get_labelTelefono2().setText(curDist.get_telefono2());
 
         holder.setIndex( position );
 
@@ -89,6 +90,7 @@ public class DistribuidoresAdapter extends RecyclerView.Adapter<DistribuidoresAd
         private TextView _labelCiudad;
         private TextView _labelDireccion;
         private TextView _labelTelefono;
+        private TextView _labelTelefono2;
 
         private int _index;
         private IViewHolderClick _listener;
@@ -104,6 +106,7 @@ public class DistribuidoresAdapter extends RecyclerView.Adapter<DistribuidoresAd
             _labelCiudad = (TextView) view.findViewById( R.id.dist_ciudad );
             _labelDireccion = (TextView) view.findViewById( R.id.dist_dir );
             _labelTelefono = (TextView) view.findViewById( R.id.dist_tel );
+            _labelTelefono2 = (TextView) view.findViewById( R.id.dist_tel2 );
             _listener = listener;
         }
 
@@ -128,6 +131,10 @@ public class DistribuidoresAdapter extends RecyclerView.Adapter<DistribuidoresAd
         public TextView get_labelTelefono()
         {
             return _labelTelefono;
+        }
+        public TextView get_labelTelefono2()
+        {
+            return _labelTelefono2;
         }
 
 

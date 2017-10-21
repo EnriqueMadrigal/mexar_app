@@ -195,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/icon_email"
                 android:src="@drawable/btn_calcular"
-                android:text="Enviar mensaje"
+                android:text="CALCULAR"
                 android:textColor="@color/white"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
@@ -215,12 +215,72 @@
         android:background="@color/mexar_gris1"
         android:orientation="vertical">
 
+
+
+            <TextView
+                style="@style/NormalField"
+                android:id="@+id/calculadora_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text=""/>
+
+
+            <TextView
+                style="@style/RemarkField"
+                android:id="@+id/calculadora_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text=""/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/NormalField"
+                android:id="@+id/calculadora_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text=""/>
+
+
+            <TextView
+                style="@style/RemarkField"
+                android:id="@+id/calculadora_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text=""/>
+
+            <TextView
+                style="@style/NormalField"
+                android:id="@+id/calculadora_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text=""/>
+
+
+
+
+        </LinearLayout>
+
         <TextView
             style="@style/RemarkField"
+            android:id="@+id/calculadora_text6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
-            android:text="El cemento Contact 202 en presentación de 120 ml/ 4oz. \n Rinde 20 uniones de 13 mm( 1/2 pulgada)" />
+            android:text=""/>
+
+
 
 </LinearLayout>
 

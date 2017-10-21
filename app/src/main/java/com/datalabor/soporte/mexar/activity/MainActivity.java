@@ -1,6 +1,7 @@
 package com.datalabor.soporte.mexar.activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
@@ -23,6 +24,12 @@ import android.widget.Toast;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
 
 import java.io.File;
 
@@ -33,13 +40,17 @@ import layout.mainf;
 import layout.promociones;
 import layout.youtube;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener{
 
     Toolbar toolbar;
     public NavigationView navView;
     public DrawerLayout drawerLayout;
     private boolean _isSearchVisible = false;
     Context context;
+
+    private GoogleApiClient mGoogleApiClient;
+    private final  String TAG ="MainActivity";
+
 
     mainf MainFragment;
     distribuidores _distribuidores;
@@ -54,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        context = this;
+
         toolbar = (Toolbar) findViewById(R.id.toolbarMain);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -65,6 +78,18 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         setTitle( "" );
+
+
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .enableAutoManage(this /* FragmentActivity */, this /* OnConnectionFailedListener */)
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                .build();
+
 
 //// Nav  oobject
         navView.setNavigationItemSelectedListener(
@@ -131,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                             case R.id.menu_cerrrar:
+                                signOut();
                                 break;
 
 
@@ -333,6 +359,32 @@ public class MainActivity extends AppCompatActivity {
             FragmentManager.BackStackEntry first = manager.getBackStackEntryAt( 0 );
             manager.popBackStack( first.getId(), FragmentManager.POP_BACK_STACK_INCLUSIVE );
         }
+    }
+
+
+    private void signOut() {
+        Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
+                new ResultCallback<Status>() {
+                    @Override
+                    public void onResult(Status status) {
+                        // [START_EXCLUDE]
+                        // updateUI(false);
+                        // [END_EXCLUDE]
+                        Intent intent = new Intent();
+                        intent.setClass(context, login.class);
+                        finish();
+                        startActivity(intent);
+
+                    }
+                });
+    }
+
+
+    @Override
+    public void onConnectionFailed(ConnectionResult connectionResult) {
+        // An unresolvable error has occurred and Google APIs (including Sign-In) will not
+        // be available.
+        Log.d(TAG, "onConnectionFailed:" + connectionResult);
     }
 
 

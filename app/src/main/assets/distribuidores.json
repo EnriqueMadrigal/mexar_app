@@ -1,0 +1,1904 @@
+{
+"distribuidores": [
+{
+"distribuidor": {
+"id":1,
+"clave":"3030",
+"name":"ARMANDO MURUA RIOS",
+"comercial_name":"TODO PARA EL FONTANERO",
+"state":"JAL",
+"city":"Zapopan",
+"address":"PEDRO MORENO",
+"interior":"",
+"exterior":"3266",
+"colonia":"LOMA BONITA EJIDAL",
+"cp":"45087",
+"phone1":"3634-4997",
+"phone2":" ",
+"lat":"20.6316807",
+"lng":"-103.4044034"
+}
+},
+{
+"distribuidor": {
+"id":2,
+"clave":"3430",
+"name":"TPP DE GUADALAJARA, S.A. DE C.V.",
+"comercial_name":"TPP DE GUADALAJARA, S.A. DE C.V.",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AV. AVIACION",
+"interior":"B",
+"exterior":"306",
+"colonia":"SAN JUAN DE OCOTAN",
+"cp":"45019",
+"phone1":"3110-2071",
+"phone2":"1404-7745",
+"lat":"20.7151049",
+"lng":"-103.4562816"
+}
+},
+{
+"distribuidor": {
+"id":3,
+"clave":"3008",
+"name":"AIDA MURUA RIOS",
+"comercial_name":"TODO PARA EL FONTANERO",
+"state":"JAL",
+"city":"Zapopan",
+"address":"LATERAL PERIFERICO",
+"interior":"",
+"exterior":"1717",
+"colonia":"LAS ALAMEDAS",
+"cp":"45079",
+"phone1":"1454-6187",
+"phone2":" ",
+"lat":"20.6347187",
+"lng":"-103.4369876"
+}
+},
+{
+"distribuidor": {
+"id":4,
+"clave":"3895",
+"name":"FERRETERIA EL PERIFERICO DE GUADALAJARA, S.A. DE C.V.",
+"comercial_name":"FERRETERIA EL PERIFERICO DE GUADALAJARA, S.A. DE C.V.",
+"state":"JAL",
+"city":"Zapopan",
+"address":"PERIFERICO MANUEL GOMEZ MORIN",
+"interior":"",
+"exterior":"1711",
+"colonia":"LAS ALAMEDAS",
+"cp":"45070",
+"phone1":"1086-8962",
+"phone2":"1086-8961",
+"lat":"20.7304194",
+"lng":"-103.3508775"
+}
+},
+{
+"distribuidor": {
+"id":5,
+"clave":"3211",
+"name":"JESUS JAUREGUI SANDOVAL",
+"comercial_name":"TLAPALERÍA Y FERRETERÍA JESSE",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"DEMOSTENES",
+"interior":"",
+"exterior":"505",
+"colonia":"LAGOS DE ORIENTE",
+"cp":"44750",
+"phone1":"3330-0353",
+"phone2":" ",
+"lat":"20.669141",
+"lng":"-103.2886801"
+}
+},
+{
+"distribuidor": {
+"id":6,
+"clave":"4059",
+"name":"LUIS DANIEL ALVAREZ GOMEZ",
+"comercial_name":"FERRELECTRICA LA ZONA",
+"state":"JAL",
+"city":"Zapopan",
+"address":"INDEPENDENCIA",
+"interior":"A",
+"exterior":"115",
+"colonia":"SANTA MARIA DEL PUEBLITO",
+"cp":"45018",
+"phone1":"3627-2944",
+"phone2":" ",
+"lat":"20.6790977",
+"lng":"-103.4357228"
+}
+},
+{
+"distribuidor": {
+"id":7,
+"clave":"4206",
+"name":"CRISTIAN REYNALDO CAMACHO BARAJAS",
+"comercial_name":"CAMACHO, TODO EN FONTANERÍA Y ELECTRICIDAD",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"CASTELLANOS Y TAPIA",
+"interior":"",
+"exterior":"101",
+"colonia":"OBLATOS",
+"cp":"44700",
+"phone1":"3655-2089",
+"phone2":" ",
+"lat":"20.6695688",
+"lng":"-103.316811"
+}
+},
+{
+"distribuidor": {
+"id":8,
+"clave":"3041",
+"name":"BLANCA MARISOL GOMEZ JIMENEZ",
+"comercial_name":"FERREMATERIALES RIO BLANCO",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AV. VALDEPEÑAS",
+"interior":"",
+"exterior":"9000",
+"colonia":"REAL VALDEPEÑAS",
+"cp":"45130",
+"phone1":"3070-0316",
+"phone2":" ",
+"lat":"20.7594237",
+"lng":"-103.4003651"
+}
+},
+{
+"distribuidor": {
+"id":9,
+"clave":"3048",
+"name":"CARLOS HUMBERTO NAVARRO MUÑOZ",
+"comercial_name":"FERREMATERIALES RIO BLANCO",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AVE. RIO BLANCO",
+"interior":"",
+"exterior":"689",
+"colonia":"MIRADOR DE SAN ISIDRO",
+"cp":"45132",
+"phone1":"3833-2511",
+"phone2":" ",
+"lat":"20.7579955",
+"lng":"-103.3886685"
+}
+},
+{
+"distribuidor": {
+"id":10,
+"clave":"3058",
+"name":"CENTRAL DE PISOS TEPA, S.A. DE C.V.",
+"comercial_name":"CENTRAL DE PISOS TEPA, S.A. DE C.V.",
+"state":"JAL",
+"city":"Tepatitlán",
+"address":"ESPARZA",
+"interior":"A",
+"exterior":"86",
+"colonia":"CENTRO",
+"cp":"47600",
+"phone1":" 782-1390",
+"phone2":" ",
+"lat":"20.8142659",
+"lng":"-102.7592632"
+}
+},
+{
+"distribuidor": {
+"id":11,
+"clave":"3479",
+"name":"JOSUE MOISES DIAZ PRECIADO",
+"comercial_name":"DIELI FERRETERIA",
+"state":"JAL",
+"city":"Tlaquepaque",
+"address":"RAMON CORONA",
+"interior":"",
+"exterior":"227",
+"colonia":"SANTA ANITA",
+"cp":"45600",
+"phone1":"3686-0908",
+"phone2":"2222-4775",
+"lat":"20.5513256",
+"lng":"-103.4463255"
+}
+},
+{
+"distribuidor": {
+"id":12,
+"clave":"3846",
+"name":"XITLALI ZAPIEN GUZMAN",
+"comercial_name":"FERRETERIA ZAGUZ",
+"state":"MICH",
+"city":"Zacapu",
+"address":"ZARAGOZA ORIENTE",
+"interior":"",
+"exterior":"707",
+"colonia":"CENTRO",
+"cp":"58600",
+"phone1":"3636-568 ",
+"phone2":" ",
+"lat":"19.8163619",
+"lng":"-101.7858666"
+}
+},
+{
+"distribuidor": {
+"id":13,
+"clave":"4211",
+"name":"PLOMERIA HID DE LOS ALTOS, S.A. DE C.V.",
+"comercial_name":"PLOMERIA SAN JORGE S.A. DE C.V.",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"AV. CRISTOBAL COLÓN",
+"interior":"",
+"exterior":"1021",
+"colonia":"MODERNA",
+"cp":"44190",
+"phone1":"3619-3659",
+"phone2":"3619-5887",
+"lat":"20.6616791",
+"lng":"-103.3542235"
+}
+},
+{
+"distribuidor": {
+"id":14,
+"clave":"4093",
+"name":"AGUSTIN IVAN MORETT OCHOA",
+"comercial_name":"MORETT FERRETERÍAS",
+"state":"JAL",
+"city":"CD Guzmán",
+"address":"AV ALBERTO CARDENAS JIMENEZ",
+"interior":"",
+"exterior":"85A",
+"colonia":"CENTRO",
+"cp":"49000",
+"phone1":"4132-778 ",
+"phone2":"4134-329 ",
+"lat":"19.6868325",
+"lng":"-103.4701963"
+}
+},
+{
+"distribuidor": {
+"id":15,
+"clave":"4140",
+"name":"TUBERIAS Y SANITARIOS VENEGAS EN COLIMA, S.A. DE C.V.",
+"comercial_name":"TUBERIAS Y SANITARIOS VENEGAS EN COLIMA, S.A. DE C.V.",
+"state":"COL",
+"city":"Colima",
+"address":"JULIO GARCIA",
+"interior":"",
+"exterior":"339",
+"colonia":"CENTRO",
+"cp":"28000",
+"phone1":"3147-878 ",
+"phone2":"3123-1300",
+"lat":"19.247494",
+"lng":"-103.7173109"
+}
+},
+{
+"distribuidor": {
+"id":16,
+"clave":"3832",
+"name":"ANA ROSA CASTILLO FUENTES",
+"comercial_name":"PVC ZAPOPAN",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"CARLOS ARTURO CARRILLO",
+"interior":"",
+"exterior":"2708",
+"colonia":"POLANCO",
+"cp":"44960",
+"phone1":"3367-1007",
+"phone2":" ",
+"lat":"20.6304198",
+"lng":"-103.3815833"
+}
+},
+{
+"distribuidor": {
+"id":17,
+"clave":"3759",
+"name":"COTLA, S.A. DE C.V.",
+"comercial_name":"COMERCIALIZADORA TLAQUEPAQUE",
+"state":"JAL",
+"city":"Tlaquepaque",
+"address":"HIDALGO",
+"interior":"",
+"exterior":"370",
+"colonia":"CENTRO",
+"cp":"45500",
+"phone1":"3657-8901",
+"phone2":"3657-3841",
+"lat":"20.6390178",
+"lng":"-103.3018022"
+}
+},
+{
+"distribuidor": {
+"id":18,
+"clave":"3809",
+"name":"CENTRO ELECTRICO BAZAN, S.A. DE C.V.",
+"comercial_name":"CENTRO ELECTRICO BAZAN, S.A. DE C.V.",
+"state":"COL",
+"city":"Colima",
+"address":"JESUS NAVARRO",
+"interior":"",
+"exterior":"1349",
+"colonia":"SAN JOSE NORTE",
+"cp":"28047",
+"phone1":"3075-420 ",
+"phone2":"3075-430 ",
+"lat":"19.2419729",
+"lng":"-103.6950371"
+}
+},
+{
+"distribuidor": {
+"id":19,
+"clave":"3782",
+"name":"FERRETERIAS MAAS, S.A. DE C.V.",
+"comercial_name":"FERRETERIAS MAAS, S.A. DE C.V.",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AV. ENRIQUE LADRON DE GUEVARA",
+"interior":"",
+"exterior":"1585",
+"colonia":"PASEOS DEL SOL",
+"cp":"45079",
+"phone1":"3632-0571",
+"phone2":"3133-2883",
+"lat":"20.6387219",
+"lng":"-103.4292099"
+}
+},
+{
+"distribuidor": {
+"id":20,
+"clave":"3711",
+"name":"OSCAR GOMEZ BECERRA",
+"comercial_name":"FERRETERÍA Y TLAPALERÍA GOMEZ",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"PABLO VALDEZ",
+"interior":"",
+"exterior":"3076",
+"colonia":"HERMOSA PROVINCIA",
+"cp":"44750",
+"phone1":"3655-7432",
+"phone2":" ",
+"lat":"20.6738343",
+"lng":"-103.2922047"
+}
+},
+{
+"distribuidor": {
+"id":21,
+"clave":"3360",
+"name":"OMAR TREVIÑO GARCIA",
+"comercial_name":"FERRETERÍA Y HERRAJES TREVIÑO",
+"state":"GTO",
+"city":"Celaya",
+"address":"CANAL DE LABRADORES",
+"interior":"",
+"exterior":"100",
+"colonia":"BENITO JUAREZ",
+"cp":"38030",
+"phone1":" 613-2704",
+"phone2":" ",
+"lat":"20.539298",
+"lng":"-100.8053328"
+}
+},
+{
+"distribuidor": {
+"id":22,
+"clave":"3671",
+"name":"ALEXIS SALDAÑA DIAZ",
+"comercial_name":"FERRETERÍA DEL PUEBLITO",
+"state":"GTO",
+"city":"Guanajuato",
+"address":"CALZADA DE ROCHA",
+"interior":"",
+"exterior":"21",
+"colonia":"PUEBLITO DE ROCHA",
+"cp":"36040",
+"phone1":"7223-383 ",
+"phone2":"0147-3109",
+"lat":"21.019318",
+"lng":"-101.271837"
+}
+},
+{
+"distribuidor": {
+"id":23,
+"clave":"4020",
+"name":"RS DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"RS Tools Salamanca",
+"state":"GTO",
+"city":"Slamanca",
+"address":"Av. del Trabajo",
+"interior":"",
+"exterior":"610-A",
+"colonia":"Zona Centro.",
+"cp":"36700",
+"phone1":"(464) 647 40 85",
+"phone2":"",
+"lat":"20.574929",
+"lng":"-101.2029734"
+}
+},
+{
+"distribuidor": {
+"id":24,
+"clave":"4020",
+"name":"RS DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"RS Tools Mariano Abasolo",
+"state":"GTO",
+"city":"Irapuato",
+"address":"Mariano Abasolo",
+"interior":"Local 4",
+"exterior":"1806",
+"colonia":"San Miguelito",
+"cp":"36557",
+"phone1":"(462) 607 02 70",
+"phone2":"",
+"lat":"20.659553",
+"lng":"-101.372704"
+}
+},
+{
+"distribuidor": {
+"id":25,
+"clave":"4020",
+"name":"RS DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"RS Tools Gómez Morín",
+"state":"GTO",
+"city":"Irapuato",
+"address":"Blvd. Manuel Gómez Morín",
+"interior":"",
+"exterior":"3516",
+"colonia":"Las Heras 3a. Sección",
+"cp":"36640",
+"phone1":"(462) 135 64 87",
+"phone2":"",
+"lat":"20.6879249",
+"lng":"-101.3769438"
+}
+},
+{
+"distribuidor": {
+"id":26,
+"clave":"4020",
+"name":"RS DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"RS Tools San Roque",
+"state":"GTO",
+"city":"Irapuato",
+"address":"Av. Enrique Colunga",
+"interior":"",
+"exterior":"1453",
+"colonia":"Fracc. San Roque",
+"cp":"36843",
+"phone1":"(462) 622 06 08",
+"phone2":"",
+"lat":"20.6570806",
+"lng":"-101.3413197"
+}
+},
+{
+"distribuidor": {
+"id":27,
+"clave":"4020",
+"name":"RS DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"RS Tools San Francisco del Rincón",
+"state":"GTO",
+"city":"San Francisco del Rincón",
+"address":"Blvd. Emiliano Zapata",
+"interior":"",
+"exterior":"210",
+"colonia":"Centro",
+"cp":"36300",
+"phone1":"(476) 744 42 02",
+"phone2":"",
+"lat":"21.0157225",
+"lng":"-101.8562414"
+}
+},
+{
+"distribuidor": {
+"id":28,
+"clave":"4020",
+"name":"RS DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"FIX La Piedad",
+"state":"MICH",
+"city":"La piedad",
+"address":"Blvd. Lázaro Cárdenas",
+"interior":"",
+"exterior":"335",
+"colonia":"Centro",
+"cp":"59300",
+"phone1":"(352) 522 81 55",
+"phone2":"",
+"lat":"20.3469662",
+"lng":"-102.0270627"
+}
+},
+{
+"distribuidor": {
+"id":29,
+"clave":"3256",
+"name":"JULIO CESAR ROJAS ROJAS",
+"comercial_name":"DISTRIBUIDORA ANGEL",
+"state":"GTO",
+"city":"León",
+"address":"MARGARITA",
+"interior":"",
+"exterior":"117",
+"colonia":"LOMA BONITA",
+"cp":"37420",
+"phone1":" 770-2973",
+"phone2":" ",
+"lat":"21.1159835",
+"lng":"-101.6921083"
+}
+},
+{
+"distribuidor": {
+"id":30,
+"clave":"4035",
+"name":"LEONELROJAS ROJAS",
+"comercial_name":"FERRETERÍA LEO´S",
+"state":"GTO",
+"city":"León",
+"address":"CAPRICORNIO",
+"interior":"",
+"exterior":"142",
+"colonia":"LOMAS DE LA PISCINA",
+"cp":"37440",
+"phone1":"778 -0855",
+"phone2":" ",
+"lat":"21.1091502",
+"lng":"-101.7032829"
+}
+},
+{
+"distribuidor": {
+"id":31,
+"clave":"3356",
+"name":"NORMA VILLEGAS FONSECA",
+"comercial_name":"DISTRBUCIONES MAY",
+"state":"GTO",
+"city":"León",
+"address":"PEDRO DEL CAMPILLO",
+"interior":"",
+"exterior":"128",
+"colonia":"LAS TROJES",
+"cp":"37227",
+"phone1":" 718-3888",
+"phone2":" ",
+"lat":"21.1395303",
+"lng":"-101.6670575"
+}
+},
+{
+"distribuidor": {
+"id":32,
+"clave":"3097",
+"name":"DISTRIBUIDORA FERRETERA CESAR SA DE CV",
+"comercial_name":"DISTRIBUIDORA FERRETERA CESAR SA DE CV",
+"state":"GTO",
+"city":"León",
+"address":"BLVD JUAN JOSE TORRES LANDA",
+"interior":"",
+"exterior":"102",
+"colonia":"VILLANUEVA",
+"cp":"37460",
+"phone1":" 712-3277",
+"phone2":" ",
+"lat":"21.1028564",
+"lng":"-101.6888602"
+}
+},
+{
+"distribuidor": {
+"id":33,
+"clave":"3958",
+"name":"LUIS ERNESTO ROJAS LARA",
+"comercial_name":"FERRETERÍA CESAR",
+"state":"GTO",
+"city":"León",
+"address":"ARCOS DE SAN SEBASTIAN",
+"interior":"A",
+"exterior":"102",
+"colonia":"PORTALES DE SAN SEBASTIAN",
+"cp":"37448",
+"phone1":"7784-970 ",
+"phone2":"7075-727 ",
+"lat":"21.1027777",
+"lng":"-101.7075687"
+}
+},
+{
+"distribuidor": {
+"id":34,
+"clave":"3022",
+"name":"ANASTACIO ESTRADA RIOS",
+"comercial_name":"LA CASA DEL PLOMERO",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"AVE. COLON",
+"interior":"",
+"exterior":"3146",
+"colonia":"JARDINES DE SAN JOSE",
+"cp":"44950",
+"phone1":"3645-7754",
+"phone2":" ",
+"lat":"20.6337141",
+"lng":"-103.3800989"
+}
+},
+{
+"distribuidor": {
+"id":35,
+"clave":"4190",
+"name":"REFACCIONES INTERNACIONALES PARA GAS, S.A. DE C.V.",
+"comercial_name":"REFACCIONES INTERNACIONALES PARA GAS, S.A. DE C.V.",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"GARIBALDI",
+"interior":"",
+"exterior":"1287",
+"colonia":"SANTA TERESITA",
+"cp":"44600",
+"phone1":"3825-4727",
+"phone2":" ",
+"lat":"20.6809906",
+"lng":"-103.365653"
+}
+},
+{
+"distribuidor": {
+"id":36,
+"clave":"3002",
+"name":"ABASTECEDORA FERRETERA ATOTONILCO S.A. DE C.V.",
+"comercial_name":"ABASTECEDORA FERRETERA ATOTONILCO S.A. DE C.V.",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"AVENIDA DEL MERCADO",
+"interior":"",
+"exterior":"1504",
+"colonia":"COMERCIAL ABASTOS",
+"cp":"44530",
+"phone1":"3671-2709",
+"phone2":" ",
+"lat":"20.6505204",
+"lng":"-103.3807356"
+}
+},
+{
+"distribuidor": {
+"id":37,
+"clave":"3034",
+"name":"ARTURO LEDEZMA RUAN",
+"comercial_name":"LEDEZMA TODO PARA CONSTRUCCIÓN",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"VOLCAN ZACAPU",
+"interior":"",
+"exterior":"226",
+"colonia":"HUENTITAN EL BAJO",
+"cp":"44250",
+"phone1":"3674-7443",
+"phone2":" ",
+"lat":"20.7390838",
+"lng":"-103.3155293"
+}
+},
+{
+"distribuidor": {
+"id":38,
+"clave":"3136",
+"name":"FERRETERIA RROY, SA DE CV",
+"comercial_name":"FERRETERIA RROY, SA DE CV",
+"state":"JAL",
+"city":"Tlaquepaque",
+"address":"CARRETERA A LOS ALTOS",
+"interior":"",
+"exterior":"38-B",
+"colonia":"COL. TATEPOSCO",
+"cp":"45400",
+"phone1":"3690-2031",
+"phone2":"3690-5615",
+"lat":"20.5746841",
+"lng":"-103.3118515"
+}
+},
+{
+"distribuidor": {
+"id":39,
+"clave":"3136",
+"name":"FERRETERIA RROY, SA DE CV",
+"comercial_name":"FERRETERIA RROY, SA DE CV",
+"state":"JAL",
+"city":"Tlaquepaque",
+"address":"SAN PEDRITO POZA RICA",
+"interior":"",
+"exterior":"4730",
+"colonia":"COL. SAN PEDRITO",
+"cp":"45400",
+"phone1":"3690-2031",
+"phone2":"3690-5615",
+"lat":"20.6137304",
+"lng":"-103.2883955"
+}
+},
+{
+"distribuidor": {
+"id":40,
+"clave":"3091",
+"name":"DISTRIBUIDORA AMASA SA DE CV",
+"comercial_name":"DISTRIBUIDORA AMASA SA DE CV",
+"state":"ZAC",
+"city":"Guadalupe",
+"address":"CALZ. REVOLUCION MEXICANA",
+"interior":"",
+"exterior":"95",
+"colonia":"INDUSTRIAL",
+"cp":"36559",
+"phone1":" 899-6383",
+"phone2":" ",
+"lat":"22.7543123",
+"lng":"-102.5047675"
+}
+},
+{
+"distribuidor": {
+"id":41,
+"clave":"3068",
+"name":"COLUMBA PATRICIA ALFARO BOTELLO",
+"comercial_name":"FERRETERIA BUENAVISTA",
+"state":"ZAC",
+"city":"Zacatecas",
+"address":"LIBERTAD",
+"interior":"A",
+"exterior":"101",
+"colonia":"BUENAVISTA",
+"cp":"98070",
+"phone1":" 924-2586",
+"phone2":" ",
+"lat":"22.7622395",
+"lng":"-102.575052"
+}
+},
+{
+"distribuidor": {
+"id":42,
+"clave":"3208",
+"name":"JESUS GERARDO FERNANDEZ SAMPEDRO",
+"comercial_name":"PLOMERIA Y ELECTRICOS LA PLATA",
+"state":"ZAC",
+"city":"Zacatecas",
+"address":"ARROYO DE LA PLATA",
+"interior":"",
+"exterior":"263",
+"colonia":"CENTRO",
+"cp":"98000",
+"phone1":" 922-0056",
+"phone2":" ",
+"lat":"22.7708659",
+"lng":"-102.572181"
+}
+},
+{
+"distribuidor": {
+"id":43,
+"clave":"3202",
+"name":"JAVIER FERNANDEZ DEL MURO",
+"comercial_name":"EL SURTIDOR DEL PLOMERO",
+"state":"ZAC",
+"city":"Guadalupe",
+"address":"CARRETERA PANAMERICANA 45",
+"interior":"",
+"exterior":"411",
+"colonia":"SAN ISIDRO",
+"cp":"98600",
+"phone1":" 921-2670",
+"phone2":" ",
+"lat":"",
+"lng":""
+}
+},
+{
+"distribuidor": {
+"id":44,
+"clave":"3940",
+"name":"JOSE LUIS LAGUNAS LOPEZ",
+"comercial_name":"FERRE TODO DE GUADALUPE",
+"state":"ZAC",
+"city":"Guadalupe",
+"address":"CARRETERA A SAN RAMON",
+"interior":"",
+"exterior":"22",
+"colonia":"JOSE IVES LIMANTOUR",
+"cp":"98605",
+"phone1":"1480-319 ",
+"phone2":" ",
+"lat":"",
+"lng":""
+}
+},
+{
+"distribuidor": {
+"id":45,
+"clave":"3133",
+"name":"FERRETERIA LA NUEVA CENTRAL S.A. DE C.V.",
+"comercial_name":"FERRETERIA LA NUEVA CENTRAL S.A. DE C.V.",
+"state":"ZAC",
+"city":"Zacatecas",
+"address":"5 ESTRELLAS",
+"interior":"",
+"exterior":"104",
+"colonia":"FERNANDO PAMANES ESCOBEDO",
+"cp":"98053",
+"phone1":" 768-1400",
+"phone2":" ",
+"lat":"22.766108",
+"lng":"-102.5844159"
+}
+},
+{
+"distribuidor": {
+"id":46,
+"clave":"3407",
+"name":"SAN FRANCISCO INSUMOS PARA LA CONSTRUCCION,SA DE CV",
+"comercial_name":"SAN FRANCISCO INSUMOS PARA LA CONSTRUCCION,SA DE CV",
+"state":"JAL",
+"city":"El salto",
+"address":"CARRETERA AL SALTO",
+"interior":"",
+"exterior":"2030",
+"colonia":"SAN JOSE EL VERDE",
+"cp":"45694",
+"phone1":"3689-1490",
+"phone2":" ",
+"lat":"20.562089",
+"lng":"-103.2841006"
+}
+},
+{
+"distribuidor": {
+"id":47,
+"clave":"3871",
+"name":"PLOMERIA UNIVERSAL DE OCCIDENTE, S.A. DE C.V.",
+"comercial_name":"PLOMERIA UNIVERSAL DE OCCIDENTE, S.A. DE C.V.",
+"state":"JAL",
+"city":"Zapopan",
+"address":"PROLONGACION FEDERALISMO",
+"interior":"",
+"exterior":"35",
+"colonia":"COL. ARROYO HONDO ZAPOPAN",
+"cp":"44190",
+"phone1":"3942-6255",
+"phone2":" ",
+"lat":"20.743067",
+"lng":"-103.3472123"
+}
+},
+{
+"distribuidor": {
+"id":48,
+"clave":"3871",
+"name":"PLOMERIA UNIVERSAL DE OCCIDENTE, S.A. DE C.V.",
+"comercial_name":"PLOMERIA UNIVERSAL DE OCCIDENTE, S.A. DE C.V.",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AV. AVIACION",
+"interior":"",
+"exterior":"1213",
+"colonia":"COL. RESIDENCIAL MILITAR EN ZAPOPAN",
+"cp":"44190",
+"phone1":"3942-6255",
+"phone2":" ",
+"lat":"",
+"lng":""
+}
+},
+{
+"distribuidor": {
+"id":49,
+"clave":"3871",
+"name":"PLOMERIA UNIVERSAL DE OCCIDENTE, S.A. DE C.V.",
+"comercial_name":"PLOMERIA UNIVERSAL DE OCCIDENTE, S.A. DE C.V.",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"FRANCIA",
+"interior":"",
+"exterior":"1269",
+"colonia":"COL. MODERNA EN GUADALAJARA",
+"cp":"44190",
+"phone1":"3942-6255",
+"phone2":" ",
+"lat":"20.6617755",
+"lng":"-103.3565175"
+}
+},
+{
+"distribuidor": {
+"id":50,
+"clave":"3393",
+"name":"RICARDO RODRIGUEZ CHAVIRA",
+"comercial_name":"FERRETERIA MÉXICO",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"AVE. ARTESANOS",
+"interior":"",
+"exterior":"1507",
+"colonia":"OBLATOS",
+"cp":"44700",
+"phone1":"3638-5295",
+"phone2":" ",
+"lat":"20.6966412",
+"lng":"-103.2944348"
+}
+},
+{
+"distribuidor": {
+"id":51,
+"clave":"3269",
+"name":"LUCILA MOYA MARTINEZ",
+"comercial_name":"MATERIALES PARA LA CONSTRUCCIÓN MOYA",
+"state":"JAL",
+"city":"Zapopan",
+"address":"SANTA ANA",
+"interior":"",
+"exterior":"789",
+"colonia":"SANTA MARGARITA",
+"cp":"45140",
+"phone1":"3633-4404",
+"phone2":" ",
+"lat":"20.7285268",
+"lng":"-103.4106402"
+}
+},
+{
+"distribuidor": {
+"id":52,
+"clave":"3638",
+"name":"MOB CONEXIONES DE PVC, S.A. DE C.V.",
+"comercial_name":"PLOME HIDRAULICA",
+"state":"JAL",
+"city":"Zapopan",
+"address":"MANUEL GOMEZ MORIN",
+"interior":"",
+"exterior":"7755",
+"colonia":"SANTA MARIA TEQUEPEXPAN",
+"cp":"45601",
+"phone1":"3617-0393",
+"phone2":"3618-7030",
+"lat":"20.6070929",
+"lng":"-103.4029893"
+}
+},
+{
+"distribuidor": {
+"id":53,
+"clave":"3471",
+"name":"GLADIS CAROLINA AYALA LOPEZ",
+"comercial_name":"EL CAMPESINO",
+"state":"JAL",
+"city":"Tonalá",
+"address":"MARCOS LARA",
+"interior":"A",
+"exterior":"14",
+"colonia":"SANTA PAULA",
+"cp":"45426",
+"phone1":"3690-0047",
+"phone2":" ",
+"lat":"20.6005932",
+"lng":"-103.2427884"
+}
+},
+{
+"distribuidor": {
+"id":54,
+"clave":"3640",
+"name":"CECILIA MENDEZ RODRIGUEZ",
+"comercial_name":"FERREMATERIALES MENDEZ",
+"state":"JAL",
+"city":"Zapopan",
+"address":"ALBERTO MORA LOPEZ",
+"interior":"",
+"exterior":"29",
+"colonia":"MESA COLORADA ENTRE PIÑA Y MANZANA",
+"cp":"45204",
+"phone1":"3672-3777",
+"phone2":" ",
+"lat":"20.7654682",
+"lng":"-103.3407539"
+}
+},
+{
+"distribuidor": {
+"id":55,
+"clave":"3143",
+"name":"FERRETERIA Y SANITARIOS ASCENCIO, S.A. DE C.V.",
+"comercial_name":"FERRETERIA Y SANITARIOS ASCENCIO, S.A. DE C.V.",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"AVE. ALEMANIA",
+"interior":"",
+"exterior":"1267",
+"colonia":"MODERNA",
+"cp":"44190",
+"phone1":"3658-0185",
+"phone2":" ",
+"lat":"20.662529",
+"lng":"-103.355886"
+}
+},
+{
+"distribuidor": {
+"id":56,
+"clave":"4098",
+"name":"DISTRIBUIDORA ELECTRICA ASCENCIO, S.A. DE C.V.",
+"comercial_name":"DISTRIBUIDORA ELECTRICA ASCENCIO, S.A. DE C.V.",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"AV ALEMANIA",
+"interior":"",
+"exterior":"1257 1255",
+"colonia":"MODERNA",
+"cp":"44190",
+"phone1":"3614-1989",
+"phone2":" ",
+"lat":"20.662705",
+"lng":"-103.3557418"
+}
+},
+{
+"distribuidor": {
+"id":57,
+"clave":"3625",
+"name":"MANUEL OROZCO MARQUEZ",
+"comercial_name":"TLAPALERIA ORO MAR",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"EMILIANO ZAPATA",
+"interior":"",
+"exterior":"2609",
+"colonia":"LAS PINTAS DE ARRIBA",
+"cp":"45690",
+"phone1":"3689-0994",
+"phone2":" ",
+"lat":"20.573637",
+"lng":"-103.3231607"
+}
+},
+{
+"distribuidor": {
+"id":58,
+"clave":"4057",
+"name":"OSCAR DARIO AGUILARSANCHEZ",
+"comercial_name":"GRUPO AGUILAR",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AV RIO BLANCO",
+"interior":"",
+"exterior":"927",
+"colonia":"MIRADOR DE SAN ISIDRO",
+"cp":"45132",
+"phone1":"3365-2833",
+"phone2":"3313-1677",
+"lat":"20.7509446",
+"lng":"-103.3795869"
+}
+},
+{
+"distribuidor": {
+"id":59,
+"clave":"3225",
+"name":"JOSE EDUARDO HERNANDEZ HORTA",
+"comercial_name":"TLAPALERIA LA LOMA",
+"state":"JAL",
+"city":"Zapopan",
+"address":"AV. DE LA MANCHA",
+"interior":"",
+"exterior":"384",
+"colonia":"FRACC. LOMAS DE ZAPOPAN",
+"cp":"45130",
+"phone1":"3633-2175",
+"phone2":" ",
+"lat":"20.7452901",
+"lng":"-103.3946867"
+}
+},
+{
+"distribuidor": {
+"id":60,
+"clave":"3189",
+"name":"IMELDA TELLES CAMARENA",
+"comercial_name":"FERRETERIA CHAPIS",
+"state":"JAL",
+"city":"Guadalajara",
+"address":"PRESA OSORIO",
+"interior":"",
+"exterior":"3700",
+"colonia":"LAGOS DE ORIENTE",
+"cp":"44770",
+"phone1":"3608-7291",
+"phone2":" ",
+"lat":"20.6696608",
+"lng":"-103.2806104"
+}
+},
+{
+"distribuidor": {
+"id":61,
+"clave":"3483",
+"name":"KARLA VERONICA MARQUEZ ZARAGOZA",
+"comercial_name":"AR TUBERIAS",
+"state":"JAL",
+"city":"Tlaquepaque",
+"address":"SANDIA",
+"interior":"",
+"exterior":"100",
+"colonia":"LAS HUERTAS",
+"cp":"45589",
+"phone1":"1029-8646",
+"phone2":"3870-6547",
+"lat":"20.6170708",
+"lng":"-103.3066634"
+}
+},
+{
+"distribuidor": {
+"id":62,
+"clave":"3063",
+"name":"CLAUDIA BERENICE GONZALEZ OROZCO",
+"comercial_name":"FERRETERIA SAN FRANCISCO",
+"state":"JAL",
+"city":"Tesistán",
+"address":"AV TESISTAN",
+"interior":"",
+"exterior":"665",
+"colonia":"SAN FRANCISCO",
+"cp":"45130",
+"phone1":"3633-2924",
+"phone2":" ",
+"lat":"20.7289281",
+"lng":"-103.401987"
+}
+},
+{
+"distribuidor": {
+"id":63,
+"clave":"3145",
+"name":"FERRETEROS MAYORISTAS DE MORELIA, S.A. DE C.V.",
+"comercial_name":"FERRETEROS MAYORISTAS DE MORELIA, S.A. DE C.V.",
+"state":"MICH",
+"city":"Morelia",
+"address":"ELIAS MIRANDA",
+"interior":"",
+"exterior":"746",
+"colonia":"ARTICULO 27 CONSTITUCIONAL",
+"cp":"58210",
+"phone1":" 324-8920",
+"phone2":" ",
+"lat":"19.7134446",
+"lng":"-101.1709634"
+}
+},
+{
+"distribuidor": {
+"id":64,
+"clave":"3122",
+"name":"FERREPLAS DE ZAMORA SA DE CV",
+"comercial_name":"FERREPLAS DE ZAMORA SA DE CV",
+"state":"MICH",
+"city":"Zamora",
+"address":"LEONARDO CASTELLANOS ORIENTE",
+"interior":"B",
+"exterior":"100",
+"colonia":"CENTRO",
+"cp":"59600",
+"phone1":" 515-4005",
+"phone2":" ",
+"lat":"19.9830513",
+"lng":"-102.2906861"
+}
+},
+{
+"distribuidor": {
+"id":65,
+"clave":"3730",
+"name":"ELECTRICA Y PLOMERIA JUAREZ, S. DE RL DE C.V.",
+"comercial_name":"ELECTRICA Y PLOMERIA JUAREZ, S. DE RL DE C.V.",
+"state":"MICH",
+"city":"Zamora",
+"address":"AV. JUAREZ EJE PTE",
+"interior":"",
+"exterior":"239",
+"colonia":"CENTRO",
+"cp":"59600",
+"phone1":"5173-348 ",
+"phone2":" ",
+"lat":"19.9901421",
+"lng":"-102.2896006"
+}
+},
+{
+"distribuidor": {
+"id":66,
+"clave":"3633",
+"name":"MARIA ERIDANY TAPIA DURAN",
+"comercial_name":"PLOMERIA ACUEDUCTO",
+"state":"MICH",
+"city":"Morelia",
+"address":"AV. ACUEDUCTO",
+"interior":"",
+"exterior":"2830",
+"colonia":"POBLADO OCOLUSEN",
+"cp":"58270",
+"phone1":"3243-470 ",
+"phone2":" ",
+"lat":"19.6950732",
+"lng":"-101.1557297"
+}
+},
+{
+"distribuidor": {
+"id":67,
+"clave":"3167",
+"name":"GONZALEZ DIAZ Y SUCESORES SA DE CV",
+"comercial_name":"GONZALEZ DIAZ Y SUCESORES SA DE CV",
+"state":"MICH",
+"city":"Morelia",
+"address":"VICENTE SANTA MARIA",
+"interior":"",
+"exterior":"976",
+"colonia":"VENTURA PUENTE",
+"cp":"58020",
+"phone1":" 313-2033",
+"phone2":" ",
+"lat":"19.6923815",
+"lng":"-101.1879302"
+}
+},
+{
+"distribuidor": {
+"id":68,
+"clave":"4209",
+"name":"COMERCIAL PLOCER, S.A. DE C.V.",
+"comercial_name":"COMERCIAL PLOCER, S.A. DE C.V.",
+"state":"MICH",
+"city":"Zamora",
+"address":"AVENIDA 5 DE MAYO SUR",
+"interior":"",
+"exterior":"683",
+"colonia":"EL DUERO",
+"cp":"59690",
+"phone1":"5153-742 ",
+"phone2":"5153-745 ",
+"lat":"19.9755934",
+"lng":"-102.2847675"
+}
+},
+{
+"distribuidor": {
+"id":69,
+"clave":"3552",
+"name":"CRISPIN REYES CARMONA",
+"comercial_name":"FERERTERIA SAN FRANCISCO",
+"state":"MICH",
+"city":"CD de Hidalgo",
+"address":"FRANCISCO J. MUJICA",
+"interior":"",
+"exterior":"25",
+"colonia":"SAN FRANCISCO OJO DE AGUA",
+"cp":"61130",
+"phone1":"1544-188 ",
+"phone2":" ",
+"lat":"19.6941186",
+"lng":"-100.5759649"
+}
+},
+{
+"distribuidor": {
+"id":70,
+"clave":"3926",
+"name":"HUGO TELLO GONZALEZ",
+"comercial_name":"CASA TELLO",
+"state":"MICH",
+"city":"CD de Hidalgo",
+"address":"SIMON BOLIVAR",
+"interior":"",
+"exterior":"4",
+"colonia":"CENTRO",
+"cp":"61100",
+"phone1":"1543-577 ",
+"phone2":"1544-984 ",
+"lat":"19.6912193",
+"lng":"-100.5599341"
+}
+},
+{
+"distribuidor": {
+"id":71,
+"clave":"3120",
+"name":"FERREGUIZA SA",
+"comercial_name":"FERREGUIZA SA",
+"state":"MICH",
+"city":"Puruándiro",
+"address":"EMILIO CARRANZA",
+"interior":"",
+"exterior":"184",
+"colonia":"CENTRO",
+"cp":"58500",
+"phone1":" 383-0403",
+"phone2":" ",
+"lat":"20.0902572",
+"lng":"-101.5154059"
+}
+},
+{
+"distribuidor": {
+"id":72,
+"clave":"3319",
+"name":"MAS TUBO, S.A. DE C.V.",
+"comercial_name":"MAS TUBO, S.A. DE C.V.",
+"state":"MICH",
+"city":"Morelia",
+"address":"PERIFERICO PASEO DE LA REPUBLICA",
+"interior":"B",
+"exterior":"2889",
+"colonia":"EL LAGO",
+"cp":"58115",
+"phone1":" 320-7626",
+"phone2":" ",
+"lat":"19.7264328",
+"lng":"-101.210079"
+}
+},
+{
+"distribuidor": {
+"id":73,
+"clave":"4118",
+"name":"KAREN ESTEFANIA ALVAREZ TINOCO",
+"comercial_name":"FERRETERIA LA CENTRAL",
+"state":"MICH",
+"city":"Morelia",
+"address":"SANTA MARÍA DE LOS URDIALES",
+"interior":"",
+"exterior":"1003",
+"colonia":"LAS MARGARITAS",
+"cp":"58020",
+"phone1":"3122-326 ",
+"phone2":" ",
+"lat":"19.7102586",
+"lng":"-101.2077265"
+}
+},
+{
+"distribuidor": {
+"id":74,
+"clave":"3190",
+"name":"INDUSTRIAL ELECTRICA FERRETERA DEL CENTRO SA DE CV",
+"comercial_name":"INDUSTRIAL ELECTRICA FERRETERA DEL CENTRO SA DE CV",
+"state":"AGS",
+"city":"Aguascalientes",
+"address":"COMERCIO",
+"interior":"",
+"exterior":"55",
+"colonia":"CENTRO COMERCIAL AGROPECUARIO",
+"cp":"20135",
+"phone1":"914 -3101",
+"phone2":"9143-728 ",
+"lat":"21.9129659",
+"lng":"-102.293404"
+}
+},
+{
+"distribuidor": {
+"id":75,
+"clave":"3105",
+"name":"EL CENTENARIO, S.A. DE C.V.",
+"comercial_name":"EL CENTENARIO, S.A. DE C.V.",
+"state":"AGS",
+"city":"Aguascalientes",
+"address":"BLVD A ZACATECAS",
+"interior":"",
+"exterior":"204",
+"colonia":"EL PLATEADO",
+"cp":"20137",
+"phone1":"9961-202 ",
+"phone2":" ",
+"lat":"21.9051605",
+"lng":"-102.2927013"
+}
+},
+{
+"distribuidor": {
+"id":76,
+"clave":"3507",
+"name":"EL CLAVO FERRETERIA, S.A. DE C.V.",
+"comercial_name":"EL CLAVO FERRETERIA, S.A. DE C.V.",
+"state":"B.C.S.",
+"city":"La paz",
+"address":"LUIS DONALDO COLOSIO",
+"interior":"",
+"exterior":"2085",
+"colonia":"UNIDAD INDECO",
+"cp":"23070",
+"phone1":"128 -8516",
+"phone2":"128 -8515",
+"lat":"24.1249713",
+"lng":"-110.3162893"
+}
+},
+{
+"distribuidor": {
+"id":77,
+"clave":"3184",
+"name":"IGNACIO CASILLAS VELARDE",
+"comercial_name":"EL FOCO",
+"state":"B.C.S.",
+"city":"La paz",
+"address":"BOULEVARD FORJADORES SN LOCALES",
+"interior":"",
+"exterior":"2 Y 3",
+"colonia":"ADOLFO RUIZ CORTINES",
+"cp":"23040",
+"phone1":" 121-4460",
+"phone2":" ",
+"lat":"",
+"lng":""
+}
+},
+{
+"distribuidor": {
+"id":78,
+"clave":"4125",
+"name":"NUEVE, S.A. DE C.V.",
+"comercial_name":"FERRETERIA FARA",
+"state":"BC",
+"city":"Tijuana",
+"address":"INSURGENTES",
+"interior":"",
+"exterior":"19098",
+"colonia":"EL SEMINARIO",
+"cp":"22580",
+"phone1":"6258-080 ",
+"phone2":" ",
+"lat":"32.537061",
+"lng":"-116.9712608"
+}
+},
+{
+"distribuidor": {
+"id":79,
+"clave":"3619",
+"name":"REGI, S.A DE C.V.",
+"comercial_name":"FERRETERIA REGI",
+"state":"BC",
+"city":"Tijuana",
+"address":"MACLOVIO HERRERA",
+"interior":"",
+"exterior":"306",
+"colonia":"FRANCISCO VILLA",
+"cp":"22615",
+"phone1":"4637-7168",
+"phone2":"4637-7170",
+"lat":"32.5026628",
+"lng":"-117.0587715"
+}
+},
+{
+"distribuidor": {
+"id":80,
+"clave":"4106",
+"name":"LUIS ALFREDO LOPEZ ROJAS",
+"comercial_name":"FERRETERIA EL LORO",
+"state":"BC",
+"city":"Tijuana",
+"address":"AVENIDA MISION DE SAN LUIS",
+"interior":"",
+"exterior":"521 - 2",
+"colonia":"KINO",
+"cp":"22223",
+"phone1":"6256-302 ",
+"phone2":" ",
+"lat":"32.4826991",
+"lng":"-116.9225869"
+}
+},
+{
+"distribuidor": {
+"id":81,
+"clave":"3128",
+"name":"FERRETERAS PARTIDA SA DE CV",
+"comercial_name":"FERRETERAS PARTIDA SA DE CV",
+"state":"SON",
+"city":"Hermosillo",
+"address":"SATURNINO CAMPOY",
+"interior":"",
+"exterior":"913",
+"colonia":"SAHUARO",
+"cp":"83176",
+"phone1":" 219-0031",
+"phone2":" ",
+"lat":"29.1035659",
+"lng":"-111.002507"
+}
+},
+{
+"distribuidor": {
+"id":82,
+"clave":"3069",
+"name":"COMERCIAL PROVEEDORA DEL NOROESTE, S.A. DE C.V.",
+"comercial_name":"COMERCIAL PROVEEDORA DEL NOROESTE, S.A. DE C.V.",
+"state":"SON",
+"city":"Hermosillo",
+"address":"QUINTA DE PERIFERICO",
+"interior":"",
+"exterior":"492",
+"colonia":"LUIS ENCINAS",
+"cp":"83138",
+"phone1":" 260-3186",
+"phone2":" ",
+"lat":"29.1132694",
+"lng":"-110.9819162"
+}
+},
+{
+"distribuidor": {
+"id":83,
+"clave":"3119",
+"name":"FERNANDO ZARZOSA ESCOBEDO",
+"comercial_name":"FERRETERIA FERRETLAP",
+"state":"S.L.P.",
+"city":"San Luis Potosí",
+"address":"AV. RICARDO B. ANAYA",
+"interior":"",
+"exterior":"1409",
+"colonia":"PROVIDENCIA",
+"cp":"78390",
+"phone1":" 163-0096",
+"phone2":" ",
+"lat":"22.1441432",
+"lng":"-100.9371761"
+}
+},
+{
+"distribuidor": {
+"id":84,
+"clave":"3904",
+"name":"J. JESUS MENDOZA LANDEROS",
+"comercial_name":"ZONA DEL RASTRO",
+"state":"S.L.P.",
+"city":"San Luis Potosí",
+"address":"RICARDO B. ANAYA",
+"interior":"",
+"exterior":"3460",
+"colonia":"LA LIBERTAD 1A SECCION",
+"cp":"78394",
+"phone1":"8211-309 ",
+"phone2":" ",
+"lat":"22.1399839",
+"lng":"-100.9097856"
+}
+},
+{
+"distribuidor": {
+"id":85,
+"clave":"3209",
+"name":"JESUS GERARDO LOPEZ REYNA",
+"comercial_name":"PLOMERIA ALONSO",
+"state":"S.L.P.",
+"city":"San Luis Potosí",
+"address":"JULIAN DE LOS REYES",
+"interior":"",
+"exterior":"343",
+"colonia":"CENTRO",
+"cp":"78000",
+"phone1":" 812-9553",
+"phone2":" ",
+"lat":"22.1536278",
+"lng":"-100.9779847"
+}
+},
+{
+"distribuidor": {
+"id":86,
+"clave":"3922",
+"name":"LAURENCIO GOMEZ PEREZ",
+"comercial_name":"FERRELECTRICA RIO",
+"state":"S.L.P.",
+"city":"San Luis Potosí",
+"address":"RIO AZUL",
+"interior":"",
+"exterior":"237",
+"colonia":"LOMAS DEL RIO",
+"cp":"78144",
+"phone1":"2065-596 ",
+"phone2":" ",
+"lat":"22.1770867",
+"lng":"-101.0108131"
+}
+},
+{
+"distribuidor": {
+"id":87,
+"clave":"3130",
+"name":"FERRETERIA DURANGO, S.A. DE C.V.",
+"comercial_name":"FERRETERIA DURANGO, S.A. DE C.V.",
+"state":"DGO",
+"city":"Durango",
+"address":"AVE. 20 DE NOVIEMBRE ORIENTE",
+"interior":"",
+"exterior":"514",
+"colonia":"CENTRO",
+"cp":"34000",
+"phone1":" 835-2514",
+"phone2":"8352-500 ",
+"lat":"25.5724822",
+"lng":"-103.497758"
+}
+},
+{
+"distribuidor": {
+"id":88,
+"clave":"4132",
+"name":"CORONA IBARRA DISTRIBUCIONES, S.A. DE C.V.",
+"comercial_name":"CORONA FERRETERÍAS",
+"state":"DGO",
+"city":"Durango",
+"address":"AV 20 DE NOVIEMBRE",
+"interior":"",
+"exterior":"616",
+"colonia":"CENTRO",
+"cp":"34000",
+"phone1":"8118-811 ",
+"phone2":" ",
+"lat":"24.0270829",
+"lng":"-104.656963"
+}
+},
+{
+"distribuidor": {
+"id":89,
+"clave":"",
+"name":"TUBERIAS DE MEXICO S.A DE C.V",
+"comercial_name":"TUBERIAS DE MEXICO",
+"state":"NL",
+"city":"Monterrey",
+"address":"AV. FRANCISCO Y MADERO",
+"interior":"",
+"exterior":"1958",
+"colonia":"CENTRO",
+"cp":"64010",
+"phone1":"81) 8355-4930",
+"phone2":"",
+"lat":"25.6870458",
+"lng":"-100.3403734"
+}
+},
+{
+"distribuidor": {
+"id":90,
+"clave":"",
+"name":"MAYOREO FERRETEROS S.A DE C.V",
+"comercial_name":"MAYOREO FERRETEROS",
+"state":"NL",
+"city":"Monterrey",
+"address":"AV. ABRAHAM LINCOLN",
+"interior":"",
+"exterior":"6505",
+"colonia":"FIDEL VELAZQUEZ",
+"cp":"64119",
+"phone1":"81)8310-7815",
+"phone2":"",
+"lat":"25.7425683",
+"lng":"-100.3811715"
+}
+},
+{
+"distribuidor": {
+"id":91,
+"clave":"",
+"name":"FERRETERA ELIZONDO HERMANOS",
+"comercial_name":"FERRETERA ELIZONDO HERMANOS",
+"state":"NL",
+"city":"Monterrey",
+"address":"COLON PTE",
+"interior":"",
+"exterior":"1610",
+"colonia":"CENTRO",
+"cp":"64000",
+"phone1":"81) 8125-5377",
+"phone2":"",
+"lat":"25.687594",
+"lng":"-100.330888"
+}
+},
+{
+"distribuidor": {
+"id":92,
+"clave":"",
+"name":"GONZALEZ BENAVIDES ABELARDO",
+"comercial_name":"PLOMERIA LALO",
+"state":"NL",
+"city":"Monterrey",
+"address":"BERNARDO REYES NTE",
+"interior":"",
+"exterior":"1023 Y 1025",
+"colonia":"CENTRO",
+"cp":"",
+"phone1":"81) 8375-0734",
+"phone2":"",
+"lat":"25.6854246",
+"lng":"-100.322706"
+}
+},
+{
+"distribuidor": {
+"id":93,
+"clave":"",
+"name":"PLOFERSA MONTERREY S.A DE C.V",
+"comercial_name":"PLOFERSA MONTERREY",
+"state":"NL",
+"city":"Monterrey",
+"address":"AVENIDA CHAPULTEPEC",
+"interior":"",
+"exterior":"434",
+"colonia":"CARACOL",
+"cp":"64810",
+"phone1":"81) 8190-0169",
+"phone2":"",
+"lat":"25.6666187",
+"lng":"-100.2952425"
+}
+},
+{
+"distribuidor": {
+"id":94,
+"clave":"",
+"name":"TLAPALERIA Y FERRETERIA UNIVERSAL S.A DE C.V",
+"comercial_name":"FERRETERIA UNIVERSAL",
+"state":"TAM",
+"city":"Matamoros",
+"address":"1A LAURO VILLAR Y JUAN ALVAREZ",
+"interior":"",
+"exterior":"126",
+"colonia":"MODELO",
+"cp":"87360",
+"phone1":"868) 8166- 403",
+"phone2":"",
+"lat":"",
+"lng":""
+}
+},
+{
+"distribuidor": {
+"id":95,
+"clave":"",
+"name":"JUAN DIEGO DE LA GARZA  GUTIERREZ",
+"comercial_name":"EL CASTOR",
+"state":"TAM",
+"city":"Matamoros",
+"address":" LAURO VILLAR",
+"interior":"",
+"exterior":"20",
+"colonia":"PARQUE INDUSTRIAL",
+"cp":"87479",
+"phone1":"868) 8140-005",
+"phone2":"",
+"lat":"",
+"lng":""
+}
+},
+{
+"distribuidor": {
+"id":96,
+"clave":"",
+"name":"MADERERIA Y FERRETERIA  VERACRUZ S.A DE C.V",
+"comercial_name":"MADERERIA Y FERRETERIA VERACRUZ",
+"state":"TAM",
+"city":"Matamoros",
+"address":"AV. DEL TRABAJO",
+"interior":"",
+"exterior":"19",
+"colonia":"VALLE DORADO",
+"cp":"87382",
+"phone1":"868) 8170- 809",
+"phone2":"",
+"lat":"25.8397148",
+"lng":"-97.5161024"
+}
+},
+{
+"distribuidor": {
+"id":97,
+"clave":"",
+"name":"LAURA PAULINA ZUÑIGA CARRILLO",
+"comercial_name":"EQUIPOS Y HERRAMIENTAS DEL NORTE",
+"state":"DGO",
+"city":"Gomez Palacio",
+"address":"5 DE FEBRERO PTE",
+"interior":"",
+"exterior":"330",
+"colonia":"CENTRO",
+"cp":"35000",
+"phone1":"871) 7151-403",
+"phone2":"",
+"lat":"25.5758059",
+"lng":"-103.5069696"
+}
+},
+{
+"distribuidor": {
+"id":98,
+"clave":"",
+"name":"MARIA DEL SOCORRO CENICEROS RAMIREZ",
+"comercial_name":"FERRETERIA RAMIREZ",
+"state":"DGO",
+"city":"Gomez Palacio",
+"address":"PATONI",
+"interior":"",
+"exterior":"807",
+"colonia":"CENTRO",
+"cp":"35000",
+"phone1":"871) 7235- 446",
+"phone2":"",
+"lat":"25.560496",
+"lng":"-103.5041375"
+}
+},
+{
+"distribuidor": {
+"id":99,
+"clave":"",
+"name":"ELOY ECHAVARRIA CRUZ",
+"comercial_name":"FERRE MATERIALES ELOY",
+"state":"COAH",
+"city":"Saltillo",
+"address":"PROLONGACIÓN OTILIO GONZALEZ",
+"interior":"",
+"exterior":"3924",
+"colonia":"AMPIACIÓN DE LOS CERRITOS",
+"cp":"25015",
+"phone1":"844)  1352-872",
+"phone2":"",
+"lat":"25.3942642",
+"lng":"-100.946778"
+}
+},
+{
+"distribuidor": {
+"id":100,
+"clave":"",
+"name":"HILARIO GONZALEZ GARZA",
+"comercial_name":"SIMILARES FERRETERIAS",
+"state":"NL",
+"city":"Linares",
+"address":"5 DE MAYO",
+"interior":"",
+"exterior":"604",
+"colonia":"CENTRO",
+"cp":"67700",
+"phone1":"821) 2125- 360",
+"phone2":"",
+"lat":"29.0720556",
+"lng":"-110.9726875"
+}
+},
+]
+}

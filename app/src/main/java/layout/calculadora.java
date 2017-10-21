@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
@@ -48,6 +49,14 @@ public class calculadora extends Fragment {
 
     private Spinner Spinner_presentacion;
     private Spinner Spinner_pieza;
+
+    private TextView text1;
+    private TextView text2;
+    private TextView text3;
+    private TextView text4;
+    private TextView text5;
+    private TextView text6;
+
 
     private ArrayList<String> presentaciones;
     private ArrayList<String> piezas;
@@ -96,6 +105,15 @@ public class calculadora extends Fragment {
         Spinner_pieza = (Spinner) _view.findViewById(R.id.calculadora_Pieza);
         calcular = (ImageButton) _view.findViewById(R.id.calculadora_calcular);
 
+        text1 = (TextView) _view.findViewById(R.id.calculadora_text1);
+        text2 = (TextView) _view.findViewById(R.id.calculadora_text2);
+        text3 = (TextView) _view.findViewById(R.id.calculadora_text3);
+        text4 = (TextView) _view.findViewById(R.id.calculadora_text4);
+        text5 = (TextView) _view.findViewById(R.id.calculadora_text5);
+        text6 = (TextView) _view.findViewById(R.id.calculadora_text6);
+
+
+
         presentaciones = new ArrayList<>();
         piezas = new ArrayList<>();
 
@@ -104,8 +122,69 @@ public class calculadora extends Fragment {
             public void onClick(View v) {
 
                 Log.d(TAG,"clicked");
+              long idPieza = Spinner_pieza.getSelectedItemId();
+              long idPresentacion = Spinner_presentacion.getSelectedItemId();
 
-               String curText = Spinner_presentacion.getSelectedItem().toString();
+              idPieza++;
+                idPresentacion++;
+
+                // Cargar datos para la calculaldora
+
+                String jsonCalculadora = Common.loadJSONFromAsset(myContext,"calculadora.json");
+                JSONObject obj_calculadora;
+                JSONObject calculadora;
+
+                try
+                {
+
+                    obj_calculadora = new JSONObject(jsonCalculadora);
+                    JSONArray res = obj_calculadora.getJSONArray("calculos");
+
+                    for (int i = 0; i < res.length(); i++)
+                    {
+                        calculadora = res.getJSONObject(i).getJSONObject("calculo");
+                        int id = calculadora.getInt("id");
+
+                         if ((int) idPieza == id)  // Si la pieza es igual al calculo seleccionado
+                         {
+                             // Obtener las presentaciones
+                             String presentacion4z = calculadora.getString("4z");
+                             String presentacion8z = calculadora.getString("8z");
+                             String presentacion16z = calculadora.getString("16z");
+                             String presentacion32z = calculadora.getString("32z");
+
+                             String Resultado = "";
+                             if (idPresentacion==1) Resultado = presentacion4z;
+                             if (idPresentacion==2) Resultado = presentacion8z;
+                             if (idPresentacion==3) Resultado = presentacion16z;
+                             if (idPresentacion==4) Resultado = presentacion32z;
+
+
+                             text1.setText("El cemento Contact 202 en presentación de: ");
+                             text2.setText(Spinner_presentacion.getSelectedItem().toString());
+                             text3.setText("Rinde para:");
+                             text4.setText(Resultado);
+                             text5.setText(" uniones de:");
+                             text6.setText(Spinner_pieza.getSelectedItem().toString());
+
+                         }
+
+
+
+                    }
+
+                }
+
+                catch (Exception e)
+                {
+                    Log.d(TAG,"Can not read json file calculadora");
+                    //return null;
+
+                }
+
+
+
+                String curText = Spinner_presentacion.getSelectedItem().toString();
                 String curText2 = Spinner_pieza.getSelectedItem().toString();
 
                 Log.d(TAG,curText);

@@ -1,21 +1,30 @@
 package layout;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.activity.MainActivity;
+import com.datalabor.soporte.mexar.activity.MapsActivity;
 import com.datalabor.soporte.mexar.adapter.DistribuidoresAdapter;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
 import com.datalabor.soporte.mexar.models.Distribuidor;
+import com.datalabor.soporte.mexar.models.Product;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -32,6 +41,7 @@ public class distribuidores extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private static final String TAG = "distribuidores";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -91,6 +101,67 @@ public class distribuidores extends Fragment {
 
         _distribuidores = new ArrayList<>();
 
+        String jsonDistribuidores = Common.loadJSONFromAsset(myContext,"distribuidores.json");
+        JSONObject obj_distribuidores;
+        JSONObject distribuidor;
+
+        ///////////////
+        try {
+
+            obj_distribuidores = new JSONObject(jsonDistribuidores);
+            JSONArray res = obj_distribuidores.getJSONArray("distribuidores");
+
+            for (int i = 0; i < res.length(); i++) {
+                distribuidor = res.getJSONObject(i).getJSONObject("distribuidor");
+                int id = distribuidor.getInt("id");
+                String name = distribuidor.getString("name");
+                String clave = distribuidor.getString("clave");
+                String comercial_name = distribuidor.getString("comercial_name");
+                String estado = distribuidor.getString("state");
+                String ciudad = distribuidor.getString("city");
+                String cp = distribuidor.getString("cp");
+                String direccion = distribuidor.getString("address");
+                String numInt = distribuidor.getString("interior");
+                String numExt = distribuidor.getString("exterior");
+                String colonia = distribuidor.getString("colonia");
+                String phone1 = distribuidor.getString("phone1");
+                String phone2 = distribuidor.getString("phone2");
+
+
+                Distribuidor dist1 = new Distribuidor();
+                dist1.set_id(id);
+                dist1.set_comercial_name(comercial_name);
+                dist1.set_name(name);
+                dist1.set_ciudad(ciudad);
+                dist1.set_estado(estado);
+                dist1.set_colonia(colonia);
+                dist1.set_direccion(direccion + " #" + numExt + " " + numInt);
+                dist1.set_cp(cp);
+                dist1.set_telefono1(phone1);
+                if (phone2.length()>1)
+                {
+                    dist1.set_telefono2("," + phone2);
+                }
+                _distribuidores.add(dist1);
+
+
+
+            }
+
+
+
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+        /*
+
+
         Distribuidor dist1 = new Distribuidor();
         dist1.set_name("Matriz Guadalajara");
         dist1.set_ciudad("Guadalajara");
@@ -121,11 +192,23 @@ public class distribuidores extends Fragment {
 
 
 
+*/
+
+
+
 
 
         _adapter = new DistribuidoresAdapter(getActivity(), _distribuidores, new IViewHolderClick() {
             @Override
             public void onClick(int position) {
+
+                Distribuidor curDist = _distribuidores.get(position);
+                //Log.d(TAG,curDist.get_name());
+                Intent intent = new Intent();
+                intent.setClass(myContext, MapsActivity.class);
+                //finish();
+                startActivity(intent);
+
 
             }
         });
@@ -153,6 +236,7 @@ public class distribuidores extends Fragment {
 
     @Override
     public void onAttach(Context context) {
+        myContext=(FragmentActivity) context;
         super.onAttach(context);
         /*
         if (context instanceof OnFragmentInteractionListener) {

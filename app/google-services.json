@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "977660917579",
+    "project_id": "mexar-app-1507652280818"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977660917579:android:cd4c7a1539e9c528",
+        "android_client_info": {
+          "package_name": "com.datalabor.soporte.mexar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977660917579-sob98cu12ah4s5o80l3o0ec1ttbfd6j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.datalabor.soporte.mexar",
+            "certificate_hash": "1b64a301113c6229dfc3c1a51223fe1c7289b314"
+          }
+        },
+        {
+          "client_id": "977660917579-q86nlpt0ttci2m5oe0pmuvnbq8jmkbe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEWjCLG3eGg4GitffVqymq2U3GfrobALQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,24 +8,30 @@ import java.io.Serializable;
 
 public class Distribuidor implements Serializable
 {
-    private long _id;
+    private int _id;
     private String _name;
+    private String _comercial_name;
     private String _estado;
     private String _ciudad;
     private String _colonia;
     private String _telefono1;
+    private String _telefono2;
     private String _direccion;
+    private String _cp;
     private int _resId;
+
+    private String _latitud;
+    private String _longitud;
 
 
     public Distribuidor() {
     }
 
-    public long get_id() {
+    public int get_id() {
         return _id;
     }
 
-    public void set_id(long _id) {
+    public void set_id(int _id) {
         this._id = _id;
     }
 
@@ -83,5 +89,45 @@ public class Distribuidor implements Serializable
 
     public void set_resId(int _resId) {
         this._resId = _resId;
+    }
+
+    public String get_telefono2() {
+        return _telefono2;
+    }
+
+    public void set_telefono2(String _telefono2) {
+        this._telefono2 = _telefono2;
+    }
+
+    public String get_comercial_name() {
+        return _comercial_name;
+    }
+
+    public void set_comercial_name(String _comercial_name) {
+        this._comercial_name = _comercial_name;
+    }
+
+    public String get_cp() {
+        return _cp;
+    }
+
+    public void set_cp(String _cp) {
+        this._cp = _cp;
+    }
+
+    public String get_latitud() {
+        return _latitud;
+    }
+
+    public void set_latitud(String _latitud) {
+        this._latitud = _latitud;
+    }
+
+    public String get_longitud() {
+        return _longitud;
+    }
+
+    public void set_longitud(String _longitud) {
+        this._longitud = _longitud;
     }
 }

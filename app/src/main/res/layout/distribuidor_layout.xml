@@ -16,51 +16,97 @@
 
         <TextView
             android:id="@+id/dist_nombre"
-            style="@style/RemarkField"
+            style="@style/RemarkSmallField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nombre:"/>
 
-        <TextView
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dist_ciudad"
+                style="@style/NormalSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciudad:"/>
+
+
+            <TextView
+                style="@style/NormalSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=","/>
+
+            <TextView
             android:id="@+id/dist_estado"
-            style="@style/RemarkField"
+            style="@style/NormalSmallField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Estado:"/>
 
 
-        <TextView
-            android:id="@+id/dist_ciudad"
-            style="@style/RemarkField"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ciudad:"/>
+
+        </LinearLayout>
 
 
         <TextView
             android:id="@+id/dist_dir"
-            style="@style/RemarkField"
+            style="@style/NormalSmallField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Direccion:"/>
 
         <TextView
+            style="@style/NormalSmallField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfonos:"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
             android:id="@+id/dist_tel"
-            style="@style/RemarkField"
+            style="@style/NormalSmallField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Telefono:"/>
 
-
         <TextView
-            android:id="@+id/dist_ubicacion"
-            style="@style/RemarkField"
+            android:id="@+id/dist_tel2"
+            style="@style/NormalSmallField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ver Mapa"/>
+            android:text="Telefono:"/>
+        </LinearLayout>
 
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
 
+            <TextView
+                android:id="@+id/dist_ubicacion"
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver Mapa"/>
+
+
+        <ImageButton android:id="@+id/buttonShift"
+            android:background="@drawable/gmaps_icon"
+            android:paddingTop="0dip"
+            android:layout_height="32dp"
+            android:layout_width="32dp" />
+
+        </LinearLayout>
     </LinearLayout>
 
 

@@ -2,97 +2,97 @@
   "piezas": [
     {
       "pieza": {
-        "name": "Union de 1/2 pulgadas.",
+        "name": "Union de 1/2\"",
         "id": 1
 	}
     },
 	 {
       "pieza": {
-        "name": "Union de 3/4 pulgadas.",
+        "name": "Union de 3/4\"",
         "id": 2
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 1 pulgadas.",
+        "name": "Union de 1\"",
         "id": 3
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 1 1/4 pulgadas.",
+        "name": "Union de 1 1/4\"",
         "id": 4
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 1 1/2 pulgadas.",
+        "name": "Union de 1 1/2\"",
         "id": 5
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 2 pulgadas.",
+        "name": "Union de 2\"",
         "id": 6
 	}
     },
 {
       "pieza": {
-        "name": "Union de 2 1/2 pulgadas.",
+        "name": "Union de 2 1/2\"",
         "id": 7
 	}
     },
 {
       "pieza": {
-        "name": "Union de 3 pulgadas.",
+        "name": "Union de 3\"",
         "id": 8
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 4 pulgadas.",
+        "name": "Union de 4\"",
         "id": 9
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 6 pulgadas.",
+        "name": "Union de 6\"",
         "id": 10
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 8 pulgadas.",
+        "name": "Union de 8\"",
         "id": 11
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 10 pulgadas.",
+        "name": "Union de 10\"",
         "id": 12
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 12 pulgadas.",
+        "name": "Union de 12\"",
         "id": 13
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 14 pulgadas.",
+        "name": "Union de 14\"",
         "id": 14
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 16 pulgadas.",
+        "name": "Union de 16\"",
         "id": 15
 	}
     },
 	{
       "pieza": {
-        "name": "Union de 18 pulgadas.",
+        "name": "Union de 18\"",
         "id": 16
 	}
     }
