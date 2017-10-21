@@ -390,6 +390,61 @@
             </LinearLayout>
 
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageButton
+                    android:id="@+id/ProductDetailFacebook"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.95"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/facebook_link"
+                    android:padding="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05"></View>
+
+                <ImageButton
+                    android:id="@+id/ProductDetailTwitter"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.95"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/twitter_link"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05"></View>
+
+
+                <ImageButton
+                    android:id="@+id/ProductDetailGoogle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/google_link"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+
+
+            </LinearLayout>
+
+
         </LinearLayout>
 
     </ScrollView>

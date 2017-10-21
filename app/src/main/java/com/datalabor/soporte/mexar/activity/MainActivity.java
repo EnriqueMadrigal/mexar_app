@@ -37,7 +37,10 @@ import layout.calculadora;
 import layout.contacto;
 import layout.distribuidores;
 import layout.mainf;
+import layout.productDetail;
+import layout.productos;
 import layout.promociones;
+import layout.subCategory;
 import layout.youtube;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener{
@@ -213,11 +216,51 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
         if( getSupportFragmentManager().getBackStackEntryCount() == 0 )
         {
+            int curPage = Common.GetPage();
+            int curCategoria = Common.getCategoria();
+            int curSubCategoria = Common.getSubCategoria();
 
-         //clearBackStack();
-            Common.SetPage(0);
-            MainFragment = new mainf();
-            getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();
+            Log.d(TAG, String.valueOf(curPage));
+            Log.d(TAG, String.valueOf(curCategoria));
+            Log.d(TAG, String.valueOf(curSubCategoria));
+
+
+            //clearBackStack();
+
+
+            switch (curPage)
+            {
+                case 0:
+                    super.onBackPressed();
+
+                    break;
+
+                case 1:
+                    Common.SetPage(0);
+                    MainFragment = new mainf();
+                    getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  MainFragment, "HOME" ).commit();
+                break;
+
+
+                case 2:
+                    subCategory _subCategory = subCategory.newInstance(curCategoria);
+                    Common.SetPage(1);
+                    Common.setCategoria(curCategoria);
+                    getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _subCategory, "Sub Categoria" ).commit();
+                break;
+
+                case 3:
+                    productos _productos = productos.newInstance(curSubCategoria);
+                    Common.SetPage(2);
+                    Common.setSubCategoria(curSubCategoria);
+                    getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _productos, "Productos" ).commit();
+                break;
+
+                default:
+                    super.onBackPressed();
+                    break;
+
+            }
 
 
 

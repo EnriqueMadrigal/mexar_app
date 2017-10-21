@@ -179,6 +179,7 @@ public class mainf extends Fragment {
 
                     subCategory _subCategory = subCategory.newInstance(curiId);
                     Common.SetPage(1);
+                    Common.setCategoria(curiId);
                     myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_subCategory, "Sub Categoria" ).commit();
 
                     /*

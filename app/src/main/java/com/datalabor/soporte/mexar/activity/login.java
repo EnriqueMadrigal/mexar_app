@@ -65,6 +65,16 @@ private ProgressDialog mProgressDialog;
     }
 
 
+    public void signTest(View view)
+    {
+        Log.d("Sig_in Pressed","1");
+        Intent intent = new Intent();
+        intent.setClass(this, MainActivity.class);
+        finish();
+        startActivity(intent);
+
+    }
+
     ///////// Google sig in
     @Override
     public void onStart() {

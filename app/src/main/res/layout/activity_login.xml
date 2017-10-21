@@ -83,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
+            android:onClick="signTest"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/login_facebook" />
     </LinearLayout>

@@ -257,6 +257,7 @@ public class subCategory extends Fragment {
                     */
                 productos _productos = productos.newInstance(curId);
                 Common.SetPage(2);
+                Common.setSubCategoria(curId);
                 myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,_productos, "Productos" ).commit();
 
 

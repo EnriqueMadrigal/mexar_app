@@ -2,14 +2,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="160dp"
     android:background="@color/mexar_blue">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
         android:padding="0dp"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         android:id="@+id/curImage"/>
 
 

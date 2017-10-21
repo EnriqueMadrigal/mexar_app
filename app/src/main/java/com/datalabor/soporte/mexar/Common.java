@@ -12,16 +12,23 @@ import java.io.InputStream;
 public class Common {
 
     private static int _curPage = 0;
+    private static int _curCategoria = 0;
+    private static int _curSubCategoria = 0;
 
     public static void SetPage(int curPage)
     {
         _curPage = curPage;
     }
-
     public static int GetPage()
     {
         return _curPage;
     }
+
+    public static void setCategoria(int curCategoria) {_curCategoria = curCategoria;}
+    public static int getCategoria() { return _curCategoria;}
+
+    public static void setSubCategoria(int curSubCategoria) {_curSubCategoria = curSubCategoria;}
+    public static int getSubCategoria() {return _curSubCategoria;}
 
     public static void DecrementPage()
     {
