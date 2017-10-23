@@ -2,6 +2,7 @@ package com.datalabor.soporte.mexar.activity;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -50,7 +51,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
     private boolean MarkersLoaded= false;
 
     private HashMap<Marker, Integer> eventMarkerMap =  new HashMap<Marker, Integer>();
-    ArrayList<Distribuidor> _distribuidores;
+    Distribuidor _distribuidor;
     Context context;
     private final String TAG = "MapsActivity 1";
 
@@ -63,11 +64,16 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_maps2);
         context = this;
 
-        LoadDistribuidores();
+
+        Intent intent = this.getIntent();
+        Bundle bundle = intent.getExtras();
+        _distribuidor = (Distribuidor) bundle.getSerializable("distribuidor");
+
+        //LoadDistribuidores();
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.map2);
         mapFragment.getMapAsync(this);
 
 
@@ -84,9 +90,10 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
                 .setFastestInterval(1 * 1000); // 1 second, in milliseconds
 
 
-        LoadDistribuidores();
 
+        //LoadDistribuidores();
 
+Log.d(TAG,"test");
 
     }
 
@@ -146,7 +153,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
                 LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
             }
             else {
-                handleNewLocation(location);  // Poner la localización actual...
+               // handleNewLocation(location);  // Poner la localización actual...
                 curLocation = location;
             }
 
@@ -261,9 +268,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
         {
 
 
-            for (Distribuidor item: _distribuidores)
-            {
-
+             Distribuidor item = _distribuidor;
 
                 String title = item.get_comercial_name();
                 String lat = item.get_latitud();
@@ -282,12 +287,12 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
                     } catch (NumberFormatException e)
                     {
                         //  did not contain a valid double
-                        continue;
+                    return;
                     }
 
                 }
 
-                else continue;
+                else return;
 
                 if (isNumeric(lng))
                 {
@@ -296,12 +301,12 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
                         curLongitude = Double.parseDouble(lng); // Make use of autoboxing.  It's also easier to read.
                     } catch (NumberFormatException e)
                     {
-                        continue;
+                        return;
                     }
 
                 }
 
-                else continue;
+                else return;
 
 
 
@@ -319,11 +324,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
                 mMap.addMarker(new MarkerOptions().position(newMarker).title(title));
 
                 float zoomLevel = 12.0f; //This goes up to 21
-                // mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarker, zoomLevel));
-
-                // mMap.moveCamera(CameraUpdateFactory.newLatLng(newMarker));
-
-            }
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarker, zoomLevel));
 
 
             MarkersLoaded = true;
@@ -370,74 +371,5 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
         return true;
     }
 
-    private void LoadDistribuidores()
-    {
 
-        _distribuidores = new ArrayList<>();
-
-        String jsonDistribuidores = Common.loadJSONFromAsset(context,"distribuidores.json");
-        JSONObject obj_distribuidores;
-        JSONObject distribuidor;
-
-        ///////////////
-        try {
-
-            obj_distribuidores = new JSONObject(jsonDistribuidores);
-            JSONArray res = obj_distribuidores.getJSONArray("distribuidores");
-
-            for (int i = 0; i < res.length(); i++) {
-                distribuidor = res.getJSONObject(i).getJSONObject("distribuidor");
-                int id = distribuidor.getInt("id");
-                String name = distribuidor.getString("name");
-                String clave = distribuidor.getString("clave");
-                String comercial_name = distribuidor.getString("comercial_name");
-                String estado = distribuidor.getString("state");
-                String ciudad = distribuidor.getString("city");
-                String cp = distribuidor.getString("cp");
-                String direccion = distribuidor.getString("address");
-                String numInt = distribuidor.getString("interior");
-                String numExt = distribuidor.getString("exterior");
-                String colonia = distribuidor.getString("colonia");
-                String phone1 = distribuidor.getString("phone1");
-                String phone2 = distribuidor.getString("phone2");
-                String lat = distribuidor.getString("lat");
-                String lng = distribuidor.getString("lng");
-
-
-                Distribuidor dist1 = new Distribuidor();
-                dist1.set_id(id);
-                dist1.set_comercial_name(comercial_name);
-                dist1.set_name(name);
-                dist1.set_ciudad(ciudad);
-                dist1.set_estado(estado);
-                dist1.set_colonia(colonia);
-                dist1.set_direccion(direccion + " #" + numExt + " " + numInt);
-                dist1.set_cp(cp);
-                dist1.set_telefono1(phone1);
-                dist1.set_latitud(lat);
-                dist1.set_longitud(lng);
-
-                if (phone2.length()>1)
-                {
-                    dist1.set_telefono2("," + phone2);
-                }
-                _distribuidores.add(dist1);
-
-
-
-            }
-
-
-
-        }
-
-        catch (Exception e)
-        {
-            Log.d(TAG,"Can not read json file distribuidores");
-            //return null;
-
-        }
-
-
-    }
 }

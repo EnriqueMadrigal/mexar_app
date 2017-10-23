@@ -12,11 +12,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.activity.MainActivity;
 import com.datalabor.soporte.mexar.activity.MapsActivity;
+import com.datalabor.soporte.mexar.activity.MapsActivity2;
 import com.datalabor.soporte.mexar.adapter.DistribuidoresAdapter;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
@@ -51,6 +53,7 @@ public class distribuidores extends Fragment {
     private FragmentActivity myContext;
     private RecyclerView _recyclerview;
     private LinearLayoutManager _linearLayoutManager;
+    private Button showMap;
 
     private View _view;
 
@@ -98,6 +101,7 @@ public class distribuidores extends Fragment {
         _view = inflater.inflate( R.layout.fragment_distribuidores, container, false );
 
         _recyclerview = (RecyclerView) _view.findViewById(R.id.recyclerDistribuidores);
+        showMap = (Button) _view.findViewById(R.id.distribuidoresMapa);
 
         _distribuidores = new ArrayList<>();
 
@@ -126,6 +130,8 @@ public class distribuidores extends Fragment {
                 String colonia = distribuidor.getString("colonia");
                 String phone1 = distribuidor.getString("phone1");
                 String phone2 = distribuidor.getString("phone2");
+                String lat = distribuidor.getString("lat");
+                String lng = distribuidor.getString("lng");
 
 
                 Distribuidor dist1 = new Distribuidor();
@@ -138,6 +144,10 @@ public class distribuidores extends Fragment {
                 dist1.set_direccion(direccion + " #" + numExt + " " + numInt);
                 dist1.set_cp(cp);
                 dist1.set_telefono1(phone1);
+                dist1.set_latitud(lat);
+                dist1.set_longitud(lng);
+
+
                 if (phone2.length()>1)
                 {
                     dist1.set_telefono2("," + phone2);
@@ -205,7 +215,11 @@ public class distribuidores extends Fragment {
                 Distribuidor curDist = _distribuidores.get(position);
                 //Log.d(TAG,curDist.get_name());
                 Intent intent = new Intent();
-                intent.setClass(myContext, MapsActivity.class);
+                intent.setClass(myContext, MapsActivity2.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("distribuidor", curDist);
+                intent.putExtras(bundle);
+
                 //finish();
                 startActivity(intent);
 
@@ -221,6 +235,16 @@ public class distribuidores extends Fragment {
         _recyclerview.setLayoutManager( _linearLayoutManager );
         _recyclerview.addItemDecoration( new SimpleDividerItemDecoration( getActivity() ) );
 
+
+        showMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(myContext, MapsActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
 
         return _view;

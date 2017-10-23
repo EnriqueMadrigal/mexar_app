@@ -30,6 +30,10 @@ public class Common {
     public static void setSubCategoria(int curSubCategoria) {_curSubCategoria = curSubCategoria;}
     public static int getSubCategoria() {return _curSubCategoria;}
 
+
+    public static final String VAR_USER_NAME = "USER_NAME";
+    public static final String VAR_LOGIN_TYPE = "LOGIN_TYPE"; // google, facebook, email
+
     public static void DecrementPage()
     {
         _curPage--;

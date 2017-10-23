@@ -5,4 +5,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_maps">Map</string>
     <string name="loading">Un momento por favor</string>
+
+
+    <string name="facebook_app_id">124155868271692</string>
+    <string name="fb_login_protocol_scheme">fb124155868271692</string>
+
 </resources>

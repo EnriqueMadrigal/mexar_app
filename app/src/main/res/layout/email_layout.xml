@@ -1,0 +1,178 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:layout_gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_round_color1"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="140dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="5dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="Introduzca su cuenta de correo:"
+                            android:layout_gravity="center"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"></View>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:weightSum="1">
+
+
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="26dp"
+                                android:layout_weight="0.9"
+                                android:id="@+id/emailCorreo"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                android:background="@drawable/background_text_field1"
+                                android:layout_gravity="center"
+                                android:lines="1"
+                                android:maxLines="1"
+                                android:imeOptions="actionDone"
+                                android:inputType="textWebEmailAddress"
+                                android:text=""/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_margin="0dp"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="0dp"
+                                android:background="@drawable/background_text_field1"
+                                android:text="Cancelar"
+                                android:id="@+id/emailCancelar"
+                                android:layout_gravity="center"
+                                android:minHeight="20dip"
+                                android:minWidth="70dip"
+                                android:textSize="14dp"/>
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_margin="0dp"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/emailAceptar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="0dp"
+                                android:background="@drawable/background_text_field1"
+                                android:minHeight="20dip"
+                                android:minWidth="70dip"
+                                android:text="Continuar"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+
+    </FrameLayout>
+</FrameLayout>
+
+
+
+
+

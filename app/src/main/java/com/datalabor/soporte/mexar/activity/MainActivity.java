@@ -1,6 +1,7 @@
 package com.datalabor.soporte.mexar.activity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
@@ -10,6 +11,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -150,16 +152,17 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
                             case R.id.menu_promociones:
-                                Common.SetPage(1);
-                                clearBackStack();
+                             //   Common.SetPage(1);
+                             //   clearBackStack();
 
-                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _promociones, "Promociones" ).commit();
+                           //     getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _promociones, "Promociones" ).commit();
 
                                 break;
 
 
                             case R.id.menu_cerrrar:
-                                signOut();
+                                confirmLogout();
+
                                 break;
 
 
@@ -202,6 +205,22 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     }
 
+
+    public void confirmLogout()
+    {
+        new AlertDialog.Builder( this )
+                .setMessage( "¿Estás seguro de que deseas cerrar tu sesión?" )
+                .setCancelable( false )
+                .setPositiveButton( "Si", new DialogInterface.OnClickListener()
+                {
+                    public void onClick(DialogInterface dialog, int id )
+                    {
+                       logout();
+                    }
+                } )
+                .setNegativeButton( "No", null )
+                .show();
+    }
 
 
     @Override
@@ -402,6 +421,33 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             FragmentManager.BackStackEntry first = manager.getBackStackEntryAt( 0 );
             manager.popBackStack( first.getId(), FragmentManager.POP_BACK_STACK_INCLUSIVE );
         }
+    }
+
+
+    private void logout()
+    {
+
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences( this );
+        SharedPreferences.Editor editor = sharedPref.edit();
+        String user_uid = sharedPref.getString( Common.VAR_LOGIN_TYPE, "" );
+
+        // Borrar el login
+        editor.putString( Common.VAR_LOGIN_TYPE, "");
+        editor.putString( Common.VAR_USER_NAME, "");
+
+        editor.commit();
+
+        if (user_uid.contains("google"))
+        {
+            signOut();
+        }
+
+
+        Intent intent = new Intent();
+        intent.setClass(context, login.class);
+        finish();
+        startActivity(intent);
+
     }
 
 
