@@ -123,11 +123,13 @@ public class mainf extends Fragment {
                 categoria = res.getJSONObject(i).getJSONObject("categoria");
                 String name = categoria.getString("name");
                 String resname = categoria.getString("resname");
+                String desc = categoria.getString("desc");
                 int id = categoria.getInt("id");
 
                 Category newcategory = new Category();
                 newcategory.setName(name);
                 newcategory.setId(id);
+                newcategory.set_desc(desc);
                 int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
                 newcategory.setResId(resid);
@@ -255,6 +257,7 @@ public class mainf extends Fragment {
         ////////// Banners
 
             fList = new ArrayList<Fragment>();
+            fList.add(banner_image_class.newInstance(R.drawable.productos));
             fList.add(banner_image_class.newInstance(R.drawable.banner1));
             fList.add(banner_image_class.newInstance(R.drawable.banner2));
             fList.add(banner_image_class.newInstance(R.drawable.banner3));

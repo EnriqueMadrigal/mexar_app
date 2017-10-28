@@ -14,7 +14,7 @@
         <LinearLayout
             android:id="@+id/pnlSlider"
             android:layout_width="match_parent"
-            android:layout_height="240dp"
+            android:layout_height="160dp"
             android:orientation="vertical">
 
             <!-- TODO: Update blank fragment layout -->
@@ -36,14 +36,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
-                android:text="Catálogo de productos" />
+                android:text="Nuestras categorías" />
 
             <TextView
                 style="@style/NormalSmallField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
-                android:text="Da click en la categoria para ver los productos" />
+                android:text="Selecciona la categoría para ver los diferentes productos" />
 
 
         </LinearLayout>

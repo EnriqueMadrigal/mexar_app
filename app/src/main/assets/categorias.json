@@ -4,21 +4,24 @@
       "categoria": {
         "name": "Plomería",
         "id": 1,
-		"resname":"pipes"
+		"resname":"pipes",
+		"desc":"Especializados en la fabricación de Cemento para PVC y CPVC CONTACT con certificación NSF, Soldadura Monarca y Pasta para soldar Generación 2000 y comercialización de silicones DAP y selladores e impermeabilizantes SIKA."
       }
     },
     {
       "categoria": {
         "name": "Industrial",
         "id": 2,
-		"resname":"industrial"
+		"resname":"industrial",
+		"desc":"Fabricantes y distribuidores de una amplia gama de aleaciones especializadas de soldadura que requiere la industria."
       }
     },
     {
       "categoria": {
         "name": "Centrifugado",
         "id": 3,
-		"resname":"centrifugado"
+		"resname":"centrifugado",
+		"desc":"Maquinaria CONQUEST , metales y suministros para la microfundición de metales para el mercado joyero e industrial."
       }
     }
   ]

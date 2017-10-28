@@ -150,7 +150,7 @@ private LoginButton loginButton;
     {
         Log.d("Sig_in Pressed","1");
         Intent intent = new Intent();
-        intent.setClass(this, MainActivity.class);
+        intent.setClass(this, presentacion.class);
         finish();
         startActivity(intent);
 
@@ -165,7 +165,7 @@ private LoginButton loginButton;
         if (checkEmail())
         {
             Intent intent = new Intent();
-            intent.setClass(this, MainActivity.class);
+            intent.setClass(this, presentacion.class);
             finish();
             startActivity(intent);
 
@@ -232,7 +232,7 @@ private LoginButton loginButton;
             saveEmail(acct.getEmail());
             setLoginType("google");
             Intent intent = new Intent();
-            intent.setClass(this, MainActivity.class);
+            intent.setClass(this, presentacion.class);
             finish();
             startActivity(intent);
 
@@ -379,7 +379,7 @@ private LoginButton loginButton;
                     setLoginType("email");
                     alertDialog.dismiss();
                     Intent intent = new Intent();
-                    intent.setClass(context, MainActivity.class);
+                    intent.setClass(context, presentacion.class);
                     finish();
                     startActivity(intent);
                 }

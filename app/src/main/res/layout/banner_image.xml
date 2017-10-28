@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/content"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/mexar_blue">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="0dp"
-        android:scaleType="fitXY"
-        android:id="@+id/curImage"/>
+    android:layout_height="160dp">
 
 
-</ScrollView>
+<ImageView android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:padding="0dp"
+    android:scaleType="fitXY"
+    android:id="@+id/curImage"/>
+
+</LinearLayout>

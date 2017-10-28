@@ -64,6 +64,8 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     {
         Category curCategory = _items.get(position);
         holder.get_labelProduct().setText(curCategory.getName());
+        holder.get_labelDesc().setText(curCategory.get_desc());
+
         holder.setIndex( position );
 
 
@@ -77,6 +79,8 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         private ImageView _iconView;
 
         private TextView _labelProduct;
+        private TextView _labelDesc;
+
         private int _index;
         private IViewHolderClick _listener;
 
@@ -87,6 +91,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
             view.setOnClickListener( this );
             _iconView = (ImageView) view.findViewById( R.id.imgIcon );
             _labelProduct = (TextView) view.findViewById( R.id.lblProductTitle );
+            _labelDesc = (TextView) view.findViewById( R.id.lblProductDescription );
             _listener = listener;
         }
 
@@ -101,7 +106,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         {
             return _labelProduct;
         }
-
+        public TextView get_labelDesc() {return  _labelDesc;}
 
 
         public int getIndex()
