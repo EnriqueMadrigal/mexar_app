@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/mexar_blue"></View>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"> </View>
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="12dp">
+    android:padding="2dp">
+
+
 
     <ImageView
         android:id="@+id/imgSubCategory"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginRight="4dp"
         />
 
     <LinearLayout
@@ -30,9 +51,10 @@
 
             <TextView
                 android:id="@+id/lblSubCategory"
-                style="@style/RemarkField"
+                style="@style/RemarkSmallField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxLines="3"
                 android:text="Product: "/>
 
 
@@ -48,4 +70,6 @@
         android:layout_height="15dp"
         android:src="@drawable/blue_arrow"
         android:layout_gravity="center_vertical"/>
+</LinearLayout>
+
 </LinearLayout>

@@ -152,12 +152,14 @@ public class calculadora extends Fragment {
                              String presentacion8z = calculadora.getString("8z");
                              String presentacion16z = calculadora.getString("16z");
                              String presentacion32z = calculadora.getString("32z");
+                             String presentacion133z = calculadora.getString("133z");
 
                              String Resultado = "";
                              if (idPresentacion==1) Resultado = presentacion4z;
                              if (idPresentacion==2) Resultado = presentacion8z;
                              if (idPresentacion==3) Resultado = presentacion16z;
                              if (idPresentacion==4) Resultado = presentacion32z;
+                             if (idPresentacion==5) Resultado = presentacion133z;
 
 
                              text1.setText("El cemento Contact 202 en presentación de: ");

@@ -269,7 +269,7 @@ public class subCategory extends Fragment {
         _recyclerview.setHasFixedSize( true );
         _recyclerview.setAdapter( _adapter );
         _recyclerview.setLayoutManager( _linearLayoutManager );
-        _recyclerview.addItemDecoration( new SimpleDividerItemDecoration( getActivity() ) );
+//        _recyclerview.addItemDecoration( new SimpleDividerItemDecoration( getActivity() ) );
 
 
         return _view;

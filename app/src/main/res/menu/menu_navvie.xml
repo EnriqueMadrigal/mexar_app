@@ -28,7 +28,7 @@
     <item
             android:id="@+id/menu_calcualdora"
             android:icon="@drawable/icon_calculadora"
-            android:title="Calculadora"/>
+            android:title="Calculadoras"/>
 
         </group>
 

@@ -378,7 +378,7 @@
 
                 <Button
                     android:id="@+id/ProductDetailFicha"
-                    android:layout_width="140dp"
+                    android:layout_width="160dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/icon_pdf"
                     android:paddingLeft="40dp"
