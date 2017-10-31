@@ -36,6 +36,7 @@ import com.google.android.gms.common.api.Status;
 import java.io.File;
 
 import layout.calculadora;
+import layout.calculadoras;
 import layout.contacto;
 import layout.distribuidores;
 import layout.mainf;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     promociones _promociones;
     youtube _youtube;
     contacto _contacto;
-    calculadora _calculadora;
+    calculadoras _calculadoras;
 
 
     @Override
@@ -134,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                                 Common.SetPage(1);
                                 clearBackStack();
 
-                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _calculadora, "Calculadora" ).commit();
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _calculadoras, "Calculadoras" ).commit();
 
 
                                 break;
@@ -197,7 +198,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         _promociones = new promociones();
         _youtube = new youtube();
         _contacto = new contacto();
-        _calculadora = new calculadora();
+        _calculadoras = new calculadoras();
         Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
 

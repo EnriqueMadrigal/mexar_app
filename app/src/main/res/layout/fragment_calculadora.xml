@@ -23,7 +23,7 @@
                 style="@style/NormalField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calculadora:"
+                android:text="Calculadora para plomeria:"
                 android:paddingLeft="16dp"/>
         </LinearLayout>
 
@@ -193,7 +193,7 @@
                 android:id="@+id/calculadora_calcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/icon_email"
+                android:background="@color/transparent"
                 android:src="@drawable/btn_calcular"
                 android:text="CALCULAR"
                 android:textColor="@color/white"
