@@ -2,7 +2,7 @@
   "subcategorias": [
     {
       "subcategoria": {
-        "name": "CEMENTO PARA PVC Y CPVC",
+        "name": "Cemento para pvc y cpvc",
         "id": 1,
 		"idcategoria":1,
 		"resname":"cementoypvc",
@@ -11,7 +11,7 @@
     },
 	 {
       "subcategoria": {
-        "name": "PASTA PARA SOLDAR",
+        "name": "Pasta para soldar",
         "id": 2,
 		"idcategoria":1,
 		"resname":"pastasoldar",
@@ -20,7 +20,7 @@
     },
 	{
       "subcategoria": {
-        "name": "KITS",
+        "name": "Kits",
         "id": 3,
 		"idcategoria":1,
 		"resname":"kits",
@@ -29,7 +29,7 @@
     },
     {
       "subcategoria": {
-        "name": "SOLDADURA",
+        "name": "Soldadura",
         "id": 4,
 		"idcategoria":1,
 		"resname":"soldadura",
@@ -38,7 +38,7 @@
     },
 	{
       "subcategoria": {
-        "name": "HERRAMIENTAS",
+        "name": "Herramientas",
         "id": 5,
 		"idcategoria":1,
 		"resname":"herramientas",
@@ -47,7 +47,7 @@
     },
 	{
       "subcategoria": {
-        "name": "SILICÓN, SELLADOR Y PINTURA",
+        "name": "Silicón, sellador y pintura",
         "id": 6,
 		"idcategoria":1,
 		"resname":"silicon",
@@ -56,7 +56,7 @@
     },
 	{
       "subcategoria": {
-        "name": "SELLADORES E IMPERMEABILIZANTES SIKA",
+        "name": "Selladores e impermeabilizantes sika",
         "id": 7,
 		"idcategoria":1,
 		"resname":"selladores",
@@ -65,7 +65,7 @@
     },
 	{
       "subcategoria": {
-        "name": "EMPAQUE",
+        "name": "Empaque",
         "id": 8,
 		"idcategoria":2,
 		"resname":"empaque",
@@ -74,7 +74,7 @@
     },
 	{
       "subcategoria": {
-        "name": "SOLDADURA INDUSTRIAL",
+        "name": "Soldadura industrial",
         "id": 9,
 		"idcategoria":2,
 		"resname":"soldadura_industrial",
@@ -83,7 +83,7 @@
     },
 	{
       "subcategoria": {
-        "name": "MÁQUINAS ZUNCHADORAS",
+        "name": "Máquinas zunchadoras",
         "id": 10,
 		"idcategoria":2,
 		"resname":"zunchadoras",
@@ -92,7 +92,7 @@
     },
 	{
       "subcategoria": {
-        "name": "HERRAMINETAS MANUALES PARA FLEJE",
+        "name": "Herraminetas manuales para fleje",
         "id": 11,
 		"idcategoria":2,
 		"resname":"herramientas_fleje",
@@ -101,7 +101,7 @@
     },
 	{
       "subcategoria": {
-        "name": "MAQUINAS PARA PELICULA ESTIRABLE",
+        "name": "Maquinas para pelicula estirable",
         "id": 12,
 		"idcategoria":2,
 		"resname":"estirable",
@@ -110,7 +110,7 @@
     },
 	{
       "subcategoria": {
-        "name": "MAQUINARIA",
+        "name": "Maquinaria",
         "id": 13,
 		"idcategoria":3,
 		"resname":"maquinaria",
@@ -119,7 +119,7 @@
     },
 	{
       "subcategoria": {
-        "name": "METALES",
+        "name": "Metales",
         "id": 14,
 		"idcategoria":3,
 		"resname":"metales",
@@ -128,7 +128,7 @@
     },
 	{
       "subcategoria": {
-        "name": "SILICON",
+        "name": "Silicon",
         "id": 15,
 		"idcategoria":3,
 		"resname":"silicones",
@@ -137,13 +137,21 @@
     },
 	{
       "subcategoria": {
-        "name": "ACCESORIOS",
+        "name": "Accesorios",
         "id": 16,
 		"idcategoria":3,
 		"resname":"accesorios",
 		"desc":"Accesorios e implementos para centrifugado."
       }
+    },
+	{
+      "subcategoria": {
+        "name": "Servicio y soporte técnico.",
+        "id": 17,
+		"idcategoria":3,
+		"resname":"tech_support",
+		"desc":"Servicio y soporte técnico para centrifugado."
+      }
     }
-	
   ]
 }

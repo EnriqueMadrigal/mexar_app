@@ -86,7 +86,7 @@
 	},
 	{
 	  "producto": {
-        "name": "CONTACT 204",
+        "name": "Contact 204",
         "id": 5,
 		"idsubcategoria":1,
 		"desc":"Transparente etiqueta azul claro, extra reforzado para PVC hidráulico, diámetros especiales",
@@ -107,7 +107,7 @@
 	},
 	 {
 	  "producto": {
-        "name": "CONTACT 244",
+        "name": "Contact 244",
         "id": 6,
 		"idsubcategoria":1,
 		"desc":"Transparente etiqueta gris para PVC hidráulico diámetros grandes",
@@ -149,7 +149,7 @@
 	},
 	{
 	  "producto": {
-        "name": "CONTACT 206 REFORZADO",
+        "name": "Contact 206 Reforzado",
         "id": 8,
 		"idsubcategoria":1,
 		"desc":"Solución de resina de PVC con disolventes apropiados que, al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
@@ -170,7 +170,7 @@
 	},
 	{
 	  "producto": {
-        "name": "CONTACT 216 EXTRA REFORZADO",
+        "name": "Contact 216 Extra reforzado",
         "id": 9,
 		"idsubcategoria":1,
 		"desc":"Cemento Contact Extra-reforzado Gris de viscosidad Gruesa, Clasificación ASTM D2564 para tubos y accesorios de todas clases de PVC, para utilizar en tubería cédula 40 hasta 12\" de diámetro y cédula 80 hasta 6\" de diámetro para sistemas con presión de agua fría y en sistemas sin presión D.W.V. hasta 18\" de diámetro",
@@ -191,7 +191,7 @@
 	},
 	{
 	  "producto": {
-        "name": "BORLA PARA PVC",
+        "name": "Borla para pvc",
         "id": 10,
 		"idsubcategoria":1,
 		"desc":"Repuesto practico.",
@@ -359,7 +359,7 @@
 	},
 	{
 	  "producto": {
-        "name": "KWIKCUT",
+        "name": "Kwikcut",
         "id": 18,
 		"idsubcategoria":5,
 		"desc":"Cortador para tubería plástica",
@@ -402,7 +402,7 @@
 	
 	{
 	  "producto": {
-        "name": "CORTADOR DE TUBO –CUERDA SIERRA",
+        "name": "Cortador de tubo –cuerda sierra",
         "id": 20,
 		"idsubcategoria":5,
 		"desc":"Cuerda sierra manual para cortar tubería plástica, madera, caucho y más.",
@@ -423,7 +423,7 @@
 	},
 	{
 	  "producto": {
-        "name": "LLAVE UNIVERSAL",
+        "name": "Llave universal",
         "id": 21,
 		"idsubcategoria":5,
 		"desc":"Práctica llave con alta adherencia que permite la extracción segura y rápida.",
@@ -444,7 +444,7 @@
 	},
 	{
 	  "producto": {
-        "name": "ENCENDEDOR DE PIEDRA",
+        "name": "Encendedor de piedra",
         "id": 22,
 		"idsubcategoria":5,
 		"desc":"Crea una chispa para encender.",
@@ -465,7 +465,7 @@
 	},
 	{
 	  "producto": {
-        "name": "REPUESTO NAVAJA",
+        "name": "Repuesto navaja",
         "id": 23,
 		"idsubcategoria":5,
 		"desc":"Retire el perno metálico de la tijera y los dos pernos plásticos que sujetan la navaja, retire con cuidado y coloque el repuesto.",
@@ -486,7 +486,7 @@
 	},
 	{
 	  "producto": {
-        "name": "ALEX",
+        "name": "Alex",
         "id": 24,
 		"idsubcategoria":6,
 		"desc":"Sellador de látex acrílico multiuso para uniones y grietas con movimiento mínimo. Se aplica suave y fácilmente.",
@@ -507,7 +507,7 @@
 	},
 	{
 	  "producto": {
-        "name": "ALEX PLUS",
+        "name": "Alex plus",
         "id": 25,
 		"idsubcategoria":6,
 		"desc":"Sellador de látex acrílico siliconizado multiuso para uniones y grietas con movimiento moderado.",
@@ -528,7 +528,7 @@
 	},
 	{
 	  "producto": {
-        "name": "SILICON MULTIUSOS",
+        "name": "Silicon multiusos",
         "id": 26,
 		"idsubcategoria":6,
 		"desc":"Brinda un sello duradero e impermeable en una amplia variedad de aplicaciones de interior y exterior.",
@@ -549,7 +549,7 @@
 	},
 	{
 	  "producto": {
-        "name": "KWIK SEAL",
+        "name": "Kwik seal",
         "id": 27,
 		"idsubcategoria":6,
 		"desc":"Sellador adhesivo de látex fácil de utilizar especialmente formulado para proporcionar un sello duradero y hermético para aplicaciones en cocinas y baños.",
@@ -570,7 +570,7 @@
 	},
 	{
 	  "producto": {
-        "name": "KWIK FOAM",
+        "name": "Kwik foam",
         "id": 28,
 		"idsubcategoria":6,
 		"desc":"Espuma aislante de poliuretano de un solo componente que cura la humedad y se expande para rellenar, sellar y aislar económicamente huecos y grietas grandes.",
@@ -591,7 +591,7 @@
 	},
 	{
 	  "producto": {
-        "name": "BEATS THE NAIL",
+        "name": "Beats the nail",
         "id": 29,
 		"idsubcategoria":6,
 		"desc":"Adhesivo multiuso para construcción",
@@ -612,7 +612,7 @@
 	},
 	{
 	  "producto": {
-        "name": "STRONG STIK",
+        "name": "Strong stik",
         "id": 30,
 		"idsubcategoria":6,
 		"desc":"Adhesivo de montaje de agarre instantáneo",
@@ -633,7 +633,7 @@
 	},
 	{
 	  "producto": {
-        "name": "FAST ´N FINAL",
+        "name": "Fast ´n final",
         "id": 31,
 		"idsubcategoria":6,
 		"desc":"Resanador de peso liviano",
@@ -654,7 +654,7 @@
 	},
 	{
 	  "producto": {
-        "name": "SIDE WINDER",
+        "name": "Side winder",
         "id": 32,
 		"idsubcategoria":6,
 		"desc":"Sellador de polímero especial de alto desempeño",
@@ -675,7 +675,7 @@
 	},
 	{
 	  "producto": {
-        "name": "CONCRETE",
+        "name": "Concrete",
         "id": 33,
 		"idsubcategoria":6,
 		"desc":"Sellador para rellenar concreto y mortero",
@@ -696,7 +696,7 @@
 	},
 	{
 	  "producto": {
-        "name": "ROOF",
+        "name": "Roof",
         "id": 34,
 		"idsubcategoria":6,
 		"desc":"Sellador para asfalto impermeable",
@@ -717,7 +717,7 @@
 	},
 	{
 	  "producto": {
-        "name": "WELDWOOD",
+        "name": "Weldwood",
         "id": 35,
 		"idsubcategoria":6,
 		"desc":"Adhesivo de contacto natural, Formula Original y en Gel.",
@@ -738,7 +738,7 @@
 	},
 	{
 	  "producto": {
-        "name": "PINTURA EN AEROSOL TOUCH´N TONE",
+        "name": "Pintura en aerosol touch´n tone",
         "id": 36,
 		"idsubcategoria":6,
 		"desc":"Pintura multiuso en aerosol secado rápido",
@@ -759,7 +759,7 @@
 	},
 		{
 	  "producto": {
-        "name": "WINDOW, DOOR & SIDING",
+        "name": "Window, door & siding",
         "id": 37,
 		"idsubcategoria":6,
 		"desc":"SILICON 100% VENTANAS Y PUERTAS PARA USO EN INTERIOR O EXTERIOR",
@@ -780,7 +780,7 @@
 	},
 		{
 	  "producto": {
-        "name": "KITCHEN, BATH & PLUMBING",
+        "name": "Kitchen, bath & plumbing",
         "id": 38,
 		"idsubcategoria":6,
 		"desc":"Silicon 100% Baños y Cocinas",
@@ -801,7 +801,7 @@
 	},
 		{
 	  "producto": {
-        "name": "GASKET MAKER",
+        "name": "Gasket maker",
         "id": 39,
 		"idsubcategoria":6,
 		"desc":"Sellador 100% de silicona de larga duración, forma sellos para reparaciones mecánicas automotrices y aplicaciones generales.",
@@ -843,7 +843,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SIKASIL Universal",
+        "name": "Sikasil Universal",
         "id": 41,
 		"idsubcategoria":7,
 		"desc":"Sellador elástico mono componente con base en silicón, de curado acético.",
@@ -864,7 +864,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SIKACRYL 150 Juntas y Grietas",
+        "name": "Sikacryl 150 Juntas y Grietas",
         "id": 42,
 		"idsubcategoria":7,
 		"desc":"Sellador acrílico semi elástico para uniones, juntas y grietas con moderado movimiento en exteriores e interiores.",
@@ -885,7 +885,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SIKACRYL B&C",
+        "name": "Sikacryl B&C",
         "id": 43,
 		"idsubcategoria":7,
 		"desc":"Sellador elástico con tecnología híbrida CET, para juntas sanitarias con fungicida en superficies lisas o porosas.",
@@ -906,7 +906,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SANISIL TRANSPARENTE",
+        "name": "Sanisil transparente",
         "id": 44,
 		"idsubcategoria":7,
 		"desc":"Sellador Elástico de silicón para juntas sanitarias lisas, de curado acético con fungicida.",
@@ -927,7 +927,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SIKAFLEX CONST SEALANT",
+        "name": "Sikaflex const sealant",
         "id": 45,
 		"idsubcategoria":7,
 		"desc":"Sellador elástico de uso general con base en poliuretano.",
@@ -948,7 +948,7 @@
 	},
 		{
 	  "producto": {
-        "name": "IMPERSIKA",
+        "name": "Impersika",
         "id": 46,
 		"idsubcategoria":7,
 		"desc":"Impermeablilizante acrílico, elástico.",
@@ -969,7 +969,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SIKAFLEX CRYSTAL CLEAR",
+        "name": "Sikaflex crystal clear",
         "id": 47,
 		"idsubcategoria":7,
 		"desc":"Adhesivo y sellador elástico universal transparente, híbrido tecnología MS, libre de solventes.",
@@ -990,7 +990,7 @@
 	},
 		{
 	  "producto": {
-        "name": "PELICULA ESTIRABLE",
+        "name": "Pelicula estirable",
         "id": 48,
 		"idsubcategoria":8,
 		"desc":"Material flexible y transparente, utilizado principalmente para empaque y embalaje.",
@@ -1011,7 +1011,7 @@
 	},
 		{
 	  "producto": {
-        "name": "CINTAS ADHESIVAS TUK",
+        "name": "Cintas adhesivas tuk",
         "id": 49,
 		"idsubcategoria":8,
 		"desc":"Atendiendo a las necesidades de la industria, nos adaptamos a las necesidades de nuestros clientes ofreciendo cintas de empaque Tuk.",
@@ -1032,7 +1032,7 @@
 	},
 		{
 	  "producto": {
-        "name": "FELEJES",
+        "name": "Flejes",
         "id": 50,
 		"idsubcategoria":8,
 		"desc":"Cubriendo las necesidades básicas del empaquetado, Industrias Mexar incluye entre su diversidad de productos el fleje metálico para asegurar o fijar el embalaje de diversos productos, mayoritariamente productos pesados, enfocada a ofrecer soluciones integrales en empaque a nuestros clientes.",
@@ -1053,7 +1053,7 @@
 	},
 		{
 	  "producto": {
-        "name": "ESQUINEROS",
+        "name": "Esquineros",
         "id": 51,
 		"idsubcategoria":8,
 		"desc":"COMO COMPLEMENTO DE SOLICION INTEGRAL DE EMPAQUE, EL ESQUINERO DE CARTON PROVEE UNA EXCELENTE RIGIDEZ A SUS PALLET O TARIMA, YA QUE EL FLEJE O PELÍCULA ESTIRABLE PUEDEN SER TENSIONADA A SU MÁXIMA CAPACIDAD.",
@@ -1074,7 +1074,7 @@
 	},
 		{
 	  "producto": {
-        "name": "MATERIAL DE RELLENO",
+        "name": "Material de relleno",
         "id": 52,
 		"idsubcategoria":8,
 		"desc":"El material de relleno como aire sellado amortigua y protege sus productos contra golpes y raspaduras.",
@@ -1095,7 +1095,7 @@
 	},
 		{
 	  "producto": {
-        "name": "ELECTRÓNICA",
+        "name": "Electrónica",
         "id": 53,
 		"idsubcategoria":9,
 		"desc":"Proporcionamos Soldaduras de \"Alta Pureza\" y \"Alto Rendimiento\". Ofreciendo diversas Soluciones Tecnológicas, para la unión de componentes electrónicos",
@@ -1116,7 +1116,7 @@
 	},
 		{
 	  "producto": {
-        "name": "INDUSTRIAL",
+        "name": "Industrial",
         "id": 54,
 		"idsubcategoria":9,
 		"desc":"Elaboramos toda la gama de aleaciones que se necesitan enfocadas al ramo industrial en aleaciones estaño/ plomo y libres de plomo (Lead Free) enfocadas al Ramo de la industria Automotriz, y Eléctrico principalmente. ",
@@ -1137,7 +1137,7 @@
 	},
 		{
 	  "producto": {
-        "name": "ESPECIALES",
+        "name": "Especiales",
         "id": 55,
 		"idsubcategoria":9,
 		"desc":"Son Soldaduras que por su especialización se fabrican sobre pedido, siendo estas en aleaciones de Indium, Estaño, Bismuto, Plomo, Cadmio, Oro y Galio y se utilizan en un rango muy amplio de aplicaciones.",
@@ -1158,7 +1158,7 @@
 	},
 		{
 	  "producto": {
-        "name": "FLUX Y/O FUNDENTE",
+        "name": "Flux y/o fundente",
         "id": 56,
 		"idsubcategoria":9,
 		"desc":"Se ofrecen gran variedad de Flux o Fundente: Solubles en Agua, a base de Resina, químicos y limpiadores especiales.",
@@ -1179,7 +1179,7 @@
 	},
 		{
 	  "producto": {
-        "name": "SERVICIOS",
+        "name": "Servicios",
         "id": 57,
 		"idsubcategoria":9,
 		"desc":"Las tecnologías de vanguardia continúan presentando desafíos y oportunidades tanto para el cliente como para el proveedor. La base del éxito de Industrias Mexar es el resultado de entender que los clientes necesitan algo más que un simple producto de alta calidad. Requieren servicio y asistencia en cada paso de su proceso productivo.",
@@ -1557,7 +1557,7 @@
 	},
 		{
 	  "producto": {
-        "name": "JUEGOS DE SILICONA",
+        "name": "Juegos de silicona",
         "id": 75,
 		"idsubcategoria":15,
 		"desc":"Disponible en discos con diámetros de 9\", 12\", 15\" y 18\" ",
@@ -1617,10 +1617,28 @@
 		"usos":[],
 		"nota":""
 		}
+	},
+	{
+	  "producto": {
+        "name": "Servicio y soporte técnico.",
+        "id": 78,
+		"idsubcategoria":17,
+		"desc":"Las tecnologías de vanguardia continúan presentando desafíos y oportunidades tanto para el cliente como para el proveedor. La base del éxito de Industrias Mexar es el resultado de entender que los clientes necesitan algo más que un simple producto de alta calidad. Requieren servicio y asistencia en cada paso de su proceso productivo.",
+		"desc_completa":"MAS INFORMACIÓN:\n\n Nuestra capacidad para suministrar productos de calidad, junto a nuestro sistema de asistencia técnica, es lo que nos da ese \"Valor Agregado\" a nuestros clientes.\n \n - PRODUCTOS INNOVADORES\n El programa de investigación y desarrollo implementado por nuestro socio AIM nos asegura su continuidad como líder en la industria. Ya que técnicamente está firmemente comprometido en mejorar los productos y procesos. Estos esfuerzos constituyen una inversión esencial en el futuro de la compañía.\n\n - ASISTENCIA TÉCNICA\n El sistema de asistencia técnica de está destinado a mejorar su producción, evitar defectos, aumentar la eficiencia y ayudarle a implementar las más modernas tecnologías de ensamblaje. Industrias Mexar le ofrece el diseño, la implementación de aplicaciones y la consultoría sobre los procesos como un servicio de valor agregado que contribuye a optimizar la eficiencia y la rentabilidad de sus procesos de fabricación, como es en:\n\n Asistencia para aplicaciones y procesos\n Línea directa para consultas técnicas.\n Seminarios de capacitación.\n Asistencia a través de internet\n\n -ATENCIÓN AL CLIENTE\n Industrias Mexar ofrece varios programas diseñados específicamente para aumentar su eficiencia operativa.\n \n Servicio de análisis de soldaduras\n Servicio de reciclado de soldaduras\n Entrega justo a tiempo\n Programas de inventario manejado por el vendedor (VMI)\n Distribución local",
+		"presentaciones":[],
+		"images": ["servicios"],
+		"resname": "servicios",
+		"ficha_tecnica":"",
+		"aplicaciones":[],
+		"especificaciones":[],
+		"caracteristicas":[],
+		"colors":[],
+		"adhieres":[],
+		"ventajas":[],
+		"usos":[],
+		"nota":""
+		}
 	}
-	
-	
-	
 			
   ]
 }
