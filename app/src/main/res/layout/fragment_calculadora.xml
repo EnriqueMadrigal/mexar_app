@@ -9,8 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/mexar_gris1">
+        android:background="@color/mexar_gris1"
+        android:orientation="vertical">
 
 
         <LinearLayout
@@ -23,13 +23,13 @@
                 style="@style/NormalField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calculadora para plomeria:"
-                android:paddingLeft="16dp"/>
+                android:paddingLeft="16dp"
+                android:text="Calculadora para plomeria:" />
         </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,40 +38,39 @@
             android:orientation="vertical">
 
 
-        <TextView
+            <TextView
                 style="@style/RemarkField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
                 android:text="Seleccione una presentación." />
 
-    </LinearLayout>
+        </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="1"
             android:gravity="left"
-            android:paddingRight="20dp"
+            android:orientation="horizontal"
             android:paddingLeft="20dp"
-            android:orientation="horizontal">
+            android:paddingRight="20dp"
+            android:weightSum="1">
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="0.9"
-                android:layout_height="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
                 android:background="@color/text_gris1">
 
                 <Spinner
+                    android:id="@+id/calculadora_Presentacion"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@color/text_gris1"
                     android:layout_marginLeft="0dp"
-                    android:id="@+id/calculadora_Presentacion">
+                    android:background="@color/text_gris1">
 
                 </Spinner>
 
@@ -79,19 +78,16 @@
 
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="0.10"
+                android:layout_width="16dp"
                 android:layout_height="match_parent"
-                >
-
-
+                android:background="@color/text_gris1">
 
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:clickable="true"
-                    android:src="@drawable/spinner_dropdown"/>
+                    android:src="@drawable/spinner_dropdown" />
 
 
             </LinearLayout>
@@ -103,7 +99,6 @@
             android:layout_height="10dp" />
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -111,8 +106,7 @@
             android:orientation="vertical">
 
 
-
-        <TextView
+            <TextView
                 style="@style/RemarkField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -125,29 +119,28 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="2dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="1"
             android:gravity="left"
-            android:paddingRight="20dp"
+            android:orientation="horizontal"
             android:paddingLeft="20dp"
-            android:orientation="horizontal">
+            android:paddingRight="20dp"
+            android:weightSum="1">
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="0.9"
-                android:layout_height="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
                 android:background="@color/text_gris1">
 
                 <Spinner
+                    android:id="@+id/calculadora_Pieza"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@color/text_gris1"
                     android:layout_marginLeft="0dp"
-                    android:id="@+id/calculadora_Pieza">
+                    android:background="@color/text_gris1">
 
                 </Spinner>
 
@@ -155,19 +148,16 @@
 
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="0.10"
+                android:layout_width="16dp"
                 android:layout_height="match_parent"
-                >
-
-
+                android:background="@color/text_gris1">
 
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:clickable="true"
-                    android:src="@drawable/spinner_dropdown"/>
+                    android:src="@drawable/spinner_dropdown" />
 
 
             </LinearLayout>
@@ -181,11 +171,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="horizontal"
             android:paddingLeft="60dp"
-            android:paddingRight="60dp"
 
-            android:gravity="center">
+            android:paddingRight="60dp">
 
             <!-- TODO: Update blank fragment layout -->
 
@@ -193,12 +183,12 @@
                 android:id="@+id/calculadora_calcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 android:background="@color/transparent"
+                android:scaleType="fitCenter"
                 android:src="@drawable/btn_calcular"
                 android:text="CALCULAR"
                 android:textColor="@color/white"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:textSize="12dp" />
 
 
@@ -207,82 +197,198 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/mexar_gris1"
-        android:orientation="vertical">
-
-
-
-            <TextView
-                style="@style/NormalField"
-                android:id="@+id/calculadora_text1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:text=""/>
-
-
-            <TextView
-                style="@style/RemarkField"
-                android:id="@+id/calculadora_text2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:text=""/>
-
-
-
+            android:layout_height="10dp" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                style="@style/NormalField"
-                android:id="@+id/calculadora_text3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:text=""/>
+            android:background="@color/mexar_gris1"
+            android:orientation="vertical">
 
 
             <TextView
-                style="@style/RemarkField"
-                android:id="@+id/calculadora_text4"
+                android:id="@+id/calculadora_text1"
+                style="@style/NormalSmallField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
-                android:text=""/>
+                android:text="" />
+
 
             <TextView
-                style="@style/NormalField"
-                android:id="@+id/calculadora_text5"
+                android:id="@+id/calculadora_text2"
+                style="@style/RemarkSmallField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
-                android:text=""/>
+                android:text="" />
 
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/calculadora_text3"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+                <TextView
+                    android:id="@+id/calculadora_text4"
+                    style="@style/RemarkSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/calculadora_text5"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/calculadora_text6"
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="" />
 
 
         </LinearLayout>
 
-        <TextView
-            style="@style/RemarkField"
-            android:id="@+id/calculadora_text6"
-            android:layout_width="wrap_content"
+
+
+
+             <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:text=""/>
+            android:background="@color/mexar_gris1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:gravity="center_horizontal|center_vertical">
+
+                <ImageView
+                    android:id="@+id/calculadora_presentacionImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:scaleType="fitXY" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="center">
 
 
 
-</LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/calculadora_unionImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:scaleType="fitXY" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_gris1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:gravity="center_horizontal|center_vertical">
+
+                <TextView
+                    android:id="@+id/calculadora_numPresentacion"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/calculadora_equalsign"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/calculadora_numPiezas"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
 
 
     </LinearLayout>

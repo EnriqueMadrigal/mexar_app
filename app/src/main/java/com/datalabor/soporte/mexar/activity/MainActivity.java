@@ -368,6 +368,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             txtSearch.requestFocus();
             InputMethodManager imm = (InputMethodManager) getSystemService( Context.INPUT_METHOD_SERVICE );
             imm.showSoftInput( txtSearch, InputMethodManager.SHOW_IMPLICIT );
+
         }
         else
         {

@@ -3,31 +3,36 @@
     {
       "presentacion": {
         "name": "Lata con aplicador 120 ml. / 4 oz.",
-        "id": 1
+        "id": 1,
+		"resname":"presentacion1"
 	}
     },
 	{
       "presentacion": {
         "name": "Lata con aplicador 240 ml. / 8 oz.",
-        "id": 2
+        "id": 2,
+		"resname":"presentacion1"
 	}
     },
 	{
       "presentacion": {
         "name": "Lata con aplicador 475 ml. / 16 oz.",
-        "id": 3
+        "id": 3,
+		"resname":"presentacion1"
 	}
     },
 	{
       "presentacion": {
         "name": "Lata con aplicador 947 ml. / 32 oz.",
-        "id": 4
+        "id": 4,
+		"resname":"presentacion1"
 	}
     },
 	{
       "presentacion": {
         "name": "1 galón 3785 ml. / 133 oz.",
-        "id": 5
+        "id": 5,
+		"resname":"presentacion1"
 	}
     }
 		

@@ -31,7 +31,7 @@
             <Button
                 android:id="@+id/distribuidoresMapa"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="28dp"
                 android:layout_alignParentRight="true"
                 android:textSize="14dp"
                 android:text="Mostrar Mapa"

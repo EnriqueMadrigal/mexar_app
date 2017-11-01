@@ -325,6 +325,7 @@ Log.d(TAG,"test");
 
                 float zoomLevel = 12.0f; //This goes up to 21
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarker, zoomLevel));
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(newMarker));
 
 
             MarkersLoaded = true;

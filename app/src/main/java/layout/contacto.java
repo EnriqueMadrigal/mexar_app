@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.activity.MapsActivity2;
+import com.datalabor.soporte.mexar.models.Distribuidor;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -35,6 +37,10 @@ public class contacto extends Fragment {
     private final  String TAG = "contacto";
     private Button enviarMensaje;
     private Button llamar;
+
+    private Button verMapa1;
+    private Button verMapa2;
+    private Button verMapa3;
 
     private FragmentActivity myContext;
 
@@ -81,6 +87,10 @@ public class contacto extends Fragment {
         enviarMensaje = (Button) _view.findViewById(R.id.Contacto_sendMessage);
         llamar = (Button) _view.findViewById(R.id.Contacto_Llamar);
 
+        verMapa1 = (Button) _view.findViewById(R.id.vermapa1);
+        verMapa2 = (Button) _view.findViewById(R.id.vermapa2);
+        verMapa3 = (Button) _view.findViewById(R.id.vermapa3);
+
         enviarMensaje.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,6 +121,73 @@ public class contacto extends Fragment {
 
             }
         });
+
+
+
+        verMapa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Distribuidor curDist = new Distribuidor();
+                curDist.set_comercial_name("Av. Camino a Bosque de San Isidro 2300");
+                curDist.set_latitud("20.759525");
+                curDist.set_longitud("-103.38258");
+
+                Intent intent = new Intent();
+                intent.setClass(myContext, MapsActivity2.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("distribuidor", curDist);
+                intent.putExtras(bundle);
+
+                //finish();
+                startActivity(intent);
+
+
+
+            }
+        });
+
+        verMapa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Distribuidor curDist = new Distribuidor();
+                curDist.set_comercial_name("11 de Enero de 1861");
+                curDist.set_latitud("19.378725");
+                curDist.set_longitud("-99.066779");
+
+                Intent intent = new Intent();
+                intent.setClass(myContext, MapsActivity2.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("distribuidor", curDist);
+                intent.putExtras(bundle);
+
+                //finish();
+                startActivity(intent);
+
+            }
+        });
+
+        verMapa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Distribuidor curDist = new Distribuidor();
+                curDist.set_comercial_name("Sebastián Lerdo de Tejada 1222");
+                curDist.set_latitud("25.711059");
+                curDist.set_longitud("-100.32633");
+
+                Intent intent = new Intent();
+                intent.setClass(myContext, MapsActivity2.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("distribuidor", curDist);
+                intent.putExtras(bundle);
+
+                //finish();
+                startActivity(intent);
+            }
+        });
+
 
 
         return _view;

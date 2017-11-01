@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -57,9 +58,18 @@ public class calculadora extends Fragment {
     private TextView text5;
     private TextView text6;
 
+    private TextView text7;
+    private ImageView img1;
+    private ImageView img2;
+
+    private TextView text8;
+    private TextView text9;
 
     private ArrayList<String> presentaciones;
     private ArrayList<String> piezas;
+
+    private ArrayList<String> presentaciones_img;
+    private ArrayList<String> piezas_img;
 
     private OnFragmentInteractionListener mListener;
     private ImageButton calcular;
@@ -112,10 +122,18 @@ public class calculadora extends Fragment {
         text5 = (TextView) _view.findViewById(R.id.calculadora_text5);
         text6 = (TextView) _view.findViewById(R.id.calculadora_text6);
 
+        text7 = (TextView) _view.findViewById(R.id.calculadora_equalsign);
+        text8 = (TextView)  _view.findViewById(R.id.calculadora_numPresentacion);
+        text9 = (TextView)  _view.findViewById(R.id.calculadora_numPiezas);
+        img1 = (ImageView) _view.findViewById(R.id.calculadora_presentacionImage);
+        img2 = (ImageView) _view.findViewById(R.id.calculadora_unionImage);
+
 
 
         presentaciones = new ArrayList<>();
         piezas = new ArrayList<>();
+        presentaciones_img = new ArrayList<>();
+        piezas_img = new ArrayList<>();
 
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -168,6 +186,20 @@ public class calculadora extends Fragment {
                              text4.setText(Resultado);
                              text5.setText(" uniones de:");
                              text6.setText(Spinner_pieza.getSelectedItem().toString());
+                             text7.setText("=");
+                             text8.setText("1");
+                             text9.setText(Resultado);
+
+                             int curId = (int) Spinner_presentacion.getSelectedItemId();
+                             String img_name = presentaciones_img.get(curId);
+                             int resid = myContext.getResources().getIdentifier(img_name, "drawable", myContext.getPackageName());
+                             img1.setImageResource(resid);
+
+                             int curId2 = (int) Spinner_pieza.getSelectedItemId();
+                             String img_name2 = piezas_img.get(curId2);
+                             int resid2 = myContext.getResources().getIdentifier(img_name2, "drawable", myContext.getPackageName());
+                             img2.setImageResource(resid2);
+
 
                          }
 
@@ -210,8 +242,10 @@ public class calculadora extends Fragment {
             for (int i = 0; i < res.length(); i++) {
                 presentacion = res.getJSONObject(i).getJSONObject("presentacion");
                 String name = presentacion.getString("name");
+                String res_name = presentacion.getString("resname");
                 int id = presentacion.getInt("id");
                 presentaciones.add(name);
+                presentaciones_img.add(res_name);
 
 
             }
@@ -248,9 +282,10 @@ public class calculadora extends Fragment {
             for (int i = 0; i < res.length(); i++) {
                 pieza = res.getJSONObject(i).getJSONObject("pieza");
                 String name = pieza.getString("name");
+                String res_name = pieza.getString("resname");
                 int id = pieza.getInt("id");
                 piezas.add(name);
-
+                piezas_img.add(res_name);
 
             }
 
