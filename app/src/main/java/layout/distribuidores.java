@@ -239,9 +239,16 @@ public class distribuidores extends Fragment {
         showMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(myContext, MapsActivity.class);
-                startActivity(intent);
+             //   Intent intent = new Intent();
+             //   intent.setClass(myContext, MapsActivity.class);
+             //   startActivity(intent);
+
+                mostrarMapa mapa1 = new mostrarMapa().newInstance("","");
+                Common.SetPage(2);
+
+                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, mapa1, "Mapa1" ).commit();
+
+
 
             }
         });
