@@ -35,6 +35,7 @@ import com.google.android.gms.common.api.Status;
 
 import java.io.File;
 
+import layout.busca_distribuidores;
 import layout.calculadora;
 import layout.calculadoras;
 import layout.contacto;
@@ -59,11 +60,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
     mainf MainFragment;
-    distribuidores _distribuidores;
+    //distribuidores _distribuidores;
     promociones _promociones;
     youtube _youtube;
     contacto _contacto;
     calculadoras _calculadoras;
+    busca_distribuidores _distribuidores;
 
 
     @Override
@@ -194,7 +196,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 /// cargar el Main fragment
 
        MainFragment = new mainf();
-        _distribuidores = new distribuidores();
+        _distribuidores = new busca_distribuidores();
         _promociones = new promociones();
         _youtube = new youtube();
         _contacto = new contacto();
