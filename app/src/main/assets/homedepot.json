@@ -1,0 +1,1941 @@
+{
+"distribuidores": [
+{
+"distribuidor": {
+"id": 1 ,
+"name":"CENTRO 8860",
+"comercial_name":"CENTRO 8860",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Av. del Taller 370, Col. 24 de Abril, Delegación Venustiano Carranza",
+"colonia":"",
+"cp":"15980",
+"phone1":"015550361100",
+"phone2":"",
+"lat":"19.4147615",
+"lng":"-99.11683558"
+}
+},
+{
+"distribuidor": {
+"id": 2 ,
+"name":"TLATILCO 8763",
+"comercial_name":"TLATILCO 8763",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Av. Jardín 245, Barrio de San Francisco, Xocototla",
+"colonia":"",
+"cp":"02860",
+"phone1":"",
+"phone2":"",
+"lat":"19.46421954",
+"lng":"-99.16019617"
+}
+},
+{
+"distribuidor": {
+"id": 3 ,
+"name":"LINDAVISTA FORTUNA 8692",
+"comercial_name":"LINDAVISTA FORTUNA 8692",
+"state":"DIF",
+"city":"Mexico. D.F",
+"address":"Av. Fortuna #334, Col. Magdalena de las Salinas",
+"colonia":"",
+"cp":"07760",
+"phone1":"",
+"phone2":"",
+"lat":"19.483403",
+"lng":"-99.132169"
+}
+},
+{
+"distribuidor": {
+"id": 4 ,
+"name":"IZTAPALAPA 8747",
+"comercial_name":"IZTAPALAPA 8747",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Periférico Oriente 2141, Col. Ejército Constitucionalista",
+"colonia":"",
+"cp":"09219",
+"phone1":"",
+"phone2":"",
+"lat":"19.37941282",
+"lng":"-99.05871747"
+}
+},
+{
+"distribuidor": {
+"id": 5 ,
+"name":"MIXCOAC 8748",
+"comercial_name":"MIXCOAC 8748",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Av. Central (Alta Tensión), Col. Alfonso XIII, Del. Álvaro Obregón",
+"colonia":"",
+"cp":"01460",
+"phone1":"",
+"phone2":"",
+"lat":"19.37792503",
+"lng":"-99.19999479"
+}
+},
+{
+"distribuidor": {
+"id": 6 ,
+"name":"COYOACÁN 8691",
+"comercial_name":"COYOACÁN 8691",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Eje 10 No. 546, Col. Los Reyes en Coyoacán",
+"colonia":"",
+"cp":"04330",
+"phone1":"",
+"phone2":"",
+"lat":"19.335369",
+"lng":"-99.157647"
+}
+},
+{
+"distribuidor": {
+"id": 7 ,
+"name":"NAUCALPAN 8725",
+"comercial_name":"NAUCALPAN 8725",
+"state":"Estado de México",
+"city":"Naucalpan de Juárez",
+"address":"Calle 3 #40 esq. Boulevard Manuel Ávila Camacho, Col. San Francisco Cuautlalpan",
+"colonia":"",
+"cp":"53569",
+"phone1":"015521227440",
+"phone2":"",
+"lat":"19.46236692",
+"lng":"-99.22142564"
+}
+},
+{
+"distribuidor": {
+"id": 8 ,
+"name":"COAPA MIRAMONTES 8744",
+"comercial_name":"COAPA MIRAMONTES 8744",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Av. Canal de Miramontes 2053, Col. de Los Girasoles, Del. Coyoacán",
+"colonia":"",
+"cp":"04920",
+"phone1":"",
+"phone2":"",
+"lat":"19.30913797",
+"lng":"-99.12463544"
+}
+},
+{
+"distribuidor": {
+"id": 9 ,
+"name":"LOMAS VERDES 8745",
+"comercial_name":"LOMAS VERDES 8745",
+"state":"Estado de México",
+"city":"Naucalpan",
+"address":"Av. Lomas Verdes esq. Periférico 904 Nte., Col. Santa Cruz Acatlán",
+"colonia":"",
+"cp":"53150",
+"phone1":"015553710400",
+"phone2":"",
+"lat":"19.48605638",
+"lng":"-99.23715411"
+}
+},
+{
+"distribuidor": {
+"id": 10 ,
+"name":"COAPA DEL HUESO 8702",
+"comercial_name":"COAPA DEL HUESO 8702",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Calzada del Hueso 670, Col. El Roble, Del. Coyoacán",
+"colonia":"",
+"cp":"04870",
+"phone1":"",
+"phone2":"",
+"lat":"19.30258675",
+"lng":"-99.11855219"
+}
+},
+{
+"distribuidor": {
+"id": 11 ,
+"name":"SAN JERÓNIMO 8746",
+"comercial_name":"SAN JERÓNIMO 8746",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Av. San Jerónimo esq. Periférico 630, Col. La Otra Banda, Delegación Álvaro Obregón",
+"colonia":"",
+"cp":"01090",
+"phone1":"",
+"phone2":"",
+"lat":"19.32844581",
+"lng":"-99.20999406"
+}
+},
+{
+"distribuidor": {
+"id": 12 ,
+"name":"SANTA FÉ 8661",
+"comercial_name":"SANTA FÉ 8661",
+"state":"Distrito Federal",
+"city":"México",
+"address":"Prolongación Paseo de la Reforma 400 (Dentro de Patio Santa Fe) Col. Santa Fe Peña Blanca ",
+"colonia":"",
+"cp":"01210",
+"phone1":"",
+"phone2":"",
+"lat":"19.377167",
+"lng":"-99.254536"
+}
+},
+{
+"distribuidor": {
+"id": 13 ,
+"name":"ARAGÓN 8647",
+"comercial_name":"ARAGÓN 8647",
+"state":"Estado de México",
+"city":"Ecatepec de Morelos",
+"address":"Carlos Hank Gonzalez 120, Col. Rinconada de Aragón",
+"colonia":"",
+"cp":"55140",
+"phone1":"015541171400",
+"phone2":"",
+"lat":"19.529514",
+"lng":"-99.028883"
+}
+},
+{
+"distribuidor": {
+"id": 14 ,
+"name":"TLALNEPANTLA 8724",
+"comercial_name":"TLALNEPANTLA 8724",
+"state":"Estado de México",
+"city":"Tlalnepantla",
+"address":"Carretera México-Querétaro 3000, Col. Los Pirules",
+"colonia":"",
+"cp":"54040",
+"phone1":"015519401800",
+"phone2":"",
+"lat":"19.54571985",
+"lng":"-99.21247779"
+}
+},
+{
+"distribuidor": {
+"id": 15 ,
+"name":"INTERLOMAS 8762",
+"comercial_name":"INTERLOMAS 8762",
+"state":"Estado de México",
+"city":"México",
+"address":"Blvd. Magno Centro 35, Col. Parques de la Herradura",
+"colonia":"",
+"cp":"52760",
+"phone1":"015552463300",
+"phone2":"",
+"lat":"19.40587048",
+"lng":"-99.27311717"
+}
+},
+{
+"distribuidor": {
+"id": 16 ,
+"name":"LOS REYES LA PAZ 8648",
+"comercial_name":"LOS REYES LA PAZ 8648",
+"state":"Estado de México",
+"city":"Los Reyes La Paz",
+"address":"Carretera Federal Mexico-Puebla Km. 17.5, Col. Mejoramiento Ambiental",
+"colonia":"",
+"cp":"56490",
+"phone1":"015526197800",
+"phone2":"",
+"lat":"19.356437",
+"lng":"-98.986688"
+}
+},
+{
+"distribuidor": {
+"id": 17 ,
+"name":"ECATEPEC 8637",
+"comercial_name":"ECATEPEC 8637",
+"state":"Estado de México",
+"city":"Ecatepec",
+"address":"Vía José María Morelos Km 20.5",
+"colonia":"",
+"cp":"39907",
+"phone1":"017444356200",
+"phone2":"",
+"lat":"19.579421",
+"lng":"-99.041701"
+}
+},
+{
+"distribuidor": {
+"id": 18 ,
+"name":"PERINORTE 8761",
+"comercial_name":"PERINORTE 8761",
+"state":"Estado de México",
+"city":"Cuatitlán",
+"address":"Av. Hacienda De Xalpa 1, Fracc. Hacienda del Parque",
+"colonia":"",
+"cp":"54769",
+"phone1":"015558641900",
+"phone2":"",
+"lat":"19.6052602",
+"lng":"-99.19078408"
+}
+},
+{
+"distribuidor": {
+"id": 19 ,
+"name":"COACALCO 8760",
+"comercial_name":"COACALCO 8760",
+"state":"Estado de México",
+"city":"Coacalco",
+"address":"Vía José López Portillo 105, Col. Zacuatitla",
+"colonia":"",
+"cp":"55700",
+"phone1":"015558989800",
+"phone2":"",
+"lat":"19.63596187",
+"lng":"-99.09662782"
+}
+},
+{
+"distribuidor": {
+"id": 20 ,
+"name":"TEXCOCO 8798",
+"comercial_name":"TEXCOCO 8798",
+"state":"Estado de México",
+"city":"Texcoco",
+"address":"Camino a Tenochtitlan Km 30.5, Col. Santiago Cuautlalpan",
+"colonia":"",
+"cp":"56259",
+"phone1":"015959520600",
+"phone2":"",
+"lat":"19.42503533",
+"lng":"-98.91335784"
+}
+},
+{
+"distribuidor": {
+"id": 21 ,
+"name":"CUAUTITLÁN 8765",
+"comercial_name":"CUAUTITLÁN 8765",
+"state":"Estado de México",
+"city":"Cuatitlán Izcalli",
+"address":"Carr. México-Querétaro esq. Av. Chalma, Col. Jardines de la Hacienda",
+"colonia":"",
+"cp":"54720",
+"phone1":"015558642300",
+"phone2":"",
+"lat":"19.67132519",
+"lng":"-99.20829354"
+}
+},
+{
+"distribuidor": {
+"id": 22 ,
+"name":"TECAMAC 8645",
+"comercial_name":"TECAMAC 8645",
+"state":"Estado de México",
+"city":"Tecamac",
+"address":"Carretera Federal México-Pachuca Km 36.5, Col. Hueyotenco",
+"colonia":"",
+"cp":"05700",
+"phone1":"",
+"phone2":"",
+"lat":"19.697779",
+"lng":"-98.979853"
+}
+},
+{
+"distribuidor": {
+"id": 23 ,
+"name":"CUERNAVACA 8726",
+"comercial_name":"CUERNAVACA 8726",
+"state":"Morelos",
+"city":"Cuernavaca",
+"address":"Vicente Guerrero 1210, Col. Lomas de Cortés",
+"colonia":"",
+"cp":"62240",
+"phone1":"",
+"phone2":"",
+"lat":"18.95077257",
+"lng":"-99.22899483"
+}
+},
+{
+"distribuidor": {
+"id": 24 ,
+"name":"METEPEC 8788",
+"comercial_name":"METEPEC 8788",
+"state":"Estado de México",
+"city":"Metepec",
+"address":"Vía Metepec esq. Paseo San Isidro No. 2 Nte., Col. Sta. Cruz",
+"colonia":"",
+"cp":"52140",
+"phone1":"017222757100",
+"phone2":"",
+"lat":"19.2532808",
+"lng":"-99.61506663"
+}
+},
+{
+"distribuidor": {
+"id": 25 ,
+"name":"TOLUCA 8086",
+"comercial_name":"TOLUCA 8086",
+"state":"Estado de México",
+"city":"Toluca",
+"address":"Alfredo del Mazo 903, Col. Barrio de Tlacopa",
+"colonia":"",
+"cp":"50016",
+"phone1":"017222360700",
+"phone2":"",
+"lat":"19.30910109",
+"lng":"-99.63466822"
+}
+},
+{
+"distribuidor": {
+"id": 26 ,
+"name":"CUAUTLA 8646",
+"comercial_name":"CUAUTLA 8646",
+"state":"Morelos",
+"city":"Cuautla",
+"address":"Esquina Av. Ferrocarril y Carretera Federal a Cuernavaca, Fraccionamiento Volcanes de Cuautla",
+"colonia":"",
+"cp":"62757",
+"phone1":"017353989600",
+"phone2":"",
+"lat":"18.849958",
+"lng":"-98.934996"
+}
+},
+{
+"distribuidor": {
+"id": 27 ,
+"name":"PACHUCA 8774",
+"comercial_name":"PACHUCA 8774",
+"state":"Hidalgo",
+"city":"Pachuca",
+"address":"Blvd. Nuevo Hidalgo 208, Col. Puerta de Hierro",
+"colonia":"",
+"cp":"42080",
+"phone1":"017717175700",
+"phone2":"",
+"lat":"20.09421317",
+"lng":"-98.76308976"
+}
+},
+{
+"distribuidor": {
+"id": 28 ,
+"name":"TLAXCALA 8626",
+"comercial_name":"TLAXCALA 8626",
+"state":"Tlaxcala",
+"city":"Tlaxcala",
+"address":"Carretera Apizaco-Puebla No.3 Tlatempan, Apetatitlán",
+"colonia":"",
+"cp":"90610",
+"phone1":"012464656000",
+"phone2":"",
+"lat":"19.339137",
+"lng":"-98.199867"
+}
+},
+{
+"distribuidor": {
+"id": 29 ,
+"name":"PUEBLA ANGELÓPOLIS 8735",
+"comercial_name":"PUEBLA ANGELÓPOLIS 8735",
+"state":"Puebla",
+"city":"Puebla",
+"address":"Vía Atlixcáyotl 5317, Col. Unidad Territorial",
+"colonia":"",
+"cp":"72400",
+"phone1":"012223038800",
+"phone2":"",
+"lat":"19.02652465",
+"lng":"-98.23966614"
+}
+},
+{
+"distribuidor": {
+"id": 30 ,
+"name":"PUEBLA BLVD. NORTE 8768",
+"comercial_name":"PUEBLA BLVD. NORTE 8768",
+"state":"Puebla",
+"city":"Puebla",
+"address":"Héroes del 5 de Mayo 3007, Col. Nueva Aurora Popular",
+"colonia":"",
+"cp":"72070",
+"phone1":"012223031700",
+"phone2":"",
+"lat":"19.06921991",
+"lng":"-98.2112991"
+}
+},
+{
+"distribuidor": {
+"id": 31 ,
+"name":"PUEBLA PERIFÉRICO 8639",
+"comercial_name":"PUEBLA PERIFÉRICO 8639",
+"state":"Puebla",
+"city":"Puebla",
+"address":"Avenida 9 Sur esq. Periférico Ecológico ",
+"colonia":"",
+"cp":"72400",
+"phone1":"012223038800",
+"phone2":"",
+"lat":"18.988813",
+"lng":"-98.24064"
+}
+},
+{
+"distribuidor": {
+"id": 32 ,
+"name":"PUEBLA VILLA VERDE 8635",
+"comercial_name":"PUEBLA VILLA VERDE 8635",
+"state":"Puebla",
+"city":"Puebla",
+"address":"Carretera a Tehuacán 5643, Av. Justo Sierra esq. con Av. Defensores de la República",
+"colonia":"",
+"cp":"72160",
+"phone1":"012222137600",
+"phone2":"",
+"lat":"19.0583798",
+"lng":"-98.15986135"
+}
+},
+{
+"distribuidor": {
+"id": 33 ,
+"name":"SAN JUAN DEL RÍO 8649",
+"comercial_name":"SAN JUAN DEL RÍO 8649",
+"state":"Querétaro",
+"city":"San Juan del Río ",
+"address":"Avenida Central y José María Arteaga",
+"colonia":"",
+"cp":"76800",
+"phone1":"014272682300",
+"phone2":"",
+"lat":"20.39203",
+"lng":"-99.98536"
+}
+},
+{
+"distribuidor": {
+"id": 34 ,
+"name":"QUERÉTARO HUIMILPAN 8088",
+"comercial_name":"QUERÉTARO HUIMILPAN 8088",
+"state":"Querétaro",
+"city":"Querétaro",
+"address":"Huimilpan 999, Col. Plaza del Sol",
+"colonia":"",
+"cp":"76099",
+"phone1":"014423093600",
+"phone2":"",
+"lat":"20.56539086",
+"lng":"-100.376417"
+}
+},
+{
+"distribuidor": {
+"id": 35 ,
+"name":"QUERÉTARO BERNARDO QUINTANA 8738",
+"comercial_name":"QUERÉTARO BERNARDO QUINTANA 8738",
+"state":"Querétaro",
+"city":"Querétaro",
+"address":"Prolongación Ezequiel Montes 8 Int. 3, Col. San Pablo Tecnológico",
+"colonia":"",
+"cp":"76130",
+"phone1":"014421927000",
+"phone2":"",
+"lat":"20.61677298",
+"lng":"-100.4053312"
+}
+},
+{
+"distribuidor": {
+"id": 36 ,
+"name":"TEHUACÁN 8698",
+"comercial_name":"TEHUACÁN 8698",
+"state":"Puebla",
+"city":"Tehuacaán",
+"address":"Calzada Adolfo López Mateos No. 4220, Col. San Lorenzo Teotepilco",
+"colonia":"",
+"cp":"75855",
+"phone1":"01238380 3050",
+"phone2":"",
+"lat":"18.471481",
+"lng":"-97.423775"
+}
+},
+{
+"distribuidor": {
+"id": 37 ,
+"name":"CELAYA 8778",
+"comercial_name":"CELAYA 8778",
+"state":"Guanajuato",
+"city":"Celaya",
+"address":"Av. Tecnológico 698-D, Col. Ciudad Industrial",
+"colonia":"",
+"cp":"38010",
+"phone1":"014615987300",
+"phone2":"",
+"lat":"20.55181287",
+"lng":"-100.8240026"
+}
+},
+{
+"distribuidor": {
+"id": 38 ,
+"name":"MORELIA MIL CUMBRES 8672",
+"comercial_name":"MORELIA MIL CUMBRES 8672",
+"state":"Morelia",
+"city":"Morelia",
+"address":"Periférico Paseo de la Republica No. 4995, Col. Ex Hacienda del Rincón",
+"colonia":"",
+"cp":"58257",
+"phone1":"",
+"phone2":"",
+"lat":"19.698203",
+"lng":"-101.150672"
+}
+},
+{
+"distribuidor": {
+"id": 39 ,
+"name":"POZA RICA 8793",
+"comercial_name":"POZA RICA 8793",
+"state":"Veracruz",
+"city":"Poza Rica",
+"address":"Blvd. Adolfo Ruiz Cortines, Carr. Poza Rica-Cazones Km 50, Col. Reforma",
+"colonia":"",
+"cp":"93210",
+"phone1":"017828261500",
+"phone2":"",
+"lat":"20.56997184",
+"lng":"-97.43308093"
+}
+},
+{
+"distribuidor": {
+"id": 40 ,
+"name":"MORELIA 8741",
+"comercial_name":"MORELIA 8741",
+"state":"Michoacán",
+"city":"Morelia",
+"address":"Calz. La Huerta 3000, Col. Ex Hacienda La Huerta",
+"colonia":"",
+"cp":"58080",
+"phone1":"014433224500",
+"phone2":"",
+"lat":"19.67818621",
+"lng":"-101.2205136"
+}
+},
+{
+"distribuidor": {
+"id": 41 ,
+"name":"CÓRDOBA 8658",
+"comercial_name":"CÓRDOBA 8658",
+"state":"Veracruz",
+"city":"Córdoba",
+"address":"Blvd. Tratados de Córdoba",
+"colonia":"",
+"cp":"94575",
+"phone1":"012717172100",
+"phone2":"",
+"lat":"18.882737",
+"lng":"-96.957028"
+}
+},
+{
+"distribuidor": {
+"id": 42 ,
+"name":"XALAPA 8767",
+"comercial_name":"XALAPA 8767",
+"state":"Veracruz",
+"city":"Xalapa",
+"address":"Carr. Xalapa-Veracruz Km 1, Col. El Apero",
+"colonia":"",
+"cp":"91190",
+"phone1":"012281410100",
+"phone2":"",
+"lat":"19.52251125",
+"lng":"-96.88913967"
+}
+},
+{
+"distribuidor": {
+"id": 43 ,
+"name":"SALAMANCA 8694",
+"comercial_name":"SALAMANCA 8694",
+"state":"Guanajuato",
+"city":"Salamanca",
+"address":"Blvd. Bicentenario 12, Col. El Monte",
+"colonia":"",
+"cp":"36720",
+"phone1":"01464 641 8500",
+"phone2":"",
+"lat":"20.596656",
+"lng":"-101.180683"
+}
+},
+{
+"distribuidor": {
+"id": 44 ,
+"name":"IRAPUATO 8777",
+"comercial_name":"IRAPUATO 8777",
+"state":"Guanajuato",
+"city":"Irapuato",
+"address":"Prol. Blvd. Lázaro Cárdenas 4977, Col. San Miguelito esq. Mariano J. García",
+"colonia":"",
+"cp":"36557",
+"phone1":"014626358600",
+"phone2":"",
+"lat":"20.67240759",
+"lng":"-101.373716"
+}
+},
+{
+"distribuidor": {
+"id": 45 ,
+"name":"ACAPULCO 8736",
+"comercial_name":"ACAPULCO 8736",
+"state":"Guerrero",
+"city":"Acapulco",
+"address":"Av. Cuauhtémoc 1303, Fracc. Hornos Insurgentes",
+"colonia":"",
+"cp":"39350",
+"phone1":"017444691600",
+"phone2":"",
+"lat":"16.86346447",
+"lng":"-99.8869568"
+}
+},
+{
+"distribuidor": {
+"id": 46 ,
+"name":"ACAPULCO DIAMANTE 8857",
+"comercial_name":"ACAPULCO DIAMANTE 8857",
+"state":"Guerrero",
+"city":"Acapulco",
+"address":"Blvd. de las Naciones Unidas 702",
+"colonia":"",
+"cp":"39907",
+"phone1":"017444356200",
+"phone2":"",
+"lat":"16.79655",
+"lng":"-99.812111"
+}
+},
+{
+"distribuidor": {
+"id": 47 ,
+"name":"URUAPAN 8642",
+"comercial_name":"URUAPAN 8642",
+"state":"Michoacán",
+"city":"Uruapan",
+"address":"Libramiento Oriente 2199, esquina con Blvd Industrial. Col. La Cofradía. ",
+"colonia":"",
+"cp":"60126",
+"phone1":"014525034200",
+"phone2":"",
+"lat":"19.424043",
+"lng":"-102.025867"
+}
+},
+{
+"distribuidor": {
+"id": 48 ,
+"name":"VERACRUZ PUERTO 8776",
+"comercial_name":"VERACRUZ PUERTO 8776",
+"state":"Veracruz",
+"city":"Veracruz",
+"address":"Av. Ejército Mexicano Poniente esq. Haití, Col. Las Antillas",
+"colonia":"",
+"cp":"91936",
+"phone1":"012299236900",
+"phone2":"",
+"lat":"19.1451864",
+"lng":"-96.1317732"
+}
+},
+{
+"distribuidor": {
+"id": 49 ,
+"name":"LEÓN CENTRO MAX 8740",
+"comercial_name":"LEÓN CENTRO MAX 8740",
+"state":"Guanajuato",
+"city":"León",
+"address":"Blvd. Adolfo López Mateos 2518 Ote., Fracc. Jardines del Jerez",
+"colonia":"",
+"cp":"37530",
+"phone1":"014777100100",
+"phone2":"",
+"lat":"21.09890256",
+"lng":"-101.6368085"
+}
+},
+{
+"distribuidor": {
+"id": 50 ,
+"name":"LEÓN PLAZA MAYOR 8716",
+"comercial_name":"LEÓN PLAZA MAYOR 8716",
+"state":"Guanajuato",
+"city":"León",
+"address":"Blvd. Manuel J. Clouthier 304, Valle Del Campestre, Cerro Gordo",
+"colonia":"",
+"cp":"37150",
+"phone1":"014777885800",
+"phone2":"",
+"lat":"21.16305009",
+"lng":"-101.6919333"
+}
+},
+{
+"distribuidor": {
+"id": 51 ,
+"name":"TAMPICO 8730",
+"comercial_name":"TAMPICO 8730",
+"state":"Tamaulipas",
+"city":"Tampico",
+"address":"Av. Hidalgo 6000, Col. Lomas del Chairel",
+"colonia":"",
+"cp":"89360",
+"phone1":"018332302800",
+"phone2":"",
+"lat":"22.27642675",
+"lng":"-97.87461339"
+}
+},
+{
+"distribuidor": {
+"id": 52 ,
+"name":"ZAMORA 8656",
+"comercial_name":"ZAMORA 8656",
+"state":"Michoacán",
+"city":"Jacona",
+"address":"Calzada Zamora-Jacona #780 esq. Avenida de las Garzas, Predio El Pantano ",
+"colonia":"",
+"cp":"59813",
+"phone1":"013511317093",
+"phone2":"",
+"lat":"19.969114",
+"lng":"-102.296408"
+}
+},
+{
+"distribuidor": {
+"id": 53 ,
+"name":"SAN LUIS CARRETERA 57 1161",
+"comercial_name":"SAN LUIS CARRETERA 57 1161",
+"state":"SLP",
+"city":"San Luis Potosí",
+"address":"Carretera 57 #1262, Fracc. Valle Dorado.",
+"colonia":"",
+"cp":"78399",
+"phone1":"01",
+"phone2":"",
+"lat":"22.130294",
+"lng":"-100.928372"
+}
+},
+{
+"distribuidor": {
+"id": 54 ,
+"name":"SAN LUIS POTOSÍ 8707",
+"comercial_name":"SAN LUIS POTOSÍ 8707",
+"state":"San Luis Potosí",
+"city":"San Luis Potosí",
+"address":"Av. Chapultepec 210 Sur, Col. Colinas del Parque",
+"colonia":"",
+"cp":"78299",
+"phone1":"014448343800",
+"phone2":"",
+"lat":"22.13652609",
+"lng":"-101.006248"
+}
+},
+{
+"distribuidor": {
+"id": 55 ,
+"name":"OAXACA 8674",
+"comercial_name":"OAXACA 8674",
+"state":"Oaxaca",
+"city":"Oaxaca de Juárez",
+"address":"Diagonal Av. Universidad 140 Col. Candiani",
+"colonia":"",
+"cp":"68130",
+"phone1":"01",
+"phone2":"",
+"lat":"17.040931",
+"lng":"-96.709003"
+}
+},
+{
+"distribuidor": {
+"id": 56 ,
+"name":"VILLA-ASUNCION 1163",
+"comercial_name":"VILLA-ASUNCION 1163",
+"state":"Aguascalientes",
+"city":"Aguascalientes",
+"address":"Blvd. José María Chávez",
+"colonia":"",
+"cp":"20258",
+"phone1":"",
+"phone2":"",
+"lat":"21.855167",
+"lng":"-102.293628"
+}
+},
+{
+"distribuidor": {
+"id": 57 ,
+"name":"AGUASCALIENTES 8769",
+"comercial_name":"AGUASCALIENTES 8769",
+"state":"Aguascalientes",
+"city":"Aguascalientes",
+"address":"Blvd. Zacatecas 112 Nte., Fracc. Comercial Galerías 2da. Sección",
+"colonia":"",
+"cp":"20120",
+"phone1":"014499108900",
+"phone2":"",
+"lat":"21.92122441",
+"lng":"-102.2942877"
+}
+},
+{
+"distribuidor": {
+"id": 58 ,
+"name":"CD. VICTORIA 8757",
+"comercial_name":"CD. VICTORIA 8757",
+"state":"Tamaulipas",
+"city":"Victoria",
+"address":"Blvd. Tamaulipas esq. Libramiento Naciones Unidas 3520, Col. Benito Juárez",
+"colonia":"",
+"cp":"87027",
+"phone1":"018341070000",
+"phone2":"",
+"lat":"23.77249593",
+"lng":"-99.13839518"
+}
+},
+{
+"distribuidor": {
+"id": 59 ,
+"name":"OBLATOS 8643",
+"comercial_name":"OBLATOS 8643",
+"state":"Jalisco",
+"city":"Guadalajara",
+"address":"Av. José María Iglesias #3150 y Calle Cairo, Col. Lomas de San Eugenio",
+"colonia":"",
+"cp":"44700",
+"phone1":"",
+"phone2":"",
+"lat":"20.679562",
+"lng":"-103.290566"
+}
+},
+{
+"distribuidor": {
+"id": 60 ,
+"name":"TLAQUEPAQUE 8636",
+"comercial_name":"TLAQUEPAQUE 8636",
+"state":"Jalisco",
+"city":"Tlaquepaque",
+"address":"Gral. Marcelino García Barragán 1455 esq. con Hator, Col. San Pedro",
+"colonia":"",
+"cp":"44360",
+"phone1":"013338377800",
+"phone2":"",
+"lat":"20.645472",
+"lng":"-103.31964"
+}
+},
+{
+"distribuidor": {
+"id": 61 ,
+"name":"INDEPENDECIA 8659",
+"comercial_name":"INDEPENDECIA 8659",
+"state":"Jalisco",
+"city":"Guadalajara",
+"address":"Periférico Norte Norte #40, esq. Calzada Independencia Col. Lomas Del Paraíso ",
+"colonia":"",
+"cp":"44250",
+"phone1":"013338371600",
+"phone2":"",
+"lat":"20.72204",
+"lng":"-103.317516"
+}
+},
+{
+"distribuidor": {
+"id": 62 ,
+"name":"GUADALAJARA ITESO 8727",
+"comercial_name":"GUADALAJARA ITESO 8727",
+"state":"Jalisco",
+"city":"Tlaquepaque",
+"address":"Ave. Camino al Iteso 8952, Col. Nueva Santa María",
+"colonia":"",
+"cp":"45530",
+"phone1":"013338848000",
+"phone2":"",
+"lat":"20.6174814",
+"lng":"-103.4238645"
+}
+},
+{
+"distribuidor": {
+"id": 63 ,
+"name":"GUADALAJARA CORDILLERAS 8742",
+"comercial_name":"GUADALAJARA CORDILLERAS 8742",
+"state":"Jalisco",
+"city":"Zapopan",
+"address":"Av. Manuel Clouthier y Av. Patria Plaza Cordilleras, Col. El Borrego",
+"colonia":"",
+"cp":"45045",
+"phone1":"013310020200",
+"phone2":"",
+"lat":"20.66059425",
+"lng":"-103.4215471"
+}
+},
+{
+"distribuidor": {
+"id": 64 ,
+"name":"ZAPOPAN ACUEDUCTO 8772",
+"comercial_name":"ZAPOPAN ACUEDUCTO 8772",
+"state":"Jalisco",
+"city":"Zapopan",
+"address":"Av. Acueducto 6050 Unidad Privativa Dos, Lomas del Bosque, Plaza Acueducto",
+"colonia":"",
+"cp":"45110",
+"phone1":"013336486400",
+"phone2":"",
+"lat":"20.72280218",
+"lng":"-103.4130284"
+}
+},
+{
+"distribuidor": {
+"id": 65 ,
+"name":"COLIMA 8852",
+"comercial_name":"COLIMA 8852",
+"state":"Colima",
+"city":"Colima",
+"address":"Tercer Anillo Periférico 501, Col. Las Primaveras",
+"colonia":"",
+"cp":"28040",
+"phone1":"013123164100",
+"phone2":"",
+"lat":"19.26426652",
+"lng":"-103.6942103"
+}
+},
+{
+"distribuidor": {
+"id": 66 ,
+"name":"ZACATECAS 8677",
+"comercial_name":"ZACATECAS 8677",
+"state":"Zacatecas",
+"city":"Guadalupe",
+"address":"Camino Real de Tierra Adentro #5, Col. Arroyo de la Plata",
+"colonia":"",
+"cp":"98600",
+"phone1":"01",
+"phone2":"",
+"lat":"22.753572",
+"lng":"-102.529569"
+}
+},
+{
+"distribuidor": {
+"id": 67 ,
+"name":"COATZACOALCOS 8085",
+"comercial_name":"COATZACOALCOS 8085",
+"state":"Veracruz",
+"city":"Coatzacoalcos",
+"address":"Av. Universidad Veracruzana Km 8, Col. El Tesoro",
+"colonia":"",
+"cp":"96536",
+"phone1":"019212110600",
+"phone2":"",
+"lat":"18.14045319",
+"lng":"-94.48566582"
+}
+},
+{
+"distribuidor": {
+"id": 68 ,
+"name":"MANZANILLO 8657",
+"comercial_name":"MANZANILLO 8657",
+"state":"Colima",
+"city":"Manzanillo",
+"address":"Blvd. Costero Miguel de la Madrid #1550, Col. Aeroméxico ",
+"colonia":"",
+"cp":"28869",
+"phone1":"013143313900",
+"phone2":"",
+"lat":"19.0998824",
+"lng":"-104.3242932"
+}
+},
+{
+"distribuidor": {
+"id": 69 ,
+"name":"TEPIC 8662",
+"comercial_name":"TEPIC 8662",
+"state":"Nayarit",
+"city":"Tepic",
+"address":"Ave. Insurgentes #2297 esq. Avenida Egipto, Col. Gustavo Díaz Ordaz",
+"colonia":"",
+"cp":"63176",
+"phone1":"",
+"phone2":"",
+"lat":"21.4797419",
+"lng":"-104.8737752"
+}
+},
+{
+"distribuidor": {
+"id": 70 ,
+"name":"PUERTO VALLARTA L 8785",
+"comercial_name":"PUERTO VALLARTA L 8785",
+"state":"Jalisco",
+"city":"Puerto Vallarta",
+"address":"Carretera Tepic-Vallarta 5348, Col. Las Juntas",
+"colonia":"",
+"cp":"48291",
+"phone1":"013222265500",
+"phone2":"",
+"lat":"20.69670777",
+"lng":"-105.2388221"
+}
+},
+{
+"distribuidor": {
+"id": 71 ,
+"name":"SALTILLO NOGALERA 8797",
+"comercial_name":"SALTILLO NOGALERA 8797",
+"state":"Coahuila",
+"city":"Saltillo",
+"address":"Periférico Luis Echeverría 1171, Col. La Nogalera",
+"colonia":"",
+"cp":"25019",
+"phone1":"018444119100",
+"phone2":"",
+"lat":"25.38851327",
+"lng":"-100.9978822"
+}
+},
+{
+"distribuidor": {
+"id": 72 ,
+"name":"LA RIOJA 8676",
+"comercial_name":"LA RIOJA 8676",
+"state":"Nuevo León",
+"city":"Monterrey",
+"address":"Plaza Serena Carretera Nacional #500, Col. Portal del Huajuco",
+"colonia":"",
+"cp":"64989",
+"phone1":"01",
+"phone2":"",
+"lat":"25.576847",
+"lng":"-100.248778"
+}
+},
+{
+"distribuidor": {
+"id": 73 ,
+"name":"SALTILLO GALERÍAS 8729",
+"comercial_name":"SALTILLO GALERÍAS 8729",
+"state":"Coahuila",
+"city":"Saltillo",
+"address":"Blvd. Nazario S. Ortiz Garza 1951, Fracc. Residencial Los Parques",
+"colonia":"",
+"cp":"25279",
+"phone1":"018444385400",
+"phone2":"",
+"lat":"25.45632343",
+"lng":"-100.9780124"
+}
+},
+{
+"distribuidor": {
+"id": 74 ,
+"name":"ELOY CAVAZOS 8751",
+"comercial_name":"ELOY CAVAZOS 8751",
+"state":"Nuevo León",
+"city":"Guadalupe",
+"address":"Av. Eloy Cavazos 7800, Col. Jardines de Andalucía",
+"colonia":"",
+"cp":"67150",
+"phone1":"018181272000",
+"phone2":"",
+"lat":"25.64675701",
+"lng":"-100.1833302"
+}
+},
+{
+"distribuidor": {
+"id": 75 ,
+"name":"TORRES 8701",
+"comercial_name":"TORRES 8701",
+"state":"Nuevo León",
+"city":"Monterrey",
+"address":"Av. Lázaro Cárdenas 2800, Col. Balcones del Mirador",
+"colonia":"",
+"cp":"64790",
+"phone1":"018183284800",
+"phone2":"",
+"lat":"25.63034763",
+"lng":"-100.2979141"
+}
+},
+{
+"distribuidor": {
+"id": 76 ,
+"name":"FUNDADORES 8652",
+"comercial_name":"FUNDADORES 8652",
+"state":"Nuevo León",
+"city":"San Pedro Garza García",
+"address":"Av. Garza Lagüera (antes Av. Fundadores) #101, Col. Valle Oriente",
+"colonia":"",
+"cp":"66269",
+"phone1":"018112230200",
+"phone2":"",
+"lat":"25.642165",
+"lng":"-100.332888"
+}
+},
+{
+"distribuidor": {
+"id": 77 ,
+"name":"REVOLUCIÓN 8703",
+"comercial_name":"REVOLUCIÓN 8703",
+"state":"Nuevo León",
+"city":"Monterrey",
+"address":"Av. Revolución 2096, Fracc. Estadio",
+"colonia":"",
+"cp":"64830",
+"phone1":"018183694400",
+"phone2":"",
+"lat":"25.65599808",
+"lng":"-100.28041"
+}
+},
+{
+"distribuidor": {
+"id": 78 ,
+"name":"VILLAHERMOSA 8739",
+"comercial_name":"VILLAHERMOSA 8739",
+"state":"Tabasco",
+"city":"Villahermosa",
+"address":"Av. Quintín Arauz 505, Col. 1° de Mayo",
+"colonia":"",
+"cp":"86100",
+"phone1":"019933136900",
+"phone2":"",
+"lat":"17.98061579",
+"lng":"-92.94047739"
+}
+},
+{
+"distribuidor": {
+"id": 79 ,
+"name":"SANTA CATARINA 8752",
+"comercial_name":"SANTA CATARINA 8752",
+"state":"Nuevo León",
+"city":"Santa Catarina",
+"address":"Blvd. Díaz Ordaz 100, Col. La Fama",
+"colonia":"",
+"cp":"66100",
+"phone1":"018181240600",
+"phone2":"",
+"lat":"25.67360782",
+"lng":"-100.4232162"
+}
+},
+{
+"distribuidor": {
+"id": 80 ,
+"name":"MIGUEL ALEMÁN 8789",
+"comercial_name":"MIGUEL ALEMÁN 8789",
+"state":"Nuevo León",
+"city":"San Nicolás de los Garza",
+"address":"Av. Miguel Alemán esq. Av. Las Torres, Col. Miguel Alemán",
+"colonia":"",
+"cp":"66447",
+"phone1":"018181310900",
+"phone2":"",
+"lat":"25.71746127",
+"lng":"-100.2191108"
+}
+},
+{
+"distribuidor": {
+"id": 81 ,
+"name":"NOGALAR 8710",
+"comercial_name":"NOGALAR 8710",
+"state":"Nuevo León",
+"city":"San Nicolás de los Garza",
+"address":"Nogalar 130 Sur, Col. Cuauhtémoc",
+"colonia":"",
+"cp":"66452",
+"phone1":"018183054800",
+"phone2":"",
+"lat":"25.72384072",
+"lng":"-100.2963316"
+}
+},
+{
+"distribuidor": {
+"id": 82 ,
+"name":"CUMBRES 8704",
+"comercial_name":"CUMBRES 8704",
+"state":"Nuevo León",
+"city":"Monterrey",
+"address":"Paseo de los Triunfadores 3200, Col. Cumbres, 8º Sector",
+"colonia":"",
+"cp":"64610",
+"phone1":"018181588000",
+"phone2":"",
+"lat":"25.72569166",
+"lng":"-100.3911692"
+}
+},
+{
+"distribuidor": {
+"id": 83 ,
+"name":"SENDERO 8094",
+"comercial_name":"SENDERO 8094",
+"state":"Nuevo León",
+"city":"Escobedo",
+"address":"Sendero Norte 1502, Col. Cerradas de Anáhuac",
+"colonia":"",
+"cp":"66059",
+"phone1":"018181320500",
+"phone2":"",
+"lat":"25.77157905",
+"lng":"-100.2717411"
+}
+},
+{
+"distribuidor": {
+"id": 84 ,
+"name":"TUXTLA GUTIÉRREZ 8781",
+"comercial_name":"TUXTLA GUTIÉRREZ 8781",
+"state":"Chiapas",
+"city":"Tuxtla Gutiérrez",
+"address":"Libramiento Sur Poniente 2991, Col. Terán",
+"colonia":"",
+"cp":"29060",
+"phone1":"019616171200",
+"phone2":"",
+"lat":"16.74712899",
+"lng":"-93.14538269"
+}
+},
+{
+"distribuidor": {
+"id": 85 ,
+"name":"MATAMOROS 8644",
+"comercial_name":"MATAMOROS 8644",
+"state":"Tamaulipas",
+"city":"Matamoros",
+"address":"Av. Pedro Cárdenas s/n, Fraccionamiento Victoria",
+"colonia":"",
+"cp":"87390",
+"phone1":"01868811 0600",
+"phone2":"",
+"lat":"25.841253",
+"lng":"-97.508512"
+}
+},
+{
+"distribuidor": {
+"id": 86 ,
+"name":"REYNOSA 8734",
+"comercial_name":"REYNOSA 8734",
+"state":"Tamaulipas",
+"city":"Reynosa",
+"address":"Fuente de Diana 200 Sur esq. Blvd. Hidalgo, Col. Las Fuentes",
+"colonia":"",
+"cp":"88710",
+"phone1":"018999092000",
+"phone2":"",
+"lat":"26.07217858",
+"lng":"-98.31908761"
+}
+},
+{
+"distribuidor": {
+"id": 87 ,
+"name":"DURANGO 8733",
+"comercial_name":"DURANGO 8733",
+"state":"Durango",
+"city":"Durango",
+"address":"Blvd. Domingo Arrieta 601 esq. Teresa de Calcuta, Col. El Refugio",
+"colonia":"",
+"cp":"34170",
+"phone1":"016188272200",
+"phone2":"",
+"lat":"24.01004498",
+"lng":"-104.6614498"
+}
+},
+{
+"distribuidor": {
+"id": 88 ,
+"name":"CIUDAD DEL CARMEN 8693",
+"comercial_name":"CIUDAD DEL CARMEN 8693",
+"state":"Campeche",
+"city":"Campeche",
+"address":"Av. Corregidora #24, Col. Aviación",
+"colonia":"",
+"cp":"24119",
+"phone1":"019381313600",
+"phone2":"",
+"lat":"18.652328",
+"lng":"-91.806936"
+}
+},
+{
+"distribuidor": {
+"id": 89 ,
+"name":"TORREÓN ABASTOS 8728",
+"comercial_name":"TORREÓN ABASTOS 8728",
+"state":"Coahuila",
+"city":"Torreón",
+"address":"Diagonal Reforma 2200, Col. Abastos",
+"colonia":"",
+"cp":"27020",
+"phone1":"018717474500",
+"phone2":"",
+"lat":"25.55259508",
+"lng":"-103.4250882"
+}
+},
+{
+"distribuidor": {
+"id": 90 ,
+"name":"MONCLOVA 8653",
+"comercial_name":"MONCLOVA 8653",
+"state":"Coahuila",
+"city":"Monclova",
+"address":"Blvd. Harold R. Pape s/n. Col. Del Prado (Entre Kennedy y Santana) Zona Dorada",
+"colonia":"",
+"cp":"25718",
+"phone1":"018661580500",
+"phone2":"",
+"lat":"26.925512",
+"lng":"-101.41918"
+}
+},
+{
+"distribuidor": {
+"id": 91 ,
+"name":"NUEVO LAREDO 8796",
+"comercial_name":"NUEVO LAREDO 8796",
+"state":"Tamaulipas",
+"city":"Nuevo Laredo",
+"address":"Av. Reforma 5601 Col. Las Alamedas, Plaza Reforma",
+"colonia":"",
+"cp":"88001",
+"phone1":"018677116300",
+"phone2":"",
+"lat":"27.44405191",
+"lng":"-99.52108203"
+}
+},
+{
+"distribuidor": {
+"id": 92 ,
+"name":"TAPACHULA 8754",
+"comercial_name":"TAPACHULA 8754",
+"state":"Chiapas",
+"city":"Tapachula",
+"address":"Carr. a Puerto Madero Km. 2.100 entre Fracc. Tulipanes y Templo La Luz del Mundo. ",
+"colonia":"",
+"cp":"30700",
+"phone1":"019626201900",
+"phone2":"",
+"lat":"14.87682437",
+"lng":"-92.28559791"
+}
+},
+{
+"distribuidor": {
+"id": 93 ,
+"name":"MAZATLÁN 8784",
+"comercial_name":"MAZATLÁN 8784",
+"state":"Sinaloa",
+"city":"Mazatlán",
+"address":"Av. Rafael Buelna 600, Col. Alameda",
+"colonia":"",
+"cp":"82123",
+"phone1":"016699899900",
+"phone2":"",
+"lat":"23.24526904",
+"lng":"-106.4362112"
+}
+},
+{
+"distribuidor": {
+"id": 94 ,
+"name":"CAMPECHE 8663",
+"comercial_name":"CAMPECHE 8663",
+"state":"Campeche",
+"city":"Campeche",
+"address":"Av. Román Piña Chan 28 esquina con Av. María Lavalle Urbina Área de Ah-Kim-Pech Sector Fundadores",
+"colonia":"",
+"cp":"24028",
+"phone1":"019818181500",
+"phone2":"",
+"lat":"19.850631",
+"lng":"-90.532986"
+}
+},
+{
+"distribuidor": {
+"id": 95 ,
+"name":"PIEDRAS NEGRAS 8638",
+"comercial_name":"PIEDRAS NEGRAS 8638",
+"state":"Coahuila",
+"city":"Piedras Negras",
+"address":"Carretera 57 y Eulalio Gutiérrez",
+"colonia":"",
+"cp":"26070",
+"phone1":"018787842100",
+"phone2":"",
+"lat":"28.681503",
+"lng":"-100.54633"
+}
+},
+{
+"distribuidor": {
+"id": 96 ,
+"name":"CANEK 8696",
+"comercial_name":"CANEK 8696",
+"state":"Yucatán",
+"city":"Mérida",
+"address":"Av. Canek #250, Col. Jacinto Canek",
+"colonia":"",
+"cp":"97227",
+"phone1":"01999 964 3200",
+"phone2":"",
+"lat":"20.987781",
+"lng":"-89.660189"
+}
+},
+{
+"distribuidor": {
+"id": 97 ,
+"name":"MÉRIDA 8743",
+"comercial_name":"MÉRIDA 8743",
+"state":"Yucatán",
+"city":"Mérida",
+"address":"Calle 35, #470 por Paseo de Montejo, Fracc. Gonzalo Guerrero",
+"colonia":"",
+"cp":"97118",
+"phone1":"019999420500",
+"phone2":"",
+"lat":"21.0252808",
+"lng":"-89.62286379"
+}
+},
+{
+"distribuidor": {
+"id": 98 ,
+"name":"CULIACÁN ZAPATA 8708",
+"comercial_name":"CULIACÁN ZAPATA 8708",
+"state":"Sinaloa",
+"city":"Culiacán",
+"address":"Blvd. Emiliano Zapata 2546 Pte., Col. El Vallado",
+"colonia":"",
+"cp":"80110",
+"phone1":"016677588000",
+"phone2":"",
+"lat":"24.79074697",
+"lng":"-107.4220088"
+}
+},
+{
+"distribuidor": {
+"id": 99 ,
+"name":"CULIACÁN TRES RIOS 8664",
+"comercial_name":"CULIACÁN TRES RIOS 8664",
+"state":"Sinaloa",
+"city":"Culiacán",
+"address":"Boulevard Rotarismo 1430 Nte. Fracc. Lago Tres Ríos esq. con Boulevard Isidro Salas. ",
+"colonia":"",
+"cp":"80020",
+"phone1":"016677594700",
+"phone2":"",
+"lat":"24.816836",
+"lng":"-107.409592"
+}
+},
+{
+"distribuidor": {
+"id": 100 ,
+"name":"DELICIAS 1162",
+"comercial_name":"DELICIAS 1162",
+"state":"Chihuahua",
+"city":"Delicias",
+"address":"2da Ote. #903 esq. Ferrocarril, Col. Terrazas",
+"colonia":"",
+"cp":"33020",
+"phone1":"01",
+"phone2":"",
+"lat":"28.197694",
+"lng":"-105.463767"
+}
+},
+{
+"distribuidor": {
+"id": 101 ,
+"name":"CHETUMAL 8675",
+"comercial_name":"CHETUMAL 8675",
+"state":"Quintana Roo",
+"city":"Chetumal",
+"address":"Av. Insurgentes #564, esq. Gabriel Leyva, Col Fovissste Gonzalo Guerrero",
+"colonia":"",
+"cp":"77020",
+"phone1":"",
+"phone2":"",
+"lat":"18.518356",
+"lng":"-88.316461"
+}
+},
+{
+"distribuidor": {
+"id": 102 ,
+"name":"GUASAVE 8682",
+"comercial_name":"GUASAVE 8682",
+"state":"Sinaloa",
+"city":"Guasave",
+"address":"Calle 20 de Noviembre, Sector Mega Proyecto Sur",
+"colonia":"",
+"cp":"81000",
+"phone1":"01",
+"phone2":"",
+"lat":"25.5861",
+"lng":"-108.483031"
+}
+},
+{
+"distribuidor": {
+"id": 103 ,
+"name":"LOS CABOS 8766",
+"comercial_name":"LOS CABOS 8766",
+"state":"Baja California Sur",
+"city":"Los Cabos",
+"address":"Carr. Transpeninsular Benito Juárez Km 6.5, Col. Cabo Bello",
+"colonia":"",
+"cp":"23410",
+"phone1":"016241058600",
+"phone2":"",
+"lat":"22.90769464",
+"lng":"-109.8660424"
+}
+},
+{
+"distribuidor": {
+"id": 104 ,
+"name":"CHIHUAHUA PERIF. DE LA JUVENTUD 8719",
+"comercial_name":"CHIHUAHUA PERIF. DE LA JUVENTUD 8719",
+"state":"Chihuahua",
+"city":"Chihuahua",
+"address":"Av. Periférico de la Juventud 6101, Col. Hacienda Del Valle",
+"colonia":"",
+"cp":"31216",
+"phone1":"016144398200",
+"phone2":"",
+"lat":"28.62773169",
+"lng":"-106.1211186"
+}
+},
+{
+"distribuidor": {
+"id": 105 ,
+"name":"MOCHIS 8771",
+"comercial_name":"MOCHIS 8771",
+"state":"Sinaloa",
+"city":"Mochis",
+"address":"Blvd. Antonio Rosales 1280 Sur, Centro",
+"colonia":"",
+"cp":"81271",
+"phone1":"016688161900",
+"phone2":"",
+"lat":"25.78364243",
+"lng":"-109.0058961"
+}
+},
+{
+"distribuidor": {
+"id": 106 ,
+"name":"PLAYA DEL CARMEN 8673",
+"comercial_name":"PLAYA DEL CARMEN 8673",
+"state":"Quintana Roo",
+"city":"Playa del Carmen",
+"address":"Carretera Cancún - Tulum km 55 Col. Calle 60 Solidaridad",
+"colonia":"",
+"cp":"77712",
+"phone1":"01",
+"phone2":"",
+"lat":"20.647881",
+"lng":"-87.070053"
+}
+},
+{
+"distribuidor": {
+"id": 107 ,
+"name":"LA PAZ 8628",
+"comercial_name":"LA PAZ 8628",
+"state":"Baja California Sur",
+"city":"La Paz",
+"address":"Blvd. Agustín Olachea esq. Libramiento S/N, Col. El Zacatal",
+"colonia":"",
+"cp":"23090",
+"phone1":"016121750600",
+"phone2":"",
+"lat":"24.11668908",
+"lng":"-110.340684"
+}
+},
+{
+"distribuidor": {
+"id": 108 ,
+"name":"CANCÚN 8795",
+"comercial_name":"CANCÚN 8795",
+"state":"Quintana Roo",
+"city":"Cancún",
+"address":"Av. Kabah Lote 01-03, Manzana 1, Súper Manzana 37",
+"colonia":"",
+"cp":"77500",
+"phone1":"019981933700",
+"phone2":"",
+"lat":"21.15381686",
+"lng":"-86.84448149"
+}
+},
+{
+"distribuidor": {
+"id": 109 ,
+"name":"OBREGÓN 8759",
+"comercial_name":"OBREGÓN 8759",
+"state":"Sonora",
+"city":"Cd. Obregón",
+"address":"Calle Lago Superior 1065 Norte, Fracc. Comercial Zona Norte",
+"colonia":"",
+"cp":"85010",
+"phone1":"016444109600",
+"phone2":"",
+"lat":"27.51675915",
+"lng":"-109.9301472"
+}
+},
+{
+"distribuidor": {
+"id": 110 ,
+"name":"HENEQUÉN 8713",
+"comercial_name":"HENEQUÉN 8713",
+"state":"Chihuahua",
+"city":"Cd. Juárez",
+"address":"Av. Henequén 1181, Col. Salvárcar",
+"colonia":"",
+"cp":"32690",
+"phone1":"016566374700",
+"phone2":"",
+"lat":"31.6480974",
+"lng":"-106.3857668"
+}
+},
+{
+"distribuidor": {
+"id": 111 ,
+"name":"TECNOLÓGICO 8723",
+"comercial_name":"TECNOLÓGICO 8723",
+"state":"Chihuahua",
+"city":"Cd. Juárez",
+"address":"Av. Ejército Nacional 6804, Fracc. Pradera Dorada",
+"colonia":"",
+"cp":"32618",
+"phone1":"016562270000",
+"phone2":"",
+"lat":"31.70384869",
+"lng":"-106.4216977"
+}
+},
+{
+"distribuidor": {
+"id": 112 ,
+"name":"LÓPEZ MATEOS 8714",
+"comercial_name":"LÓPEZ MATEOS 8714",
+"state":"Chihuahua",
+"city":"Cd. Juárez",
+"address":"Av. López Mateos 1365, Col. Melchor Ocampo",
+"colonia":"",
+"cp":"32380",
+"phone1":"016566861000",
+"phone2":"",
+"lat":"31.72199305",
+"lng":"-106.4517814"
+}
+},
+{
+"distribuidor": {
+"id": 113 ,
+"name":"CONSTITUCIÓN 8711",
+"comercial_name":"CONSTITUCIÓN 8711",
+"state":"Chihuahua",
+"city":"Cd. Juárez",
+"address":"Constitución 850 Sur, Col. El Barrial",
+"colonia":"",
+"cp":"32040",
+"phone1":"016566416900",
+"phone2":"",
+"lat":"31.73128747",
+"lng":"-106.4782441"
+}
+},
+{
+"distribuidor": {
+"id": 114 ,
+"name":"GUAYMAS 8654",
+"comercial_name":"GUAYMAS 8654",
+"state":"Sonora",
+"city":"Guaymas",
+"address":"Ave. García López # 15 carretera Internacional esq. Boulevard Camino Altular Col. Linda Vista",
+"colonia":"",
+"cp":"85456",
+"phone1":"016313116900",
+"phone2":"",
+"lat":"27.940766",
+"lng":"-110.933091"
+}
+},
+{
+"distribuidor": {
+"id": 115 ,
+"name":"HERMOSILLO 8720",
+"comercial_name":"HERMOSILLO 8720",
+"state":"Sonora",
+"city":"Hermosillo",
+"address":"Blvd. Solidaridad 990 Sur, Col. Proyecto Río Sonora",
+"colonia":"",
+"cp":"83280",
+"phone1":"016622598500",
+"phone2":"",
+"lat":"29.06624167",
+"lng":"-110.9681526"
+}
+},
+{
+"distribuidor": {
+"id": 116 ,
+"name":"NOGALES 8651",
+"comercial_name":"NOGALES 8651",
+"state":"Sonora",
+"city":"Nogales",
+"address":"Blvd. Luis Donaldo Colosio #2750 entre Blvd. El Greco y Ave. Alejandra. Col. El Greco ",
+"colonia":"",
+"cp":"84065",
+"phone1":"",
+"phone2":"",
+"lat":"31.28849",
+"lng":"-110.942475"
+}
+},
+{
+"distribuidor": {
+"id": 117 ,
+"name":"MEXICALI 8705",
+"comercial_name":"MEXICALI 8705",
+"state":"Baja California Norte",
+"city":"Mexicali",
+"address":"Blvd. Benito Juárez 2398, Col. Sánchez Taboada",
+"colonia":"",
+"cp":"21370",
+"phone1":"016869068000",
+"phone2":"",
+"lat":"32.61759884",
+"lng":"-115.4417983"
+}
+},
+{
+"distribuidor": {
+"id": 118 ,
+"name":"ENSENADA 8775",
+"comercial_name":"ENSENADA 8775",
+"state":"Baja California Norte",
+"city":"Ensenada",
+"address":"Lote 194, Manzana 054, Av. Pedro Loyola 673 esq. Calle Hierro, Col. Carlos Pacheco",
+"colonia":"",
+"cp":"22897",
+"phone1":"016461522300",
+"phone2":"",
+"lat":"31.81950413",
+"lng":"-116.602079"
+}
+},
+{
+"distribuidor": {
+"id": 119 ,
+"name":"TIJUANA 2000 8854",
+"comercial_name":"TIJUANA 2000 8854",
+"state":"Baja California Norte",
+"city":"Tijuana",
+"address":"Corredor Tijuana-Rosarito 2000 esq. Lázaro Cárdenas, Manzana 819",
+"colonia":"",
+"cp":"22205",
+"phone1":"016649691000",
+"phone2":"",
+"lat":"32.49593581",
+"lng":"-116.8504086"
+}
+},
+{
+"distribuidor": {
+"id": 120 ,
+"name":"TIJUANA VÍA RÁPIDA 8706",
+"comercial_name":"TIJUANA VÍA RÁPIDA 8706",
+"state":"Baja California Norte",
+"city":"Tijuana",
+"address":"Vía Rápida 14631 Pte. esq. Blvd. Lázaro Cárdenas, Col. Los Santos, Del. La Mesa",
+"colonia":"",
+"cp":"22430",
+"phone1":"016646088000",
+"phone2":"",
+"lat":"32.50749971",
+"lng":"-116.9616452"
+}
+},
+{
+"distribuidor": {
+"id": 121 ,
+"name":"ROSARITO 8082",
+"comercial_name":"ROSARITO 8082",
+"state":"Baja California Norte",
+"city":"Playas de Rosarito",
+"address":"Calle Blvd. Benito Juárez 300, Lote 000, Manzana 030, Col. Reforma",
+"colonia":"",
+"cp":"22710",
+"phone1":"016616148100",
+"phone2":"",
+"lat":"32.37721142",
+"lng":"-117.0581886"
+}
+}
+]
+}
+

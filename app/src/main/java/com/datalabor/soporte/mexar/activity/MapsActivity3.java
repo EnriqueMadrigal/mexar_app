@@ -35,9 +35,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
+public class MapsActivity3 extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener, GoogleMap.OnMarkerClickListener, GoogleMap.OnInfoWindowClickListener {
+
 
     private GoogleMap mMap;
 
@@ -60,14 +61,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
+        setContentView(R.layout.activity_maps3);
         context = this;
 
         LoadDistribuidores();
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.map3);
         mapFragment.getMapAsync(this);
 
 
@@ -216,7 +217,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions options = new MarkerOptions()
                 .position(latLng)
                 .title("Ubicación Actual!");
-       // mMap.addMarker(options);
+        // mMap.addMarker(options);
 
         float zoomLevel = 12.0f; //This goes up to 21
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoomLevel));
@@ -268,7 +269,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 String title = item.get_comercial_name();
                 String lat = item.get_latitud();
                 String lng = item.get_longitud();
-                String address = item.get_direccion();
 
                 Double curLatitude=0.0;
                 Double curLongitude=0.0;
@@ -309,10 +309,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LatLng latLng = new LatLng(curLatitude, curLongitude);
                 Marker myMarker = mMap.addMarker(new MarkerOptions()
                         .position(latLng)
-                        .title(title)
-                        .snippet(address)
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.mexar_marker)));
-                       // .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+                        .title("The Home Depot")
+                        .snippet(title)
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.homedepot_marker)));
+
+                        //.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                //myMarker.setIcon(BitmapDescriptorFactory.fromResource(R.drawable.homedepot_marker));
 
                 eventMarkerMap.put(myMarker, 0);
 
@@ -320,11 +323,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LatLng newMarker = new LatLng(Double.valueOf(lat), Double.valueOf(lng));
                 mMap.addMarker(new MarkerOptions()
                         .position(newMarker)
-                        .title(title)
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.mexar_marker)));
+                        .title("The Home Depot")
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.homedepot_marker)));
+
 
                 float zoomLevel = 12.0f; //This goes up to 21
-               // mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarker, zoomLevel));
+                // mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarker, zoomLevel));
 
                 // mMap.moveCamera(CameraUpdateFactory.newLatLng(newMarker));
 
@@ -341,7 +345,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
             else {
-                Toast.makeText(MapsActivity.this, "Usted ha aceptado!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MapsActivity3.this, "Usted ha aceptado!", Toast.LENGTH_LONG).show();
                 if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                         == PackageManager.PERMISSION_GRANTED) {
                     mMap.setMyLocationEnabled(true);
@@ -375,74 +379,76 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return true;
     }
 
-private void LoadDistribuidores()
-{
+    private void LoadDistribuidores()
+    {
 
-    _distribuidores = new ArrayList<>();
+        _distribuidores = new ArrayList<>();
 
-    String jsonDistribuidores = Common.loadJSONFromAsset(context,"distribuidores.json");
-    JSONObject obj_distribuidores;
-    JSONObject distribuidor;
+        String jsonDistribuidores = Common.loadJSONFromAsset(context,"homedepot.json");
+        JSONObject obj_distribuidores;
+        JSONObject distribuidor;
 
-    ///////////////
-    try {
+        ///////////////
+        try {
 
-        obj_distribuidores = new JSONObject(jsonDistribuidores);
-        JSONArray res = obj_distribuidores.getJSONArray("distribuidores");
+            obj_distribuidores = new JSONObject(jsonDistribuidores);
+            JSONArray res = obj_distribuidores.getJSONArray("distribuidores");
 
-        for (int i = 0; i < res.length(); i++) {
-            distribuidor = res.getJSONObject(i).getJSONObject("distribuidor");
-            int id = distribuidor.getInt("id");
-            String name = distribuidor.getString("name");
-           // String clave = distribuidor.getString("clave");
-            String comercial_name = distribuidor.getString("comercial_name");
-            String estado = distribuidor.getString("state");
-            String ciudad = distribuidor.getString("city");
-            String cp = distribuidor.getString("cp");
-            String direccion = distribuidor.getString("address");
-            String numInt = distribuidor.getString("interior");
-            String numExt = distribuidor.getString("exterior");
-            String colonia = distribuidor.getString("colonia");
-            String phone1 = distribuidor.getString("phone1");
-            String phone2 = distribuidor.getString("phone2");
-            String lat = distribuidor.getString("lat");
-            String lng = distribuidor.getString("lng");
+            for (int i = 0; i < res.length(); i++) {
+                distribuidor = res.getJSONObject(i).getJSONObject("distribuidor");
+                int id = distribuidor.getInt("id");
+                String name = distribuidor.getString("name");
+                // String clave = distribuidor.getString("clave");
+                String comercial_name = distribuidor.getString("comercial_name");
+                String estado = distribuidor.getString("state");
+                String ciudad = distribuidor.getString("city");
+                String cp = distribuidor.getString("cp");
+                String direccion = distribuidor.getString("address");
+               // String numInt = distribuidor.getString("interior");
+               // String numExt = distribuidor.getString("exterior");
+                String colonia = distribuidor.getString("colonia");
+                String phone1 = distribuidor.getString("phone1");
+                String phone2 = distribuidor.getString("phone2");
+                String lat = distribuidor.getString("lat");
+                String lng = distribuidor.getString("lng");
 
 
-            Distribuidor dist1 = new Distribuidor();
-            dist1.set_id(id);
-            dist1.set_comercial_name(comercial_name);
-            dist1.set_name(name);
-            dist1.set_ciudad(ciudad);
-            dist1.set_estado(estado);
-            dist1.set_colonia(colonia);
-            dist1.set_direccion(direccion + " #" + numExt + " " + numInt);
-            dist1.set_cp(cp);
-            dist1.set_telefono1(phone1);
-            dist1.set_latitud(lat);
-            dist1.set_longitud(lng);
+                Distribuidor dist1 = new Distribuidor();
+                dist1.set_id(id);
+                dist1.set_comercial_name(comercial_name);
+                dist1.set_name(name);
+                dist1.set_ciudad(ciudad);
+                dist1.set_estado(estado);
+                dist1.set_colonia(colonia);
+                //dist1.set_direccion(direccion + " #" + numExt + " " + numInt);
+                dist1.set_direccion(direccion);
+                dist1.set_cp(cp);
+                dist1.set_telefono1(phone1);
+                dist1.set_latitud(lat);
+                dist1.set_longitud(lng);
 
-            if (phone2.length()>1)
-            {
-                dist1.set_telefono2("," + phone2);
+                if (phone2.length()>1)
+                {
+                    dist1.set_telefono2("," + phone2);
+                }
+                _distribuidores.add(dist1);
+
+
+
             }
-            _distribuidores.add(dist1);
 
 
 
         }
 
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file distribuidores");
+            //return null;
+
+        }
 
 
     }
 
-    catch (Exception e)
-    {
-        Log.d(TAG,"Can not read json file distribuidores");
-        //return null;
-
-    }
-
-
-}
 }
