@@ -14,6 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.datalabor.soporte.mexar.Common;
@@ -95,6 +96,10 @@ public class productDetail extends Fragment {
     private ViewPager mPager;
     private Button ficha;
 
+    private ImageButton buttonTwitter;
+    private ImageButton buttonFacebook;
+    private ImageButton buttonGoogle;
+
     private List<Fragment> fList;
 
     Product curProduct;
@@ -165,6 +170,7 @@ public class productDetail extends Fragment {
                 String desc_completa = producto.getString("desc_completa");
                 String ficha_tecnica = producto.getString("ficha_tecnica");
                 String nota = producto.getString("nota");
+                String redes = producto.getString("redes");
 
                 int id = producto.getInt("id");
 
@@ -178,6 +184,7 @@ public class productDetail extends Fragment {
                     newProduct.set_desc_complete(desc_completa);
                     newProduct.set_ficha_tecnica(ficha_tecnica);
                     newProduct.set_nota(nota);
+                    newProduct.set_redes(redes);
 
                     int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
@@ -352,6 +359,11 @@ public class productDetail extends Fragment {
         mPager = (ViewPager) _view.findViewById(R.id.productDetailViewPager);
 
         nota = (TextView) _view.findViewById(R.id.ProductDetailnota);
+
+        buttonFacebook = (ImageButton) _view.findViewById(R.id.ProductDetailFacebook);
+        buttonTwitter = (ImageButton) _view.findViewById(R.id.ProductDetailTwitter);
+        buttonGoogle = (ImageButton) _view.findViewById(R.id.ProductDetailGoogle);
+
 
         if (this.curProduct == null) return null;
 
@@ -572,6 +584,45 @@ public class productDetail extends Fragment {
         mPager.setAdapter(myPageAdapter);
         mPager.setCurrentItem(0);
         myPageAdapter.notifyDataSetChanged();
+
+
+
+        // Botones de redes
+
+        buttonFacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+            //https://www.facebook.com/sharer/sharer.php?u=http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/sharer/sharer.php?u=" + curProduct.get_redes()));
+                startActivity(browserIntent);
+
+            }
+        });
+
+
+        buttonGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+           //https://plus.google.com/share?url=Texto%20para%20compartir%20http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://plus.google.com/share?url=Texto%20para%20compartir%20" + curProduct.get_redes()));
+                startActivity(browserIntent);
+
+            }
+        });
+
+
+        buttonTwitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                //http://twitter.com/home?status=Texto%20para%20compartir%20http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/home?status=Texto%20para%20compartir%20" + curProduct.get_redes()));
+                startActivity(browserIntent);
+
+            }
+        });
 
 
 
