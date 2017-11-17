@@ -258,6 +258,149 @@
             android:layout_width="match_parent"
             android:layout_height="20dp" />
 
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jorge Velazquez " />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gerente Nacional de ventas Ferretería" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="correo: alvaro@conquestind.com.mx " />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cel: 55 4044  9509" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marvin Gonzalez" />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gerente de ventas Centrifugado México" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: marvin.gonzalez@conquestind.com.mx" />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel: (0155) 5701 4300 Ext. 2104" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cel: 552 558 2373" />
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roberto Grover" />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gerente Nacional de ventas Soldadura y Centrifugado" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: roberto.grover@conquestind.com.mx" />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel: (0133) 3656 3637 Ext. 1101" />
+
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cel: 333 954 9312" />
+
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
