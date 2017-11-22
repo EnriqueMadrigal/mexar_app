@@ -33,12 +33,16 @@ public class Common {
 
     public static final String VAR_USER_NAME = "USER_NAME";
     public static final String VAR_LOGIN_TYPE = "LOGIN_TYPE"; // google, facebook, email
+    public static final String VAR_USER_EMAIL = "USER_EMAIL";
+
 
     public static void DecrementPage()
     {
         _curPage--;
     }
 
+    public static final String API_URL_BASE = "http://104.131.34.72/backend/appserver/public/index.php/api/";
+    //public static final String API_URL_BASE = "http://192.168.15.26/backend/appserver/public/index.php/api/";
 
 
     public static String loadJSONFromAsset(Context context, String filename) {

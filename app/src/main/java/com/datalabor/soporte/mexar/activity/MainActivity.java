@@ -438,6 +438,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         // Borrar el login
         editor.putString( Common.VAR_LOGIN_TYPE, "");
         editor.putString( Common.VAR_USER_NAME, "");
+        editor.putString( Common.VAR_USER_EMAIL, "");
 
         editor.commit();
 

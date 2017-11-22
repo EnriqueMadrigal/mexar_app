@@ -2,12 +2,19 @@ package com.datalabor.soporte.mexar.activity;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -21,6 +28,8 @@ import android.widget.EditText;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.custom.SynchronizeResult;
+import com.datalabor.soporte.mexar.utils.HttpClient;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -38,6 +47,8 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.facebook.login.widget.LoginButton;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.json.JSONObject;
@@ -76,7 +87,7 @@ private LoginButton loginButton;
 
 
         loginButton = (LoginButton) findViewById(R.id.login_button);
-        loginButton.setReadPermissions("email");
+        loginButton.setReadPermissions("email","public_profile");
         loginButton.setText("Ingresar con Facebook");
         loginButton.setHeight(40);
         // If using in a fragment
@@ -96,9 +107,16 @@ private LoginButton loginButton;
                                 // Application code
                                 try {
                                     String email = object.getString("email");
+                                    String nombre = object.getString("");
                                     //String birthday = object.getString("birthday"); // 01/31/1980 format
                                     saveEmail(email);
                                     setLoginType("facebook");
+                                    new SyncTask( email,"","facebook" ).execute();
+
+                                    Intent intent = new Intent();
+                                    intent.setClass(context, presentacion.class);
+                                    finish();
+                                    startActivity(intent);
 
                                 }
 
@@ -123,6 +141,7 @@ private LoginButton loginButton;
             @Override
             public void onError(FacebookException exception) {
                 // App code
+                showInternetErrorDialog();
             }
         });
 
@@ -230,7 +249,10 @@ private LoginButton loginButton;
      //       mStatusTextView.setText(getString(R.string.signed_in_fmt, acct.getEmail()));
           //  updateUI(true);
             saveEmail(acct.getEmail());
+            saveUserName(acct.getGivenName());
             setLoginType("google");
+
+            new SyncTask( acct.getEmail(), acct.getGivenName(),"android" ).execute();
             Intent intent = new Intent();
             intent.setClass(this, presentacion.class);
             finish();
@@ -359,6 +381,7 @@ private LoginButton loginButton;
         final Button emailAceptar = (Button) view2.findViewById(R.id.emailAceptar);
         final Button emailCancelar = (Button) view2.findViewById(R.id.emailCancelar);
         final EditText emailText = (EditText) view2.findViewById(R.id.emailCorreo);
+        final EditText emailNombre = (EditText) view2.findViewById(R.id.emailNombre);
 
         alertDialog.setContentView(view2);
         alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -370,24 +393,51 @@ private LoginButton loginButton;
             public void onClick(View v) {
 
                 String curEmail = emailText.getText().toString();
+                String curNombre = emailNombre.getText().toString();
+
+
+                if (curNombre.length()<5)
+                {
+                    showWarningDialog("Por favor introduzca un nombre válido:");
+                    return;
+                }
+
 
                 if(isValidMail(curEmail))
                 {
 
+                    if( haveInternetPermissions() ) // Revisar permisos de internet
+                    {
 
-                   saveEmail(curEmail);
-                    setLoginType("email");
-                    alertDialog.dismiss();
-                    Intent intent = new Intent();
-                    intent.setClass(context, presentacion.class);
-                    finish();
-                    startActivity(intent);
+                        if (isOnline()) // Revisar si tenemos conexión
+                        {
+                            saveEmail(curEmail);
+                            saveUserName(curNombre);
+                            setLoginType("email");
+                            alertDialog.dismiss();
+                            new SyncTask( curEmail, curNombre,"email" ).execute();
+                            Intent intent = new Intent();
+                            intent.setClass(context, presentacion.class);
+                            finish();
+                            startActivity(intent);
+
+                        }
+
+                        else
+                        {
+                            showWarningDialog("Favor de revisar su conexión de Datos..");
+                            alertDialog.dismiss();
+                        }
+
+                    }
+
+
+
                 }
 
                 else
                 {
-
-                    showWarningDialog("El correo no es valido..");
+                    showWarningDialog("El correo no es válido..");
                 }
 
 
@@ -414,9 +464,21 @@ private void saveEmail(String newEmail)
     SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences( this );
     SharedPreferences.Editor editor = sharedPref.edit();
 
-    editor.putString( Common.VAR_USER_NAME, newEmail );
+    editor.putString( Common.VAR_USER_EMAIL, newEmail );
     editor.commit();
 }
+
+
+    private void saveUserName(String newName)
+    {
+
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences( this );
+        SharedPreferences.Editor editor = sharedPref.edit();
+
+        editor.putString( Common.VAR_USER_NAME, newName );
+        editor.commit();
+    }
+
 
     private void setLoginType(String newloginType)
     {
@@ -435,7 +497,7 @@ private boolean checkEmail()
 {
     SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences( this );
 
-    String user_uid = sharedPref.getString( Common.VAR_USER_NAME, "" );
+    String user_uid = sharedPref.getString( Common.VAR_USER_EMAIL, "" );
 
 if (user_uid.length()>0) return true;
     else return  false;
@@ -460,6 +522,130 @@ if (user_uid.length()>0) return true;
             Log.d(TAG,"Not Valid Email");
         }
         return check;
+    }
+
+
+    ///AsyncTask
+
+    private class SyncTask extends AsyncTask<Void, Void, Integer> {
+
+        private String _nombre;
+        private String _email;
+        private String _accesso = "";
+
+        //final int tipoDescarga = tipo_descarga;
+
+        public SyncTask(String email, String nombre, String acceso) {
+            _email = email;
+            _nombre = nombre;
+            _accesso = acceso;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+           // Log.d(TAG,"Prexecute");
+        }
+
+        @Override
+        protected Integer doInBackground(Void... arg0) {
+            ContentValues params = new ContentValues();
+            params.put("name", _nombre);
+            params.put("username", "username");
+            params.put("email", _email);
+            params.put("acceso", _accesso);
+            params.put("password", "");
+
+
+            SynchronizeResult result = new SynchronizeResult();
+
+
+            HttpClient.HttpResponse response;
+
+            response = HttpClient.post(Common.API_URL_BASE + "mexarusers", params);
+
+
+            if (result.getResult() == 0) {
+
+                //publishProgress("2/3 Obteniendo Marcas...", "Espere un momento", 1, 1);
+
+            }
+            else
+            {
+                return result.getResult();
+            }
+
+            return result.getResult();
+        }
+
+
+
+
+        @Override
+        protected void onPostExecute(Integer result) {
+            super.onPostExecute(result);
+          //  Log.d(TAG,"PostExceute");
+
+        }
+
+
+        //////////////////
+
+
+
+
+/////
+    }
+
+
+
+    /////AsyncTask
+
+
+    // Internet Permission
+
+    private boolean haveInternetPermissions() {
+        Set<String> required_perms = new HashSet<String>();
+        required_perms.add("android.permission.INTERNET");
+        required_perms.add("android.permission.ACCESS_WIFI_STATE");
+        required_perms.add("android.permission.ACCESS_NETWORK_STATE");
+
+        PackageManager pm = context.getPackageManager();
+        String packageName = context.getPackageName();
+        int flags = PackageManager.GET_PERMISSIONS;
+        PackageInfo packageInfo = null;
+
+        try {
+            packageInfo = pm.getPackageInfo(packageName, flags);
+          //  versionCode = packageInfo.versionCode;
+          //  versionName = packageInfo.versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+//			e.printStackTrace();
+            Log.d(TAG, e.getMessage());
+        }
+        if( packageInfo.requestedPermissions != null ) {
+            for( String p : packageInfo.requestedPermissions ) {
+                //Log_v(TAG, "permission: " + p.toString());
+                required_perms.remove(p);
+            }
+            if( required_perms.size() == 0 ) {
+                return true;	// permissions are in order
+            }
+            // something is missing
+            for( String p : required_perms ) {
+                Log.d(TAG, "required permission missing: " + p);
+            }
+        }
+        Log.d(TAG, "INTERNET/WIFI access required, but no permissions are found in Manifest.xml");
+        return false;
+    }
+
+
+    public boolean isOnline() {
+        ConnectivityManager cm =
+                (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
 
