@@ -43,6 +43,7 @@ import layout.distribuidores;
 import layout.mainf;
 import layout.productDetail;
 import layout.productos;
+import layout.products_search;
 import layout.promociones;
 import layout.subCategory;
 import layout.youtube;
@@ -241,6 +242,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             int curPage = Common.GetPage();
             int curCategoria = Common.getCategoria();
             int curSubCategoria = Common.getSubCategoria();
+            String curBusqueda = Common.get_curBusquda();
 
             Log.d(TAG, String.valueOf(curPage));
             Log.d(TAG, String.valueOf(curCategoria));
@@ -265,18 +267,38 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
                 case 2:
-                    subCategory _subCategory = subCategory.newInstance(curCategoria);
-                    Common.SetPage(1);
-                    Common.setCategoria(curCategoria);
-                    getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _subCategory, "Sub Categoria" ).commit();
-                break;
+
+
+
+                        subCategory _subCategory = subCategory.newInstance(curCategoria);
+                        Common.SetPage(1);
+                        Common.setCategoria(curCategoria);
+                        getSupportFragmentManager().beginTransaction().setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right).replace(R.id.fragment_container, _subCategory, "Sub Categoria").commit();
+
+                        break;
 
                 case 3:
-                    productos _productos = productos.newInstance(curSubCategoria);
-                    Common.SetPage(2);
-                    Common.setSubCategoria(curSubCategoria);
-                    getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _productos, "Productos" ).commit();
-                break;
+
+                    if (curBusqueda.length()>0) {
+                        products_search _newsearch = products_search.newInstance(curBusqueda);
+                        Common.SetPage(1);
+                        Common.set_curBusquda("");
+                        //Common.setCategoria(curCategoria);
+                        getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _newsearch, "New Search" ).commit();
+
+
+                    }
+
+                    else {
+
+
+                        productos _productos = productos.newInstance(curSubCategoria);
+                        Common.SetPage(2);
+                        Common.setSubCategoria(curSubCategoria);
+                        getSupportFragmentManager().beginTransaction().setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right).replace(R.id.fragment_container, _productos, "Productos").commit();
+
+                    }
+                        break;
 
                 default:
                     super.onBackPressed();
@@ -388,12 +410,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         if( search.length() > 0 )
         {
             android.util.Log.d( "TEST", "SEARCH: " + search );
-           // new SearchTask( search ).execute();
 
-            //PiaguiApplication application = (PiaguiApplication)getApplication();
-            //Tracker tracker = application.getDefaultTracker();
-            //tracker.setScreenName( "MAIN" );
-            //tracker.send( new HitBuilders.EventBuilder().setCategory( "ACTION" ).setAction( "SEARCH" ).setLabel( search ).build() );
+            products_search _newsearch = products_search.newInstance(search);
+            Common.SetPage(1);
+            Common.set_curBusquda(search);
+            //Common.setCategoria(curCategoria);
+            getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _newsearch, "New Search" ).commit();
+
+
         }
     }
 ///////

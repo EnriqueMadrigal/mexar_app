@@ -14,6 +14,7 @@ public class Common {
     private static int _curPage = 0;
     private static int _curCategoria = 0;
     private static int _curSubCategoria = 0;
+    public static String _curBusquda = "";
 
     public static void SetPage(int curPage)
     {
@@ -24,12 +25,20 @@ public class Common {
         return _curPage;
     }
 
+
     public static void setCategoria(int curCategoria) {_curCategoria = curCategoria;}
     public static int getCategoria() { return _curCategoria;}
 
     public static void setSubCategoria(int curSubCategoria) {_curSubCategoria = curSubCategoria;}
     public static int getSubCategoria() {return _curSubCategoria;}
 
+    public static String get_curBusquda() {
+        return _curBusquda;
+    }
+
+    public static void set_curBusquda(String _curBusquda) {
+        Common._curBusquda = _curBusquda;
+    }
 
     public static final String VAR_USER_NAME = "USER_NAME";
     public static final String VAR_LOGIN_TYPE = "LOGIN_TYPE"; // google, facebook, email
