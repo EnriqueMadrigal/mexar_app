@@ -593,7 +593,7 @@ public class productDetail extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-            //https://www.facebook.com/sharer/sharer.php?u=http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
+                //https://www.facebook.com/sharer/sharer.php?u=http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/sharer/sharer.php?u=" + curProduct.get_redes()));
                 startActivity(browserIntent);
 
@@ -605,8 +605,8 @@ public class productDetail extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-           //https://plus.google.com/share?url=Texto%20para%20compartir%20http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://plus.google.com/share?url=Texto%20para%20compartir%20" + curProduct.get_redes()));
+                //https://plus.google.com/share?url=Texto%20para%20compartir%20http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://plus.google.com/share?url=" + curProduct.get_redes()));
                 startActivity(browserIntent);
 
             }
@@ -618,11 +618,12 @@ public class productDetail extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 //http://twitter.com/home?status=Texto%20para%20compartir%20http://www.industriasmexar.com.mx/detalle/centrifugado/accesorios/insumos
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/home?status=Texto%20para%20compartir%20" + curProduct.get_redes()));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/home?status=" + curProduct.get_redes()));
                 startActivity(browserIntent);
 
             }
         });
+
 
 
 

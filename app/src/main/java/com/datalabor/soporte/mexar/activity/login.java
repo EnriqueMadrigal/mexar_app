@@ -33,8 +33,10 @@ import com.datalabor.soporte.mexar.utils.HttpClient;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
+import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginResult;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -47,6 +49,7 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.facebook.login.widget.LoginButton;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -85,6 +88,7 @@ private LoginButton loginButton;
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
 
+        callbackManager = CallbackManager.Factory.create();
 
         loginButton = (LoginButton) findViewById(R.id.login_button);
         loginButton.setReadPermissions("email","public_profile");
@@ -92,26 +96,58 @@ private LoginButton loginButton;
         loginButton.setHeight(40);
         // If using in a fragment
 
-        callbackManager = CallbackManager.Factory.create();
+
+
+
+/*Original
+        loginButton.registerCallback(callbackManager,
+                new FacebookCallback<LoginResult>() {
+                    @Override
+                    public void onSuccess(LoginResult loginResult) {
+                        // App code
+
+                        ///
+
+                        ////
+                    }
+
+                    @Override
+                    public void onCancel() {
+                        // App code
+                    }
+
+                    @Override
+                    public void onError(FacebookException exception) {
+                        // App code
+                    }
+                });
+
+*/
+
+        // Callback registration
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                // App code
-                GraphRequest request = GraphRequest.newMeRequest(
-                loginResult.getAccessToken(),
+                String accessToken = loginResult.getAccessToken().getToken();
+
+
+                   GraphRequest request = GraphRequest.newMeRequest(
+                        loginResult.getAccessToken(),
                         new GraphRequest.GraphJSONObjectCallback() {
                             @Override
-                            public void onCompleted(JSONObject object, GraphResponse response) {
-                                Log.v("LoginActivity", response.toString());
+                            public void onCompleted(JSONObject jsonObject,
+                                                    GraphResponse response) {
+                                Log.d(TAG, "Facebook graph response: " + response.toString());
+                               Log.v("json", "Obtenido");
 
-                                // Application code
+                                //////
                                 try {
-                                    String email = object.getString("email");
-                                    String nombre = object.getString("");
+                                    String email = jsonObject.getString("email");
+                                    String nombre = jsonObject.getString("name");
                                     //String birthday = object.getString("birthday"); // 01/31/1980 format
                                     saveEmail(email);
                                     setLoginType("facebook");
-                                    new SyncTask( email,"","facebook" ).execute();
+                                    new SyncTask( email,nombre,"facebook" ).execute();
 
                                     Intent intent = new Intent();
                                     intent.setClass(context, presentacion.class);
@@ -127,25 +163,30 @@ private LoginButton loginButton;
                                     //return null;
 
                                 }
+                                /////
 
                             }
                         });
+
+                Bundle parameters = new Bundle();
+                parameters.putString("fields", "id,name,email");
+                request.setParameters(parameters);
+                request.executeAsync();
 
             }
 
             @Override
             public void onCancel() {
                 // App code
+                Log.v("LoginActivity", "cancel");
             }
 
             @Override
             public void onError(FacebookException exception) {
                 // App code
-                showInternetErrorDialog();
+                Log.v("LoginActivity", exception.getCause().toString());
             }
         });
-
-
 
 
 
@@ -235,6 +276,7 @@ private LoginButton loginButton;
 
         // Si es de Facebook
         callbackManager.onActivityResult(requestCode, resultCode, data);
+
 
 
     }

@@ -26,6 +26,7 @@ import android.widget.Toast;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.facebook.login.LoginManager;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.ConnectionResult;
@@ -469,6 +470,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         if (user_uid.contains("google"))
         {
             signOut();
+        }
+
+        if (user_uid.contains("facebook"))
+        {
+            LoginManager.getInstance().logOut();
         }
 
 

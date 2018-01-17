@@ -1,0 +1,37 @@
+{
+"sucursales": [
+{
+"sucursal": {
+"id":1,
+"name":"Matriz Guadalajara",
+"direccion":"Bosques de San Isidro #2300",
+"colonia":"Col. Bosques de San Isidro",
+"municipio":"",
+"ciudad":"Zapopan, Jal.",
+"phone":"Tel: (0133) 3656 3637"
+}
+},
+{
+"sucursal": {
+"id":2,
+"name":"México DF",
+"direccion":"Once de Enero de 1861 #2129",
+"colonia":"Col. Leyes de Reforma 3era Sección",
+"municipio":"Del. Iztapalapa",
+"ciudad":"México DF",
+"phone":"Tel: (0155) 5701 4300"
+}
+},
+{
+"sucursal": {
+"id":3,
+"name":"Monterrey",
+"direccion":"Sebastián Lerdo de Tejada #1222",
+"colonia":"Col. Niño Artillero",
+"municipio":"",
+"ciudad":"Monterrey NL",
+"phone":"Tel: (0181) 8331 2478"
+}
+}
+]
+}

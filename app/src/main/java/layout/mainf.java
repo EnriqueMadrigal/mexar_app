@@ -257,10 +257,8 @@ public class mainf extends Fragment {
         ////////// Banners
 
             fList = new ArrayList<Fragment>();
-            fList.add(banner_image_class.newInstance(R.drawable.productos));
             fList.add(banner_image_class.newInstance(R.drawable.banner1));
             fList.add(banner_image_class.newInstance(R.drawable.banner2));
-            fList.add(banner_image_class.newInstance(R.drawable.banner3));
 
         myPageAdapter = new MyPageAdapter(myContext.getSupportFragmentManager(), fList);
 

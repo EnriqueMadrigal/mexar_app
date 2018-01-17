@@ -1,0 +1,44 @@
+{
+"gerentes": [
+{
+"gerente": {
+"id":1,
+"name":"Jorge Velazquez",
+"title":"Gerente Nacional de ventas Ferretería",
+"email":"jorge@conquestind.com.mx",
+"phone":"(0155) 5701 4300 ext. 2101",
+"cel":"555 507 5477"
+}
+},
+{
+"gerente": {
+"id":2,
+"name":"Álvaro Vargas",
+"title":"Gerente Nacional de ventas tiendas The Home Depot",
+"email":"alvaro@conquestind.com.mx",
+"phone":"",
+"cel":"55 4044  9509"
+}
+},
+{
+"gerente": {
+"id":3,
+"name":"Marvin Gonzalez",
+"title":"Gerente de ventas Centrifugado México",
+"email":"marvin.gonzalez@conquestind.com.mx",
+"phone":"(0155) 5701 4300 Ext. 2104",
+"cel":"552 558 2373"
+}
+},
+{
+"gerente": {
+"id":3,
+"name":"Roberto Grover",
+"title":"Gerente Nacional de ventas Soldadura y Centrifugado",
+"email":"roberto.grover@conquestind.com.mx",
+"phone":"(0133) 3656 3637 Ext. 1101",
+"cel":"333 954 9312"
+}
+}
+]
+}
