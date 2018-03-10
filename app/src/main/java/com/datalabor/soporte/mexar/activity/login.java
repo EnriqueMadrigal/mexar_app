@@ -291,7 +291,7 @@ private LoginButton loginButton;
      //       mStatusTextView.setText(getString(R.string.signed_in_fmt, acct.getEmail()));
           //  updateUI(true);
             saveEmail(acct.getEmail());
-            saveUserName(acct.getGivenName());
+            saveUserName(acct.getGivenName() + " " + acct.getFamilyName());
             setLoginType("google");
 
             new SyncTask( acct.getEmail(), acct.getGivenName(),"android" ).execute();
