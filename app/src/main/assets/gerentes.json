@@ -13,16 +13,6 @@
 {
 "gerente": {
 "id":2,
-"name":"Álvaro Vargas",
-"title":"Gerente Nacional de ventas tiendas The Home Depot",
-"email":"alvaro@conquestind.com.mx",
-"phone":"",
-"cel":"55 4044  9509"
-}
-},
-{
-"gerente": {
-"id":3,
 "name":"Marvin Gonzalez",
 "title":"Gerente de ventas Centrifugado México",
 "email":"marvin.gonzalez@conquestind.com.mx",

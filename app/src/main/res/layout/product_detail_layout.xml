@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailDescription"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailCarecteristicas"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailAplications"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailEspecifications"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailAdhieres"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -234,7 +234,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailColors"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -270,7 +270,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailUsages"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -306,7 +306,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailAdvantages"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
@@ -337,14 +337,110 @@
 
 
             </LinearLayout>
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailPresentations"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/ProductDetailPrecaution"
+                    style="@style/RemarkSmallField"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.90"
+                    android:text="Precauciones: " />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
+                    android:id="@+id/ProductDetailPrecautions"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/ProductDetailSecurity"
+                    style="@style/RemarkSmallField"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.90"
+                    android:text="Seguridad: " />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
+                    android:id="@+id/ProductDetailSecurities"
+                    style="@style/NormalSmallField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/ProductDetailStorage"
+                    style="@style/RemarkSmallField"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.90"
+                    android:text="Almacenaje: " />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
+                    android:id="@+id/ProductDetailStorages"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -359,7 +455,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.datalabor.soporte.mexar.utils.JustifyTextView
                     android:id="@+id/ProductDetailnota"
                     style="@style/NormalSmallField"
                     android:layout_width="wrap_content"

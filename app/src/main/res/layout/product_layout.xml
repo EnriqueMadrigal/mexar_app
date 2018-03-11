@@ -51,7 +51,7 @@
                 android:maxLines="3"/>
 
 
-            <TextView
+            <com.datalabor.soporte.mexar.utils.JustifyTextView
                 android:id="@+id/ProductDescription"
                 style="@style/NormalSmallField"
                 android:layout_width="wrap_content"

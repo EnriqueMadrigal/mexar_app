@@ -90,6 +90,14 @@ public class productDetail extends Fragment {
     private TextView ventaja;
     private TextView usos;
     private TextView ventajas;
+    private TextView Precaucione;
+    private TextView Precauciones;
+
+    private TextView Seguridad;
+    private TextView Seguridades;
+
+    private TextView Almacenaje;
+    private TextView Almacenajes;
 
 
     private MyPageAdapter myPageAdapter;
@@ -154,6 +162,7 @@ public class productDetail extends Fragment {
         JSONArray colors;
         JSONArray uses;
         JSONArray advantanges;
+        JSONArray securities;
 
 
         ///////////////
@@ -171,6 +180,9 @@ public class productDetail extends Fragment {
                 String ficha_tecnica = producto.getString("ficha_tecnica");
                 String nota = producto.getString("nota");
                 String redes = producto.getString("redes");
+                String storaged = producto.getString("almacenaje");
+                String precautions = producto.getString("precaucion");
+
 
                 int id = producto.getInt("id");
 
@@ -185,6 +197,8 @@ public class productDetail extends Fragment {
                     newProduct.set_ficha_tecnica(ficha_tecnica);
                     newProduct.set_nota(nota);
                     newProduct.set_redes(redes);
+                    newProduct.set_storaged(storaged);
+                    newProduct.set_precautions(precautions);
 
                     int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
@@ -200,6 +214,7 @@ public class productDetail extends Fragment {
                     colors = producto.getJSONArray("colors");
                     uses = producto.getJSONArray("usos");
                     advantanges = producto.getJSONArray("ventajas");
+                    securities = producto.getJSONArray("seguridad");
 
 
 
@@ -212,6 +227,7 @@ public class productDetail extends Fragment {
                     ArrayList<Product_Color> product_colors = new ArrayList<>();
                     ArrayList<String> product_advantages = new ArrayList<>();
                     ArrayList<String> product_uses = new ArrayList<>();
+                    ArrayList<String> product_securities = new ArrayList<>();
 
 
                     for (int j = 0; j < colors.length(); j++)
@@ -278,7 +294,7 @@ public class productDetail extends Fragment {
                     for (int j=0 ; j < uses.length(); j++)
                     {
                         String curUse = uses.getString(j);
-                        product_advantages.add(curUse);
+                        product_uses.add(curUse);
                     }
 
 
@@ -286,6 +302,12 @@ public class productDetail extends Fragment {
                     {
                         String curAdvantage = advantanges.getString(j);
                         product_advantages.add(curAdvantage);
+                    }
+
+                    for (int j=0 ; j < securities.length(); j++)
+                    {
+                        String curSecurity = securities.getString(j);
+                        product_securities.add(curSecurity);
                     }
 
 
@@ -298,6 +320,7 @@ public class productDetail extends Fragment {
                     newProduct.setProduct_colors(product_colors);
                     newProduct.setProduct_advantages(product_advantages);
                     newProduct.setProduct_usages(product_uses);
+                    newProduct.setProduct_securities(product_securities);
 
                     curProduct = newProduct;
 
@@ -359,6 +382,16 @@ public class productDetail extends Fragment {
         mPager = (ViewPager) _view.findViewById(R.id.productDetailViewPager);
 
         nota = (TextView) _view.findViewById(R.id.ProductDetailnota);
+
+        Precaucione = (TextView) _view.findViewById(R.id.ProductDetailPrecaution);
+        Precauciones = (TextView) _view.findViewById(R.id.ProductDetailPrecautions);
+
+        Seguridad = (TextView) _view.findViewById(R.id.ProductDetailSecurity);
+        Seguridades = (TextView) _view.findViewById(R.id.ProductDetailSecurities);
+
+        Almacenaje = (TextView) _view.findViewById(R.id.ProductDetailStorage);
+        Almacenajes = (TextView) _view.findViewById(R.id.ProductDetailStorages);
+
 
         buttonFacebook = (ImageButton) _view.findViewById(R.id.ProductDetailFacebook);
         buttonTwitter = (ImageButton) _view.findViewById(R.id.ProductDetailTwitter);
@@ -539,6 +572,54 @@ public class productDetail extends Fragment {
             ventaja.setVisibility(View.GONE);
             ventajas.setVisibility(View.GONE);
         }
+
+/////////////// Precauciones
+
+        String curPrecaucion = this.curProduct.get_precautions();
+
+        if (curPrecaucion.length()>1)
+        {
+            Precauciones.setText(curPrecaucion);
+
+        }
+
+        else {
+            Precaucione.setVisibility(View.GONE);
+            Precauciones.setVisibility(View.GONE);
+        }
+
+///////// Almacenajes
+        String curAlmacenaje = this.curProduct.get_storaged();
+
+        if (curAlmacenaje.length()>1)
+        {
+            Almacenajes.setText(curAlmacenaje);
+
+        }
+
+        else {
+            Almacenaje.setVisibility(View.GONE);
+            Almacenajes.setVisibility(View.GONE);
+        }
+
+//Seguridades
+        StringBuilder p_seguridades = new StringBuilder();
+
+        for (String curSeguridad: curProduct.getProduct_securities())
+        {
+            p_seguridades.append(curSeguridad);
+            p_seguridades.append(System.getProperty("line.separator"));
+        }
+
+        Seguridades.setText(p_ventajas.toString());
+
+        int numSeguridades = p_seguridades.toString().length();
+        if (numSeguridades <1 )
+        {
+            Seguridad.setVisibility(View.GONE);
+            Seguridades.setVisibility(View.GONE);
+        }
+
 
 
         ficha.setOnClickListener(new View.OnClickListener() {

@@ -33,28 +33,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            app:srcCompat="@drawable/mexar_background" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="0dp"
@@ -66,27 +45,52 @@
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="QUE HACEMOS"
+            android:text="INDUSTRIAS MEXAR"
             android:textColor="@color/white"
-            android:textSize="26dp" />
+            android:textSize="22dp" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="20dp"/>
-        
-        <TextView
+            android:layout_height="10dp"/>
+
+        <com.datalabor.soporte.mexar.utils.JustifyTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:text="Somos una empresa Jalisciense, comprometida con las necesidades del cliente, que trabaja de lleno en el desarrollo de nuevos productos, dedicada a la fabricación y comercialización de insumos para los mercados ferreteros, fundición por centrifugado, soldadura y reciclaje de metales no ferrosos, que ofrece productos de alta calidad."
+            android:text="Somos una empresa Jalisciense con oficinas centrales en Zapopan, Jal. Contamos con sucursal en la Ciudad de Mexico y Monterrey.\n Nuestra reputación se ha construido basada en integridad, calidad y servicio, tenemos 25 años de trayectoria los cuales nos respaldan."
             android:textColor="@color/white"
-            android:textSize="12dp" />
+            android:textSize="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POLÍTICA DE CALIDAD"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+        <com.datalabor.soporte.mexar.utils.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="En Industrias Mexar S.A. de C.V. nos comprometemos a desarrollar, fabricar y comercializar productos para los procesos de plomería, centrifugado y soldadura, para satisfacer los requerimientos de los clientes, mediante la constante mejora de nuestros procesos."
+            android:textColor="@color/white"
+            android:textSize="12dp"/>
 
 
     </LinearLayout>

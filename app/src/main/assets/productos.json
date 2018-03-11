@@ -2,200 +2,227 @@
   "productos": [
     {
       "producto": {
-        "name": "Contact 202",
+        "name": "Cemento disolvente PVC CONTACT 202",
         "id": 1,
 		"idsubcategoria":1,
-		"desc":"Cemento transparente consistencia regular para uso en tubos y conexiones de PVC hasta 4\" para tubería, drenaje y ventilación C-40 y hasta 2\" para C-80. ",
-		"desc_completa":"Cemento transparente consistencia regular para uso en tubos y conexiones de PVC hasta 4\" para tubería, drenaje y ventilación C-40 y hasta 2\" para C-80. Se recomienda para tuberías de agua potable, conduit, cañería, drenaje y ventilación. Con fraguado lento 15 minutos aproximadamente. Se puede aplicar a temperatura de 4.5° C a 38°C .",
+		"desc":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
 		"presentaciones":["Tubo 60 ml. con caja. Código Z-20208","Lata con aplicador 120 ml. / 4 oz. Código Z-20201","Lata con aplicador 240 ml. / 8 oz. Código Z-20202","Lata con aplicador 475 ml. / 16 oz. Código Z-20203","Lata con aplicador 947 ml. / 32 oz. Código Z-20204"],
 		"images": ["contact202","contact202_1","contact202_2","contact202_3","contact202_4"],
 		"resname": "contact202",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/8cf4c4310_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-202",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente", "Contenidos de sólidos %: ≥ 10 %","Aspecto de la película: Homogénea no debe contener grumos, flóculos ni partículas no disueltas","Viscosidad: ≥ 500 cP","Disolución: Producto fluido sin gelación","Densidad: 0.865-0.900 g/mL","Resistencia a la Rotura:","2 horas Mínimo 250 psi","16 horas Mínimo 500 psi","72 horas Mínimo 900 psi","Presión hidrostática: Mínimo 400 psi"],
+		"caracteristicas":["Cemento disolvente para PVC transparente CONTACT 202. De viscosidad media, secado rápido.\n Para uniones de accesorios y tubería de PVC sanitario, Cédula 40 hasta 6” y Cédula 80\n Hasta 1 1/4” de diámetro, para ser utilizado en instalaciones de agua fría con presión como:\n Agua potable, sistemas de riego, piscinas, tinas de hidromasaje y en instalaciones sin presión como alcantarillado, drenajes, respiraderos, conduit; hasta 8” de diámetro"],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C.\nLos Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 	}
 	},
 	{
 	  "producto": {
-        "name": "Contact 222",
+        "name": "Cemento disolvente PVC CONTACT 222",
         "id": 2,
 		"idsubcategoria":1,
-		"desc":"Cemento de color azul de mediana densidad para tubos y conexiones de PVC hasta 6\" de diámetro.",
-		"desc_completa":"De fraguado muy rápido con fórmula para condiciones de humedad y/o presurización inmediata. Se instala rápidamente y se recomienda utilizar \"Primer\" para un mejor cementado,  se utiliza en drenaje, jacuzzi, ventilación, agua potable, sistemas de riego, conduit, ABS, tubería categoría cedula 40 y 80. Se puede aplicar a temperaturas de 4.5 °C A 38 °C.",
-		"presentaciones":["Tubo 60 ml. con caja. Código Z-22208","Bote con aplicador 120 ml. / 4 oz. Código Z-22201","Bote con aplicador 240 ml. / 8 oz. Código Z-22202","Bote con aplicador 475 ml. / 16 oz. Código Z-22203","Bote con aplicador 947 ml. / 32 oz. Código Z-22204"],
+		"desc":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.\nCONTACT 222, es color azul, lo cual permite verificar su aplicación y su mezcla de solventes está diseñada para fraguar en condiciones de húmedad.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Bote sin aplicador 3.8 L (1 Galón ) 2 pz por caja","Tubo con caja 60ml, 50 pz por caja"],
 		"images": ["contact222","contact222_1","contact222_2","contact222_3","contact222_4","contact222_5"],
 		"resname": "contact222",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/7a7b84f72_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-222",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente","Contenidos de sólidos %: ≥ 10 %","Aspecto de la película: Homogénea no debe contener grumos, flóculos ni partículas no disueltas","Viscosidad: ≥ 500 cP","Disolución: Producto fluido sin gelación","Densidad: 0.865-0.890 g/mL","Resistencia a la Rotura:","2 horas Mínimo 250 psi","16 horas Mínimo 500 psi","72 horas Mínimo 900 psi","Presión hidrostática: Mínimo 400 psi"],
+		"caracteristicas":["Cemento disolvente Azul CONTACT 222 de viscosidad media, secado rápido. Para uniones de accesorios y tubería de PVC Cédula 40 hasta 6” de diámetro y Cédula 80 hasta 1 1/4” de diámetro, utilizadas en instalaciones de agua fría con presión como: Agua potable, sistemas de riego, piscinas, tinas de hidromasaje y en instalaciones sin presión como alcantarillado, drenajes, respiraderos, hasta 10” de diámetro."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Contact 227",
+        "name": "Cemento disolvente CPVC CONTACT",
         "id": 3,
 		"idsubcategoria":1,
-		"desc":"Cemento amarillo de alta viscosidad para uso en tubos y conexiones de CPVC de hasta 4\" de diámetro. Para C.T.S.",
-		"desc_completa":"Cemento amarillo de alta viscosidad para uso en tubos y conexiones de CPVC de hasta 4” de diámetro. Para  C.T.S. (del tamaño de un tubo de cobre) y C-80, tubería de agua potable. Contact 227 para CPVC es un cemento de fraguado medio con fórmula para funcionar en condiciones secas o húmedas,  tiempo de secado 15 minutos. Se puede aplicar a temperatura de 4.5°C a 38°C.",
-		"presentaciones":["Tubo 60 ml. con caja. Código Z-22708","Bote con aplicador 120 ml. / 4 oz. Código Z-22701","Bote con aplicador 240 ml. / 8 oz. Código Z-22702","Bote con aplicador 475 ml. / 16 oz. Código Z-22703"],
+		"desc":"Solución de resina de CPVC con disolventes que, al secar por evaporación de solventes, realiza la fusión de las superficies de las tuberías de CPVC y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de CPVC con disolventes que, al secar por evaporación de solventes, realiza la fusión de las superficies de las tuberías de CPVC y su unión permanente, dejando una sola pieza como resultado.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Tubo 60 ml, 50 pz por caja"],
 		"images": ["contact227","contact227_1","contact227_2","contact227_3"],
 		"resname": "contact227",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/48e271a67_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-227",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido color Amarillo naranja","Contenidos de sólidos %: ≥ 15 %","Aspecto de la película: Homogénea no debe contener grumos o flóculos","Viscosidad: ≥ 600 cP","Disolución: Producto fluido sin gelación","Densidad: 0.910-0.930 g/mL","Presión hidrostática: Mínimo 400 psi"],
+		"caracteristicas":["Cemento disolvente amarillo CONTACT CPVC de consistencia media, secado rápido. Para uniones de accesorios y tubería de CPVC. CTS, Cédula 40 hasta 6” diámetro y Cédula 80 hasta 1” de diámetro, utilizadas en instalaciones de agua fría y caliente."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Contact 212 Primer",
+        "name": "Primer para PVC Púrpura CONTACT 212",
         "id": 4,
 		"idsubcategoria":1,
-		"desc":"En una mezcla de solventes orgánicos capaces de disolver hasta el 10 % de resina de PVC y CPVC",
-		"desc_completa":"El primer limpia y ablanda las tuberías y accesorios de PVC y CPVC para obtener una mejor penetración de los cementos disolventes ocasionando la aceleración del cementado. \n Realiza una cuidadosa preparación de la superficie antes y durante la aplicación de los cementos disolventes, necesariamente permitirá obtener una mejor cementación de las uniones (tubería-accesorios) que al final se traducirá en conexiones fuertes y seguras, obteniendo como resultado una reducción de costos de mantenimiento y re trabajos.",
-		"presentaciones":[],
+		"desc":"Primer CONTACT 212 para usarse en tuberías y accesorios de PVC de cualquier diámetro. Formulado para remover suciedad y grasa, suavizar las superficies de los tubos y conexiones para permitir una fusión rápida y segura.",
+		"desc_completa":"Primer CONTACT 212 para usarse en tuberías y accesorios de PVC de cualquier diámetro. Formulado para remover suciedad y grasa, suavizar las superficies de los tubos y conexiones para permitir una fusión rápida y segura.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja"],
 		"images": ["contact212","contact212_1","contact212_2","contact212_3"],
 		"resname": "contact212",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/d21a92eec_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-212-primer",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente color púrpura","Viscosidad: >65 cP","Densidad: 0.811 - 0.820 g/mL"],
+		"caracteristicas":["El primer CONTACT 212, utilizado con los Cementos disolventes CONTACT, asegura una unión cementada fuerte y consistente.\n El Primer CONTACT 212 ablanda y disuelve las superficies de unión de la tubería y accesorios, acelerando la penetración del cemento disolvente y pigmenta las superficies, lo que permite fácilmente identificar dónde ya ha sido utilizado."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Contact 204",
+        "name": "Cemento disolvente PVC CONTACT 204",
         "id": 5,
 		"idsubcategoria":1,
-		"desc":"Transparente etiqueta azul claro, extra reforzado para PVC hidráulico, diámetros especiales",
-		"desc_completa":"Cemento transparente de mediana viscosidad, para tubos y conexiones de PVC hasta 8” de diámetro. Recomendado para todas las cedulas y tipos de tubería, Conexiones de PVC , agua potable, presión, cañerías, tubería de drenaje y ventilación. Contact 204 es un cemento de fraguado rápido con fórmula para ser utilizado en condiciones de humedad y/o presurización inmediatas, se instala rápidamente",
-		"presentaciones":["Bote con aplicador 240 ml. / 8 oz. Código Z-20402","Bote con aplicador 475 ml. / 16 oz. Código Z-20403","Bote con aplicador 947 ml. / 32 oz. Código Z-20404","Bote galón sin aplicador 3.8 L / Código 20405"],
+		"desc":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Bote sin aplicador 3.8 L (1 Galón ) 2 pz por caja"],
 		"images": ["contact204","contact204_1","contact204_2","contact204_3"],
 		"resname": "contact204",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/201a79159_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-204",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente","Contenidos de sólidos %: ≥ 10 %","Aspecto de la película: Homogénea no debe contener grumos, flóculos ni partículas no disueltas","Viscosidad: ≥ 800 cP","Disolución: Producto fluido sin gelación","Densidad: 0.890-0.910 g/mL","Resistencia a la Rotura:","2 horas Mínimo 250 psi","16 horas Mínimo 500 psi","72 horas Mínimo 900 psi","Presión hidrostática: Mínimo 400 psi"],
+		"caracteristicas":["Cemento transparente de viscosidad media-alta, para tubos y conexiones de PVC hasta 8” de diámetro en Cédula 40 y hasta 2” Cédula 80. Con fórmula para fraguar en condiciones de humedad, tiempo de secado medio. Utilizadas en instalaciones de agua fría con presión como: Agua potable, sistemas de riego, piscinas, tinas de hidromasaje y en instalaciones sin presión como alcantarillado, drenajes, respiraderos, hasta 12” de diámetro."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C.\nLos Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	 {
 	  "producto": {
-        "name": "Contact 244",
+        "name": "Cemento disolvente PVC CONTACT 244",
         "id": 6,
 		"idsubcategoria":1,
-		"desc":"Transparente etiqueta gris para PVC hidráulico diámetros grandes",
-		"desc_completa":"Cemento de alta densidad secado lento con formula para fraguar en condiciones normales, para tubos y conexiones de PVC hasta 12\" de diámetro C-40 y C-80. Recomendado para TODAS las cédulas y tipos de conexiones de PVC, agua potable, tubería de presión, gas, sistemas de riego, albercas, jacuzzi, conductos y tubería de drenaje y ventilación. Ayuda a tapar los espacios en tubos de gran diámetro y en juntas de conexiones flojas. Se puede aplicar a temperaturas de 4.5°C a 38°C.",
-		"presentaciones":["Bote con aplicador 240 ml. / 8 oz. Código Z-24402","Bote con aplicador 475 ml. / 16 oz. Código Z-24403","Bote con aplicador 947 ml. / 32 oz. Código Z-24404","Bote galón  sin aplicador 3.8 L"],
+		"desc":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.\nCemento transparente de alta viscosidad, Clasificación, para tubos y conexiones de PVC en Cédula 40 hasta 12” de diámetro y en Cédula 80 hasta 6”, CONTACT 244 es un cemento de secado lento, con fórmula para fraguar en condiciones normales. Tiempo de secado 30 minutos (8” diámetro).",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Bote sin aplicador 3.8 L (1 Galón ) 2 pz por caja"],
 		"images": ["contact244","contact244_1","contact244_2","contact244_3"],
 		"resname": "contact244",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/a61d25483_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-244",
 		"aplicaciones":[],
-		"especificaciones":[],
+		"especificaciones":["Aspecto: Líquido transparente","Contenidos de sólidos %: ≥ 10 %","Aspecto de la película: Homogénea no debe contener grumos, flóculos ni partículas no disueltas","Viscosidad: ≥ 1600 cP","Disolución: Producto fluido sin gelación","Densidad: 0.945 a 0.960 g/mL","Resistencia a la Rotula:","2 horas Mínimo 288 psi","16 horas Mínimo 677 psi","71 horas Mínimo 1129 psi","Presión hidrostática: Mínimo 400 psi"],
 		"caracteristicas":[],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Contact 205 Limpiador",
+        "name": "Limpiador para PVC y CPVC CONTACT 205",
         "id": 7,
 		"idsubcategoria":1,
-		"desc":"Una mezcla de solventes orgánicos especialmente formulados para limpiar cualquier clase de suciedad depositada en la superficie de las tuberías y accesorios de PVC y CPVC.",
-		"desc_completa":"Es un Disolvente recomendado  para limpiar, suavizar o disolver las superficies a unir, preparándolas para un mejor cementado y mejorando la penetración de los cementos. \n Es un limpiador para tubos y conexiones de PVC  o CPVC de todos los diámetros, limpia todo tipo de suciedad encontrada en los tubos, mugre, grasas y recubrimientos de resina, etc.",
-		"presentaciones":["Bote con aplicador 240 ml. Código Z-20502","Bote con aplicador 475 ml. Código Z-20503","Bote galón sin aplicador 3.8 L"],
+		"desc":"El limpiador CONTACT 205 para tubos de PVC y CPVC está diseñado para limpiar las superficies, preparándolas para un mejor cementado en base solvente.",
+		"desc_completa":"El limpiador CONTACT 205 para tubos de PVC y CPVC está diseñado para limpiar las superficies, preparándolas para un mejor cementado en base solvente.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Bote sin aplicador 1 Galón ,3.8 L, 2 piezas por caja"],
 		"images": ["contact205","contact205_1","contact205_2"],
 		"resname": "contact205",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/1340332f9_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-202-limpiador",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente","Densidad: 0.785 - 0.799 g/mL"],
+		"caracteristicas":["Limpiador líquido transparente para superficies de tubo y conexiones de PVC y CPVC todos los diámetros. CONTACT 205 es un limpiador formulado para limpiar todo tipo de suciedad encontrada en los tubos PVC y CPVC, mugre, grasas, recubrimientos de resinas etc. mejorando la penetración de los cementos disolventes"],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Contact 206 Reforzado",
+        "name": "Cemento disolvente PVC CONTACT 206",
         "id": 8,
 		"idsubcategoria":1,
-		"desc":"Solución de resina de PVC con disolventes apropiados que, al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
-		"desc_completa":"Formulado para unir una sola pieza, conexiones de PVC , cemento de alta resistencia viscosidad y secado medio. Consistencia media alta ayuda a rellenar espacios entre tubería y conexiones, Sin sacrificar su rendimiento. Utilizado en sanitario Norma, alcantarillado, hidráulico, tubería y conexiones de hasta 8\" de diámetro con presión y en sistemas sin presión D.W.V. hasta 10”, adecuado para Cedulas 40 y 80, de acuerdo con las especificaciones ASTM D2564.",
-		"presentaciones":["Bote con aplicador 240 ml/8 oz caja con 24 pz","Bote con aplicador 475 ml/16 oz caja con 12 pz","Bote con aplicador 947 ml/32 oz caja con 12 pz","Bote sin aplicador 3.8 L (un Galón) caja con 2 p"],
+		"desc":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Bote sin aplicador 3.8 L (1 Galón ) 2 pz por caja"],
 		"images": ["contact206","contact206_1","contact206_2","contact206_3"],
 		"resname": "contact206",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/d1c95401f_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-206-reforzado",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente","Contenidos de sólidos %: ≥ 10 %","Aspecto de la película: Homogénea no debe contener grumos, flóculos ni partículas no disueltas","Viscosidad: ≥ 800 cP","Disolución: Producto fluido sin gelación","Densidad: 0.890-0.910 g/mL","Resistencia a la Rotura:","2 horas Mínimo 250 psi","16 horas Mínimo 500 psi","72 horas Mínimo 900 psi","Presión hidrostática: Mínimo 400 psi"],
+		"caracteristicas":["Cemento color gris de viscosidad media-alta, para tubos y conexiones de PVC hasta 8” de diámetro en Cédula 40 y hasta 2” Cédula 80. Con fórmula para fraguar en condiciones de humedad, tiempo de secado medio. Utilizadas en instalaciones de agua fría con presión como: Agua potable, sistemas de riego, piscinas, tinas de hidromasaje y en instalaciones sin presión como alcantarillado, drenajes, respiraderos, hasta 12” de diámetro."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Contact 216 Extra reforzado",
+        "name": "Cemento disolvente PVC CONTACT 216",
         "id": 9,
 		"idsubcategoria":1,
-		"desc":"Cemento Contact Extra-reforzado Gris de viscosidad Gruesa, Clasificación ASTM D2564 para tubos y accesorios de todas clases de PVC, para utilizar en tubería cédula 40 hasta 12\" de diámetro y cédula 80 hasta 6\" de diámetro para sistemas con presión de agua fría y en sistemas sin presión D.W.V. hasta 18\" de diámetro",
-		"desc_completa":"Contact 216 es un cemento de alta resistencia, formulado para unir formando una sola pieza, su alta viscosidad ayuda a rellenar espacios entre tubería y conexiones, tiempo de secado lento. En tuberías y conexiones Cedula 40 de hasta 12\" de diámetro y en sistemas sin presión D.W.V. hasta 18\" de diámetro.",
-		"presentaciones":["Bote con aplicador 240 ml/8 oz caja con 24 pz","Bote con aplicador 475 ml/16 oz caja con 12 pz","Bote con aplicador 947 ml/32 oz caja con 12 pz","Bote sin aplicador 3.8 L (un Galón) caja con 2 pz"],
+		"desc":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"desc_completa":"Solución de resina de PVC con disolventes apropiados, que al secar por evaporación de solventes realiza la fusión de las superficies y su unión permanente, dejando una sola pieza como resultado.",
+		"presentaciones":["Bote con aplicador 120 ml/4 oz, 24 pz por caja","Bote con aplicador 240 ml/8 oz, 24 pz por caja","Bote con aplicador 475 ml/16 oz, 12 pz por caja","Bote con aplicador 947 ml/32 oz, 12 pz por caja","Bote sin aplicador 3.8 L (1 Galón ) 2 pz por caja"],
 		"images": ["contact216","contact216_1","contact216_2","contact216_3"],
 		"resname": "contact216",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/a65c1d21b_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/cemento-para-pvc-y-cpvc/contact-216-extra-reforzado",
 		"aplicaciones":[],
-		"especificaciones":[],
-		"caracteristicas":[],
+		"especificaciones":["Aspecto: Líquido transparente:","Contenidos de sólidos %: ≥ 10 %","Aspecto de la película: Homogénea no debe contener grumos, flóculos ni partículas no disueltas","Viscosidad: ≥ 1600 cP","Disolución: Producto fluido sin gelación","Densidad: 0.945 a 0.960 g/mL","Resistencia a la Rotura:","2 horas Mínimo 288 psi","16 horas Mínimo 677 psi","72 horas Mínimo 1129 psi","Presión hidrostática: Mínimo 400 psi"],
+		"caracteristicas":["Cemento color gris de alta viscosidad, Clasificación, para tubos y conexiones de PVC en Cédula 40 hasta 12” de diámetro y en Cédula 80 hasta 6”; CONTACT 216 es un cemento de secado lento, con fórmula para fraguar en condiciones normales. Tiempo de secado 30 minutos (8”diámetro)."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"Manténgase los envases bien cerrados en lugares frescos y secos. Almacénese en lugares bien ventilados, a temperaturas de 5 - 30 °C. Los Cementos disolventes CONTACT cuentan con 3 años de vida útil a partir de la fecha de producción.",
+		"precaucion":"Debido a que los disolventes usados en la fabricación de los cementos de PVC son inflamables y tóxicos, deben tomarse las siguientes precauciones para su uso:\n Evite la sobreexposición asegurando una ventilación adecuada, abriendo puertas y ventanas. Si el área no está bien ventilada, utilice ventilación forzada o respirador para solventes orgánicos. Se recomienda utilizar protección de ojos y manos.\nEN CASO DE EMERGENCIAS:\nInhalación: Si se ha expuesto a los vapores y presenta dolor de cabeza o mareo, busque aire fresco. Si el afectado no puede respirar, proporcione respiración artificial. Si al afectado se le dificulta respirar, suministre oxígeno. Si persiste la molestia consulte a su médico.\nContacto con ojos y piel: Lave con abundante agua durante 15 minutos. Si persiste la molestia, consulte a su médico.\nIngestión: No provoque vómito. Tome dos vasos de agua y consulte a su médico."
 		}
 	},
 	{
@@ -217,7 +244,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -228,8 +258,8 @@
 		"desc":"Elimina la película de óxido y cobre. Al aplicarse al cobre empieza su función de limpieza. Evita la oxidación de la soldadura. Promueve la penetración uniforme de la soldadura.",
 		"desc_completa":"",
 		"presentaciones":["BOTE 60 grs, 100 grs. , 250 grs. Y 500 grs."],
-		"images": ["generacion2000","generacion2000_1"],
-		"resname": "generacion2000",
+		"images": ["generacion2000_1"],
+		"resname": "generacion2000_1",
 		"ficha_tecnica":"",
 		"redes":"",
 		"aplicaciones":[],
@@ -239,7 +269,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -261,117 +294,135 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
 	  "producto": {
-        "name": "Monarca Sólida 50 Amarilla",
+        "name": "Soldadura para plomero Monarca Sólida 50",
         "id": 13,
 		"idsubcategoria":4,
-		"desc":"Especial para tubo y conexión de cobre tipo L (Alta presión).",
-		"desc_completa":"",
-		"presentaciones":["Carrete 1 lb, ½ lb, 1 mt, 11 lb , vitrolero y kit pasta."],
+		"desc":"Soldadura en alambre sólido de 3 mm de diámetro. Aleación 50%Estaño - 50%Plomo.",
+		"desc_completa":"Soldadura en alambre sólido de 3 mm de diámetro. Aleación 50%Estaño - 50%Plomo.",
+		"presentaciones":["Carrete 11 libras","Madejas 25 libras","Barra style 14","Carrete 1 libra","Carrete ½ Libra","1 metro","Kit Carrete de 100 g de soldadura 60g de pasta GENERACION 2000","Mini Kit rollo de 25 g soldadura 20g de pasta GENERACION 2000"],
 		"images": ["monarca","monarca_1","monarca_2","monarca_3","monarca_4"],
 		"resname": "monarca",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/6d2b8cff5_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/soldadura/monarca-solida-50-amarilla",
 		"aplicaciones":["Agua fría.","Tubería Domestica en general.","Instalación de casas de interés social y residencias.","Inodoros"],
-		"especificaciones":["Especial para tubo y conexión de cobre tipo L (Alta Presión)","Alambre de 3 mm de diámetro.","Punto de fusión 183ºC - 215 ºC.","Facilita la penetración."],
-		"caracteristicas":[],
+		"especificaciones":["Gravedad específica 7.42 g/ml","Punto de fusión :","Solidus 183ºC","Liquidus 220ºC","Impurezas:","Cobre (Cu) 0.08 % máximo","Fierro (Fe) 0.02 % máximo","Zinc (Zn) 0.005 % máximo"],
+		"caracteristicas":["Esta es una aleación adecuada para aplicaciones de soldadura industrial y plomería. Temperatura máxima de trabajo 120ºC; Resistencia a la presión Agua 10 Kg/cm2 a 25ºC."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
-		"usos":[],
-		"nota":""
+		"usos":["Para tubo y conexión de Cobre Tipo M y Tipo L para conducción de agua fría y caliente en casas de interés social medio, residencias y edificios donde las condiciones del servicio son normales\nEs recomendable utilizar soldadura Sólida 50 con la pasta fundente GENERACION 2000\nPara uso industrial utilice el fundente recomendado en su proceso."],
+		"nota":"",
+		"seguridad":["Trabajar con ventilación adecuada y equipo de protección personal.","Consulte su hoja de Seguridad para cualquier información de emergencia específica.","No desechar materiales peligrosos en envases no autorizados."],
+		"almacenaje":"Mantenga en lugares secos.",
+		"precaucion":"Este producto contiene plomo, que es conocido por ser un elemento tóxico. Consulte la Hoja de Seguridad para los procedimientos de tratamiento específico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Monarca Media media verde",
+        "name": "Soldadura para plomero Monarca Media/Media",
         "id": 14,
 		"idsubcategoria":4,
-		"desc":"Especial para tubo y conexión de cobre tipo M.",
-		"desc_completa":"",
-		"presentaciones":["Carrete 1 libra, ½ Lb, 11 Lb., Blíster de 1 mt , Kit pasta , Vitrolero de 25 pzas. de soldadura de 30 cm mas 20 grs de pasta."],
+		"desc":"Soldadura en alambre sólido de 3 mm de diámetro, Aleación 50%/Volumen de Estaño 50% /Volumen de plomo.",
+		"desc_completa":"Soldadura en alambre sólido de 3 mm de diámetro, Aleación 50%/Volumen de Estaño 50% /Volumen de plomo.",
+		"presentaciones":["Carrete 11 libras","Carrete 1 libra","Carrete ½ Libra","1 metro","Kit Carrete de 100g de soldadura 60g de pasta GENERACION 2000","Mini Kit rollo de 25g soldadura 20g de pasta GENERACION 2000"],
 		"images": ["monarcaverde","monarcaverde_1","monarcaverde_2","monarcaverde_3","monarcaverde_4"],
 		"resname": "monarcaverde",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/9a9064e21_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/soldadura/monarca-media-media-verde",
 		"aplicaciones":["Agua Fría.","Tubería domestica en general.","Instalación de casas de interés social y residencias","Inodoros"],
-		"especificaciones":["Penetra al instante","Calidad Garantizada (25 años nos avalan)","Más económica","Alambre 3 mm de diámetro.","Punto de fusión 183ºC - 250 ºC.","Especial para tubo y conexión de cobre tipo M."],
-		"caracteristicas":[],
+		"especificaciones":["Gravedad especifica 9,72 g/ml","Punto de fusión:","Solidus 183ºC","Liquidus 250° C.","Impurezas:","Cobre (Cu) 0,08 % máximo","Fierro (Fe) 0,02 % máximo","Zinc (Zn) 0,005 % máximo"],
+		"caracteristicas":["Esta es una aleación que penetra al instante, adecuada para aplicaciones de soldadura industrial y plomería con Resistencia a la presión agua de 8,00 K/Cm2 a 25ºC; Temperatura de trabajo máxima recomendada 100ºC."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
-		"usos":[],
-		"nota":""
+		"usos":["Para tubo y conexión de Cobre Tipo M para conducción de agua fría y caliente en casas de interés social medio, residencias y edificios donde las condiciones del servicio son normales Es recomendable utilizar soldadura Media/Media con la pasta fundente GENERACION 2000","Para uso Industrial utilice el Fundente Recomendado en su proceso"],
+		"nota":"",
+		"seguridad":["Trabajar con ventilación adecuada y equipo de protección personal.","Consulte su hoja de Seguridad para cualquier información de emergencia específica.","No desechar materiales peligrosos en envases no autorizados."],
+		"almacenaje":"Mantenga en lugares secos.",
+		"precaucion":"Este producto contiene plomo, que es conocido por ser un elemento tóxico. Consulte la Hoja de Seguridad para los procedimientos de tratamiento específico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Monarca 95/5 Roja libre de plomo",
+        "name": "Soldadura para plomero Monarca 95/5 Libre de Plomo",
         "id": 15,
 		"idsubcategoria":4,
-		"desc":"Especial para tubo y conexión de cobre tipo L (Alta presión). Libre de Plomo.",
-		"desc_completa":"",
-		"presentaciones":["Carrete 1 Lb. ( 454 Grs.), ½ Lb., Blíster de 1 mt y Kit con pasta."],
+		"desc":"Soldadura en alambre sólido de 3 mm de diámetro, Aleación Libre de Plomo, 95% Estaño 5% Antimonio.",
+		"desc_completa":"Soldadura en alambre sólido de 3 mm de diámetro, Aleación Libre de Plomo, 95% Estaño 5% Antimonio.",
+		"presentaciones":["Carrete 11 libras","Carrete 1 libra","Carrete ½ Libra","1 metro","Kit Carrete de 100 g de soldadura 60g de pasta GENERACION 2000"],
 		"images": ["monarca95","monarca95_1","monarca95_2","monarca95_3","monarca95_4"],
 		"resname": "monarca95",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/6977cf029_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/soldadura/monarca-955-roja-libre-de-plomo",
 		"aplicaciones":[],
-		"especificaciones":["No contiene Plomo","Facilita la penetración.","Calidad Garantizada.","95% Estaño y 5% Antimonio.","Alambre de 3mm de diámetro.","Punto de fusión 232ºC - 240 ºC.","Especial para tubo y conexión de cobre tipo L (Alta presión)."],
-		"caracteristicas":[],
+		"especificaciones":["Gravedad especifica 7,25 g/ ml","Punto de Fusíón:","Solidus 232ºC","Liquidus 240ºC","Dureza Brinell","(77° F) (212° F) (212° F)","24 12 12","Fuerza de Tensión (psi)","(77° F) (212° F) (302° F)","11200 6500 3000"],
+		"caracteristicas":["Monarca 95/5 Sin plomo presenta excelente penetración y alta resistencia a los cambios de temperatura extrema, se recomienda su aplicación en sistemas de refrigeración, de enfriamiento y gas . Temperatura Máxima de trabajo 155ºC","Monarca 95/5 No contiene plomo por lo que se puede utilizar en instalaciones de agua potable."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
-		"usos":[],
-		"nota":""
+		"usos":["Para tubería y conexión de Cobre tipo L y M para instalaciones de agua potable en edificios, hospitales donde las condiciones del servicio son altas , gas LP, aire acondicionado , refrigeración, Oxigeno y Oxido Nitroso","Es recomendable utilizar soldadura Monarca 95/5 libre de Plomo con la pasta fundente GENERACION 2000","Monarca 95/5 libre de Plomo es utilizada en la industria electrónica, automotriz, industrias joyera. etc.","Para uso Industrial utilice el Fundente Recomendado en su proceso."],
+		"nota":"",
+		"seguridad":["Trabajar con ventilación adecuada y equipo de protección personal.","Consulte su hoja de Seguridad para cualquier información de emergencia específica.","No desechar materiales en envases no autorizados."],
+		"almacenaje":"Mantenga en lugares secos.",
+		"precaucion":"Evítese el contacto con los ojos. No ingerir. Evitar la inhalación del polvo."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Monarca Electrónica",
+        "name": "Soldadura Monarca Electrónica",
         "id": 16,
 		"idsubcategoria":4,
-		"desc":"Especial para evitar la corrosión de componentes electrónicos.",
-		"desc_completa":"",
-		"presentaciones":["Carretes de 1 Lb., ½  Lb. y ¼ de b"],
+		"desc":"La soldadura Sn60/Pb40 se compone de 60% de estaño, y 40% de plomo. Esta es una aleación de alta pureza, adecuada para aplicaciones electrónicas con un punto de 183 °C -190 °C (361°F-374 °F) de fusión.",
+		"desc_completa":"La soldadura Sn60/Pb40 se compone de 60% de estaño, y 40% de plomo. Esta es una aleación de alta pureza, adecuada para aplicaciones electrónicas con un punto de 183 °C -190 °C (361°F-374 °F) de fusión.",
+		"presentaciones":["Barra style 14","Carrete 1 libra","Carrete ½ Libra","Carrete 1/4 Libra"],
 		"images": ["monarcaelec","monarcaelec_1","monarcaelec_2"],
 		"resname": "monarcaelec",
 		"ficha_tecnica":"http://www.industriasmexar.com.mx/contenido/cc39812a8_archivo_producto.pdf",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/soldadura/monarca-electronica",
 		"aplicaciones":["Para uso electrónico","Reparación en General.","Uso industrial y escolar."],
-		"especificaciones":["Compuesta de 60% Estaño 40% Plomo.","Fabricada con metales de alta pureza.","Sirve para evitar la corrosión de componentes electrónicos.","Punto de Fusión 183ºC - 190 ºC."],
-		"caracteristicas":[],
+		"especificaciones":["Punto de fusión :","Solidus 183ºC","Liquidus 190ºC","Composición:","Estaño (Sn) 60 % ± 0.5 %","Plomo (Pb) Resto","Impurezas:","Cobre (Cu) 0.08 % máximo","Fierro (Fe) 0.02 % máximo","Zinc (Zn) 0.003 % máximo","Aluminio (Al) 0.005 % máximo","Arsenico (As) 0.003 % máximo","Bismuto (Bi) 0.10 % máximo","Cadmio (Cd) 0.002% máximo","Antimonio (Sb) 0.20 % máximo"],
+		"caracteristicas":["Esta aleación la tenemos disponible tanto en alambre sólido con núcleo fundente RA y lingotes.","Su popularidad se debe a su relativo bajo punto de fusión (US183°C), sus interesantes características mecánicas y su buena continuidad eléctrica.","La soldadura Sn60/Pb40 es compatible con todos los principales flux de grado electrónico solubles en agua y sin limpieza."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
-		"usos":[],
-		"nota":""
+		"usos":["La soldadura con Sn60/Pb40 es la base de todas las aplicaciones electrónicas porque permite la realización de conexiones entre conductores y los diferentes componentes obteniendo una máxima seguridad de contacto."],
+		"nota":"",
+		"seguridad":["Trabajar con ventilación adecuada y equipo de protección personal.","Consulte su hoja de Seguridad para cualquier información de emergencia específica.","No desechar materiales peligrosos en envases no autorizados."],
+		"almacenaje":"Mantenga en lugares secos.",
+		"precaucion":"Este producto contiene plomo, que es conocido por ser un elemento tóxico. Consulte la Hoja de Seguridad para los procedimientos de tratamiento específico."
 		}
 	},
 	{
 	  "producto": {
-        "name": "Monarca Centro ácido",
+        "name": "Soldadura Monarca Ácida 50",
         "id": 17,
 		"idsubcategoria":4,
-		"desc":"Soldadura universal para todo tipo de trabajo automotriz e industrial.",
-		"desc_completa":"",
-		"presentaciones":["Carrete de 1 Lb."],
+		"desc":"Soldadura en alambre 3mm con 3% de flux (resina súper activado) aleación Estaño, Plomo.",
+		"desc_completa":"Soldadura en alambre 3mm con 3% de flux (resina súper activado) aleación Estaño, Plomo.",
+		"presentaciones":["Carrete de 1 Libra."],
 		"images": ["monarcaacido_1"],
 		"resname": "monarcaacido_1",
 		"ficha_tecnica":"",
 		"redes":"http://www.industriasmexar.com.mx/detalle/plomeria/soldadura/monarca-centro-acido",
 		"aplicaciones":["Tubería de cobre","Uso industrial y automotriz,  para uniones que contengan un alto grado de oxidación."],
-		"especificaciones":["Esta soldadura es altamente recomendable para uniones que presentan alto grado de oxidación o suciedad.","Punto de fusión 183ºC - 215 ºC.","Por tener su centro ácido no necesita pasta."],
-		"caracteristicas":[],
+		"especificaciones":["Gravedad especifica 7.42 g/ml","Punto de fusión :","Solidus 183ºC","Liquidus 216ºC","Impurezas:","Cobre (Cu) 0,08 % máximo","Fierro (Fe) 0,02 % máximo","Zinc (Zn) 0,005 % máximo"],
+		"caracteristicas":["Monarca Ácida 50 es una soldadura en alambre, con flux con Alto nivel de actividad, excelente transferencia térmica, completamente activo, libre de glicoles y alta adherencia, para propósito general (Industrial, plomería, electrónica). Es lo suficientemente activa para lograr una excelente remoción de manchas y oxido dando como resultado uniones firmes y brillantes.\nPresión de agua 10 K/cm2 a 25ºC. Temperatura máxima de servicio 120ºC."],
 		"colors":[],
 		"adhieres":[],
 		"ventajas":[],
-		"usos":[],
-		"nota":""
+		"usos":["Plomería. Para tubo y conexión de Cobre Tipo M y Tipo L para conducción de agua fría y caliente en casas de interés social medio, residencias y edificios donde las condiciones del servicio son Normales","Componentes electrónicos. La temperatura de la punta del cautín para soldar deberá estar entre 340°C-370°C (650°F-700°F). Sostener la punta del cautín para soldar en un ángulo de 45º a 60º de la superficie de trabajo. - El cautín para soldar deberá estar en contacto tanto con el lead del componente como con la superficie del pad del PCB. La soldadura y el flux deberán fluir sobre la pista y el pad de la tablilla, o sobre la pista y el barril para promover una actividad óptima del flux en las uniones que se están trabajando."],
+		"nota":"",
+		"seguridad":["Trabajar con ventilación adecuada y equipo de protección personal.","Consulte su hoja de Seguridad para cualquier información de emergencia específica.","No desechar materiales peligrosos en envases no autorizados."],
+		"almacenaje":"Mantenga en lugares frescos libre de humedad, no congele este producto.",
+		"precaucion":"Este producto contiene plomo, que es conocido por ser un elemento tóxico. Consulte la Hoja de Seguridad para los procedimientos de tratamiento específico."
 		}
 	},
 	{
@@ -393,7 +444,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	
@@ -416,7 +470,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -438,7 +495,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -460,7 +520,10 @@
 		"adhieres":["Madera","Ladrillo","Concreto","Metal","Tablaroca/tablayeso","Superficies pintadas."],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -482,7 +545,10 @@
 		"adhieres":["Madera","Ladrillo","Concreto","Metal","Tablaroca/panel de yeso","Superficies pintadas","Yeso"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -504,7 +570,10 @@
 		"adhieres":["Vidrio","Cerámica","Porcelana","Fibra de vidrio","Maderas no aceitosas","La mayoría de los metales","La mayoría de los plásticos"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -526,7 +595,10 @@
 		"adhieres":["Cerámica","Vidrio","Porcelana","Fibra de vidrio","Madera","Metal","Tablaroca/panel de yeso"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -548,7 +620,10 @@
 		"adhieres":["Madera","Concreto","Ladrillo","Acero","Aluminio","Vinilica","Y otros materiales de construcción"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -570,7 +645,10 @@
 		"adhieres":["Metal","Ladrillo","Yeso","Mampostería","Concreto","Tablaroca/panel de yeso","Cerámica","Madera contrachapada","Tableros de pastilla","Páneles de aglomerado","Tableros de fibra","Tableros de corcho","Piedra","Marmol","Azulejos"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -592,7 +670,10 @@
 		"adhieres":["Ladrillo","Concreto","Mampostería","Madera","Yeso","Cerámica","Vidrio","Metal","Aluminio","Moldura poliestireno"],
 		"ventajas":[],
 		"usos":[],
-		"nota":"no une espejos; una superficie deberá ser porosa."
+		"nota":"no une espejos; una superficie deberá ser porosa.",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -614,7 +695,10 @@
 		"adhieres":["Tablaroca/panel de yeso","Yeso","Madera","Estuco"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -636,7 +720,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -658,7 +745,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -680,7 +770,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -702,7 +795,10 @@
 		"adhieres":["Laminados  de alta presión:","Chapas de plástico y madera","Páneles","Cuero","Telas","Goma","Papel","Otros materiales a madera, tablas de partículas, madera contrachapada, metal, concreto y superficies similares."],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -724,7 +820,10 @@
 		"adhieres":["Madera","Metal","Mampostería"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -746,7 +845,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -768,7 +870,10 @@
 		"adhieres":["Vidrio","Cerámica","Fibra de vidrio","Porcelana","Algunos metales","Superficies pintadas","Madera","La mayoría de plásticos"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -790,7 +895,10 @@
 		"adhieres":["Vidrio Fibra de vidrio","Algunos metales","Superfices pintadas","Algunos plásticos"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 		},
 		{
@@ -812,7 +920,10 @@
 		"adhieres":["Vidrio","Cerámica","Fibra de vidrio","Porcelana","Algunos metales","Algunos plásticos"],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -834,7 +945,10 @@
 		"adhieres":[],
 		"ventajas":["Previene la aparición de moho y hongos.","Elasticidad permanente y durable.","No se escurre en juntas verticales.","Tiene excelente adherencia sobre superficies lisas como cerámica, vidrio, aluminio, hierro esmaltado y en general a superficies vitrificadas."],
 		"usos":["Para sello de juntas y uniones en baños, sanitarios, lavamanos, duchas, muebles de cocinas, lavaplatos, sifones, ventanas, canceles, etc."],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -856,7 +970,10 @@
 		"adhieres":[],
 		"ventajas":["Fácil de aplicar, durables y se pueden pintar.","Buena adherencia en materiales como concreto, madera y aluminio.","Capacidad de movimiento de 12,5% Norma ASTM C719 e ISO."],
 		"usos":["Para resane y sello de fisuras con bajo o sin movimiento en interiores y extreriores.","Para sello de juntas y conexiones alrededor de muros, ventanas, puertas y otros con moderado movimiento.","También se puede colocar como sello en grietas interiores y exteriores.","No puede estar inmerso en agua de forma permanente."],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -878,7 +995,10 @@
 		"adhieres":[],
 		"ventajas":["Previenen la aparición de moho y hongos.","Elasticidad permanente y durable.","No se escurren en juntas verticales.","Tiene  excelente adherencia sobre superficies lisas como cerámica, otras y en porosas como mortero y concreto."],
 		"usos":["Para sello de juntas y uniones en baños,  sanitarios, lavamanos, duchas, muebles de cocinas, lavaplatos, sifones, ventanas,  canceles, etc."],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -900,7 +1020,10 @@
 		"adhieres":[],
 		"ventajas":["Previenen la aparición de moho y hongos","Elasticidad permanente y durable.","No se escurren en juntas verticales.","Tiene excelente adherencia sobre superficies lisas como cerámica, vidrio,  aluminio, hierro esmaltado y en general a  superficies vitrificadas."],
 		"usos":["Para sello de juntas y uniones en baños, sanitarios, lavamanos, duchas, muebles de cocinas, lavaplatos, sifones, ventanas,  canceles, etc."],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -922,7 +1045,10 @@
 		"adhieres":[],
 		"ventajas":["Buena elasticidad y capacidad de movimiento permanente del 25% Norma ASTM C719 e ISO.","Adhiere a la mayoría de los materiales de construcción.","Resiste a la intemperie y al agua.","Se puede pintar después de aplicarlo.","No escurre en juntas verticales."],
 		"usos":["Para sello de juntas y grietas horizontales y  verticales en exteriores e interiores de  ladrillo, bloque, madera, mortero, concreto, metal, aluminio en marcos, muros, ventanas o puertas. Sello secundario de juntas de tanques y muros, juntas de expansión y de  tejados."],
-		"nota":"Importante: Si la superficie está húmeda o la estructura estará sumergida hay que usar Sikaflex® Primer 429/202 como puente de adherencia."
+		"nota":"Importante: Si la superficie está húmeda o la estructura estará sumergida hay que usar Sikaflex® Primer 429/202 como puente de adherencia.",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -944,7 +1070,10 @@
 		"adhieres":[],
 		"ventajas":["Elástico, resistente al intemperismo y al  ataque agresivo de la atmósfera.","Evita el uso de malla o tela de refuerzo en la mayoría de los casos.","Facilidad, limpieza y rapidez en su aplicación.","En color blanco reduce la temperatura interior de las habitaciones."],
 		"usos":["Como impermeabilizante de techos, azoteas, bóvedas, domos o cualquier  estructura de concreto, mortero, asbesto y lámina galvanizada.","Como revestimiento  decorativo y protector de estructuras de concreto o mortero."],
-		"nota":"Precauciones: No cubre grietas con movimientos que aparecen antes o después de su aplicación. Sí aparece  una grieta nueva o se extiende una existente es necesario ranurarla y sellarla con Sikaflex® Construction Sealant.\n El techo debe tener pendientes y bajantes adecuados. Use malla o tela de refuerzo en zonas críticas."
+		"nota":"Precauciones: No cubre grietas con movimientos que aparecen antes o después de su aplicación. Sí aparece  una grieta nueva o se extiende una existente es necesario ranurarla y sellarla con Sikaflex® Construction Sealant.\n El techo debe tener pendientes y bajantes adecuados. Use malla o tela de refuerzo en zonas críticas.",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -966,7 +1095,10 @@
 		"adhieres":[],
 		"ventajas":["Alta elasticidad y capacidad de movimiento permanente del 35% Norma ASTM C719 e ISO.","Producto listo para usar y de fácil aplicación.","Excelente adherencia a la mayoría de los materiales de construcción.","Excelente resistencia al agua y a la intemperie.","Se puede pintar después de aplicarlo."],
 		"usos":["Adhesivo y sellador multiusos","Apto para la mayoría de superficies incluyendo metal, cristal, concreto, yeso, superficies de madera, esmalte pintado, poliéster, plásticos, etc."],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -988,7 +1120,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1010,7 +1145,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1032,7 +1170,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1054,7 +1195,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1076,7 +1220,10 @@
 		"adhieres":[],
 		"ventajas":["Mayor estabilidad dimensional del conjunto de carga estibada","Mayor resistencia a los golpes","Usted puede aplicar mayor tensión a las películas de embalaje o fleje.","Mejor soporte de las vibraciones durante el transporte"],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1098,7 +1245,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1120,7 +1270,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1142,7 +1295,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1164,7 +1320,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1186,7 +1345,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1208,7 +1370,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1230,7 +1395,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1252,7 +1420,10 @@
 		"adhieres":[],
 		"ventajas":["Máquina flejadora combinada de funcionamiento manual ligera, para el flejado de paquetes planos ( p.e. palets, balas, cajas, otros paquetes)","Permite un manejo muy fácil y eficiente y supera a otras máquinas flejadoras por su robustez y su gran fiabilidad","La unión por entalladura reduce los costes del flejado en aprox. un 10 % debido a la eliminación de los enlazadores","gracias a su peso de tan solo 3.9 Kgs, es muy recomendable para aplicaciones horizontales. La consistencia de la unión por entalladura es muy alta y por norma general es superior que la unión conseguida mediante el uso del enlazador","Medidas del fleje: Anchos 12.7 - 19.0 mm.","Espesores 0.50 - 0.58 mm.","Pesos 3.9 Kgs versión normal 4.3 Kgs. versión TW","Resistencia media de la entalladura aprox. 80 %","Versión TW sistema de tensión con llave dinamométrica","Suspensión (Opcional) El Perno y la bola de agarre para aplicaciones horizontales se deben pedir por separado","El gancho de suspensión para aplicaciones verticales se debe pedir por separado Máquina"],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1274,7 +1445,10 @@
 		"adhieres":[],
 		"ventajas":["Usa cualquiera de los flejes de polipropileno o poliéster.","Construcción y diseño para tarea pesada","Alto rendimiento y confiabilidad","Económica.","Bajo Mantenimiento"],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1296,7 +1470,10 @@
 		"adhieres":[],
 		"ventajas":["Ensarte fácil del fleje. Los dos flejes son insertados juntos en la herramienta.","El tiempo de sellado, tensión del fleje, así como el espesor del fleje son ajustables, lo que garantiza una alta eficiencia de la unión.","Operación muy silenciosa. Sólo aproximadamente 75 db."],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1318,7 +1495,10 @@
 		"adhieres":[],
 		"ventajas":["Herramienta sunchadora diseñada en forma robusta de alto rendimiento cumpliendo con los requerimientos de aplicaciones de gran demanda.","Alta confiabilidad reduce el tiempo muerto.","Fácil de mantener.","Carga simultánea fácil de ambos flejes y operación neumática aumenta considerablemente la productividad.","Tensionado neumático garantiza tensión uniforme en todos los flejes alrededor del paquete.","La unión sin sello reduce los costos promedio de sunchado en aproximadamente 10% mediante la eliminación de los sellos."],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1340,7 +1520,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1362,7 +1545,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1384,7 +1570,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":"Contamos con la versión Mini"
+		"nota":"Contamos con la versión Mini",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1406,7 +1595,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":["Fabricación de joyería fina de fantasía","Metal estaño","No sirve para zamak"],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1428,7 +1620,10 @@
 		"adhieres":[],
 		"ventajas":["Reducción de la oxidación de metal.","Reducción en el uso de metal.","Reducción en los ciclos de tiempo alargando así la vida del","molde.","Ahorros críticos de energía que provienen de un control eficiente de tiempo en el horno.","Los moldes pueden ser codificados con un código de barras que al ser escaneado ajusta rápidamente los parámetros de trabajo en este molde para un producto especifico."],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1450,7 +1645,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1472,7 +1670,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1494,7 +1695,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1516,7 +1720,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1538,7 +1745,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1560,7 +1770,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":["Procesos de fundición de plomo, estaño y antimonio.","Americano","En capas"],
-		"nota":"Cada juego es de 2 piezas de ½\" de espesor. Se pueden fabricar bajo requerimientos del cliente."
+		"nota":"Cada juego es de 2 piezas de ½\" de espesor. Se pueden fabricar bajo requerimientos del cliente.",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1582,7 +1795,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1604,7 +1820,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 		{
@@ -1626,7 +1845,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	},
 	{
@@ -1648,7 +1870,10 @@
 		"adhieres":[],
 		"ventajas":[],
 		"usos":[],
-		"nota":""
+		"nota":"",
+		"seguridad":[],
+		"almacenaje":"",
+		"precaucion":""
 		}
 	}
 			

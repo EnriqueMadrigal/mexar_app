@@ -17,6 +17,8 @@ public class Product implements Serializable
     private String _ficha_tecnica;
     private String _nota;
     private String _redes;
+    private String _storaged;
+    private String _precautions;
 
     private ArrayList<Presentation> _presentations;
     private ArrayList<Product_Image> product_images;
@@ -27,6 +29,7 @@ public class Product implements Serializable
     private ArrayList<Product_Color> product_colors;
     private ArrayList<String> product_usages;
     private ArrayList<String> product_advantages;
+    private ArrayList<String> product_securities;
 
 
     public ArrayList<Product_Color> getProduct_colors() {
@@ -162,5 +165,29 @@ public class Product implements Serializable
 
     public void set_nota(String _nota) {
         this._nota = _nota;
+    }
+
+    public ArrayList<String> getProduct_securities() {
+        return product_securities;
+    }
+
+    public void setProduct_securities(ArrayList<String> product_securities) {
+        this.product_securities = product_securities;
+    }
+
+    public String get_storaged() {
+        return _storaged;
+    }
+
+    public void set_storaged(String _storaged) {
+        this._storaged = _storaged;
+    }
+
+    public String get_precautions() {
+        return _precautions;
+    }
+
+    public void set_precautions(String _precautions) {
+        this._precautions = _precautions;
     }
 }
