@@ -47,7 +47,7 @@
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <ImageButton
@@ -97,7 +97,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/linearLayout6">
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -110,6 +111,93 @@
             android:scaleType="fitXY"
             app:srcCompat="@drawable/login_email" />
     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/linearLayout7">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@android:color/transparent"
+            android:onClick="continue_withoutlogin"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/login_continue" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/linearLayout8"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="toogle_check"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/check_off"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textAlignment="viewStart"
+            android:layout_weight="0.5"
+            android:textSize="12dp"
+            android:text="  He leido y acepto el"
+            android:clickable="true"
+            android:onClick="showAviso"
+            android:textColor="@color/white"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                android:layout_weight="0.5"
+                android:textSize="12dp"
+                android:text="@string/aviso_privacidad"
+                android:textColor="@color/white"
+                android:clickable="true"
+                android:onClick="showAviso"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
 

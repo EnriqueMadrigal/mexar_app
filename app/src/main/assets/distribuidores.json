@@ -1899,6 +1899,63 @@
 "lat":"29.0720556",
 "lng":"-110.9726875"
 }
+},
+{
+"distribuidor": {
+"id":101,
+"clave":"",
+"name":"FERRETERIA FOXTER TOOLS",
+"comercial_name":"Sucursal Calzada",
+"state":"Jalisco",
+"city":"Guadalajara",
+"address":"Independencia Nte.",
+"interior":"",
+"exterior":"169",
+"colonia":"Analco",
+"cp":"44450",
+"phone1":"(33) 3618 1127",
+"phone2":"",
+"lat":"20.6709662",
+"lng":"-103.3435421"
+}
+},
+{
+"distribuidor": {
+"id":102,
+"clave":"",
+"name":"FERRETERIA FOXTER TOOLS",
+"comercial_name":"Sucursal Patria",
+"state":"Jalisco",
+"city":"San Pedro Tlaquepaque",
+"address":"Patria",
+"interior":"",
+"exterior":"252",
+"colonia":"Camichines",
+"cp":"44450",
+"phone1":"(33) 3601 7451",
+"phone2":"",
+"lat":"20.6305909",
+"lng":"-103.2853746"
+}
+},
+{
+"distribuidor": {
+"id":103,
+"clave":"",
+"name":"FERRETERIA FOXTER TOOLS",
+"comercial_name":"Sucursal Adolf B Horn",
+"state":"Jalisco",
+"city":"San Pedro Tlaquepaque",
+"address":"Patria",
+"interior":"",
+"exterior":"252",
+"colonia":"raccionamiento Real del Valle",
+"cp":"44450",
+"phone1":"(33) 3601 0010",
+"phone2":"",
+"lat":"20.5554155",
+"lng":"-103.3633174"
+}
 }
 ]
 }

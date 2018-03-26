@@ -11,28 +11,28 @@
       "presentacion": {
         "name": "Lata con aplicador 240 ml. / 8 oz.",
         "id": 2,
-		"resname":"presentacion1"
+		"resname":"presentacion2"
 	}
     },
 	{
       "presentacion": {
         "name": "Lata con aplicador 475 ml. / 16 oz.",
         "id": 3,
-		"resname":"presentacion1"
+		"resname":"presentacion3"
 	}
     },
 	{
       "presentacion": {
         "name": "Lata con aplicador 947 ml. / 32 oz.",
         "id": 4,
-		"resname":"presentacion1"
+		"resname":"presentacion4"
 	}
     },
 	{
       "presentacion": {
         "name": "1 galón 3785 ml. / 133 oz.",
         "id": 5,
-		"resname":"presentacion1"
+		"resname":"presentacion5"
 	}
     }
 		

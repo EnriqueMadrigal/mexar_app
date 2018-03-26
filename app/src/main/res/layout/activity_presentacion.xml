@@ -93,6 +93,28 @@
             android:textSize="12dp"/>
 
 
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iso9001"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
     </LinearLayout>
+
+
+
+
+
+
+
+
+
 
 </android.support.constraint.ConstraintLayout>

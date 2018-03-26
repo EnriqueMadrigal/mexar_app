@@ -1,6 +1,7 @@
 package layout;
 
 import android.content.Context;
+import android.graphics.Point;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,10 +10,13 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
@@ -64,6 +68,8 @@ public class mainf extends Fragment {
     private ArrayList<Category> _categories;
     private List<Fragment> fList;
 
+    private LinearLayout pagerLayout;
+
     public mainf() {
         // Required empty public constructor
     }
@@ -106,6 +112,16 @@ public class mainf extends Fragment {
         _view = inflater.inflate( R.layout.fragment_mainf, container, false );
         mPager = (ViewPager) _view.findViewById(R.id.ViewPager);
         _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler1);
+
+        pagerLayout = (LinearLayout) _view.findViewById(R.id.pnlSlider);
+
+        float curHeight = Common.getCurWidth();
+        float newHeight = curHeight * (float) 0.666667;
+
+       LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, (int) newHeight);
+    pagerLayout.setLayoutParams(params);
+    pagerLayout.requestLayout();
+
 
              //final ArrayList<Category> _categories = new ArrayList<>();
          _categories = new ArrayList<>();

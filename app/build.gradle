@@ -8,8 +8,8 @@ android {
         applicationId "com.datalabor.soporte.mexar"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 6
-        versionName "6.0"
+        versionCode 8
+        versionName "8.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
@@ -42,6 +42,7 @@ dependencies {
     compile 'com.facebook.android:facebook-login:[4,5)'
     testCompile 'junit:junit:4.12'
 }
+
 
 
 

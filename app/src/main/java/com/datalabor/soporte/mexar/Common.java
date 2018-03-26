@@ -15,6 +15,36 @@ public class Common {
     private static int _curCategoria = 0;
     private static int _curSubCategoria = 0;
     public static String _curBusquda = "";
+    public static int curWidth = 0;
+    public static int curHeight = 0;
+
+    public static float getCurDensity() {
+        return curDensity;
+    }
+
+    public static void setCurDensity(float curDensity) {
+        Common.curDensity = curDensity;
+    }
+
+    public static float curDensity = 0;
+
+    public static int getCurWidth() {
+        return curWidth;
+    }
+
+    public static void setCurWidth(int curWidth) {
+        Common.curWidth = curWidth;
+    }
+
+    public static int getCurHeight() {
+        return curHeight;
+    }
+
+    public static void setCurHeight(int curHeight) {
+        Common.curHeight = curHeight;
+    }
+
+
 
     public static void SetPage(int curPage)
     {

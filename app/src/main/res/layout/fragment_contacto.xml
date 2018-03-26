@@ -283,14 +283,20 @@
                 style="@style/RemarkSmallField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="correo: alvaro@conquestind.com.mx " />
+                android:text="correo: jorge@conquestind.com.mx" />
+
+            <TextView
+                style="@style/RemarkSmallField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel: (0155) 5701 4300 ext. 2101" />
 
 
             <TextView
                 style="@style/RemarkSmallField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cel: 55 4044  9509" />
+                android:text="Cel: 555 507 5477" />
 
         </LinearLayout>
 

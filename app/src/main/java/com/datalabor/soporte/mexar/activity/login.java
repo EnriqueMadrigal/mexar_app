@@ -25,6 +25,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
@@ -67,6 +68,9 @@ private GoogleApiClient mGoogleApiClient;
 private ProgressDialog mProgressDialog;
 private LoginButton loginButton;
 
+private ImageButton check_button;
+private boolean aviso_checked = false;
+
     CallbackManager callbackManager;
     private Context context;
 
@@ -75,6 +79,7 @@ private LoginButton loginButton;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         context = this;
+        check_button = (ImageButton) findViewById(R.id.imageButton4);
 
         // Configure sign-in to request the user's ID, email address, and basic
 // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
@@ -186,6 +191,8 @@ private LoginButton loginButton;
                 // App code
                 Log.v("LoginActivity", exception.getCause().toString());
             }
+
+
         });
 
 
@@ -194,6 +201,11 @@ private LoginButton loginButton;
 
     public void sig_in(View view) {
 
+        if (!aviso_checked)
+        {
+            showWarningDialog("Por favor acepte nuesto aviso de privacidad");
+            return;
+        }
 
         signIn();
         /*
@@ -209,6 +221,44 @@ private LoginButton loginButton;
     public void signTest(View view)
     {
         Log.d("Sig_in Pressed","1");
+        Intent intent = new Intent();
+        intent.setClass(this, presentacion.class);
+        finish();
+        startActivity(intent);
+
+    }
+
+
+    public void toogle_check(View view)
+    {
+    aviso_checked = !aviso_checked;
+if (aviso_checked){
+    check_button.setImageResource(R.drawable.check_on);
+}
+
+else {
+    check_button.setImageResource(R.drawable.check_off);
+}
+
+    }
+
+
+    public void showAviso(View view){
+        Log.d("Login","Aviso");
+        Intent intent = new Intent();
+        intent.setClass(this, Aviso.class);
+         startActivity(intent);
+
+
+    }
+    public void continue_withoutlogin(View view){
+
+        if (!aviso_checked)
+        {
+            showWarningDialog("Por favor acepte nuesto aviso de privacidad");
+            return;
+        }
+
         Intent intent = new Intent();
         intent.setClass(this, presentacion.class);
         finish();
@@ -414,6 +464,13 @@ private LoginButton loginButton;
 
     public void showemail(View view)
     {
+
+        if (!aviso_checked)
+        {
+            showWarningDialog("Por favor acepte nuesto aviso de privacidad");
+            return;
+        }
+
         final Dialog alertDialog = new Dialog(this);
         alertDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 

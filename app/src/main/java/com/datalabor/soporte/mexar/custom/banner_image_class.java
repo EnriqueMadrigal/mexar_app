@@ -6,7 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
+import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
 
 /**
@@ -28,6 +30,14 @@ public class banner_image_class extends Fragment {
         ImageView curImage = (ImageView) v.findViewById(R.id.curImage);
         curImage.setImageResource(ResId);
        // ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.banner_image, container, false);
+
+        float curHeight = Common.getCurWidth();
+        float newHeight = curHeight * (float) 0.666667;
+
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, (int) newHeight);
+        curImage.setLayoutParams(params);
+        curImage.requestLayout();
+
 
         return v;
     }
