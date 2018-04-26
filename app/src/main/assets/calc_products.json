@@ -1,0 +1,103 @@
+{
+  "calc_products": [
+    {
+      "product": {
+        "name": "Cemento disolvente PVC CONTACT 202",
+        "id": 1,
+		"pres1": "contact202_1",
+		"pres2": "contact202_2",
+		"pres3": "contact202_3",
+		"pres4": "contact202_4", 
+		"pres5": "contact202_5"
+	}
+    },
+	{
+      "product": {
+        "name": "Cemento disolvente PVC CONTACT 222",
+        "id": 2,
+		"pres1": "contact222_1",
+		"pres2": "contact222_2",
+		"pres3": "contact222_3",
+		"pres4": "contact222_4",
+		"pres5": "contact222_5"
+	}
+    },
+	{
+      "product": {
+        "name": "Cemento disolvente CPVC CONTACT",
+        "id": 3,
+		"pres1": "contact227_1",
+		"pres2": "contact227_2",
+		"pres3": "contact227_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    },
+	{
+      "product": {
+        "name": "Primer para PVC Púrpura CONTACT 212",
+        "id": 4,
+		"pres1": "contact227_1",
+		"pres2": "contact227_2",
+		"pres3": "contact227_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    },
+	{
+      "product": {
+        "name": "Cemento disolvente PVC CONTACT 204",
+        "id": 5,
+		"pres1": "contact204_1",
+		"pres2": "contact204_2",
+		"pres3": "contact204_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    },
+	{
+      "product": {
+        "name": "Cemento disolvente PVC CONTACT 244",
+        "id": 6,
+		"pres1": "contact244_1",
+		"pres2": "contact244_2",
+		"pres3": "contact244_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    },
+	{
+      "product": {
+        "name": "Limpiador para PVC y CPVC CONTACT 205",
+        "id": 7,
+		"pres1": "contact205_1",
+		"pres2": "contact205_2",
+		"pres3": "contact205_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    },
+	{
+      "product": {
+        "name": "Cemento disolvente PVC CONTACT 206",
+        "id": 8,
+		"pres1": "contact206_1",
+		"pres2": "contact206_2",
+		"pres3": "contact206_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    },
+	{
+      "product": {
+        "name": "Cemento disolvente PVC CONTACT 216",
+        "id": 9,
+		"pres1": "contact216_1",
+		"pres2": "contact216_2",
+		"pres3": "contact216_1",
+		"pres4": "",
+		"pres5": ""
+	}
+    }
+  ]
+}

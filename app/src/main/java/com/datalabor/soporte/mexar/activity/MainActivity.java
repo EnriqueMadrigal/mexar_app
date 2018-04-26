@@ -40,6 +40,7 @@ import java.io.File;
 import layout.busca_distribuidores;
 import layout.calculadora;
 import layout.calculadoras;
+import layout.cedulas;
 import layout.contacto;
 import layout.distribuidores;
 import layout.mainf;
@@ -308,6 +309,29 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
                     }
                         break;
+
+
+
+                case 9: // Cedulas
+
+                    Common.SetPage(1);
+                    clearBackStack();
+
+                    getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _calculadoras, "Calculadoras" ).commit();
+
+
+                  break;
+
+
+                case 10:
+
+                    cedulas _cedulas;
+                    _cedulas = new cedulas();
+                    Common.SetPage(9);
+                    getSupportFragmentManager().beginTransaction().setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right).replace(R.id.fragment_container, _cedulas, "Cedulas").commit();
+
+
+                    break;
 
                 default:
                     super.onBackPressed();

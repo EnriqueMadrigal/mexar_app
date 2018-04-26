@@ -315,6 +315,7 @@ public class mainf extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+        _recyclerview.setAdapter(null );
     }
 
     /**

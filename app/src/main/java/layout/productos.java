@@ -201,6 +201,7 @@ public class productos extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+        _recyclerview.setAdapter(null );
     }
 
     /**
@@ -217,4 +218,7 @@ public class productos extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
+
 }

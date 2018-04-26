@@ -1,0 +1,295 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.cedulas">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mexar_gris1"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_gris1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/NormalField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Selecciona el tipo de  material:" />
+        </LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="20dp">
+
+</View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_blue"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/NormalField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textColor="@color/white"
+                android:text="PVC" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </View>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="1dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+            <Button
+                android:id="@+id/cedula40"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:text="CÉDULA 40"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+</LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="1dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/cedula80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/transparent"
+                    android:scaleType="fitCenter"
+                    android:text="CÉDULA 80"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="1dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/cedula_conduit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/transparent"
+                    android:scaleType="fitCenter"
+                    android:text="CONDUIT"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="1dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/cedula_sinpresion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/round_button"
+                    android:scaleType="fitCenter"
+                    android:text="SIN PRESIÖN"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </View>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="1dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></View>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mexar_blue"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+
+            android:orientation="vertical">
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/cedula_normasanitaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/transparent"
+                    android:scaleType="fitCenter"
+                    android:text="SANITARIO DE NORMA"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></View>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

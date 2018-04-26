@@ -83,12 +83,16 @@ public class calculadoras extends Fragment {
             @Override
             public void onClick(View v) {
 
-            calculadora _calculadora;
-                _calculadora = new calculadora();
+          //  calculadora _calculadora;
+          //      _calculadora = new calculadora();
 
-                Common.SetPage(1);
-                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _calculadora, "Calculadora" ).commit();
+           //     Common.SetPage(1);
+           //     myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _calculadora, "Calculadora" ).commit();
 
+               cedulas _cedulas;
+               _cedulas = new cedulas();
+                Common.SetPage(9);
+                   myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _cedulas, "Cedulas" ).commit();
 
 
 

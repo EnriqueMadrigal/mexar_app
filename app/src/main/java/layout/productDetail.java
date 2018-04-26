@@ -737,6 +737,7 @@ public class productDetail extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+
     }
 
     /**

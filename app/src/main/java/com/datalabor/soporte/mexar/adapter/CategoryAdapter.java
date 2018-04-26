@@ -31,7 +31,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         _context = context;
         _items = items;
         _listener = listener;
-        _placeHolder = BitmapFactory.decodeResource( context.getResources(), R.drawable.placeholder );
+       // _placeHolder = BitmapFactory.decodeResource( context.getResources(), R.drawable.placeholder );
     }
 
     @Override

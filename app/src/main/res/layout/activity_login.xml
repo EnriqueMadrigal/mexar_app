@@ -141,7 +141,7 @@
 
     <LinearLayout
         android:layout_width="180dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
@@ -154,8 +154,8 @@
 
         <ImageButton
             android:id="@+id/imageButton4"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="0.2"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
@@ -174,7 +174,7 @@
             android:layout_gravity="start"
             android:textAlignment="viewStart"
             android:layout_weight="0.5"
-            android:textSize="12dp"
+            android:textSize="14dp"
             android:text="  He leido y acepto el"
             android:clickable="true"
             android:onClick="showAviso"
@@ -187,7 +187,7 @@
                 android:layout_gravity="start"
                 android:textAlignment="viewStart"
                 android:layout_weight="0.5"
-                android:textSize="12dp"
+                android:textSize="14dp"
                 android:text="@string/aviso_privacidad"
                 android:textColor="@color/white"
                 android:clickable="true"

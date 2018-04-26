@@ -6,10 +6,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -18,6 +21,9 @@ import android.widget.TextView;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
+import com.datalabor.soporte.mexar.adapter.ProductAdapter;
+import com.datalabor.soporte.mexar.adapter.ProductAdapter2;
 import com.datalabor.soporte.mexar.models.Catalago1;
 import com.datalabor.soporte.mexar.models.Product;
 
@@ -54,16 +60,11 @@ public class calculadora extends Fragment {
     private TextView text1;
     private TextView text2;
     private TextView text3;
-    private TextView text4;
-    private TextView text5;
-    private TextView text6;
+    private TextView calculadora_type;
 
-    private TextView text7;
-    private ImageView img1;
-    private ImageView img2;
+    private ImageView image1;
 
-    private TextView text8;
-    private TextView text9;
+
 
     private ArrayList<String> presentaciones;
     private ArrayList<String> piezas;
@@ -73,6 +74,22 @@ public class calculadora extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     private ImageButton calcular;
+
+    private RecyclerView _recyclerview;
+    private ProductAdapter2 _adapter;
+    private LinearLayoutManager _linearLayoutManager;
+    ArrayList<Product> _products;
+    ArrayList<Product> _products_display;
+
+    private  long idPieza = 1;
+    private long idPresentacion = 1;
+
+    private boolean ifnotFistTimePieza = false;
+    private boolean ifnotFistTimePresentation = false;
+
+
+    int curType = 0;
+
     public calculadora() {
         // Required empty public constructor
     }
@@ -86,11 +103,12 @@ public class calculadora extends Fragment {
      * @return A new instance of fragment calculadora.
      */
     // TODO: Rename and change types and number of parameters
-    public static calculadora newInstance(String param1, String param2) {
+    public static calculadora newInstance(int curtype) {
         calculadora fragment = new calculadora();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        //args.putString(ARG_PARAM1, param1);
+        //args.putString(ARG_PARAM2, param2);
+        args.putInt("curType", curtype);
         fragment.setArguments(args);
         return fragment;
     }
@@ -98,10 +116,8 @@ public class calculadora extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+       curType = (int) getArguments().getInt("curType");
+
     }
 
     @Override
@@ -113,21 +129,14 @@ public class calculadora extends Fragment {
 
         Spinner_presentacion = (Spinner) _view.findViewById(R.id.calculadora_Presentacion);
         Spinner_pieza = (Spinner) _view.findViewById(R.id.calculadora_Pieza);
-        calcular = (ImageButton) _view.findViewById(R.id.calculadora_calcular);
+       // calcular = (ImageButton) _view.findViewById(R.id.calculadora_calcular);
+        _recyclerview = (RecyclerView) _view.findViewById(R.id.recyclerCalculadora);
 
         text1 = (TextView) _view.findViewById(R.id.calculadora_text1);
         text2 = (TextView) _view.findViewById(R.id.calculadora_text2);
         text3 = (TextView) _view.findViewById(R.id.calculadora_text3);
-        text4 = (TextView) _view.findViewById(R.id.calculadora_text4);
-        text5 = (TextView) _view.findViewById(R.id.calculadora_text5);
-        text6 = (TextView) _view.findViewById(R.id.calculadora_text6);
-
-        text7 = (TextView) _view.findViewById(R.id.calculadora_equalsign);
-        text8 = (TextView)  _view.findViewById(R.id.calculadora_numPresentacion);
-        text9 = (TextView)  _view.findViewById(R.id.calculadora_numPiezas);
-        img1 = (ImageView) _view.findViewById(R.id.calculadora_presentacionImage);
-        img2 = (ImageView) _view.findViewById(R.id.calculadora_unionImage);
-
+        calculadora_type = (TextView) _view.findViewById(R.id.calculadora_type);
+        image1 = (ImageView) _view.findViewById(R.id.calculadora_unionImage);
 
 
         presentaciones = new ArrayList<>();
@@ -135,6 +144,11 @@ public class calculadora extends Fragment {
         presentaciones_img = new ArrayList<>();
         piezas_img = new ArrayList<>();
 
+       _products = new ArrayList<Product>();
+       _products_display = new ArrayList<Product>();
+        loadProducts();
+
+/*
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -186,19 +200,19 @@ public class calculadora extends Fragment {
                              text4.setText(Resultado);
                              text5.setText(" uniones de:");
                              text6.setText(Spinner_pieza.getSelectedItem().toString());
-                             text7.setText("=");
-                             text8.setText("1");
-                             text9.setText(Resultado);
+                             //text7.setText("=");
+                             //text8.setText("1");
+                             //text9.setText(Resultado);
 
                              int curId = (int) Spinner_presentacion.getSelectedItemId();
                              String img_name = presentaciones_img.get(curId);
                              int resid = myContext.getResources().getIdentifier(img_name, "drawable", myContext.getPackageName());
-                             img1.setImageResource(resid);
+                             //img1.setImageResource(resid);
 
                              int curId2 = (int) Spinner_pieza.getSelectedItemId();
                              String img_name2 = piezas_img.get(curId2);
                              int resid2 = myContext.getResources().getIdentifier(img_name2, "drawable", myContext.getPackageName());
-                             img2.setImageResource(resid2);
+                             // img2.setImageResource(resid2);
 
 
                          }
@@ -225,7 +239,7 @@ public class calculadora extends Fragment {
             }
         });
 
-
+*/
 
         // Cargar presentaciones
 
@@ -269,7 +283,11 @@ public class calculadora extends Fragment {
         /// Cargar Piezas
         // Cargar presentaciones
 
-        String jsonPiezas = Common.loadJSONFromAsset(myContext,"piezas.json");
+
+        String filename = "piezas.json";
+
+
+        String jsonPiezas = Common.loadJSONFromAsset(myContext,filename);
         JSONObject obj_pieza;
         JSONObject pieza;
 
@@ -304,7 +322,95 @@ public class calculadora extends Fragment {
 
         /////
 
+        Spinner_pieza.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                // your code here
+                Log.d("calc","Pieza");
+               // String Pieza = parentView.getAdapter().getItem(position).toString();
+                Long PiezaId = parentView.getAdapter().getItemId(position);
+                idPieza = PiezaId + 1;
 
+                if  (ifnotFistTimePieza) {
+                    Calculate();
+                }
+
+                ifnotFistTimePieza = true;
+                //Log.d("pieza selec",Pieza);
+                Log.d("pieza id",PiezaId.toString());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parentView) {
+                // your code here
+
+            }
+
+        });
+
+
+        Spinner_presentacion.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                // your code here
+                Log.d("calc","Presentacion");
+                Long PresentationId = parentView.getAdapter().getItemId(position);
+                idPresentacion = PresentationId + 1;
+
+                if (ifnotFistTimePresentation){
+                    Calculate();
+                }
+
+                ifnotFistTimePresentation = true;
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parentView) {
+                // your code here
+            }
+
+        });
+
+
+        /////  Recycler
+
+
+        _adapter = new ProductAdapter2(getActivity(), _products_display, new IViewHolderClick() {
+            @Override
+            public void onClick(int position) {
+
+                Product curProduct = _products_display.get(position);
+
+                Log.d(TAG, String.valueOf(curProduct.getId()));
+
+                productDetail productdetail = productDetail.newInstance(curProduct.getId());
+
+
+                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, productdetail, "Product Detail" ).commit();
+
+
+            }
+        });
+
+        _linearLayoutManager = new LinearLayoutManager( getActivity() );
+
+        _recyclerview.setHasFixedSize( true );
+        _recyclerview.setAdapter( _adapter );
+        _recyclerview.setLayoutManager( _linearLayoutManager );
+        //_recyclerview.addItemDecoration( new SimpleDividerItemDecoration( getActivity() ) );
+
+        String pvc_type =  "";
+        if (curType == 1) {pvc_type = "CÉDULA 40";}
+        else if (curType == 2) {pvc_type = "CÉDULA 80";}
+        else if (curType == 3) {pvc_type = "CONDUIT";}
+        else if (curType == 4) {pvc_type = "SIN PRESIÓN";}
+        else if (curType == 5) {pvc_type = "SANITARIO NORMA";}
+
+        calculadora_type.setText(pvc_type);
+
+
+        Calculate();
         return _view;
     }
 
@@ -349,4 +455,210 @@ public class calculadora extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+    private void loadProducts() {
+
+        /////////
+        String jsonProducts = Common.loadJSONFromAsset(myContext,"calc_products.json");
+        JSONObject obj_products;
+        JSONObject producto;
+
+        int curSubCategory = 1;
+
+        ///////////////
+        try {
+
+            obj_products = new JSONObject(jsonProducts);
+            JSONArray res = obj_products.getJSONArray("calc_products");
+
+            for (int i = 0; i < res.length(); i++) {
+                producto = res.getJSONObject(i).getJSONObject("product");
+                String name = producto.getString("name");
+                String resname1 = producto.getString("pres1");
+                String resname2 = producto.getString("pres2");
+                String resname3 = producto.getString("pres3");
+                String resname4 = producto.getString("pres4");
+                String resname5 = producto.getString("pres5");
+
+
+                int id = producto.getInt("id");
+
+                Product newProduct = new Product();
+                newProduct.setName(name);
+                newProduct.setId(id);
+                newProduct.set_desc_complete("");
+
+                int resid = myContext.getResources().getIdentifier(resname3, "drawable", myContext.getPackageName());
+                Log.d(TAG,newProduct.getName());
+                newProduct.setResId(resid);
+
+                    _products.add(newProduct);
+
+            }
+
+
+
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+
+        /////////
+    }
+
+
+    private void Calculate() {
+        ///////
+
+        // Cargar datos para la calculaldora
+
+        String jsonCalculadora = Common.loadJSONFromAsset(myContext,"calculadora.json");
+        JSONObject obj_calculadora;
+        JSONObject calculadora;
+
+        try
+        {
+
+            obj_calculadora = new JSONObject(jsonCalculadora);
+            JSONArray res = obj_calculadora.getJSONArray("calculos");
+
+            for (int i = 0; i < res.length(); i++)
+            {
+                calculadora = res.getJSONObject(i).getJSONObject("calculo");
+                int id = calculadora.getInt("id");
+
+                if ((int) idPieza == id)  // Si la pieza es igual al calculo seleccionado
+                {
+                    // Obtener las presentaciones
+                    String presentacion4z = calculadora.getString("4z");
+                    String presentacion8z = calculadora.getString("8z");
+                    String presentacion16z = calculadora.getString("16z");
+                    String presentacion32z = calculadora.getString("32z");
+                    String presentacion133z = calculadora.getString("133z");
+
+                    String Resultado = "";
+                    if (idPresentacion==1) Resultado = presentacion4z;
+                    if (idPresentacion==2) Resultado = presentacion8z;
+                    if (idPresentacion==3) Resultado = presentacion16z;
+                    if (idPresentacion==4) Resultado = presentacion32z;
+                    if (idPresentacion==5) Resultado = presentacion133z;
+
+
+                    text1.setText("Rinde para");
+                    text2.setText(Resultado);
+                    int intResultado = 0;
+
+                    try {
+                        intResultado = Integer.parseInt(Resultado);
+                    } catch(NumberFormatException nfe) {
+                        System.out.println("Could not parse " + nfe);
+                    }
+
+                    if (intResultado <= 1) { text3.setText("De unión");}
+                    else {text3.setText("Uniones"); }
+
+
+                }
+
+
+
+            }
+
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file calculadora");
+            //return null;
+
+        }
+
+
+
+        String curText = Spinner_presentacion.getSelectedItem().toString();
+        String curText2 = Spinner_pieza.getSelectedItem().toString();
+
+        Log.d(TAG,curText);
+
+
+        /////// Cargar los productos según las piezas
+
+        String  filename = "piezas.json";
+
+        if (curType == 1) {filename = "cedula40.json";}
+        else if (curType == 2) {filename = "cedula80.json";}
+        else if (curType == 3) {filename = "conduit.json";}
+        else if (curType == 4) {filename = "sinpresion.json";}
+        else if (curType == 5) {filename = "sanitario.json";}
+
+        String jsonPiezas = Common.loadJSONFromAsset(myContext,filename);
+
+        JSONObject obj_pieza;
+        JSONObject pieza;
+        JSONArray productos;
+
+        productos = new JSONArray();
+
+        ///////////////
+        try {
+
+            obj_pieza = new JSONObject(jsonPiezas);
+            JSONArray res = obj_pieza.getJSONArray("piezas");
+
+            for (int i = 0; i < res.length(); i++) {
+                pieza = res.getJSONObject(i).getJSONObject("pieza");
+                String name = pieza.getString("name");
+                String res_name = pieza.getString("resname");
+                int id = pieza.getInt("id");
+                if (id == idPieza) {
+                    productos = pieza.getJSONArray("productos");
+                }
+
+            }
+
+
+
+        if (productos.length()>0){
+            _products_display.clear();
+
+            for (int j = 0; j < productos.length(); j++)
+            {
+                int curId = productos.getInt(j);
+
+                for (int i = 0; i< _products.size() ;i++ ){
+                    if (curId == _products.get(i).getId()) {
+                        _products_display.add(_products.get(i));
+                    }
+                }
+
+
+            }
+
+        _adapter.notifyDataSetChanged();
+
+        }
+
+
+
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+
+
+
+
+
+    }
+
 }

@@ -33,7 +33,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
         _context = context;
         _items = items;
         _listener = listener;
-        _placeHolder = BitmapFactory.decodeResource( context.getResources(), R.drawable.placeholder );
+//        _placeHolder = BitmapFactory.decodeResource( context.getResources(), R.drawable.placeholder );
     }
 
     @Override
@@ -75,6 +75,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
         holder.getIconView().setImageResource(curProduct.getResId());
 
     }
+
 
 
 ///////////-------------

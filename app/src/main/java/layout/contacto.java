@@ -97,7 +97,7 @@ public class contacto extends Fragment {
 
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"yaneli@conquestind.com.mx"});
+                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"ventas.mexar@conquestind.com.mx"});
                 i.putExtra(Intent.EXTRA_SUBJECT, "Contacto");
                 i.putExtra(Intent.EXTRA_TEXT   , "Información..");
                 try {
