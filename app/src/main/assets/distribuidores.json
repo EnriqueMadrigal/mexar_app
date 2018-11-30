@@ -1956,6 +1956,25 @@
 "lat":"20.5554155",
 "lng":"-103.3633174"
 }
+},
+{
+"distribuidor": {
+"id":104,
+"clave":"",
+"name":"SUMINISTROS ROCA",
+"comercial_name":"Suministros Roca",
+"state":"Queretaro",
+"city":"Queretaro",
+"address":"Convento de San Agustin",
+"interior":"",
+"exterior":"6",
+"colonia":"Santiago de Queretaro",
+"cp":"76037",
+"phone1":"(442) 630 0207",
+"phone2":"",
+"lat":"20.5800963",
+"lng":"-100.40147580000001"
+}
 }
 ]
 }

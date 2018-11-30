@@ -78,6 +78,8 @@ public class calculadora extends Fragment {
     private RecyclerView _recyclerview;
     private ProductAdapter2 _adapter;
     private LinearLayoutManager _linearLayoutManager;
+
+
     ArrayList<Product> _products;
     ArrayList<Product> _products_display;
 
@@ -285,7 +287,9 @@ public class calculadora extends Fragment {
 
 
         String filename = "piezas.json";
-
+        if (curType == 6) {
+            filename = "piezas_cpvc.json";
+        }
 
         String jsonPiezas = Common.loadJSONFromAsset(myContext,filename);
         JSONObject obj_pieza;
@@ -330,6 +334,14 @@ public class calculadora extends Fragment {
                // String Pieza = parentView.getAdapter().getItem(position).toString();
                 Long PiezaId = parentView.getAdapter().getItemId(position);
                 idPieza = PiezaId + 1;
+                Log.d("pieza id",PiezaId.toString());
+                int curIntPieza =   (int) PiezaId.intValue();
+                String resname = piezas_img.get(curIntPieza);
+                int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
+
+                image1.setImageResource(resid);
+
+                Log.d("pieza name",resname);
 
                 if  (ifnotFistTimePieza) {
                     Calculate();
@@ -337,7 +349,8 @@ public class calculadora extends Fragment {
 
                 ifnotFistTimePieza = true;
                 //Log.d("pieza selec",Pieza);
-                Log.d("pieza id",PiezaId.toString());
+
+
             }
 
             @Override
@@ -595,6 +608,7 @@ public class calculadora extends Fragment {
         else if (curType == 3) {filename = "conduit.json";}
         else if (curType == 4) {filename = "sinpresion.json";}
         else if (curType == 5) {filename = "sanitario.json";}
+        else if (curType == 6) {filename = "cpvc.json";}
 
         String jsonPiezas = Common.loadJSONFromAsset(myContext,filename);
 
@@ -649,7 +663,7 @@ public class calculadora extends Fragment {
 
         catch (Exception e)
         {
-            Log.d(TAG,"Can not read json file categories");
+            Log.d(TAG,"Can not read json file categories:" + filename);
             //return null;
 
         }

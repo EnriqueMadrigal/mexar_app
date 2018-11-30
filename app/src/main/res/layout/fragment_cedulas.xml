@@ -36,7 +36,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/mexar_blue"
+            android:background="@color/transparent"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -48,9 +48,10 @@
                 style="@style/NormalField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:textColor="@color/white"
-                android:text="PVC" />
+                android:paddingRight="24dp"
+                android:textColor="@color/mexar_blue"
+                android:background="@color/transparent"
+                android:text="CEMENTOS PARA PVC" />
 
 
             <View
@@ -62,14 +63,10 @@
 
             <View
                 android:layout_width="match_parent"
-                android:background="@color/white"
-                android:layout_height="1dp"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
+                android:layout_height="5dp"/>
 
-            </View>
+
 
 
 
@@ -82,33 +79,22 @@
 
             <Button
                 android:id="@+id/cedula40"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
                 android:adjustViewBounds="true"
-                android:background="@color/transparent"
+                android:background="@color/mexar_blue"
                 android:scaleType="fitCenter"
                 android:text="CÉDULA 40"
                 android:textColor="@color/white"
                 android:textSize="18dp"/>
 </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-
-            </View>
 
 
             <View
                 android:layout_width="match_parent"
-                android:background="@color/white"
-                android:layout_height="1dp"/>
+                android:layout_height="10dp"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-
-            </View>
 
 
             <LinearLayout
@@ -118,10 +104,10 @@
 
                 <Button
                     android:id="@+id/cedula80"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
                     android:adjustViewBounds="true"
-                    android:background="@color/transparent"
+                    android:background="@color/mexar_blue"
                     android:scaleType="fitCenter"
                     android:text="CÉDULA 80"
                     android:textColor="@color/white"
@@ -130,24 +116,13 @@
 
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-
-            </View>
 
 
             <View
                 android:layout_width="match_parent"
-                android:background="@color/white"
-                android:layout_height="1dp"/>
+                android:layout_height="10dp"/>
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-
-            </View>
 
 
 
@@ -158,10 +133,10 @@
 
                 <Button
                     android:id="@+id/cedula_conduit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
                     android:adjustViewBounds="true"
-                    android:background="@color/transparent"
+                    android:background="@color/mexar_blue"
                     android:scaleType="fitCenter"
                     android:text="CONDUIT"
                     android:textColor="@color/white"
@@ -169,23 +144,12 @@
             </LinearLayout>
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-
-            </View>
 
 
             <View
                 android:layout_width="match_parent"
-                android:background="@color/white"
-                android:layout_height="1dp"/>
+                android:layout_height="10dp"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-
-            </View>
 
 
 
@@ -195,28 +159,39 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/cedula_sinpresion"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
+                    android:id="@+id/cedula_normasanitaria"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/round_button"
+                    android:background="@color/mexar_blue"
                     android:scaleType="fitCenter"
-                    android:text="SIN PRESIÖN"
+                    android:text="SANITARIO DE NORMA"
                     android:textColor="@color/white"
                     android:textSize="18dp"/>
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="5dp">
+                android:layout_height="10dp"/>
 
-            </View>
-
-
-            <View
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:background="@color/white"
-                android:layout_height="1dp"/>
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/cedula_sinpresion"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/mexar_blue"
+                    android:scaleType="fitCenter"
+                    android:text="SIN PRESIÓN"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
 
 
 
@@ -238,7 +213,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/mexar_blue"
+            android:background="@color/transparent"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -248,11 +223,48 @@
 
 
 
+
+
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/NormalField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="24dp"
+                android:textColor="@color/mexar_blue"
+                android:background="@color/transparent"
+                android:text="CEMENTO PARA CPVC" />
+
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </View>
+
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -260,25 +272,20 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/cedula_normasanitaria"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
+                    android:id="@+id/cedula_cpvc"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
                     android:adjustViewBounds="true"
-                    android:background="@color/transparent"
+                    android:background="@color/mexar_blue"
                     android:scaleType="fitCenter"
-                    android:text="SANITARIO DE NORMA"
+                    android:text="CPVC"
                     android:textColor="@color/white"
                     android:textSize="18dp"/>
             </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp"></View>
 
 
         </LinearLayout>
-
-
 
     </LinearLayout>
 

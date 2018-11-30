@@ -180,20 +180,25 @@
 
 
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/mexar_gris1"
             android:gravity="center_vertical"
+            android:paddingRight="40dp"
             android:orientation="horizontal">
 
-
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:gravity="center">
             <TextView
                 android:id="@+id/calculadora_text1"
                 style="@style/RemarkField"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
+                android:paddingStart="15dp"
                 android:text="Rinde hasta " />
 
 
@@ -213,22 +218,23 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
                 android:text="Unión(es)" />
-
+            </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:gravity="start"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:gravity="end"
+                android:layout_alignParentRight="true"
                 android:orientation="horizontal"
-                android:paddingEnd="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:paddingStart="20dp">
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp">
 
                 <ImageView
                     android:id="@+id/calculadora_unionImage"
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
                     android:padding="2dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/union1" />
@@ -236,16 +242,9 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/calculadora_text6"
-                style="@style/RemarkSmallField"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:text="" />
 
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -258,7 +257,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
-                android:text="Utilizando los sigientes productos." />
+                android:text="Utilizando los siguientes productos." />
 
 
         </LinearLayout>

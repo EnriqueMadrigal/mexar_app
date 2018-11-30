@@ -338,7 +338,7 @@ Log.d(TAG,"test");
 
 
             else {
-                Toast.makeText(MapsActivity2.this, "Usted ha aceptado!", Toast.LENGTH_LONG).show();
+                //Toast.makeText(MapsActivity2.this, "Usted ha aceptado!", Toast.LENGTH_LONG).show();
                 if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                         == PackageManager.PERMISSION_GRANTED) {
                     mMap.setMyLocationEnabled(true);

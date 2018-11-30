@@ -1,0 +1,1567 @@
+{
+"barcodes" : [
+{
+"barcode": {
+"presentation":"0",
+"id":0,
+"product_id":1,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES NORMALES 120 ML.",
+"code":"7503007746023",
+"item":"Z-20201",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":1,
+"product_id":1,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES NORMALES 240 ML.",
+"code":"7503007746030",
+"item":"Z-20202",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":2,
+"product_id":1,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES NORMALES 475 ML",
+"code":"7503007746047",
+"item":"Z-20203",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":3,
+"product_id":1,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES NORMALES 947 ML.",
+"code":"7503007746054",
+"item":"Z-20204",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":4,
+"product_id":1,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES NORMALES 1 GALON",
+"code":"7503007746078",
+"item":"Z-20205",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":5,
+"product_id":1,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES NORMALES TUBO 60 ML.",
+"code":"7503007746016",
+"item":"Z-20208",
+"unidad":"PZ",
+"image":"1",
+"pzas":"50"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":6,
+"product_id":2,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES HUMEDAS 120 ML.",
+"code":"7503007746108",
+"item":"Z-22201",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":7,
+"product_id":2,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES HUMEDAS 240 ML.",
+"code":"7503007746115",
+"item":"Z-22202",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":8,
+"product_id":2,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES HUMEDAS 475 ML.",
+"code":"7503007746122",
+"item":"Z-22203",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":9,
+"product_id":2,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES HUMEDAS 947 ML.",
+"code":"7503007746139",
+"item":"Z-22204",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":10,
+"product_id":2,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES HUMEDAS 1 GALON",
+"code":"7503007746153",
+"item":"Z-22205",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":11,
+"product_id":2,
+"desc":"CONTACT CEMENTO PARA PVC CONDICIONES HUMEDAS TUBO 60 ML.",
+"code":"7503007746092",
+"item":"Z-22208",
+"unidad":"PZ",
+"image":"1",
+"pzas":"50"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":12,
+"product_id":7,
+"desc":"CONTACT LIMPIADOR PARA PVC TRANSPARENTE 240 ML.",
+"code":"7503007746160",
+"item":"Z-20502",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":13,
+"product_id":7,
+"desc":"CONTACT LIMPIADOR PARA PVC TRANSPARENTE 475 ML.",
+"code":"7503007746177",
+"item":"Z-20503",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":14,
+"product_id":7,
+"desc":"CONTACT LIMPIADOR PARA PVC TRANSPARENTE 1 GALON",
+"code":"7503023283007",
+"item":"Z-20505",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":15,
+"product_id":3,
+"desc":"CONTACT CEMENTO PARA CPVC 60 ML..",
+"code":"7503007746214",
+"item":"Z-22708",
+"unidad":"PZ",
+"image":"1",
+"pzas":"50"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":16,
+"product_id":3,
+"desc":"CONTACT CEMENTO PARA CPVC 120 ML.",
+"code":"7503007746221",
+"item":"Z-22701",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":17,
+"product_id":3,
+"desc":"CONTACT CEMENTO PARA CPVC 240 ML.",
+"code":"7503007746238",
+"item":"Z-22702",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":18,
+"product_id":3,
+"desc":"CONTACT CEMENTO PARA CPVC 475 ML.",
+"code":"7503007746245",
+"item":"Z-22703",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":19,
+"product_id":6,
+"desc":"CONTACT CEMENTO PARA PVC  TRANSPARENTE 240 ML",
+"code":"7503007746375",
+"item":"Z-24402",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":20,
+"product_id":6,
+"desc":"CONTACT CEMENTO PARA PVC  TRANSPARENTE 475 ML",
+"code":"7503007746382",
+"item":"Z-24403",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":21,
+"product_id":6,
+"desc":"CONTACT CEMENTO PARA PVC  TRANSPARENTE 947 ML",
+"code":"7503007746399",
+"item":"Z-24404",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":22,
+"product_id":6,
+"desc":"CONTACT CEMENTO PARA PVC  TRANSPARENTE 1 GALON",
+"code":"7503007746405",
+"item":"Z-24405",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":23,
+"product_id":5,
+"desc":"CONTACT CEMENTO PARA PVC EXTRA REFORZADO 240 ML",
+"code":"7503007746610",
+"item":"Z-20402",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":24,
+"product_id":5,
+"desc":"CONTACT CEMENTO PARA PVC EXTRA REFORZADO 475 ML",
+"code":"7503007746412",
+"item":"Z-20403",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":25,
+"product_id":5,
+"desc":"CONTACT CEMENTO PARA PVC EXTRA REFORZADO 947 ML",
+"code":"7503007746429",
+"item":"Z-20404",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":26,
+"product_id":5,
+"desc":"CONTACT CEMENTO PARA PVC EXTRA REFORZADO 1 GALON",
+"code":"7503007746634",
+"item":"Z-20405",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":27,
+"product_id":4,
+"desc":"CONTACT PRIMER PURPURA 4 OZ",
+"code":"7503007746641",
+"item":"Z-21201",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":28,
+"product_id":4,
+"desc":"CONTACT PRIMER PURPURA 8 OZ",
+"code":"7503007746658",
+"item":"Z-21202",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":29,
+"product_id":4,
+"desc":"CONTACT PRIMER PURPURA 16 OZ",
+"code":"7503007746665",
+"item":"Z-21203",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":30,
+"product_id":4,
+"desc":"CONTACT PRIMER PURPURA 32 OZ",
+"code":"7503007746672",
+"item":"Z-21204",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":31,
+"product_id":4,
+"desc":"CONTACT PRIMER PURPURA 1 GL",
+"code":"7503007746689",
+"item":"Z-21205",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":32,
+"product_id":9,
+"desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO 240 ML",
+"code":"7503007746757",
+"item":"Z-21602",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":33,
+"product_id":9,
+"desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO 475 ML",
+"code":"7503007746764",
+"item":"Z-21603",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":34,
+"product_id":9,
+"desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO 947 ML",
+"code":"7503007746771",
+"item":"Z-21604",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":35,
+"product_id":9,
+"desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO  1 GALON",
+"code":"7503007746788",
+"item":"Z-21605",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":36,
+"product_id":8,
+"desc":"CONTACT CEMENTO GRIS PARA PVC  REFORZADO 240 ML",
+"code":"7503007746801",
+"item":"Z-20602",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":37,
+"product_id":8,
+"desc":"CONTACT CEMENTO GRIS PARA PVC  REFORZADO 475 ML",
+"code":"7503007746818",
+"item":"Z-20603",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":38,
+"product_id":8,
+"desc":"CONTACT CEMENTO GRIS PARA PVC REFORZADO 947 ML",
+"code":"7503007746825",
+"item":"Z-20604",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":39,
+"product_id":8,
+"desc":"CONTACT CEMENTO GRIS PARA PVC  REFORZADO  1 GALON",
+"code":"7503007746832",
+"item":"Z-20605",
+"unidad":"PZ",
+"image":"1",
+"pzas":"2"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":40,
+"product_id":0,
+"desc":"GENERACION 2000 PASTA PARA SOLDAR   60 G.",
+"code":"7503007746290",
+"item":"MFY23-0006",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":41,
+"product_id":11,
+"desc":"GENERACION 2000 PASTA PARA SOLDAR  100 G.",
+"code":"7503007746306",
+"item":"MFY23-0008",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":42,
+"product_id":11,
+"desc":"GENERACION 2000 PASTA PARA SOLDAR  250 G.",
+"code":"7503007746320",
+"item":"MFY23-0011",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":43,
+"product_id":11,
+"desc":"GENERACION 2000 PASTA PARA SOLDAR  500 G",
+"code":"7503007746337",
+"item":"MFY23-0012",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":44,
+"product_id":14,
+"desc":"MONARCA SOLDADURA MEDIA-MEDIA 1LB",
+"code":"7503007746344",
+"item":"MFY44-0680",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":45,
+"product_id":13,
+"desc":"MONARCA SOLDADURA 50SN/50PB 1LB",
+"code":"7503007746351",
+"item":"MFY44-0225",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":46,
+"product_id":15,
+"desc":"MONARCA SOLDADURA 95SN/5SB 1LB",
+"code":"7503007746368",
+"item":"MFY44-0420",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":47,
+"product_id":14,
+"desc":"MONARCA MEDIA-MEDIA 100 G. CON PASTA 60 G.",
+"code":"7503007746450",
+"item":"MFY24-0002",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":48,
+"product_id":13,
+"desc":"MONARCA 50/50 100 G.  CON PASTA 60 G",
+"code":"7503007746467",
+"item":"MFY24-0001",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":49,
+"product_id":15,
+"desc":"MONARCA 95/5 100 G.  CON PASTA 60 G",
+"code":"7503007746474",
+"item":"MFY24-0003",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":50,
+"product_id":14,
+"desc":"MONARCA  MEDIA-MEDIA 1/2 #",
+"code":"7503007746481",
+"item":"MFY44-0681",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":51,
+"product_id":13,
+"desc":"MONARCA 50/50 1/2#",
+"code":"7503007746498",
+"item":"MFY44-0227",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":52,
+"product_id":15,
+"desc":"MONARCA 95/5 1/2#",
+"code":"7503007746504",
+"item":"MFY44-0421",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":53,
+"product_id":0,
+"desc":"MONARCA MEDIA-MEDIA 1 MT.",
+"code":"7503007746511",
+"item":"MFY44-0675",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":54,
+"product_id":14,
+"desc":"MONARCA 50/50 1 MT",
+"code":"7503007746528",
+"item":"MFY44-0224",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":55,
+"product_id":0,
+"desc":"MONARCA 95/5 1 MT.",
+"code":"7503007746535",
+"item":"MFY44-0422",
+"unidad":"PZ",
+"image":"1",
+"pzas":"25"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":56,
+"product_id":15,
+"desc":"60SN/40PB RA.040 1/2#",
+"code":"7503007746542",
+"item":"MFY46-1185",
+"unidad":"PZ",
+"image":"1",
+"pzas":"48"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":57,
+"product_id":16,
+"desc":"60SN/40PB RA.040 1/4#",
+"code":"7503007746559",
+"item":"MFY46-1186",
+"unidad":"PZ",
+"image":"1",
+"pzas":"50"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":58,
+"product_id":16,
+"desc":"60SN/40PB RA.040 1#",
+"code":"7503007746566",
+"item":"MFY46-1184",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":59,
+"product_id":17,
+"desc":"MONARCA ACIDA 50 .120 1#",
+"code":"7503007746573",
+"item":"MFY44-0228",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":60,
+"product_id":24,
+"desc":"ALEX SELLADOR BLANCO",
+"code":"070798340206",
+"item":"34020",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":61,
+"product_id":25,
+"desc":"ALEX PLUS BLANCO",
+"code":"070798340015",
+"item":"34001",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":62,
+"product_id":25,
+"desc":"ALEX PLUS GRIS",
+"code":"070798340046",
+"item":"34004",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":63,
+"product_id":25,
+"desc":"ALEX PLUS ALMENDRA",
+"code":"070798340084",
+"item":"34008",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":64,
+"product_id":25,
+"desc":"ALEX PLUS CEDRO",
+"code":"070798340121",
+"item":"34012",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":65,
+"product_id":25,
+"desc":"ALEX PLUS NEGRO",
+"code":"070798340060",
+"item":"34006",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":66,
+"product_id":25,
+"desc":"ALEX PLUS CAFÉ",
+"code":"070798181200",
+"item":"18120",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":67,
+"product_id":27,
+"desc":"KWIK SEAL ANTIHONGOS TRASPARENTE",
+"code":"070798340329",
+"item":"34032",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":68,
+"product_id":27,
+"desc":"KWIK SEAL ANTIHONGOS BLANCO",
+"code":"070798340282",
+"item":"34028",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":69,
+"product_id":29,
+"desc":"BEATS THE NAIL ADHESIVO CONSTRUCCION   GRIS",
+"code":"070798342002",
+"item":"34200",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":70,
+"product_id":29,
+"desc":"BEATS THE NAIL ADHESIVO CONSTRUCCION  TRANSPARENTE",
+"code":"070798342019",
+"item":"34201",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":71,
+"product_id":30,
+"desc":"STRONGSTIK ADHESIVO AGARRE INSTANTANEO BLANCO",
+"code":"070798342040",
+"item":"34204",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":72,
+"product_id":28,
+"desc":"DAP ESPUMA SELLANTE DE POLIURETANO (KWIK FOAM)",
+"code":"070798343207",
+"item":"34320",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":73,
+"product_id":28,
+"desc":"DAP ESPUMA SELLANTE DE POLIURETANO (KWIK FOAM)",
+"code":"070798343221",
+"item":"34322",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":74,
+"product_id":26,
+"desc":"SILICON MULTIUSOS TRASPARENTE",
+"code":"070798342118",
+"item":"34211",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":75,
+"product_id":26,
+"desc":"SILICON MULTIUSOS BLANCO",
+"code":"070798342156",
+"item":"34215",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":76,
+"product_id":26,
+"desc":"SILICON MULTIUSOS NEGRO",
+"code":"070798342132",
+"item":"34213",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":77,
+"product_id":31,
+"desc":"DAP RESANADOR PESO LIVIANO FAST´N FINAL",
+"code":"070798350350",
+"item":"35035",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":78,
+"product_id":31,
+"desc":"DAP RESANADOR PESO LIVIANO FAST´N FINAL",
+"code":"070798340374",
+"item":"34037",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":79,
+"product_id":0,
+"desc":"PINTURA SPRAY ROJO CEREZA",
+"code":"070798552708",
+"item":"55270",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":80,
+"product_id":36,
+"desc":"PINTURA SPRAY VERDE OSCURO",
+"code":"070798552715",
+"item":"55271",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":81,
+"product_id":36,
+"desc":"PINTURA SPRAY AMARILLO CANARIO",
+"code":"070798552722",
+"item":"55272",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":82,
+"product_id":36,
+"desc":"PINTURA SPRAY BLANCO BRILLANTE",
+"code":"070798552746",
+"item":"55274",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":83,
+"product_id":36,
+"desc":"PINTURA SPRAY NEGRO MATTE",
+"code":"070798552753",
+"item":"55275",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":84,
+"product_id":36,
+"desc":"PINTURA SPRAY NEGRO BRILLANTE",
+"code":"070798552760",
+"item":"55276",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":85,
+"product_id":36,
+"desc":"PINTURA SPRAY MARRON",
+"code":"070798552777",
+"item":"55277",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":86,
+"product_id":36,
+"desc":"PINTURA SPRAY AZUL REAL",
+"code":"070798552784",
+"item":"55278",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":87,
+"product_id":36,
+"desc":"PINTURA SPRAY GRIS PRIMARIA",
+"code":"070798552791",
+"item":"55279",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":88,
+"product_id":36,
+"desc":"PINTURA SPRAY BLANCO MATTE",
+"code":"070798552807",
+"item":"55280",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":89,
+"product_id":36,
+"desc":"PINTURA SPRAY BLANCO ANTIGUO",
+"code":"070798552814",
+"item":"55281",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":90,
+"product_id":36,
+"desc":"PINTURA SPRAY ANARANJADO  BRILLANTE",
+"code":"070798552838",
+"item":"55283",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":91,
+"product_id":36,
+"desc":"PINTURA SPRAY ALMENDRA",
+"code":"070798552856",
+"item":"55285",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":92,
+"product_id":36,
+"desc":"PINTURA SPRAY ACRILICO TRANSPARENTE",
+"code":"070798552869",
+"item":"55286",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":93,
+"product_id":36,
+"desc":"PINTURA SPRAY BLANCO P/ ELECTRODOMESTICOS",
+"code":"070798552876",
+"item":"55287",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":94,
+"product_id":36,
+"desc":"PINTURA SPRAY GRIS CLARO",
+"code":"070798552883",
+"item":"55288",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":95,
+"product_id":36,
+"desc":"PINTURA SPRAY NEGRO SEMI-BRILLANTE",
+"code":"070798552890",
+"item":"55289",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":96,
+"product_id":36,
+"desc":"PINTURA SPRAY AZUL OSCURO",
+"code":"070798552906",
+"item":"55290",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":97,
+"product_id":36,
+"desc":"PINTURA SPRAY ALUMINIO METALICO",
+"code":"070798552739",
+"item":"55273",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":98,
+"product_id":36,
+"desc":"PINTURA SPRAY DORADO METALICO",
+"code":"070798552845",
+"item":"55284",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":99,
+"product_id":40,
+"desc":"SILICON 100% BAÑOS Y COCINAS BLANCO EN BLISTER",
+"code":"070798006805",
+"item":"750",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":100,
+"product_id":40,
+"desc":"SILICON 100% VENTANAS Y PUERTAS BLANCO EN BLISTER",
+"code":"NA",
+"item":"752",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":101,
+"product_id":40,
+"desc":"SILICON 100% VENTANAS Y PUERTAS TRANSPARENTE  EN BLISTER",
+"code":"070798006843",
+"item":"753",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":102,
+"product_id":40,
+"desc":"SILICON 100% PARA EMPAQUETADURAS AUTOMOTRICES  NEGRO EN BLISTER",
+"code":"070798006867",
+"item":"754",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":103,
+"product_id":40,
+"desc":"SILICON 100% ADHESIVO Y USOS GENERALES TRANSPARENTE  EN BLISTER",
+"code":"070798006881",
+"item":"755",
+"unidad":"PZ",
+"image":"1",
+"pzas":"6"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":104,
+"product_id":32,
+"desc":"SIDE WINDER BLANCO",
+"code":"070798008014",
+"item":"801",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":105,
+"product_id":32,
+"desc":"SIDE WINDER GRIS",
+"code":"070798008076",
+"item":"807",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":106,
+"product_id":40,
+"desc":"SILICON BAÑOS Y COCINAS TRANSPARENTE",
+"code":"070798086487",
+"item":"8648",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":107,
+"product_id":40,
+"desc":"SILICON BAÑOS Y COCINAS  BLANCO",
+"code":"070798086401",
+"item":"8640",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":108,
+"product_id":35,
+"desc":"WELDWOOD CEMENTO DE CONTACTO ORIGINAL",
+"code":"070798002715",
+"item":"271",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":109,
+"product_id":35,
+"desc":"WELDWOOD CEMENTO DE CONTACTO ORIGINAL",
+"code":"070798002722",
+"item":"272",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":110,
+"product_id":33,
+"desc":"SELLADOR Y RELLENADOR  PARA CONCRETO Y MAMPOSTERIA",
+"code":"070798180215",
+"item":"18096",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":111,
+"product_id":34,
+"desc":"SELLADOR Y RELLENADOR  BASE ASFALTO NEGRO",
+"code":"070798182707",
+"item":"18268",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":112,
+"product_id":47,
+"desc":"SELLADOR ADHESIVO DE CONSTR. DE POLIURETANO  BLANCO",
+"code":"070798188105",
+"item":"18810",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":113,
+"product_id":47,
+"desc":"SELLADOR ADHESIVO DE CONSTR. DE POLIURETANO  GRIS",
+"code":"070798188143",
+"item":"18814",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":114,
+"product_id":47,
+"desc":"SELLADOR ADHESIVO DE CONSTR. DE POLIURETANO  NEGRO",
+"code":"070798188167",
+"item":"18816",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":115,
+"product_id":37,
+"desc":"SILICON PLUS PUERTAS Y VENTANAS BLANCO",
+"code":"070798087804",
+"item":"8780",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":116,
+"product_id":37,
+"desc":"SILICON PLUS PUERTAS Y VENTANAS TRANSPARENTE",
+"code":"070798087712",
+"item":"8771",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":117,
+"product_id":37,
+"desc":"SILICON PLUS BAÑOS Y COCINAS BLANCO",
+"code":"070798087705",
+"item":"8770",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":118,
+"product_id":37,
+"desc":"SILICON PLUS BAÑOS Y COCINAS TRANSPARENTE",
+"code":"070798087811",
+"item":"8781",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":119,
+"product_id":37,
+"desc":"SILICON PLUS CONCRETO Y MAMPOSTERIA  GRIS",
+"code":"070798086753",
+"item":"8675",
+"unidad":"PZ",
+"image":"1",
+"pzas":"12"
+}
+}
+
+]
+}
+
+

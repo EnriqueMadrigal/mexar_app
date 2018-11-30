@@ -39,7 +39,7 @@ public class cedulas extends Fragment {
     private Button cedula80;
     private Button conduit;
     private Button sinpresion;
-
+    private Button cpvc;
     private Button sanitario;
 
     public cedulas() {
@@ -84,7 +84,7 @@ public class cedulas extends Fragment {
         cedula80 = (Button) _view.findViewById(R.id.cedula80);
         conduit = (Button) _view.findViewById(R.id.cedula_conduit);
         sinpresion = (Button) _view.findViewById(R.id.cedula_sinpresion);
-
+        cpvc = (Button) _view.findViewById(R.id.cedula_cpvc);
         sanitario = (Button) _view.findViewById(R.id.cedula_normasanitaria);
 
 
@@ -134,6 +134,16 @@ public class cedulas extends Fragment {
             }
         });
 
+
+        cpvc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                calculadora _calculadora = calculadora.newInstance(6);
+                Common.SetPage(10);
+
+                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, _calculadora, "Calculadora" ).commit();
+            }
+        });
 
         return _view;
         //return inflater.inflate(R.layout.fragment_cedulas, container, false);

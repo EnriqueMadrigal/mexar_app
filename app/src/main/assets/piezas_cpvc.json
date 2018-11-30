@@ -1,0 +1,69 @@
+{
+  "piezas": [
+    {
+      "pieza": {
+        "name": "Union de 1/2\"",
+        "id": 1,
+		"resname":"cpv4res",
+		"productos" : [2]
+	}
+    },
+	 {
+      "pieza": {
+        "name": "Union de 3/4\"",
+        "id": 2,
+		"resname":"cpv6res",
+		"productos" : [2]
+	}
+    },
+	{
+      "pieza": {
+        "name": "Union de 1\"",
+        "id": 3,
+		"resname":"cpv3res",
+		"productos" : [6]
+	}
+    },
+	{
+      "pieza": {
+        "name": "Union de 1 1/4\"",
+        "id": 4,
+		"resname":"cpv2res",
+		"productos" : [1,6]
+	}
+    },
+	{
+      "pieza": {
+        "name": "Union de 1 1/2\"",
+        "id": 5,
+		"resname":"cpv1res",
+		"productos" : [1,8]
+	}
+    },
+	{
+      "pieza": {
+        "name": "Union de 2\"",
+        "id": 6,
+		"resname":"cpv5res",
+		"productos" : [3,8]
+	}
+    },
+{
+      "pieza": {
+        "name": "Union de 2 1/2\"",
+        "id": 7,
+		"resname":"cpv5ares",
+		"productos" : [3]
+	}
+    },
+{
+      "pieza": {
+        "name": "Union de 3\"",
+        "id": 8,
+		"resname":"cpv5bres",
+		"productos" : [5]
+	}
+    }
+	
+  ]
+}

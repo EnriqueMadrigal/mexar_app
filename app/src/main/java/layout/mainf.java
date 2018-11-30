@@ -23,6 +23,7 @@ import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.MyPageAdapter;
 import com.datalabor.soporte.mexar.adapter.CategoryAdapter;
+import com.datalabor.soporte.mexar.custom.CircleIndicator;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
 import com.datalabor.soporte.mexar.custom.banner_image_class;
 import com.datalabor.soporte.mexar.models.Category;
@@ -275,6 +276,7 @@ public class mainf extends Fragment {
             fList = new ArrayList<Fragment>();
             fList.add(banner_image_class.newInstance(R.drawable.banner1));
             fList.add(banner_image_class.newInstance(R.drawable.banner2));
+            fList.add(banner_image_class.newInstance(R.drawable.banner3));
 
         myPageAdapter = new MyPageAdapter(myContext.getSupportFragmentManager(), fList);
 
@@ -283,6 +285,9 @@ public class mainf extends Fragment {
         mPager.setCurrentItem(0);
         myPageAdapter.notifyDataSetChanged();
 
+
+        CircleIndicator indicator = (CircleIndicator)_view.findViewById( R.id.CircleIndicator );
+        indicator.setViewPager( mPager );
 
 
         // Inflate the layout for this fragment

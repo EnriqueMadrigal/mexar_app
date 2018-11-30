@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -48,6 +49,7 @@ import layout.productDetail;
 import layout.productos;
 import layout.products_search;
 import layout.promociones;
+import layout.social_network;
 import layout.subCategory;
 import layout.youtube;
 
@@ -70,6 +72,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     contacto _contacto;
     calculadoras _calculadoras;
     busca_distribuidores _distribuidores;
+    social_network _redes;
+
+
+    static final int BARCODE_READER_REQUEST = 1001;  // The request code
 
 
     @Override
@@ -129,11 +135,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                                 break;
 
                             case R.id.menu_tutoriales:
-                                Common.SetPage(1);
-                                clearBackStack();
+                                //Common.SetPage(1);
+                                //clearBackStack();
 
-                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _youtube, "Tutoriales" ).commit();
+                                //getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _youtube, "Tutoriales" ).commit();
 
+                                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UClb61WrMZ9xT5mMne_-9pMw")));
 
                                 break;
 
@@ -182,8 +189,33 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                                 break;
 
 
+                            case R.id.menu_redes:
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _redes, "Redes" ).commit();
+
+                                break;
 
 
+                            case R.id.menu_escaner:
+                                Common.SetPage(1);
+                                clearBackStack();
+
+                               // getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  _escaner, "Escaner" ).commit();
+
+
+                                Intent intent = new Intent();
+                                intent.setClass(context, BarcodeReader.class);
+                                //Bundle bundle = new Bundle();
+                                //bundle.putSerializable("distribuidor", curDist);
+                                //intent.putExtras(bundle);
+
+                                //finish();
+                                //startActivity(intent);
+                                startActivityForResult(intent ,BARCODE_READER_REQUEST);
+
+                                break;
 
 
                         }
@@ -204,6 +236,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         _promociones = new promociones();
         _youtube = new youtube();
         _contacto = new contacto();
+        _redes = new social_network();
         _calculadoras = new calculadoras();
         Common.SetPage(0);
         getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, MainFragment, "HOME" ).commit();
@@ -542,6 +575,47 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         // be available.
         Log.d(TAG, "onConnectionFailed:" + connectionResult);
     }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // Check which request we're responding to
+        if (requestCode == BARCODE_READER_REQUEST) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+                // The user picked a contact.
+                // The Intent's data Uri identifies which contact was selected.
+
+                // Do something with the contact here (bigger example below)
+
+                int curProductId = data.getIntExtra("productID", 0);
+                Log.d(TAG,"Producto Encontrado=" + String.valueOf(curProductId));
+
+                Common.SetPage(1);
+                clearBackStack();
+
+                productDetail productdetail = productDetail.newInstance(curProductId);
+
+                getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  productdetail, "Product Detail" ).commitAllowingStateLoss();
+
+
+
+
+                /*
+
+                 productDetail productdetail = productDetail.newInstance(curProduct.getId());
+
+                Common.SetPage(3);
+                myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, productdetail, "Product Detail" ).commit();
+
+
+                 */
+
+
+            }
+        }
+    }
+
 
 
 }

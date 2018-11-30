@@ -1,7 +1,9 @@
 {
   "project_info": {
     "project_number": "977660917579",
-    "project_id": "mexar-app-1507652280818"
+    "firebase_url": "https://mexar-app-1507652280818.firebaseio.com",
+    "project_id": "mexar-app-1507652280818",
+    "storage_bucket": "mexar-app-1507652280818.appspot.com"
   },
   "client": [
     {
@@ -13,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "977660917579-sob98cu12ah4s5o80l3o0ec1ttbfd6j5.apps.googleusercontent.com",
+          "client_id": "977660917579-jtck6trumc5f1a8e1sb0luklf9aircls.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.datalabor.soporte.mexar",
@@ -21,7 +23,23 @@
           }
         },
         {
-          "client_id": "977660917579-q86nlpt0ttci2m5oe0pmuvnbq8jmkbe1.apps.googleusercontent.com",
+          "client_id": "977660917579-sob98cu12ah4s5o80l3o0ec1ttbfd6j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.datalabor.soporte.mexar",
+            "certificate_hash": "bc4af59663c15eb0d9ca93905ccd7b28b9f1333f"
+          }
+        },
+        {
+          "client_id": "977660917579-pbtjr4l4i36odnua02hms0a2782mbn5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.datalabor.soporte.mexar",
+            "certificate_hash": "0f3d21fe1678e6e969f227076e8e2ebfa0526c15"
+          }
+        },
+        {
+          "client_id": "977660917579-djklb9id90nj5g9i9c0rqnqlk6jc5ef9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -35,11 +53,23 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977660917579-djklb9id90nj5g9i9c0rqnqlk6jc5ef9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "977660917579-odo8gkf3a0d2mt3mn4s1eq4nse6bsil3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.datalabor.mexar"
+              }
+            }
+          ]
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }

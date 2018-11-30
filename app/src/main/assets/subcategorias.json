@@ -56,15 +56,6 @@
     },
 	{
       "subcategoria": {
-        "name": "Selladores e impermeabilizantes sika",
-        "id": 7,
-		"idcategoria":1,
-		"resname":"selladores",
-		"desc":"Muros y Paredes con acabados sanos y durables."
-      }
-    },
-	{
-      "subcategoria": {
         "name": "Empaque",
         "id": 8,
 		"idcategoria":2,

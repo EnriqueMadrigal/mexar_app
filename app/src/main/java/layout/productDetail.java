@@ -22,6 +22,7 @@ import com.datalabor.soporte.mexar.R;
 import com.datalabor.soporte.mexar.adapter.IViewHolderClick;
 import com.datalabor.soporte.mexar.adapter.MyPageAdapter;
 import com.datalabor.soporte.mexar.adapter.ProductAdapter;
+import com.datalabor.soporte.mexar.custom.CircleIndicator;
 import com.datalabor.soporte.mexar.custom.SimpleDividerItemDecoration;
 import com.datalabor.soporte.mexar.custom.banner_image_class;
 import com.datalabor.soporte.mexar.custom.product_image_class;
@@ -665,6 +666,9 @@ public class productDetail extends Fragment {
         mPager.setAdapter(myPageAdapter);
         mPager.setCurrentItem(0);
         myPageAdapter.notifyDataSetChanged();
+
+        CircleIndicator indicator = (CircleIndicator)_view.findViewById( R.id.CircleIndicator );
+        indicator.setViewPager( mPager );
 
 
 

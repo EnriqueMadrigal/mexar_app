@@ -40,6 +40,7 @@
             android:icon="@drawable/icon_distribuidores"
             android:title="Distribuidores"/>
 </group>
+
     <group android:checkableBehavior="single"
         android:id="@+id/group5">
 
@@ -51,15 +52,6 @@
 
 
 
-    <group android:checkableBehavior="single"
-        android:id="@+id/group7">
-
-
-    <item
-            android:id="@+id/menu_cerrrar"
-            android:icon="@drawable/icon_exit_off"
-            android:title="Cerrar Sesión"/>
-</group>
 
     <group android:checkableBehavior="single"
         android:id="@+id/group8">
@@ -73,6 +65,36 @@
 
     </group>
 
+    <group android:checkableBehavior="single"
+        android:id="@+id/group9">
+
+
+        <item
+            android:id="@+id/menu_escaner"
+            android:icon="@drawable/icon_bars_off"
+            android:title="Escanear código"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group10">
+
+
+        <item
+            android:id="@+id/menu_redes"
+            android:icon="@drawable/icon_network_off"
+            android:title="Redes Sociales"/>
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group7">
+
+
+        <item
+            android:id="@+id/menu_cerrrar"
+            android:icon="@drawable/icon_exit_off"
+            android:title="Cerrar Sesión"/>
+    </group>
 
 
 
