@@ -63,7 +63,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     public void onBindViewHolder( ViewHolder holder, int position )
     {
         Category curCategory = _items.get(position);
-        holder.get_labelProduct().setText(curCategory.getName());
+        //holder.get_labelProduct().setText(curCategory.getName());
         holder.get_labelDesc().setText(curCategory.get_desc());
 
         holder.setIndex( position );
@@ -90,7 +90,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
             view.setOnClickListener( this );
             _iconView = (ImageView) view.findViewById( R.id.imgIcon );
-            _labelProduct = (TextView) view.findViewById( R.id.lblProductTitle );
+            //_labelProduct = (TextView) view.findViewById( R.id.lblProductTitle );
             _labelDesc = (TextView) view.findViewById( R.id.lblProductDescription );
             _listener = listener;
         }
@@ -101,11 +101,13 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         }
 
 
-
+        /*
         public TextView get_labelProduct()
         {
             return _labelProduct;
         }
+
+        */
         public TextView get_labelDesc() {return  _labelDesc;}
 
 

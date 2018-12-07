@@ -18,16 +18,20 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.models.Barcode;
 import com.facebook.login.LoginManager;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -96,6 +100,22 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         setTitle( "" );
+        ImageButton btnClear = (ImageButton) toolbar.findViewById(R.id.btnClear);
+        EditText txtSearch = (EditText) toolbar.findViewById(R.id.txtSearch);
+        btnClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClearSearchText();
+            }
+        });
+        txtSearch.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                search();
+                return true;
+            }
+        });
+
 
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -588,13 +608,22 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
                 // Do something with the contact here (bigger example below)
 
-                int curProductId = data.getIntExtra("productID", 0);
-                Log.d(TAG,"Producto Encontrado=" + String.valueOf(curProductId));
+                //int curProductId = data.getIntExtra("productID", 0);
+                Barcode curBarcode = (Barcode) data.getSerializableExtra("Barcode");
+                if (curBarcode == null) return;
+                if (curBarcode.get_productId() == 0)
+                {
+                    Common.showWarningDialog("Mensaje" , "Producto no encontrado", context);
+                    return;
+
+                }
+                Log.d(TAG,"Producto Encontrado=" + String.valueOf(curBarcode.get_productId()));
 
                 Common.SetPage(1);
                 clearBackStack();
 
-                productDetail productdetail = productDetail.newInstance(curProductId);
+
+                productDetail productdetail = productDetail.newInstance(curBarcode.get_productId() , getInteger(curBarcode.getImage()));
 
                 getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container,  productdetail, "Product Detail" ).commitAllowingStateLoss();
 
@@ -616,6 +645,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         }
     }
 
+
+    private Integer getInteger(final String number) {
+        try {
+            return Integer.valueOf(number);
+        } catch (NumberFormatException nfe) {
+            return 0;
+        }
+    }
 
 
 }

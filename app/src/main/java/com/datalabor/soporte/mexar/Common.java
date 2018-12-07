@@ -1,6 +1,8 @@
 package com.datalabor.soporte.mexar;
 
 import android.content.Context;
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -82,6 +84,21 @@ public class Common {
 
     public static final String API_URL_BASE = "http://104.131.34.72/backend/appserver/public/index.php/api/";
     //public static final String API_URL_BASE = "http://192.168.15.26/backend/appserver/public/index.php/api/";
+
+    public static void showWarningDialog(String title ,String message, Context context) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setMessage(message)
+                .setTitle(title)
+                .setCancelable(false)
+                .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+
 
 
     public static String loadJSONFromAsset(Context context, String filename) {

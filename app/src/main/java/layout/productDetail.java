@@ -116,6 +116,8 @@ public class productDetail extends Fragment {
 
     public static final String TAG = "productDetail";
 
+    private int _curPage = 0;
+
     public productDetail() {
         // Required empty public constructor
     }
@@ -124,15 +126,15 @@ public class productDetail extends Fragment {
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
+
      * @return A new instance of fragment productDetail.
      */
     // TODO: Rename and change types and number of parameters
-    public static productDetail newInstance(int productId) {
+    public static productDetail newInstance(int productId, int page) {
         productDetail fragment = new productDetail();
         Bundle args = new Bundle();
         args.putInt("curProductID", productId);
+        args.putInt("page", page);
         //args.putSerializable("curProduct", curProduct);
 
         fragment.setArguments(args);
@@ -145,7 +147,7 @@ public class productDetail extends Fragment {
 
         //curProduct = (Product) getArguments().getSerializable("curProduct");
         _curProdcutId = (int) getArguments().getInt("curProductID");
-
+        _curPage = (int) getArguments().getInt("page");
         //Obtener el productoID
 
 ////// Obtener los datos del producto
@@ -664,7 +666,17 @@ public class productDetail extends Fragment {
 
 
         mPager.setAdapter(myPageAdapter);
-        mPager.setCurrentItem(0);
+
+        if (_curPage <= fList.size()) {
+            mPager.setCurrentItem(_curPage);
+        }
+
+        else
+        {
+            mPager.setCurrentItem(0);
+        }
+
+
         myPageAdapter.notifyDataSetChanged();
 
         CircleIndicator indicator = (CircleIndicator)_view.findViewById( R.id.CircleIndicator );

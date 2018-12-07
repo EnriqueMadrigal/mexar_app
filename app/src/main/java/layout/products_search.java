@@ -157,7 +157,7 @@ public class products_search extends Fragment {
 
                 Log.d(TAG, String.valueOf(curProduct.getId()));
 
-                productDetail productdetail = productDetail.newInstance(curProduct.getId());
+                productDetail productdetail = productDetail.newInstance(curProduct.getId(),0);
 
                 Common.SetPage(3);
                 myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, productdetail, "Product Detail" ).commit();

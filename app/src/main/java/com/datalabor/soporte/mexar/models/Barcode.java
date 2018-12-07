@@ -11,6 +11,22 @@ public class Barcode implements  Serializable{
     private String code;
     private String item;
     private String unidad;
+    private String image;
+    private String pzas;
+
+
+    public Barcode()
+    {
+        _id = 0;
+        _productId = 0;
+        desc = "";
+        code = "";
+        item = "";
+        unidad = "";
+        image = "";
+        pzas = "";
+
+    }
 
     public int get_id() {
         return _id;
@@ -68,8 +84,13 @@ public class Barcode implements  Serializable{
         this.pzas = pzas;
     }
 
-    private String pzas;
 
 
+    public String getImage() {
+        return image;
+    }
 
+    public void setImage(String image) {
+        this.image = image;
+    }
 }

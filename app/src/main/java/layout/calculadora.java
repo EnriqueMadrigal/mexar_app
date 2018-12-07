@@ -68,6 +68,8 @@ public class calculadora extends Fragment {
 
     private ArrayList<String> presentaciones;
     private ArrayList<String> piezas;
+    private ArrayList<String> piezas_totales;
+
 
     private ArrayList<String> presentaciones_img;
     private ArrayList<String> piezas_img;
@@ -92,6 +94,10 @@ public class calculadora extends Fragment {
 
     int curType = 0;
 
+
+    private ArrayAdapter<String> dataAdapter1;
+    private ArrayAdapter<String> dataAdapter2;
+
     public calculadora() {
         // Required empty public constructor
     }
@@ -100,8 +106,7 @@ public class calculadora extends Fragment {
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
+
      * @return A new instance of fragment calculadora.
      */
     // TODO: Rename and change types and number of parameters
@@ -143,6 +148,7 @@ public class calculadora extends Fragment {
 
         presentaciones = new ArrayList<>();
         piezas = new ArrayList<>();
+        piezas_totales = new ArrayList<>();
         presentaciones_img = new ArrayList<>();
         piezas_img = new ArrayList<>();
 
@@ -243,85 +249,27 @@ public class calculadora extends Fragment {
 
 */
 
+
+        dataAdapter1 = new ArrayAdapter(myContext, R.layout.spinner_item,presentaciones);
+        dataAdapter1.setDropDownViewResource(R.layout.spinner_item);
+        Spinner_presentacion.setAdapter(dataAdapter1);
+
+
         // Cargar presentaciones
-
-        String jsonPresentaciones = Common.loadJSONFromAsset(myContext,"presentaciones.json");
-        JSONObject obj_presentacion;
-        JSONObject presentacion;
-
-        ///////////////
-        try {
-
-            obj_presentacion = new JSONObject(jsonPresentaciones);
-            JSONArray res = obj_presentacion.getJSONArray("presentaciones");
-
-            for (int i = 0; i < res.length(); i++) {
-                presentacion = res.getJSONObject(i).getJSONObject("presentacion");
-                String name = presentacion.getString("name");
-                String res_name = presentacion.getString("resname");
-                int id = presentacion.getInt("id");
-                presentaciones.add(name);
-                presentaciones_img.add(res_name);
-
-
-            }
-
-            ArrayAdapter<String> dataAdapter1 = new ArrayAdapter(myContext, R.layout.spinner_item,presentaciones);
-            dataAdapter1.setDropDownViewResource(R.layout.spinner_item);
-            Spinner_presentacion.setAdapter(dataAdapter1);
-        }
-
-        catch (Exception e)
-        {
-            Log.d(TAG,"Can not read json file categories");
-            //return null;
-
-        }
-
+        CargarPresentaciones();
 
         /////
 
 
         /// Cargar Piezas
-        // Cargar presentaciones
 
+        dataAdapter2 = new ArrayAdapter(myContext, R.layout.spinner_item,piezas);
+        dataAdapter2.setDropDownViewResource(R.layout.spinner_item);
+        Spinner_pieza.setAdapter(dataAdapter2);
 
-        String filename = "piezas.json";
-        if (curType == 6) {
-            filename = "piezas_cpvc.json";
-        }
+        CargarPiezas();
+        checkIfPiezaCanShow();
 
-        String jsonPiezas = Common.loadJSONFromAsset(myContext,filename);
-        JSONObject obj_pieza;
-        JSONObject pieza;
-
-        ///////////////
-        try {
-
-            obj_pieza = new JSONObject(jsonPiezas);
-            JSONArray res = obj_pieza.getJSONArray("piezas");
-
-            for (int i = 0; i < res.length(); i++) {
-                pieza = res.getJSONObject(i).getJSONObject("pieza");
-                String name = pieza.getString("name");
-                String res_name = pieza.getString("resname");
-                int id = pieza.getInt("id");
-                piezas.add(name);
-                piezas_img.add(res_name);
-
-            }
-
-            ArrayAdapter<String> dataAdapter2 = new ArrayAdapter(myContext, R.layout.spinner_item,piezas);
-            dataAdapter2.setDropDownViewResource(R.layout.spinner_item);
-            Spinner_pieza.setAdapter(dataAdapter2);
-        }
-
-        catch (Exception e)
-        {
-            Log.d(TAG,"Can not read json file categories");
-            //return null;
-
-        }
 
 
         /////
@@ -372,6 +320,7 @@ public class calculadora extends Fragment {
 
                 if (ifnotFistTimePresentation){
                     Calculate();
+                    checkIfPiezaCanShow();
                 }
 
                 ifnotFistTimePresentation = true;
@@ -397,7 +346,7 @@ public class calculadora extends Fragment {
 
                 Log.d(TAG, String.valueOf(curProduct.getId()));
 
-                productDetail productdetail = productDetail.newInstance(curProduct.getId());
+                productDetail productdetail = productDetail.newInstance(curProduct.getId(), 0);
 
 
                 myContext.getSupportFragmentManager().beginTransaction().setCustomAnimations( android.R.anim.slide_in_left, android.R.anim.slide_out_right ).replace( R.id.fragment_container, productdetail, "Product Detail" ).commit();
@@ -468,6 +417,156 @@ public class calculadora extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
+    private void CargarPresentaciones()
+    {
+        // Cargar presentaciones
+
+        String jsonPresentaciones = Common.loadJSONFromAsset(myContext,"presentaciones.json");
+        JSONObject obj_presentacion;
+        JSONObject presentacion;
+
+        ///////////////
+        try {
+
+            obj_presentacion = new JSONObject(jsonPresentaciones);
+            JSONArray res = obj_presentacion.getJSONArray("presentaciones");
+
+            for (int i = 0; i < res.length(); i++) {
+                presentacion = res.getJSONObject(i).getJSONObject("presentacion");
+                String name = presentacion.getString("name");
+                String res_name = presentacion.getString("resname");
+                int id = presentacion.getInt("id");
+                presentaciones.add(name);
+                presentaciones_img.add(res_name);
+
+
+            }
+
+            dataAdapter1.notifyDataSetChanged();
+        }
+
+        catch (Exception e)
+        {
+            Log.d(TAG,"Can not read json file categories");
+            //return null;
+
+        }
+
+
+
+    }
+
+private void CargarPiezas()
+{
+
+    String filename = "piezas.json";
+    if (curType == 6) {
+        filename = "piezas_cpvc.json";
+    }
+
+    String jsonPiezas = Common.loadJSONFromAsset(myContext,filename);
+    JSONObject obj_pieza;
+    JSONObject pieza;
+
+    ///////////////
+    try {
+
+        obj_pieza = new JSONObject(jsonPiezas);
+        JSONArray res = obj_pieza.getJSONArray("piezas");
+
+        for (int i = 0; i < res.length(); i++) {
+            pieza = res.getJSONObject(i).getJSONObject("pieza");
+            String name = pieza.getString("name");
+            String res_name = pieza.getString("resname");
+            int id = pieza.getInt("id");
+            piezas_totales.add(name);
+            piezas_img.add(res_name);
+
+        }
+        //dataAdapter2.notifyDataSetChanged();
+
+    }
+
+    catch (Exception e)
+    {
+        Log.d(TAG,"Can not read json file categories");
+        //return null;
+
+    }
+
+}
+
+
+private void checkIfPiezaCanShow()
+{
+
+   ////////////
+
+    String jsonCalculadora = Common.loadJSONFromAsset(myContext,"calculadora.json");
+    JSONObject obj_calculadora;
+    JSONObject calculadora;
+
+    piezas.clear();
+
+    try
+    {
+
+        obj_calculadora = new JSONObject(jsonCalculadora);
+        JSONArray res = obj_calculadora.getJSONArray("calculos");
+
+        for (int i = 0; i < res.length(); i++)
+        {
+            calculadora = res.getJSONObject(i).getJSONObject("calculo");
+
+                // Obtener las presentaciones
+                String presentacion4z = calculadora.getString("4z");
+                String presentacion8z = calculadora.getString("8z");
+                String presentacion16z = calculadora.getString("16z");
+                String presentacion32z = calculadora.getString("32z");
+                String presentacion133z = calculadora.getString("133z");
+
+                String Resultado = "";
+                if (idPresentacion==1) Resultado = presentacion4z;
+                if (idPresentacion==2) Resultado = presentacion8z;
+                if (idPresentacion==3) Resultado = presentacion16z;
+                if (idPresentacion==4) Resultado = presentacion32z;
+                if (idPresentacion==5) Resultado = presentacion133z;
+
+                if (!Resultado.equals("0"))
+                {
+                   piezas.add(piezas_totales.get(i));
+
+                }
+
+
+
+
+
+
+
+        }
+
+        dataAdapter2.notifyDataSetChanged();
+
+    }
+
+    catch (Exception e)
+    {
+        Log.d(TAG,"Can not read json file calculadora");
+        //return null;
+
+    }
+
+
+
+    ///////////
+
+
+
+
+}
 
     private void loadProducts() {
 
@@ -593,10 +692,10 @@ public class calculadora extends Fragment {
 
 
 
-        String curText = Spinner_presentacion.getSelectedItem().toString();
-        String curText2 = Spinner_pieza.getSelectedItem().toString();
+       // String curText = Spinner_presentacion.getSelectedItem().toString();
+       // String curText2 = Spinner_pieza.getSelectedItem().toString();
 
-        Log.d(TAG,curText);
+       // Log.d(TAG,curText);
 
 
         /////// Cargar los productos según las piezas

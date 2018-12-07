@@ -16,6 +16,7 @@ import android.util.Log;
 
 import com.datalabor.soporte.mexar.Common;
 import com.datalabor.soporte.mexar.R;
+import com.datalabor.soporte.mexar.models.Barcode;
 import com.datalabor.soporte.mexar.models.Product;
 import com.google.zxing.Result;
 
@@ -75,11 +76,15 @@ public class BarcodeReader extends AppCompatActivity implements ZXingScannerView
         mScannerView.stopCamera();           // Stop camera on pause
         mScannerView = null;
 
-        int curProduct = SearchCodeBar(rawResult.getText());
+
+        Barcode curBarcode = SearchCodeBar(rawResult.getText());
+
+        //int curProduct = SearchCodeBar(rawResult.getText());
 
 
         Intent returnIntent = new Intent();
-        returnIntent.putExtra("productID",curProduct);
+        returnIntent.putExtra("Barcode", curBarcode);
+        //returnIntent.putExtra("productID",curBarcode.get_productId());
         setResult(Activity.RESULT_OK,returnIntent);
         finish();
 
@@ -134,7 +139,7 @@ public class BarcodeReader extends AppCompatActivity implements ZXingScannerView
         }
     }
 
-    private int SearchCodeBar(String curcode){
+    private Barcode SearchCodeBar(String curcode){
         ////////////
         int curProduct = 0;
 
@@ -145,6 +150,8 @@ public class BarcodeReader extends AppCompatActivity implements ZXingScannerView
         JSONObject obj_barcodes;
         JSONObject barcode;
 
+
+        Barcode newBarcode = new Barcode();
         ///////////////
         try {
 
@@ -156,9 +163,14 @@ public class BarcodeReader extends AppCompatActivity implements ZXingScannerView
                 int id = barcode.getInt("id");
                 int productId = barcode.getInt("product_id");
                 String code = barcode.getString("code");
+                String image = barcode.getString("image");
 
                 if (code.equals(curcode)){
                     curProduct = productId;
+                    newBarcode.set_id(id);
+                    newBarcode.set_productId(productId);
+                    newBarcode.setCode(code);
+                    newBarcode.setImage(image);
                     break;
                 }
 
@@ -172,8 +184,8 @@ public class BarcodeReader extends AppCompatActivity implements ZXingScannerView
 
         catch (Exception e)
         {
-            Log.d(TAG,"Can not read json file categories");
-            //return null;
+            Log.d(TAG,"Can not read json file barcodes");
+            return null;
 
         }
 
@@ -181,7 +193,7 @@ public class BarcodeReader extends AppCompatActivity implements ZXingScannerView
         ////////////
 
 
-        return  curProduct;
+        return  newBarcode;
     }
 
 
