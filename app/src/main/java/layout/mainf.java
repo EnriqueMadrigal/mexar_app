@@ -57,9 +57,9 @@ public class mainf extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    private ViewPager mPager;
+   // private ViewPager mPager;
     private View _view;
-    private MyPageAdapter myPageAdapter;
+  //  private MyPageAdapter myPageAdapter;
 
     private FragmentActivity myContext;
     private RecyclerView _recyclerview;
@@ -111,17 +111,17 @@ public class mainf extends Fragment {
                              Bundle savedInstanceState) {
 
         _view = inflater.inflate( R.layout.fragment_mainf, container, false );
-        mPager = (ViewPager) _view.findViewById(R.id.ViewPager);
+       // mPager = (ViewPager) _view.findViewById(R.id.ViewPager);
         _recyclerview = (RecyclerView) _view.findViewById(R.id.recycler1);
 
-        pagerLayout = (LinearLayout) _view.findViewById(R.id.pnlSlider);
+       // pagerLayout = (LinearLayout) _view.findViewById(R.id.pnlSlider);
 
         float curHeight = Common.getCurWidth();
         float newHeight = curHeight * (float) 0.666667;
 
-       LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, (int) newHeight);
-    pagerLayout.setLayoutParams(params);
-    pagerLayout.requestLayout();
+     //  LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, (int) newHeight);
+     //  pagerLayout.setLayoutParams(params);
+     //  pagerLayout.requestLayout();
 
 
              //final ArrayList<Category> _categories = new ArrayList<>();
@@ -272,7 +272,7 @@ public class mainf extends Fragment {
 
 
         ////////// Banners
-
+/*
             fList = new ArrayList<Fragment>();
             fList.add(banner_image_class.newInstance(R.drawable.banner1));
             fList.add(banner_image_class.newInstance(R.drawable.banner2));
@@ -289,7 +289,7 @@ public class mainf extends Fragment {
         CircleIndicator indicator = (CircleIndicator)_view.findViewById( R.id.CircleIndicator );
         indicator.setViewPager( mPager );
 
-
+*/
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_mainf, container, false);
         return _view;

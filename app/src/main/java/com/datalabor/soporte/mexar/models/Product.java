@@ -19,6 +19,7 @@ public class Product implements Serializable
     private String _redes;
     private String _storaged;
     private String _precautions;
+    private String _tuberia;
 
     private ArrayList<Presentation> _presentations;
     private ArrayList<Product_Image> product_images;
@@ -189,5 +190,13 @@ public class Product implements Serializable
 
     public void set_precautions(String _precautions) {
         this._precautions = _precautions;
+    }
+
+    public String get_tuberia() {
+        return _tuberia;
+    }
+
+    public void set_tuberia(String _tuberia) {
+        this._tuberia = _tuberia;
     }
 }

@@ -93,6 +93,8 @@ public class productDetail extends Fragment {
     private TextView ventajas;
     private TextView Precaucione;
     private TextView Precauciones;
+    private TextView Tuberia;
+    private TextView Tuberias;
 
     private TextView Seguridad;
     private TextView Seguridades;
@@ -185,6 +187,7 @@ public class productDetail extends Fragment {
                 String redes = producto.getString("redes");
                 String storaged = producto.getString("almacenaje");
                 String precautions = producto.getString("precaucion");
+                String tuberias = producto.getString("tuberias");
 
 
                 int id = producto.getInt("id");
@@ -202,6 +205,7 @@ public class productDetail extends Fragment {
                     newProduct.set_redes(redes);
                     newProduct.set_storaged(storaged);
                     newProduct.set_precautions(precautions);
+                    newProduct.set_tuberia(tuberias);
 
                     int resid = myContext.getResources().getIdentifier(resname, "drawable", myContext.getPackageName());
 
@@ -395,6 +399,10 @@ public class productDetail extends Fragment {
         Almacenaje = (TextView) _view.findViewById(R.id.ProductDetailStorage);
         Almacenajes = (TextView) _view.findViewById(R.id.ProductDetailStorages);
 
+        Tuberia = (TextView) _view.findViewById(R.id.ProductDetailTuberia);
+        Tuberias = (TextView) _view.findViewById(R.id.ProductDetailTuberias);
+
+
 
         buttonFacebook = (ImageButton) _view.findViewById(R.id.ProductDetailFacebook);
         buttonTwitter = (ImageButton) _view.findViewById(R.id.ProductDetailTwitter);
@@ -574,6 +582,22 @@ public class productDetail extends Fragment {
         {
             ventaja.setVisibility(View.GONE);
             ventajas.setVisibility(View.GONE);
+        }
+
+        ////////// Tuberias
+
+
+        String curTuberia = this.curProduct.get_tuberia();
+
+        if (curTuberia.length()>1)
+        {
+            Tuberias.setText(curTuberia);
+
+        }
+
+        else {
+            Tuberia.setVisibility(View.GONE);
+            Tuberias.setVisibility(View.GONE);
         }
 
 /////////////// Precauciones

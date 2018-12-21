@@ -420,7 +420,7 @@
 "barcode": {
 "presentation":"0",
 "id":32,
-"product_id":9,
+"product_id":79,
 "desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO 240 ML",
 "code":"7503007746757",
 "item":"Z-21602",
@@ -433,7 +433,7 @@
 "barcode": {
 "presentation":"0",
 "id":33,
-"product_id":9,
+"product_id":79,
 "desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO 475 ML",
 "code":"7503007746764",
 "item":"Z-21603",
@@ -446,7 +446,7 @@
 "barcode": {
 "presentation":"0",
 "id":34,
-"product_id":9,
+"product_id":79,
 "desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO 947 ML",
 "code":"7503007746771",
 "item":"Z-21604",
@@ -459,7 +459,7 @@
 "barcode": {
 "presentation":"0",
 "id":35,
-"product_id":9,
+"product_id":79,
 "desc":"CONTACT CEMENTO GRIS PARA PVC RIEGO  1 GALON",
 "code":"7503007746788",
 "item":"Z-21605",
@@ -1559,8 +1559,163 @@
 "image":"0",
 "pzas":"12"
 }
+},
+{
+"barcode": {
+"presentation":"0",
+"id":120,
+"product_id":8,
+"desc":"CONTACT CEMENTO GRIS PARA PVC  REFORZADO 240 ML",
+"code":"7503007746801",
+"item":"Z-20602",
+"unidad":"PZ",
+"image":"0",
+"pzas":"24"
 }
-
+},
+{
+"barcode": {
+"presentation":"0",
+"id":121,
+"product_id":80,
+"desc":"CONTACT CEMENTO PARA RIEGO REFORZADO 475 ML",
+"code":"7503023283380",
+"item":"Z-20603",
+"unidad":"PZ",
+"image":"0",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":122,
+"product_id":80,
+"desc":"CONTACT CEMENTO PARA RIEGO REFORZADO 947 ML",
+"code":"7503023283397",
+"item":"Z-20604",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":123,
+"product_id":80,
+"desc":"CONTACT CEMENTO PARA RIEGO REFORZADO 1 GALON",
+"code":"7503023283403",
+"item":"Z-20605",
+"unidad":"PZ",
+"image":"2",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":124,
+"product_id":81,
+"desc":"CONTACT CEMENTO PARA RIEGO EXTRA REFORZADO 475 ML",
+"code":"7503023283410",
+"item":"Z-31603",
+"unidad":"PZ",
+"image":"0",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":125,
+"product_id":81,
+"desc":"CONTACT CEMENTO PARA RIEGO EXTRA REFORZADO 947 ML",
+"code":"7503023283427",
+"item":"Z-31604",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":126,
+"product_id":81,
+"desc":"CONTACT CEMENTO PARA RIEGO EXTRA REFORZADO 1 GALON",
+"code":"7503023283434",
+"item":"Z-31605",
+"unidad":"PZ",
+"image":"2",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":127,
+"product_id":10,
+"desc":"CONTACT PRIMER TRANSPARENTE 4 OZ",
+"code":"7503023283441",
+"item":"Z-21101",
+"unidad":"PZ",
+"image":"0",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":128,
+"product_id":10,
+"desc":"CONTACT PRIMER TRANSPARENTE 8 OZ",
+"code":"7503023283458",
+"item":"Z-21102",
+"unidad":"PZ",
+"image":"1",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":129,
+"product_id":10,
+"desc":"CONTACT PRIMER TRANSPARENTE 16 OZ",
+"code":"7503023283465",
+"item":"Z-21103",
+"unidad":"PZ",
+"image":"2",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":130,
+"product_id":10,
+"desc":"CONTACT PRIMER TRANSPARENTE 32 OZ",
+"code":"7503023283472",
+"item":"Z-21104",
+"unidad":"PZ",
+"image":"3",
+"pzas":"24"
+}
+},
+{
+"barcode": {
+"presentation":"0",
+"id":131,
+"product_id":10,
+"desc":"CONTACT PRIMER TRANSPARENTE 1 GL",
+"code":"7503023283489",
+"item":"Z-21105",
+"unidad":"PZ",
+"image":"4",
+"pzas":"24"
+}
+}
 ]
 }
 

@@ -1,11 +1,17 @@
 package layout;
 
+import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,6 +49,9 @@ public class contacto extends Fragment {
     private Button verMapa3;
 
     private FragmentActivity myContext;
+
+
+    private static final int REQUEST_CALL_PERMISSION = 100;
 
     private OnFragmentInteractionListener mListener;
 
@@ -114,10 +123,7 @@ public class contacto extends Fragment {
             @Override
             public void onClick(View v) {
 
-                String uri = "tel:3336563637";
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse(uri));
-                startActivity(intent);
+                ChecaSiPuedeLlamar();
 
             }
         });
@@ -235,4 +241,76 @@ public class contacto extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+    private void ChecaSiPuedeLlamar()
+    {
+
+///////////////
+        ///// Verificar permisos
+        if (ContextCompat.checkSelfPermission(myContext,
+                Manifest.permission.CALL_PHONE)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(getActivity(),
+                    new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL_PERMISSION);
+        } else {
+            Llamar();
+        }
+
+
+
+
+//////////////
+
+
+
+    }
+
+    private void Llamar()
+    {
+        String uri = "tel:3336563637";
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse(uri));
+        startActivity(intent);
+
+
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (requestCode == REQUEST_CALL_PERMISSION) {
+            for (int i = 0; i < permissions.length; i++) {
+                String permission = permissions[i];
+                int grantResult = grantResults[i];
+
+                if (permission.equals(Manifest.permission.CALL_PHONE)) {
+                    if (grantResult == PackageManager.PERMISSION_GRANTED) {
+                        Llamar();
+                    } else {
+                        //requestPermissions(new String[]{Manifest.permission.SEND_SMS}, REQUEST_WRITE_PERMISSION);
+
+
+                        AlertDialog.Builder builder = new AlertDialog.Builder(myContext);
+                        builder.setMessage("Es necesario permitir las llamadas, para establecer la comunicación.")
+                                .setTitle("! Advertencia ¡")
+                                .setCancelable(false)
+                                .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+
+
+                                    }
+                                });
+                        AlertDialog alert = builder.create();
+                        alert.show();
+
+
+                    }
+                }
+            }
+        }
+    }
+
+
 }
