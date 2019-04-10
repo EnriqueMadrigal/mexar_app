@@ -8,9 +8,11 @@
     <string name="aviso_privacidad">\u0020 \u0020<u>Aviso de Privacidad</u></string>
     <string name="aviso_privacidad2">\u0020 \u0020<b>Aviso de Privacidad</b></string>
 
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA7FxRc75krO9uHqzlSSKKljH6jD49uobg</string>
 
-    <string name="facebook_app_id">124155868271692</string>
-    <string name="fb_login_protocol_scheme">fb124155868271692</string>
+
+    <string name="facebook_app_id">2118459964913361</string>
+    <string name="fb_login_protocol_scheme">fb2118459964913361</string>
     <string name="aviso_completo">Industrias Mexar, S.A. de C.V. con nombre comercial Industrias Mexar, cuenta con los diversos domicilios ubicados el primero de ellos en la calle Boulevard Bosques de San Isidro #2300, colonia Bosques de San Isidro, C.P. 45133, Zapopan, Jalisco; calle Once de Enero de 1861, #2129, colonia Leyes de Reforma, C.P. 09310 dentro de la delegación de Iztapalapa, México DF y por último el ubicado en la calle Sebastián Lerdo de Tejada, #1222, colonia Niño Artillero, C.P. 64280, Nuevo León Monterrey. Razón por la cual declara ser responsable del tratamiento de los datos personales recabados a todos sus clientes, proveedores, etc, motivo por la cual emite el presente aviso de privacidad en cumplimiento a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.\n\n
 
 Los datos personales que usted nos ha proporcionado directamente o a través de medios electrónicos han sido recabados y serán tratados por la empresa bajo los principios de licitud, consentimiento, información, calidad, finalidad, lealtad, proporcionalidad y responsabilidad de conformidad a lo establecido dentro de la ley en comento; misma que previene el uso o divulgación indebida de los mismos.\n\n
